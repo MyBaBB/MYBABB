@@ -1,0 +1,85 @@
+Original file name for Repository is DaveGrayTuts
+
+  check favicon location https://www.youtube.com/watch?v=lCxcTsOHrjo&t=27m02s
+
+Tailwind Instructions on setup per Dave Gray. At 25 minutes on lesson02 Tailwind Video.
+
+
+                                !!    Work on the favicon
+
+1 Make repository and test it.
+   in terminal type:
+
+2 npx tailwindcss init
+
+3 make new directory called "build"
+
+4 make new file in build called "source"
+
+5 make new file in source called "input.css"
+
+6 in input.css type:
+   @tailwind base;
+   @tailwind components;
+   @tailwind utilities;
+
+7 in "build folder" make new file called "index.html" 
+
+8. in "build folder" make new file called "img'
+
+9. install images at https://www.youtube.com/watch?v=lCxcTsOHrjo&t=26m37s
+
+10. move fave icon to "build" folder    to and from "source" folder.
+
+11.   Tailwind.config file. type:   content: ['./build/*html'],
+
+12. in terminal type 
+"npm init -y" to start server. that creates a json file for later to make easier.
+
+13.   copy and paste this into scripts in json file.
+"scripts":  
+    "tailwind":   npx tailwindcss -i ./src/input.css -o ./build/css/style.css --watch 
+
+14.   enter development dependency in terminal type :
+npm i -D prettier-plugin-tailwindcss 
+
+15. make .gitignore file
+   at 30 minutes on lesson02 Tailwind Video.
+
+16. in .gitignore file type: 
+node_modules
+
+17. package.json file. type:  after the watch that you just added.
+ ,"prettier": "npx prettier --write **/*.html" 
+
+ 18. in terminal type:
+  npm run tailwind
+
+  
+  warn - https://tailwindcss.com/docs/content-configuration
+  will go away after html is added....
+
+  19. add !emmet to html file to get rid of warning in build/index.html
+
+
+  type link: for intellisense
+    <link rel="stylesheet" href="css/style.css"> double check if css/ is on there.
+
+ 20. add body style inside html
+     body class='min-h-screen' and hover  its 100vh
+
+I think that this  is  set up. going to make a copy here.
+    just following instructions per Dave Gray. 
+
+
+         Next is timestamp of 
+               Chapter II
+
+https://www.youtube.com/watch?v=lCxcTsOHrjo&t=22m27s
+
+
+              Next part
+https://www.youtube.com/watch?v=lCxcTsOHrjo&t=1h08m00s
+
+
+        
