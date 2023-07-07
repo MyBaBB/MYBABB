@@ -6,13 +6,34 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>🐬safe🦤</title>
     <link rel="stylesheet" href="css/style.css">
+    <style>
+        /* Define the animation */
+        @keyframes move {
+            0% {
+                transform: translateY(0);
+            }
+            50% {
+                transform: translateY(20px);
+            }
+            100% {
+                transform: translateY(0);
+            }
+        }
+
+        /* Apply the animation to the div element */
+        .my-div {
+            animation: move 2s ease-in-out infinite;
+        }
+    </style>
 </head>
 
 <body class="min-h-screen bg-slate-50 dark:bg-black dark:text-white">
     
+  <P class=""></P>
+  <div class="my-div">
+    <h1 class="text-center text-2xl font-extrabold text-white bg-teal-500 rounded-lg p-4 ">Hello World !</h1>
+  </div>
   
-   
-
-    
 </body>
+<script src="/build/js/main.js"></script>
 </html>
