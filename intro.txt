@@ -2,9 +2,9 @@
 
 
 
-name this lesson04 when you save it.and save it in the root folder of the project.
+ 
   
-   study css animation recap
+ 
   
   check favicon location https://www.youtube.com/watch?v=lCxcTsOHrjo&t=27m02s
 
