@@ -5,7 +5,7 @@ module.exports = {
     extend: {
      colors: { 
        
-           /* custom colors from the WoodDuck image */
+         
 
            varDARKBEAKTOP:        "#785001",  
            varMEDBEAKTOP:         "#b67902", 
@@ -38,7 +38,7 @@ module.exports = {
            varDARKSPACE:          "#08121c", 
            varMEDSPACE:           "#1b3854", 
            varLIGHTSPACE:         "#264d73", 
-
+         
       screens: {
          'widescreen': { 'raw': '(min-aspect-ratio: 3/2)'},
          'tallscreen': { 'raw': '(max-aspect-ratio: 13/20)'},
@@ -60,5 +60,4 @@ module.exports = {
 },
   plugins: [],
 }
-
 }
