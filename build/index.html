@@ -8,41 +8,61 @@
     <link rel="stylesheet" href="css/style.css" />
     <script src="js/main.js" defer></script>
   </head>
-     
- 
+
   <body class="min-h-screen bg-slate-50 dark:bg-black dark:text-white">
-    <header class="sticky top-0 z-10 bg-gradient-to-br from-varMEDDUCKHEAD to-varDARKWING text-white ">
+    <header
+      class="sticky top-0 z-10 bg-gradient-to-br from-varMEDDUCKHEAD to-varDARKWING text-white"
+    >
       <section class="mx-auto flex max-w-4xl items-center justify-between p-4">
-        <h1 class="text-3xl font-medium bg border p-8" style="border-radius: 50%; border-color: #2a61a1 ; border-width: 5px ; border-style: double;">
-          <a href="#hero"><span class="text-varLIGHTBLUEFEATHER font-serif hover:text-varLIGHTBEAKTOP">MyBaBB</span></a>
+        <h1
+          class="bg border p-8 text-3xl font-medium"
+          style="
+            border-radius: 50%;
+            border-color: #2a61a1;
+            border-width: 5px;
+            border-style: double; "
+        >
+          <a href="#hero"
+            ><span
+              class="font-serif text-varLIGHTBLUEFEATHER hover:text-varLIGHTBEAKTOP"
+              >MyBaBB</span
+            ></a
+          >
         </h1>
         <div>
           <button
             id="hamburger-button"
-            class="relative h-8 w-8 cursor-pointer text-3xl md:hidden "
+            class="relative h-8 w-8 cursor-pointer text-3xl md:hidden"
           >
+          <!-- &#9776; -->
+          <div class="absolute top-4 -mt-0.5 h-1 w-8 rounded bg-white transition-all duration-500 before:absolute before:h-1 before:w-8 before:-translate-x-4 before:-translate-y-3 before:rounded before:bg-white before:transition-all before:duration-500 before:content-[''] after:absolute after:h-1 after:w-8 after:-translate-x-4 after:translate-y-3 after:rounded after:bg-white after:transition-all after:duration-500 after:content-['']"></div>
+        
             <!-- &#9776; -->
-            <div
-              class=" absolute top-4 -mt-0.5 h-1 w-8 rounded bg-white transition-all duration-500 before:absolute before:h-1 before:w-8 before:-translate-x-4 before:-translate-y-3 before:rounded before:bg-white before:transition-all before:duration-500 before:content-[''] after:absolute after:h-1 after:w-8 after:-translate-x-4 after:translate-y-3 after:rounded after:bg-white after:transition-all after:duration-500 after:content-['']"
-            ></div>
-            </button>
+            
+          </button>
 
-
-           <nav class="hidden space-x-8 text-xl md:block" aria-label="main">
+          <nav class="hidden space-x-8 text-xl md:block" aria-label="main">
             <a href="#websites" class="hover:text-varLIGHTBEAKTOP">
-              <span class="font-semibold" style="font-size:x-large ">Our Websites</span></a>
+              <span class="font-semibold" style="font-size: x-large " style="font-family:serif"
+                >Our Websites</span
+              ></a
+            >
             <a href="#Advantages" class="hover:text-varLIGHTBEAKTOP">
-              <span span class="font-semibold" style="font-size:x-large">Advantages</span></a>
+              <span class="font-semibold" style="font-size: x-large"
+                >Advantages</span
+              ></a
+            >
             <a href="#contact" class="hover:text-varLIGHTBEAKTOP">
-              <span class="font-semibold" style="font-size: x-large;" >Contact Us</span></a>
+                <span class="font-semibold font-size: x-large" style='white-space: nowrap;'>
+                Contact Us</span
+              ></a
+            >
           </nav>
-
-
         </div>
       </section>
       <section
         id="mobile-menu"
-        class="top-68 absolute hidden w-full origin-top animate-open-menu flex-col justify-center bg-black text-5xl"
+        class="top-68 animate-open-menu absolute hidden w-full origin-top flex-col justify-center bg-black text-5xl"
       >
         <!-- <button class="text-8xl self-end px-6">
                 &times;
@@ -57,12 +77,10 @@
           <a href="#websites" class="w-full py-6 text-center hover:opacity-90"
             >Our Websites</a
           >
-          <a
-            href="#Advantages"
-            class="w-full py-6 text-center hover:opacity-90"
+          <a href="#Advantages" class="w-full py-6 text-center hover:opacity-90"
             >Advantages</a
           >
-          <a href="#contact" class="w-full py-6 text-center hover:opacity-90"
+          <a href="#contact" class="w-full py-6 text-center white-space: nowrap; hover:opacity-90" 
             >Contact Us</a
           >
           <a href="#footer" class="w-full py-6 text-center hover:opacity-90"
@@ -78,27 +96,25 @@
       >
         <article class="sm:w-1/2">
           <h2
-            class="max-w-md text-center text-4xl font-bold text-slate-900 dark:text-white sm:text-left sm:text-5xl"
+            class="max-w-md text-center text-4xl  font-bold text-slate-900 dark:text-white sm:text-left sm:text-5xl" style="font-family: 'Montserrat', sans-serif;"
           >
-            We Boldy Go
-            <span class="text-indigo-700 dark:text-indigo-300"
-              >Where No Rocket</span
-            >
-            Has Gone Before...
-          </h2>
+          
+          <p><span class="text-varMEDSPACE dark:text-varLIGHTWING"
+          > Building a custom website </span></p>  allows you to create exactly what you imagine 🧠. <p><span class="text-varMEDSPACE dark:text-varLIGHTWING"
+            >There are no limitations </span></p>    
+         </h2>
           <p
-            class="mt-4 max-w-md text-center text-2xl text-slate-700 dark:text-slate-400 sm:text-left"
-          >
-            We're building rockets for the next century today. From the moon to
-            Mars, Jupiter and beyond...
+            class="mt-4 max-w-md text-center text-2xl text-varDARKBLUEFEATHER dark:text-red-100 sm:text-left"
+          ><p><span class="font-serif text-lg">Build it like you want it built!</span></p></p>
           </p>
           <p
             class="mt-4 max-w-md text-center text-2xl text-slate-700 dark:text-slate-400 sm:text-left"
           >
-            Think Acme Rockets.
+            <span class="text-varLIGHTBEAK "  >🕸️Web</span><span class="text-white" class="text-xlg font- "> <em><u>Customization..</u></em></span><span class="text-varLIGHTBLUEFEATHER ">MyBaBB🕸️</span> 
+          
           </p>
         </article>
-        <img class="w-1/2" src="./img/rocketdab.png" alt="Rocket Dab" />
+        <img class="w-1/2 rounded-3xl" src="./img/phoneInHands.png" alt="Phone In Hands" height="400px" width="400px"/>
       </section>
 
       <hr class="mx-auto w-1/2 bg-black dark:bg-white" />
@@ -118,9 +134,9 @@
           <li
             class="flex w-2/3 flex-col items-center rounded-3xl border border-solid border-slate-900 bg-white px-2 py-6 shadow-xl dark:border-gray-100 dark:bg-black sm:w-5/6"
           >
-            <img src="./img/rocketman.png" alt="Explorer" class="mb-6 w-1/2" />
+            <img src="" alt="$" class="mb-6 w-1/2" />
             <h3 class="text-center text-3xl text-slate-900 dark:text-white">
-              Explorer
+             $
             </h3>
             <p
               class="mt-2 hidden text-center text-3xl text-slate-500 dark:text-slate-400 sm:block"
@@ -130,19 +146,19 @@
             <p
               class="mt-2 text-center text-2xl text-slate-500 dark:text-slate-400 sm:hidden"
             >
-              Affordable Exploration
+              $
             </p>
           </li>
           <li
             class="flex w-2/3 flex-col items-center rounded-3xl border border-solid border-slate-900 bg-white px-2 py-6 shadow-xl dark:border-gray-100 dark:bg-black sm:w-5/6"
           >
             <img
-              src="./img/rocketride.png"
-              alt="Adventurer"
+              src=""
+              alt="$$"
               class="mb-6 w-1/2"
             />
             <h3 class="text-center text-3xl text-slate-900 dark:text-white">
-              Adventurer
+              $$
             </h3>
             <p
               class="mt-2 hidden text-center text-3xl text-slate-500 dark:text-slate-400 sm:block"
@@ -152,19 +168,19 @@
             <p
               class="mt-2 text-center text-2xl text-slate-500 dark:text-slate-400 sm:hidden"
             >
-              Best Selling Rocket!
+              $$
             </p>
           </li>
           <li
             class="flex w-2/3 flex-col items-center rounded-3xl border border-solid border-slate-900 bg-white px-2 py-6 shadow-xl dark:border-gray-100 dark:bg-black sm:w-5/6"
           >
             <img
-              src="./img/rocketlaunch.png"
-              alt="Infinity"
+              src=""
+              alt="$$$"
               class="mb-6 w-1/2"
             />
             <h3 class="text-center text-3xl text-slate-900 dark:text-white">
-              Infinity
+              $$$
             </h3>
             <p
               class="mt-2 hidden text-center text-3xl text-slate-500 dark:text-slate-400 sm:block"
@@ -174,7 +190,7 @@
             <p
               class="mt-2 text-center text-2xl text-slate-500 dark:text-slate-400 sm:hidden"
             >
-              Luxury Starship
+              $$$
             </p>
           </li>
         </ul>
@@ -186,7 +202,9 @@
         id="Advantages"
         class="widescreen:section-min-height tallscreen:section-min-height my-12 scroll-mt-40 p-6"
       >
-        <h2 class="mb-6 text-center text-4xl font-bold text-slate-900   dark:text-white sm:text-5xl">
+        <h2
+          class="mb-6 text-center text-4xl font-bold text-slate-900 dark:text-white sm:text-5xl"
+        >
           Advantages
         </h2>
         <figure class="my-12">
@@ -194,8 +212,8 @@
             class="relative rounded-3xl bg-teal-600 py-12 pl-14 pr-8 dark:bg-black"
           >
             <p
-              class="mt-2 text-left text-2xl text-white before:absolute before:left-0 before:top-0 before:translate-x-2 before:translate-y-2 before:transform before:font-serif before:text-9xl before:text-white before:opacity-25 before:content-['\201C'] after:absolute after:-bottom-20 after:right-0 after:-translate-x-2 after:-translate-y-2 after:transform after:font-serif after:text-9xl after:text-white after:opacity-25 after:content-['\201D'] dark:text-slate-400 sm:text-3xl">
-
+              class="mt-2 text-left text-2xl text-white before:absolute before:left-0 before:top-0 before:translate-x-2 before:translate-y-2 before:transform before:font-serif before:text-9xl before:text-white before:opacity-25 before:content-['\201C'] after:absolute after:-bottom-20 after:right-0 after:-translate-x-2 after:-translate-y-2 after:transform after:font-serif after:text-9xl after:text-white after:opacity-25 after:content-['\201D'] dark:text-slate-400 sm:text-3xl"
+            >
               Acme has always been there for me. Their Explorer rocket arrived
               in a wooden crate as expected. Life-long customer! A++ shopping
               experience.
@@ -216,7 +234,9 @@
             >
               The Acme Adventurer Rocket has thwarted my thing Q-36 Explosive
               Space Modulator on several intervals.
-              <span class="italic">🧑‍🌾 100% good stuff!  It's a lot better than the stuff that I never had before.
+              <span class="italic"
+                >🧑‍🌾 100% good stuff! It's a lot better than the stuff that I
+                never had before.
               </span>
             </p>
           </blockquote>
@@ -228,12 +248,14 @@
         </figure>
         <figure class="my-12">
           <blockquote
-            class="relative rounded-3xl bg-teal-600 py-12 pl-14 pr-8 dark:bg-black">
+            class="relative rounded-3xl bg-teal-600 py-12 pl-14 pr-8 dark:bg-black"
+          >
             <p
               class="mt-2 text-left text-2xl text-white before:absolute before:left-0 before:top-0 before:translate-x-2 before:translate-y-2 before:transform before:font-serif before:text-9xl before:text-white before:opacity-25 before:content-['\201C'] after:absolute after:-bottom-20 after:right-0 after:-translate-x-2 after:-translate-y-2 after:transform after:font-serif after:text-9xl after:text-white after:opacity-25 after:content-['\201D'] dark:text-slate-400 sm:text-3xl"
             >
               Out of Sight, Dy-nooo-mite &#8212;
-              <span class="italic">Whoopie</span> &#8212; Personal Custom Web Maker<q class="italic">Not Your Average stuff</q>Fancy Smancy          
+              <span class="italic">Whoopie</span> &#8212; Personal Custom Web
+              Maker<q class="italic">Not Your Average stuff</q>Fancy Smancy
             </p>
           </blockquote>
           <figcaption
@@ -251,7 +273,7 @@
         class="widescreen:section-min-height tallscreen:section-min-height my-12 scroll-mt-16 p-6"
       >
         <h2
-          class="mb-6 text-center text-4xl font-bold text-slate-900 dark:text-white sm:text-5xl"
+          class="mb-6 text-center text-4xl font-bold text-slate-900 dark:text-white sm:text-5xl whitespace-nowrap"
         >
           Contact Us
         </h2>
@@ -291,17 +313,19 @@
     </main>
 
     <footer id="footer" class="bg-teal-700 text-xl text-white">
-      <section class="mx-auto flex max-w-4xl flex-col p-4 sm:flex-row sm:justify-between"> 
-     <div>
-        <h2>MyBabb Webmakers</h2>
-        <br/>
-        <address>
-          1 paradise road
-          Freedom City, USA
+      <section
+        class="mx-auto flex max-w-4xl flex-col p-4 sm:flex-row sm:justify-between"
+      >
+        <div>
+          <h2>MyBabb Webmakers</h2>
+          <br />
+          <address>
+            1 paradise road Freedom City, USA
 
-          <a href="mailto:inquiries@acmerockets.com">mybabb.mailings.</a
-          ><br/>
-    
+            <a href="mailto:inquiries@acmerockets.com">mybabb.mailings.</a
+            ><br />
+          </address>
+        </div>
         <nav class="hidden flex-col gap-2 md:flex" aria-label="footer">
           <a href="#websites" class="hover:opacity-90">Web Designs</a>
           <a href="#Advantages" class="hover:opacity-90">Advantages</a>
@@ -312,7 +336,6 @@
           <p class="text-right">All Rights Reserved</p>
         </div>
       </section>
-     </footer>
+    </footer>
   </body>
 </html>
-
