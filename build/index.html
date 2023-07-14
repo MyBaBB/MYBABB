@@ -7,15 +7,34 @@
     <title>MyBaBB</title>
     <link rel="stylesheet" href="css/style.css" />
     <script src="js/main.js" defer></script>
+    <style>
+      @keyframes bounce {
+        0% {
+          transform: translateY(0);
+        }
+        50% {
+          transform: translateY(-10px);
+        }
+        100% {
+          transform: translateY(0);
+        }
+      }
+     
+     
+      footer {
+        animation: bounce 4s infinite;
+      }
+
+    </style>
   </head>
 
   <body class="min-h-screen bg-slate-50 dark:bg-black dark:text-white">
-    <header
-      class="sticky top-0 z-10 bg-gradient-to-br from-varMEDDUCKHEAD to-varDARKWING text-white"
+    <header 
+      class="sticky top-0 z-10 bg-gradient-to-br from-varMEDDUCKHEAD to-varDARKWING text-white" 
     >
-      <section class="mx-auto flex max-w-4xl items-center justify-between p-4">
+      <section class="mx-auto flex max-w-4xl items-center justify-between p-1">
         <h1
-          class="bg border p-8 text-3xl font-medium"
+          class="bg border p-2 text-1xl  font-bold"
           style="
             border-radius: 50%;
             border-color: #2a61a1;
@@ -99,23 +118,72 @@
             class="max-w-md text-center text-4xl  font-bold text-slate-900 dark:text-white sm:text-left sm:text-5xl" style="font-family: 'Montserrat', sans-serif;"
           >
           
-          <p><span class="text-varMEDSPACE dark:text-varLIGHTWING"
-          > Building a custom website </span></p>  allows you to create exactly what you imagine 🧠. <p><span class="text-varMEDSPACE dark:text-varLIGHTWING"
-            >There are no limitations </span></p>    
+           
+          <p class="pt-3"><span class=" text-varMEDSPACE dark:text-varLIGHTWING ">Building a Custom Website </span></p>
+          <p class="pt-14 pb-4">Allows you to Create your imagination<span>🧠</span></p>
+            Not A Boring Template!</span></p>    
          </h2>
-          <p
-            class="mt-4 max-w-md text-center text-2xl text-varDARKBLUEFEATHER dark:text-red-100 sm:text-left"
-          ><p><span class="font-serif text-lg">Build it like you want it built!</span></p></p>
+
+
+         <p
+         class="mt-4 max-w-md text-center text-2xl text-varDARKBLUEFEATHER dark:text-red-100 sm:text-left">
+         <p class="font-serif text-lg text-center text-varLIGHTBEAKTOP ">Build it Your way!</p> 
+         
+        <div class="text-center">
+        <p> 💲<span class="font-serif text-lg text-varLIGHTBEAKTOP animate-pulse">
+                    Get noticed💲</span> 
+        </p>
+         </div>
+        <p class=" max-w-md text-center text-2xl text-slate-700 dark:text-slate-400 sm:text-left">
+          <p>
+            <p id="textusa" class="text-varLIGHTBEAK text-center">
+              🕸️Web🕸️ 
+            </p>
+              <p class="text-center"><span class="text-white" 
+              class="text-xlg font- "><em><u>Customization..</u></em></span>
+              <span class="text-varLIGHTBLUEFEATHER">MyBaBB</span>
+            </p>  
+            </p>
           </p>
-          <p
-            class="mt-4 max-w-md text-center text-2xl text-slate-700 dark:text-slate-400 sm:text-left"
-          >
-            <span class="text-varLIGHTBEAK "  >🕸️Web</span><span class="text-white" class="text-xlg font- "> <em><u>Customization..</u></em></span><span class="text-varLIGHTBLUEFEATHER ">MyBaBB🕸️</span> 
-          
+        </p>
+      </div>
+          </p>
+          </p>
           </p>
         </article>
-        <img class="w-1/2 rounded-3xl" src="./img/phoneInHands.png" alt="Phone In Hands" height="400px" width="400px"/>
+<section>
+  <div class="min-w-screen-sm max-w-screen-md flex justify-center items-center">
+    <img class="w-1/2 rounded-3xl" src="./img/myteam.jpeg" alt="MY Team" height="auto" width="100%">
+    <img class="w-1/2 rounded-3xl" src="./img/phoneInHands.png" alt="Phone In Hands" height="auto" width="100%"/>
+  </div>
+</section> 
+
+  <!-- content here -->
+ 
+
+
+        
+        <script>
+          const images = document.querySelectorAll('img');
+          let index = 0;
+
+          function changeImage() {
+            images[index].style.opacity = 0;
+            index = (index + 1) % images.length;
+            images[index].style.opacity = 1;
+          }
+
+          setInterval(changeImage, 10000);
+        </script>
+
+        
+       
       </section>
+     
+
+
+
+
 
       <hr class="mx-auto w-1/2 bg-black dark:bg-white" />
 
@@ -311,14 +379,20 @@
         </form>
       </section>
     </main>
+    
+    
+ 
+   
 
+
+</div>
     <footer id="footer" class="bg-teal-700 text-xl text-white">
       <section
         class="mx-auto flex max-w-4xl flex-col p-4 sm:flex-row sm:justify-between"
       >
         <div>
           <h2>MyBabb Webmakers</h2>
-          <br />
+          <br/>
           <address>
             1 paradise road Freedom City, USA
 
@@ -336,6 +410,9 @@
           <p class="text-right">All Rights Reserved</p>
         </div>
       </section>
+      <section>
+        <a href="#" class= "visited:text-varDARKBEAK    hover:text-varMEDBEAK active:text-varLIGHTBEAK text-2xl"   >🍒Cherry Pit🍒</a>
+       </section>
     </footer>
   </body>
 </html>
