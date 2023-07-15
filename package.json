@@ -1,17 +1,18 @@
 {
   "name": "mybabb",
-  
   "version": "1.0.0",
   "description": "",
   "main": "tailwind.config.js",
   "scripts": {
     "tailwind": "npx tailwindcss -i ./src/input.css -o ./build/css/style.css --watch ",
-     "prettier": "npx prettier --write ./build/*.html" 
+    "prettier": "npx prettier --write ./build/*.html"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "devDependencies": {
+    "eslint": "^8.45.0",
+    "eslint-plugin-react": "^7.32.2",
     "prettier-plugin-tailwindcss": "^0.3.0"
   }
 }
