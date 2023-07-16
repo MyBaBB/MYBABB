@@ -26,8 +26,4 @@
     animation: rotateX 5s linear infinite;
     display: inline-block;
   }
-  @media screen and (orientation: landscape) {
-    .landscape-text-left {
-      margin-left: 10px;
-    }
-  }
+ 

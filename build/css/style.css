@@ -687,10 +687,6 @@ video {
   max-width: 28rem;
 }
 
-.max-w-screen-md {
-  max-width: 768px;
-}
-
 .origin-top {
   transform-origin: top;
 }
@@ -1098,12 +1094,6 @@ video {
   display: inline-block;
 }
 
-@media screen and (orientation: landscape) {
-  .landscape-text-left {
-    margin-left: 10px;
-  }
-}
-
 .before\:absolute::before {
   content: var(--tw-content);
   position: absolute;
@@ -1492,35 +1482,12 @@ video {
 }
 
 @media (orientation: landscape) {
-  .landscape\:right-5 {
-    right: 1.25rem;
-  }
-
-  .landscape\:left-5 {
-    left: 1.25rem;
-  }
-
-  .landscape\:left-10 {
-    left: 2.5rem;
-  }
-
-  .landscape\:left-20 {
-    left: 5rem;
-  }
-
-  .landscape\:top-10 {
-    top: 2.5rem;
-  }
-
-  .landscape\:text-left {
-    text-align: left;
+  .landscape\:hidden {
+    display: none;
   }
 
   .landscape\:text-center {
     text-align: center;
   }
-
-  .landscape\:text-start {
-    text-align: start;
-  }
 }
+ 
