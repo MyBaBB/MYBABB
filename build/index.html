@@ -7,25 +7,7 @@
     <title>MyBaBB</title>
     <link rel="stylesheet" href="css/style.css" />
     <script src="js/main.js" defer></script>
-    <style>
-      @keyframes bounce {
-        0% {
-          transform: translateY(0);
-        }
-        50% {
-          transform: translateY(-10px);
-        }
-        100% {
-          transform: translateY(0);
-        }
-      }
-     
-     
-      footer {
-        animation: bounce 4s infinite;
-      }
-
-    </style>
+    
   </head>
 
   <body class="bg-varMEDSPACE min-h-screen  dark:bg-black dark:text-white">
@@ -36,7 +18,7 @@
 
 
     <header 
-      class="sticky top-0 z-10 bg-gradient-to-br from-varMEDDUCKHEAD to-varDARKWING text-white">
+      id="header" class="sticky top-0 z-10 bg-gradient-to-br from-varMEDDUCKHEAD to-varDARKWING text-white">
 <section class="mx-auto flex max-w-4xl items-center justify-between p-1">
                                       <!-- xxxxxxxxxxxxxxxxxxxx -->
         <h1
@@ -73,20 +55,17 @@
                <a href="#websites" class="hover:text-varLIGHTBEAKTOP">
                  <span class="font-semibold" style="font-size: x-large " style="font-family:serif"
                 >Our Websites
-                 </span>
-              </a>
+                 </span></a>
 
               <a href="#Advantages" class="hover:text-varLIGHTBEAKTOP">
                 <span class="font-semibold" style="font-size: x-large"
                 >Advantages
-                </span>
-              </a>
+                </span></a>
 
               <a href="#contact" class="hover:text-varLIGHTBEAKTOP">
                 <span class="font-semibold font-size: x-large" style='white-space: nowrap;'>
                 Contact Us
-                </span>
-              </a>
+                </span></a>
             </nav>
     </div>
 </section>
@@ -112,6 +91,32 @@
             >Legal</a>
         </nav>
 </section>
+<style>
+  #header {
+    animation: slow-bounce 10s ease-in-out infinite;
+
+
+    }
+
+    @keyframes slow-bounce {
+      0% {
+        transform: translateY(0) translateX(0);
+      }
+      25% {
+        transform: translateY(-20px) translateX(20px);
+      }
+      50% {
+        transform: translateY(0) translateX(0);
+      }
+      75% {
+        transform: translateY(-20px) translateX(-20px);
+      }
+      100% {
+        transform: translateY(0) translateX(0);
+      }
+    }
+  </style>
+ 
     </header>
 
 
@@ -122,7 +127,7 @@
   <!-- All content that should appear below the header goes here -->
  
 
-    <main class="mx-auto max-w-4xl">
+    <main class="mx-auto max-w-4xl" >
 
 
      
@@ -133,13 +138,44 @@
         class="widescreen:section-min-height tallscreen:section-min-height mb-12 flex scroll-mt-40 flex-col-reverse items-center justify-center gap-8 p-6 sm:flex-row">
     <article class="sm:w-1/2">
 
-      <section>  
-        <img class="w-1/2 rounded-3xl  " src="./img/myteam.jpeg" alt="MY Team" height="auto" width="100%"style="z-index: -1;>
-        <img class="w-1/2 rounded-3xl " src="./img/phoneInHands.png" alt="Phone In Hands" height="auto"  width="100%" >
-       </section>
+      
 
 
-<!-- I think imgs go here -->
+<!-- FILEPATH: c:\Users\brttb\OneDrive\Documents\GitHub\MYBABB\MYBABB\build\index.html -->
+
+<!-- Add an ID to the section that contains the images -->
+<section id="image-section" class="widescreen:section-min-height tallscreen:section-min-height mb-12 flex scroll-mt-40 flex-col-reverse items-center justify-center gap-8 p-6 sm:flex-row">
+  <article class="sm:w-1/2">
+    <section class="relative">
+      <!-- Add an ID to the first image -->
+      
+
+      <img id="image2" class="w-max rounded-3xl" src="./img/phoneInHands.png" alt="Phone In Hands"   style="position: relative; z-index: 1;">
+      
+     
+     
+      <img id="image1" class="w-max rounded-xl" src="./img/myteam.jpeg" alt="MY Team" height="100" width="100%" style="position: relative; z-index: 0;">
+      <br>
+      <!-- Add an ID to the second image -->
+      <p  class= "max-w-md text-center text-4xl  font-bold   text-varDARKBEAK sm:text-left sm:text-5xl text-varDARKBEAK" style="font-family: 'Montserrat', sans-serif; text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px #fff, 0 0 40px #000, 0 0 70px #000, 0 0 80px #000, 0 0 100px #000, 0 0 150px #000;"></span><span class="whitespace-nowrap">Made</span></p>
+
+      
+      <p  class= "max-w-md text-center text-2xl  font-bold   text-varDARKBEAK sm:text-left sm:text-2xl " style="font-family: 'Montserrat', sans-serif; text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px #fff, 0 0 40px #000, 0 0 70px #000, 0 0 80px #000, 0 0 100px #000, 0 0 150px #000;"></span><span class="whitespace-nowrap">&nbsp;&nbsp;&nbsp;with</span></p>
+
+      <p  class= "max-w-md text-center text-2xl  font-bold    sm:text-left sm:text-2xl text-varDARKBEAK" style="font-family: 'Montserrat', sans-serif; text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px #fff, 0 0 40px #000, 0 0 70px #000, 0 0 80px #000, 0 0 100px #000, 0 0 150px #000;"></span><span class="whitespace-nowrap"><p class= "max-w-md text-center text-2xl  font-bold   text-varDARKBEAK sm:text-left sm:text-2xl " style="font-family: 'Montserrat', sans-serif; text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px #fff, 0 0 40px #000, 0 0 70px #000, 0 0 80px #000, 0 0 100px #000, 0 0 150px #000;"></span><span class="whitespace-nowrap">Humanoid</p>
+        
+        <p class= "max-w-md text-center text-2xl  font-bold   text-varDARKBEAK sm:text-left sm:text-2xl " style="font-family: 'Montserrat', sans-serif; text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px #fff, 0 0 40px #000, 0 0 70px #000, 0 0 80px #000, 0 0 100px #000, 0 0 150px #000;"></span><span class="whitespace-nowrap">&nbsp;&nbsp;Brains</span> 
+
+
+      <img id="image3" class="w-max rounded-3xl" src="./img/faceAndBrains.png" alt="Face and Brains"   style="position: relative; z-index: 3;">
+      
+    
+    </section>
+
+  </article>
+</section>
+
+
 
 
 
@@ -148,11 +184,50 @@
             class="max-w-md text-center text-4xl  font-bold text-slate-900 dark:text-white sm:text-left sm:text-5xl" style="font-family: 'Montserrat', sans-serif;">
           
            
-          <p class="pt-3">
-            <span class=" text-varLIGHTDUCKHEAD dark:text-varLIGHTWING ">Building a Custom Website :     </span></p>
-          <p class="pt-14 pb-4 text-varLIGHTBLUEFEATHER">Allows you to use your imagination<span class="relative top-4"> &nbsp;&nbsp;🧠</span></p>
-   <br>       
-            <span class="text-varLIGHTBLUEFEATHER">No Boring Templates!</span>
+            <p class="pt-3 text-center animate-bounce" style="animation-duration: 2s; animation-timing-function: ease-in-out;">
+                 <span class="text-varDARKBEAK" style="text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px #fff, 0 0 40px #000, 0 0 70px #000, 0 0 80px #000, 0 0 100px #000, 0 0 150px #000;">Building
+                </span>
+                
+                
+                
+                <span class="text-varDARKBEAK" style="text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px #fff, 0 0 40px #000, 0 0 70px #000, 0 0 80px #000, 0 0 100px #000, 0 0 150px #000;">
+                &nbsp;Custom
+                </span>
+
+
+
+                <span class="text-varDARKBEAK" style="text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px #fff, 0 0 40px #000, 0 0 70px #000, 0 0 80px #000, 0 0 100px #000, 0 0 150px #000;">&nbsp;Websites
+              </span>     
+            
+          </p>
+
+          <p class="pt-14 pb-4 text-varLIGHTBLUEFEATHER"  
+          ">Allows you
+             <br>
+              to use your imagination
+          </p>
+              
+          <p> 
+              <div style="animation: slideInOut 7s ease-in-out infinite;">🧠</div>
+
+             
+              <style>
+                @keyframes slideInOut {
+                  0% {
+                    transform: translateX(0);
+                  }
+                  50% {
+                    transform: translateX(50%);
+                  }
+                  100% {
+                    transform: translateX(0);
+                  }
+                }
+              </style>
+          </p>
+          
+            <span class="text-varLIGHTBLUEFEATHER" style="animation: spinY 2s linear infinite;">Not Boring Templates!</span>
+            
           </span></p>    
          </h2>
 
@@ -163,7 +238,7 @@
 
 <!-- build it your way top -->
 
-<div class=" border-2 border-varLIGHTBEAKTOP sticky top-24 right-7
+<div class="x sticky top-24 right-7
          mt-4 max-w-md text-center text-2xl text-varDARKBLUEFEATHER dark:text-red-100 sm:text-left">
          
   <div>
@@ -186,9 +261,9 @@
         </p>
         <p class="text-center">
             <span class="text-white" 
-              class="text-xlg font- "><em><u>Customization..</u></em>
-            </span>
-            <span class="text-varLIGHTBLUEFEATHER">MyBaBB
+              class="text-xlg font- "><em> Customization.. </em>
+            </span><br>
+            <span class="text-varLIGHTBLUEFEATHER text-5xl">MyBaBB
             </span>
         </p> 
       </p>
@@ -444,7 +519,32 @@
 
 
 
-    <footer id="footer" class="bg-teal-700 text-xl text-white">
+    <footer id="footer" class="bg-teal-700 text-xl text-white" >
+    <head>
+      <style>
+        #footer {
+          animation: slow-bounce 14s ease-in-out infinite;
+        }
+
+        @keyframes slow-bounce {
+          0% {
+            transform: translateY(0) translateX(0);
+          }
+          25% {
+            transform: translateY(-20px) translateX(20px);
+          }
+          50% {
+            transform: translateY(0) translateX(0);
+          }
+          75% {
+            transform: translateY(-20px) translateX(-20px);
+          }
+          100% {
+            transform: translateY(0) translateX(0);
+          }
+        }
+      </style>
+    </head>
 <section
         class="mx-auto flex max-w-4xl flex-col p-4 sm:flex-row sm:justify-between"
       >

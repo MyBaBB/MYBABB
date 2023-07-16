@@ -12,17 +12,29 @@ const initApp = () => {
 }
 document.addEventListener('DOMContentLoaded', initApp)
 
- 
-          const images = document.querySelectorAll('img');
-          let index = 0;
 
-          function changeImage() {
-            images[index].style.opacity = 0;
-            index = (index + 1) % images.length;
-            images[index].style.opacity = 1;
-          }
+// Get the image elements by their IDs
+const image1 = document.getElementById('image1');
+const image2 = document.getElementById('image2');
 
-          setInterval(changeImage, 10000);
+// Set the initial state of the images
+image1.style.display = 'block';
+image2.style.display = 'none';
+
+// Create a function to toggle the images
+function toggleImages() {
+  if (image1.style.display === 'block') {
+    image1.style.display = 'none';
+    image2.style.display = 'block';
+  } else {
+    image1.style.display = 'block';
+    image2.style.display = 'none';
+  }
+}
+
+// Call the toggleImages function every 5 seconds
+setInterval(toggleImages, 5000);
+
         
 
  
