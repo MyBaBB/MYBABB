@@ -1094,7 +1094,7 @@ video {
 }
 
 .rotate {
-  animation: rotateX 5s linear infinite;
+  animation: rotateX 25s linear infinite;
   display: inline-block;
 }
 
