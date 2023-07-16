@@ -13,3 +13,21 @@
         @apply [&>div::before]:translate-y-0 [&>div::before]:rotate-45 [&>div::after]:translate-y-0 [&>div::after]:-rotate-45 [&>div]:bg-transparent [&>div]:rotate-[720deg]
     }
 }
+@keyframes rotateX {
+    0% {
+      transform: rotateY(0deg);
+    }
+    100% {
+      transform: rotateY(360deg);
+    }
+  }
+
+  .rotate {
+    animation: rotateX 5s linear infinite;
+    display: inline-block;
+  }
+  @media screen and (orientation: landscape) {
+    .landscape-text-left {
+      margin-left: 10px;
+    }
+  }
