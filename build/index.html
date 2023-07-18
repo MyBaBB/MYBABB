@@ -1,5 +1,7 @@
 <!DOCTYPE html>
 <html lang="en" class="sm:scroll-smooth"> 
+ 
+ 
   <head>
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
@@ -7,7 +9,7 @@
     <title>MyBaBB</title>
     <link rel="stylesheet" href="css/style.css" />
     <script src="js/main.js" defer></script>
-    
+  
   </head>
 
   <body id="body" class="bg-varMEDSPACE min-h-screen  dark:bg-black dark:text-white">
@@ -76,7 +78,7 @@
         <!-- <button class="text-8xl self-end px-6">
                 &times;
             </button> -->
-        <nav add media="screen and (max-width: 520px)"
+        <nav @media="screen and (max-width: 520px)"
           class="flex min-h-screen flex-col items-center py-8"
           aria-label="mobile">
           <a href="#hero" class="w-full py-6 text-center hover:opacity-90"
@@ -144,7 +146,7 @@
 <!-- FILEPATH: c:\Users\brttb\OneDrive\Documents\GitHub\MYBABB\MYBABB\build\index.html -->
 
 
-<section id="image-section" class="widescreen:section-min-height tallscreen:section-min-height mb-12 flex scroll-mt-40 flex-col-reverse items-center justify-center gap-8 p-6 sm:flex-row">
+<section id="image-section" class="widescreen:section-min-height tallscreen:section-min-height mb-12 flex  flex-col-reverse items-center justify-center gap-8 p-6 sm:flex-row">
   <article class="sm:w-1/2">
     <section class="relative">
       <!-- Add an ID to the first image -->
@@ -176,7 +178,7 @@
           Brains
       </p> 
  
-<div id="image1">
+<div id="image3" class="pt-5 pl-0">
       <img id="image3"  class="w-max rounded-3xl  " src="./img/faceAndBrains.png" alt="Face and Brains"   style="position: relative; z-index: 3;"></p>                                   <!-- 📷📷 -->
     </div> 
 </div>
@@ -187,55 +189,34 @@
 </section>
 
 <style>
-  
+   
  
-  @media screen and (max-width:300px)  {
-    #image3 {
-      position: relative;
-        top: 1.25rem;}
-     
-
-  @media screen and (max-width: 640px) {
-    body {
-      background-color: yellow;
-    }
-  }
-
-
-
-
-
-
-    #block1p1 {
-       padding: top 1.25rem;
-       display: flex;  
-       width: auto; 
-       text-align: center;
-       width: 100%;
-       margin: 0;
-       position: relative;
-       text-align: center;
-       content: center;
-       font-size: x-small;
+  @media screen and (min-width: 10px) and (max-width:400px)  {
+    /* #image3 {
       
-    }                                                                                                                                                                         
-    #block2p2 {
-       position: relative;
-       content: center;
-      font-size: small;
-      padding: 5px;
-      top: 1.25rem;                                                                                                   }                                                                                                                         
-    #block3p3 {
-       position: relative;
-       content: center;
-      font-size: small;
-      padding: 5px;
-      top: 1.25rem;                                                                                                  }                                                                                                                                                                                                     
-    }                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                              
-  
-       
-
-  
+      position: relative;
+      top: 1.25rem;
+      right: .75rem;
+    } */
+    #block1p1,
+    #block2p1,
+    #block3p1 {
+      padding-top: 1.25rem;
+      display: flex;  
+      text-align: center;
+      width: 100%;
+      margin: 0;
+      position: relative;
+      text-align: center;
+      content: center;
+      font-size: x-small;
+    }
+   /*  #blockquote1,
+    #blockquote2,
+    #blockquote3 {
+      
+    } */
+  }
 </style>
 
 
@@ -264,7 +245,7 @@
               </span>     
             </p>
 
-            <p id="unleash" class="max-w-md text-center text-2xl font-bold text-varDARKDUCKHEAD sm:text-left sm:text-3xl" style="font-family: 'Montserrat', sans-serif; text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px #fff, 0 0 40px #000, 0 0 70px #000, 0 0 80px #000, 0 0 100px #000, 0 0 150px #000;">
+            <p id="unleash" class="max-w-md text-center text-2xl font-bold text-varDARKDUCKHEAD sm:text-center sm:text-3xl" style="font-family: 'Montserrat', sans-serif; text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px #fff, 0 0 40px #000, 0 0 70px #000, 0 0 80px #000, 0 0 100px #000, 0 0 150px #000;">
               Unleash your imagination and bring your ideas to life.
             </p>
             
@@ -328,10 +309,10 @@
 
 <section 
         id="Pros/Cons"
-        class="widescreen:section-min-height-50 tallscreen:section-min-height-50 my-12 scroll-mt-40 p-6">
+       
         
         <h2
-          class="mb-6 text-center text-4xl font-bold text-slate-900 dark:text-white sm:text-5xl">
+          class="mb-6 text-center text-4xl font-bold text-slate-900 dark:text-white sm:text-5xl" style="scroll-margin-top: 80px;"> 
             
         </h2>
 
@@ -430,19 +411,33 @@
 
  <br>             
 </section>
-                                  <!-- Bottom of pros and cons and other -->
+<style>
+/* @media screen and (orientation: landscape) {
+  #prosAndConsSection {
+  display: block;
+  }
+}  
+@media screen and (orientation: portrait) and (max-width: 400px)   {
+  #prosAndConsSection {
+  display: none;
+  }
+}
+ */
+</style>
+
+<!-- Bottom of pros and cons and other -->
 
                        <hr class="mx-auto w-1/2 bg-black dark:bg-white" />
 
 <section
         id=" About Us"
-        class="widescreen:section-min-height tallscreen:section-min-height my-12 scroll-mt-40 p-6">
-        
+        class="widescreen:section-min-height tallscreen:section-min-height my-12  p-6"
+         style="scroll-margin-top:95px;"> 
   <figure class="mt-2">
           <blockquote id="blockquote1"
             class="relative rounded-3xl bg-gradient-to-b from-varDARKBLUEFEATHER to-varMEDDUCKHEAD py-12  dark:bg-black">
             <p id="block1p1"
-              class="my-2 text-left text-2xl text- text-white before:absolute before:left-0 before:top-0 before:translate-x-2 before:translate-y-2 before:transform before:font-serif before:text-9xl before:text-white before:opacity-25 before:content-['\201C'] after:absolute after:-bottom-20 after:right-0 after:-translate-x-2 after:-translate-y-2 after:transform after:font-serif after:text-9xl after:text-white after:opacity-25 after:content-['\201D'] dark:text-slate-400 sm:text-3xl">
+              class="my-2 p-10 text-left text-2xl text- text-white before:absolute before:left-0 before:top-0 before:translate-x-2 before:translate-y-2 before:transform before:font-serif before:text-9xl before:text-white before:opacity-25 before:content-['\201C'] after:absolute after:-bottom-20 after:right-0 after:-translate-x-2 after:-translate-y-2 after:transform after:font-serif after:text-9xl after:text-white after:opacity-25 after:content-['\201D'] dark:text-slate-400 sm:text-3xl">
               For small businesses looking to expand, we offer a comprehensive website package starting at $1500 and it includes enough to get you up and running like I nice little business should be. Our team will maintain your site and ensure it runs smoothly, allowing you to focus on growing your business. 
 
               Our simple website design is perfect for small businesses on a budget, providing a professional online presence to attract customers. As your business grows and sales increase, we can work with you to add more advanced features and design elements.
@@ -471,19 +466,11 @@
 <br/>                           <!-- top of form --> 
 <figure class='mt-2' >
   <blockquote id="blockquote2"
-    class="relative rounded-3xl bg-gradient-to-b from-varMEDDUCKHEAD to-varMEDDUCKHEAD via-varDARKDUCKHEAD py-12 pl-14 pr-12 dark:bg-black">
+    class="relative rounded-3xl bg-gradient-to-b from-varMEDDUCKHEAD to-varMEDDUCKHEAD via-varDARKDUCKHEAD py-12    dark:bg-black">
 
     <p id="block2p1"
-      class="mt-2 text-left text-2xl text-varLIGHTBLUEFEATHER before:absolute before:left-0 before:top-0 before:translate-x-2 before:translate-y-2 before:transform before:font-serif before:text-9xl before:text-varLIGHTBLUEFEATHER before:opacity-25 before:content-['\201C'] after:absolute after:-bottom-20 after:right-0 after:-translate-x-2 after:-translate-y-2 after:transform after:font-serif after:text-9xl after:text-varLIGHTBLUEFEATHER after:opacity-25 after:content-['\201D'] dark:text-slate-400 sm:text-3xl" style="text-shadow: 1px 1px black;">
-      
-
-
-
-
-
-      
-
-      <span style="text-shadow: 2px 2px 3px #1c0303; color:#37e7bb">      
+      class="mt-2 p-10 text-left text-2xl text-varLIGHTBLUEFEATHER before:absolute before:left-0 before:top-0 before:translate-x-2 before:translate-y-2 before:transform before:font-serif before:text-9xl before:text-varLIGHTBLUEFEATHER before:opacity-25 before:content-['\201C'] after:absolute after:-bottom-20 after:right-0 after:-translate-x-2 after:-translate-y-2 after:transform after:font-serif after:text-9xl after:text-varLIGHTBLUEFEATHER after:opacity-25 after:content-['\201D'] dark:text-slate-400 sm:text-3xl" style="text-shadow: 1px 1px black;">
+     <span style="text-shadow: 2px 2px 3px #1c0303; color:#37e7bb">      
 Before we can begin,
 <br>
 &nbsp;&nbsp;Creating a strong brand identity is crucial for the success of any business. As such, we offer logo design and color scheme services for a fee of $100. Our team of experts will work with you to create a unique and memorable brand identity that accurately portrays.
@@ -494,7 +481,7 @@ Before we can begin,
   </span>
   Once we have established your brand identity, we can move on to developing ideas and selecting appropriate images for your website.
 
-We are committed to building a strong relationship with our clients and providing them with the best possible service. If you are ready to take the next step in building your brand, please let us know by filling out the form below.
+We are committed to building a strong relationship with our clients and providing them with the best possible service. If you are ready to take the next step in building your brand, please let us know by filling out the form below.  After we can start handing the details of your project over to the developer team. <span class="text-varDARKDUCKHEAD opacity50%">(The nerdy guys that make it work)</span> 
    <span>
     Have a nice day.
   </span>
@@ -516,20 +503,40 @@ We are committed to building a strong relationship with our clients and providin
                                <hr class="mx-auto w-1/2 my-12 bg-black dark:bg-white" />
                                      <!-- xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx -->
 
-
+                                     <!-- bg-gradient-to-b from-varMEDDUCKHEAD to-varDARKBLUEFEATHER  -->
 
 
 </figure>
 <figure class="pt-12">
+
   <blockquote id="blockquote3"
-  class=" p-6 relative rounded-3xl bg-gradient-to-b from-varMEDDUCKHEAD to-varDARKBLUEFEATHER py-12 pl-14 pr-12 dark:bg-black">
+    class="relative rounded-3xl bg-gradient-to-b from-varMEDDUCKHEAD to-varDARKBLUEFEATHER py-12    dark:bg-black">
+
+    <p id="block3p1"
+      class="mt-2 p-10 text-left text-2xl text-varLIGHTBLUEFEATHER before:absolute before:left-0 before:top-0 before:translate-x-2 before:translate-y-2 before:transform before:font-serif before:text-9xl before:text-varLIGHTBLUEFEATHER before:opacity-25 before:content-['\201C'] after:absolute after:-bottom-20 after:right-0 after:-translate-x-2 after:-translate-y-2 after:transform after:font-serif after:text-9xl after:text-varLIGHTBLUEFEATHER after:opacity-25 after:content-['\201D'] dark:text-slate-400 sm:text-3xl" style="text-shadow: 1px 1px black;">
+     <span style="text-shadow: 2px 2px 3px #1c0303; color:#37e7bb">      
+      <br>
+      <span id="block3p1" class="italic">   Your welcome to watch and make suggestions. The input is not turned on you will need to text message me if you know me..Also if you were to make purchase,   then you would be viewing your own project here as I make it happen.
+      </span>
+       &#8212; Personal Custom Web
+        Maker<q class="italic">Not Your Average stuff
+            </q> More Good stuff to come. I am taking a brake I ain't always on break, sometimes I really do rest my eyes but I am still thinking and when I dream I dream about it <br> <span class="sothere"><span class="text-varLIGHTBEAK"> ....So<em></em></span><span class="text-white">...there! </em></span><span>🥶</span></span> 
+    </p>
+
+  </blockquote>
+  <!-- <blockquote id="blockquote3"
+  class="relative rounded-3xl bg-gradient-to-b from-varMEDDUCKHEAD to-varDARKBLUEFEATHER py-12    dark:bg-black">
     <p id="block3p1"
       class="mt-2 text-left text-2xl text-white before:absolute before:left-0 before:top-0 before:translate-x-2 before:translate-y-2 before:transform before:font-serif before:text-9xl before:text-white before:opacity-25 before:content-['\201C'] after:absolute after:-bottom-20 after:right-0 after:-translate-x-2 after:-translate-y-2 after:transform after:font-serif after:text-9xl after:text-white after:opacity-25 after:content-['\201D'] dark:text-slate-400 sm:text-3xl">
-      Get-er-Done &#8212;
-      <span class="italic">This is a static site for testing my WebDevelopment Main site. and your welcome to watch and make suggestions. The input is not turned on you will need to text message me if you know me..Also if you were to make purchase,   then you would be viewing your own project here as I make it happen.</span> &#8212; Personal Custom Web
-      Maker<q class="italic">Not Your Average stuff</q> more Good stuff to come. I am taking a brake.
+      
+      <br>
+      <span id="block3p1" class="italic">   Your welcome to watch and make suggestions. The input is not turned on you will need to text message me if you know me..Also if you were to make purchase,   then you would be viewing your own project here as I make it happen.
+      </span>
+       &#8212; Personal Custom Web
+        Maker<q class="italic">Not Your Average stuff
+            </q> more Good stuff to come. I am taking a brake.
     </p>
-</blockquote>
+</blockquote> -->
 <figcaption
 
     class="mt-2 text-right text-xl italic text-slate-500 dark:text-slate-400 sm:text-2xl font-bold" style="font-size: 24px; text-shadow: 1px 1px black;">
