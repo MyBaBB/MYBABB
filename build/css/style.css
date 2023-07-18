@@ -947,6 +947,10 @@ video {
   padding-top: 1.25rem;
 }
 
+.pb-10 {
+  padding-bottom: 2.5rem;
+}
+
 .text-left {
   text-align: left;
 }
@@ -1078,6 +1082,21 @@ video {
 .text-white {
   --tw-text-opacity: 1;
   color: rgb(255 255 255 / var(--tw-text-opacity));
+}
+
+.text-varDARKNECK {
+  --tw-text-opacity: 1;
+  color: rgb(65 42 50 / var(--tw-text-opacity));
+}
+
+.text-varMEDBLUEFEATHER {
+  --tw-text-opacity: 1;
+  color: rgb(42 97 161 / var(--tw-text-opacity));
+}
+
+.text-varLIGHTDUCKHEAD {
+  --tw-text-opacity: 1;
+  color: rgb(82 143 133 / var(--tw-text-opacity));
 }
 
 .shadow-xl {
