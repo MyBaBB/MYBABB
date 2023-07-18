@@ -596,6 +596,18 @@ video {
   top: 1rem;
 }
 
+.top-64 {
+  top: 16rem;
+}
+
+.top-96 {
+  top: 24rem;
+}
+
+.top-1 {
+  top: 0.25rem;
+}
+
 .z-10 {
   z-index: 10;
 }
@@ -686,6 +698,11 @@ video {
 .w-max {
   width: -moz-max-content;
   width: max-content;
+}
+
+.min-w-fit {
+  min-width: -moz-fit-content;
+  min-width: fit-content;
 }
 
 .max-w-4xl {
@@ -1449,6 +1466,14 @@ video {
 }
 
 @media (min-width: 640px) {
+  .sm\:left-8 {
+    left: 2rem;
+  }
+
+  .sm\:right-8 {
+    right: 2rem;
+  }
+
   .sm\:block {
     display: block;
   }
