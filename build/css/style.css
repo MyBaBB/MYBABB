@@ -891,6 +891,10 @@ video {
   --tw-gradient-to: #284f35 var(--tw-gradient-to-position);
 }
 
+.bg-center {
+  background-position: center;
+}
+
 .p-1 {
   padding: 0.25rem;
 }
@@ -1078,6 +1082,11 @@ video {
   color: rgb(36 85 141 / var(--tw-text-opacity));
 }
 
+.text-varDARKDUCKCHEEKS {
+  --tw-text-opacity: 1;
+  color: rgb(54 46 71 / var(--tw-text-opacity));
+}
+
 .text-varDARKDUCKHEAD {
   --tw-text-opacity: 1;
   color: rgb(30 59 40 / var(--tw-text-opacity));
@@ -1106,11 +1115,6 @@ video {
 .text-white {
   --tw-text-opacity: 1;
   color: rgb(255 255 255 / var(--tw-text-opacity));
-}
-
-.text-varDARKDUCKCHEEKS {
-  --tw-text-opacity: 1;
-  color: rgb(54 46 71 / var(--tw-text-opacity));
 }
 
 .shadow-xl {
