@@ -615,6 +615,11 @@ video {
   margin-bottom: 0.5rem;
 }
 
+.my-6 {
+  margin-top: 1.5rem;
+  margin-bottom: 1.5rem;
+}
+
 .-mt-0 {
   margin-top: -0px;
 }
@@ -742,8 +747,16 @@ video {
   scroll-margin-top: 10rem;
 }
 
+.list-inside {
+  list-style-position: inside;
+}
+
 .list-none {
   list-style-type: none;
+}
+
+.list-disc {
+  list-style-type: disc;
 }
 
 .flex-col {
@@ -752,6 +765,10 @@ video {
 
 .flex-col-reverse {
   flex-direction: column-reverse;
+}
+
+.content-center {
+  align-content: center;
 }
 
 .items-center {
@@ -927,6 +944,11 @@ video {
   padding-bottom: 2rem;
 }
 
+.px-10 {
+  padding-left: 2.5rem;
+  padding-right: 2.5rem;
+}
+
 .pl-0 {
   padding-left: 0px;
 }
@@ -945,10 +967,6 @@ video {
 
 .pt-5 {
   padding-top: 1.25rem;
-}
-
-.pb-10 {
-  padding-bottom: 2.5rem;
 }
 
 .text-left {
@@ -1079,24 +1097,19 @@ video {
   color: rgb(65 154 255 / var(--tw-text-opacity));
 }
 
-.text-white {
-  --tw-text-opacity: 1;
-  color: rgb(255 255 255 / var(--tw-text-opacity));
-}
-
-.text-varDARKNECK {
-  --tw-text-opacity: 1;
-  color: rgb(65 42 50 / var(--tw-text-opacity));
-}
-
 .text-varMEDBLUEFEATHER {
   --tw-text-opacity: 1;
   color: rgb(42 97 161 / var(--tw-text-opacity));
 }
 
-.text-varLIGHTDUCKHEAD {
+.text-white {
   --tw-text-opacity: 1;
-  color: rgb(82 143 133 / var(--tw-text-opacity));
+  color: rgb(255 255 255 / var(--tw-text-opacity));
+}
+
+.text-gray-700 {
+  --tw-text-opacity: 1;
+  color: rgb(55 65 81 / var(--tw-text-opacity));
 }
 
 .shadow-xl {
