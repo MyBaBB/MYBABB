@@ -729,10 +729,6 @@ video {
   cursor: pointer;
 }
 
-.scroll-mt-16 {
-  scroll-margin-top: 4rem;
-}
-
 .scroll-mt-40 {
   scroll-margin-top: 10rem;
 }
@@ -935,10 +931,6 @@ video {
   padding-right: 1rem;
 }
 
-.pt-12 {
-  padding-top: 3rem;
-}
-
 .pt-5 {
   padding-top: 1.25rem;
 }
@@ -995,6 +987,11 @@ video {
   line-height: 1.75rem;
 }
 
+.text-base {
+  font-size: 1rem;
+  line-height: 1.5rem;
+}
+
 .font-bold {
   font-weight: 700;
 }
@@ -1042,11 +1039,6 @@ video {
   color: rgb(36 85 141 / var(--tw-text-opacity));
 }
 
-.text-varDARKDUCKHEAD {
-  --tw-text-opacity: 1;
-  color: rgb(30 59 40 / var(--tw-text-opacity));
-}
-
 .text-varLIGHTBEAK {
   --tw-text-opacity: 1;
   color: rgb(215 45 50 / var(--tw-text-opacity));
@@ -1070,11 +1062,6 @@ video {
 .text-varLIGHTWING {
   --tw-text-opacity: 1;
   color: rgb(207 166 157 / var(--tw-text-opacity));
-}
-
-.text-varMEDBLUEFEATHER {
-  --tw-text-opacity: 1;
-  color: rgb(42 97 161 / var(--tw-text-opacity));
 }
 
 .text-white {
