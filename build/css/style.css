@@ -622,20 +622,20 @@ video {
   margin-bottom: 3rem;
 }
 
-.mt-2 {
-  margin-top: 0.5rem;
-}
-
-.mt-4 {
-  margin-top: 1rem;
-}
-
 .mb-6 {
   margin-bottom: 1.5rem;
 }
 
 .mt-12 {
   margin-top: 3rem;
+}
+
+.mt-2 {
+  margin-top: 0.5rem;
+}
+
+.mt-4 {
+  margin-top: 1rem;
 }
 
 .block {
@@ -867,10 +867,6 @@ video {
   --tw-gradient-stops: var(--tw-gradient-from), #528f85 var(--tw-gradient-via-position), var(--tw-gradient-to);
 }
 
-.to-varDARKBLUEFEATHER {
-  --tw-gradient-to: #24558d var(--tw-gradient-to-position);
-}
-
 .to-varDARKWING {
   --tw-gradient-to: #3c302e var(--tw-gradient-to-position);
 }
@@ -935,24 +931,16 @@ video {
   padding-left: 1.25rem;
 }
 
+.pr-4 {
+  padding-right: 1rem;
+}
+
 .pt-12 {
   padding-top: 3rem;
 }
 
 .pt-5 {
   padding-top: 1.25rem;
-}
-
-.pr-40 {
-  padding-right: 10rem;
-}
-
-.pr-4 {
-  padding-right: 1rem;
-}
-
-.pt-10 {
-  padding-top: 2.5rem;
 }
 
 .text-center {
@@ -987,6 +975,11 @@ video {
   line-height: 1;
 }
 
+.text-6xl {
+  font-size: 3.75rem;
+  line-height: 1;
+}
+
 .text-8xl {
   font-size: 6rem;
   line-height: 1;
@@ -1000,11 +993,6 @@ video {
 .text-xl {
   font-size: 1.25rem;
   line-height: 1.75rem;
-}
-
-.text-6xl {
-  font-size: 3.75rem;
-  line-height: 1;
 }
 
 .font-bold {
@@ -1074,6 +1062,16 @@ video {
   color: rgb(65 154 255 / var(--tw-text-opacity));
 }
 
+.text-varLIGHTDUCKHEAD {
+  --tw-text-opacity: 1;
+  color: rgb(82 143 133 / var(--tw-text-opacity));
+}
+
+.text-varLIGHTWING {
+  --tw-text-opacity: 1;
+  color: rgb(207 166 157 / var(--tw-text-opacity));
+}
+
 .text-varMEDBLUEFEATHER {
   --tw-text-opacity: 1;
   color: rgb(42 97 161 / var(--tw-text-opacity));
@@ -1082,26 +1080,6 @@ video {
 .text-white {
   --tw-text-opacity: 1;
   color: rgb(255 255 255 / var(--tw-text-opacity));
-}
-
-.text-violet-700 {
-  --tw-text-opacity: 1;
-  color: rgb(109 40 217 / var(--tw-text-opacity));
-}
-
-.text-varLIGHTWING {
-  --tw-text-opacity: 1;
-  color: rgb(207 166 157 / var(--tw-text-opacity));
-}
-
-.text-varLIGHTDUCKHEAD {
-  --tw-text-opacity: 1;
-  color: rgb(82 143 133 / var(--tw-text-opacity));
-}
-
-.text-varMEDDUCKHEAD {
-  --tw-text-opacity: 1;
-  color: rgb(40 79 53 / var(--tw-text-opacity));
 }
 
 .transition-all {
@@ -1435,11 +1413,6 @@ video {
   .dark\:text-white {
     --tw-text-opacity: 1;
     color: rgb(255 255 255 / var(--tw-text-opacity));
-  }
-
-  .dark\:text-varDARKBLUEFEATHER {
-    --tw-text-opacity: 1;
-    color: rgb(36 85 141 / var(--tw-text-opacity));
   }
 }
 
