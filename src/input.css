@@ -26,4 +26,82 @@
     animation: rotateX 25s linear infinite;
     display: inline-block;
   }
+  
+  @media only screen and (max-width: 320px) {
+  #mainBoxes {
+      padding: 0rem; 
+            }
+  #iphone5Text{ 
+      position: relative;
+      content: center;
+      padding: 5px;
+      padding-bottom: 1.75rem;
+      font-size: 5px;
+           }
+           #i5Jumbo{
+            font-size: 68px;
+            position: relative;
+            top: 0px;
+
+          } 
+           #i5h1{
+            font-size: 46px;
+            position: relative;
+            top: 0px;
+          } 
+
+           
+          #i5h2{
+      font-size: 40px;
+      position: relative;
+      top: 0px;
+    }  
+       #i5h3{
+      font-size: 36px;
+      position: relative;
+      top: 0px;
+    }
+
+   
+         #i5h4{
+      font-size: 32px;
+      position: relative;
+      top: 0px;
+    }
+
+          #i5h5{
+      font-size: 28px;
+      position: relative;
+      top: 0px;
+    }
+
+    
+       #i5OurPorps{
+        font-size: 58px;
+        position: relative;
+        top:0px;
+       } 
+        /* IMG */
+       #porpoise{
+        position: relative;
+           
+       }
+       #i5topquote {
+        font-size: 20px;
+        position: relative;
+        top: 0px;
+         }
+         #wSpaceNW{
+          white-space: wrap;
+         }
+
+         #i5containerPadding{
+          padding: 0rem;
+         }
+           #i5Smooth{
+            scroll-behavior: smooth;
+           }
+        }
+     
+     
  

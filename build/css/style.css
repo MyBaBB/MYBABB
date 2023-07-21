@@ -695,10 +695,6 @@ video {
   transform-origin: top;
 }
 
-.transform {
-  transform: translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y));
-}
-
 @keyframes bounce {
   0%, 100% {
     transform: translateY(-25%);
@@ -886,10 +882,6 @@ video {
 
 .p-1 {
   padding: 0.25rem;
-}
-
-.p-10 {
-  padding: 2.5rem;
 }
 
 .p-2 {
@@ -1129,6 +1121,86 @@ video {
   display: inline-block;
 }
 
+@media only screen and (max-width: 320px) {
+  #mainBoxes {
+    padding: 0rem;
+  }
+
+  #iphone5Text{
+    position: relative;
+    content: center;
+    padding: 5px;
+    padding-bottom: 1.75rem;
+    font-size: 5px;
+  }
+
+  #i5Jumbo{
+    font-size: 68px;
+    position: relative;
+    top: 0px;
+  }
+
+  #i5h1{
+    font-size: 46px;
+    position: relative;
+    top: 0px;
+  }
+
+  #i5h2{
+    font-size: 40px;
+    position: relative;
+    top: 0px;
+  }
+
+  #i5h3{
+    font-size: 36px;
+    position: relative;
+    top: 0px;
+  }
+
+  #i5h4{
+    font-size: 32px;
+    position: relative;
+    top: 0px;
+  }
+
+  #i5h5{
+    font-size: 28px;
+    position: relative;
+    top: 0px;
+  }
+
+  #i5OurPorps{
+    font-size: 58px;
+    position: relative;
+    top:0px;
+  }
+
+  /* IMG */
+
+  #porpoise{
+    position: relative;
+  }
+
+  #i5topquote {
+    font-size: 20px;
+    position: relative;
+    top: 0px;
+  }
+
+  #wSpaceNW{
+    white-space: wrap;
+  }
+
+  #i5containerPadding{
+    padding: 0rem;
+  }
+
+  #i5Smooth{
+    scroll-behavior: smooth;
+  }
+}
+
 .before\:absolute::before {
   content: var(--tw-content);
   position: absolute;
@@ -1246,6 +1318,11 @@ video {
 .after\:-bottom-20::after {
   content: var(--tw-content);
   bottom: -5rem;
+}
+
+.after\:-bottom-32::after {
+  content: var(--tw-content);
+  bottom: -8rem;
 }
 
 .after\:right-0::after {
@@ -1489,4 +1566,6 @@ video {
     text-align: center;
   }
 }
+     
+     
  
