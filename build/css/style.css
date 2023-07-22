@@ -576,20 +576,12 @@ video {
   right: 0px;
 }
 
-.right-7 {
-  right: 1.75rem;
-}
-
 .top-0 {
   top: 0px;
 }
 
 .top-1 {
   top: 0.25rem;
-}
-
-.top-24 {
-  top: 6rem;
 }
 
 .top-4 {
@@ -632,10 +624,6 @@ video {
 
 .mt-2 {
   margin-top: 0.5rem;
-}
-
-.mt-4 {
-  margin-top: 1rem;
 }
 
 .block {
@@ -924,20 +912,12 @@ video {
   padding-bottom: 2rem;
 }
 
-.pl-0 {
-  padding-left: 0px;
-}
-
 .pl-5 {
   padding-left: 1.25rem;
 }
 
 .pr-4 {
   padding-right: 1rem;
-}
-
-.pt-5 {
-  padding-top: 1.25rem;
 }
 
 .text-center {
@@ -1039,11 +1019,6 @@ video {
   color: rgb(120 80 1 / var(--tw-text-opacity));
 }
 
-.text-varDARKBLUEFEATHER {
-  --tw-text-opacity: 1;
-  color: rgb(36 85 141 / var(--tw-text-opacity));
-}
-
 .text-varLIGHTBEAK {
   --tw-text-opacity: 1;
   color: rgb(215 45 50 / var(--tw-text-opacity));
@@ -1082,10 +1057,6 @@ video {
 
 .duration-500 {
   transition-duration: 500ms;
-}
-
-.ease-in-out {
-  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .toggle-btn>div::after {
@@ -1208,10 +1179,6 @@ video {
 
   #i5h4{
     font-size: 28px;
-  }
-
-  #myFont2{
-    font-size: 8px;
   }
 }
 
@@ -1481,11 +1448,6 @@ video {
     background-color: rgb(255 255 255 / var(--tw-bg-opacity));
   }
 
-  .dark\:text-red-100 {
-    --tw-text-opacity: 1;
-    color: rgb(254 226 226 / var(--tw-text-opacity));
-  }
-
   .dark\:text-slate-400 {
     --tw-text-opacity: 1;
     color: rgb(148 163 184 / var(--tw-text-opacity));
@@ -1543,11 +1505,6 @@ video {
   .sm\:text-3xl {
     font-size: 1.875rem;
     line-height: 2.25rem;
-  }
-
-  .sm\:text-4xl {
-    font-size: 2.25rem;
-    line-height: 2.5rem;
   }
 
   .sm\:text-5xl {
