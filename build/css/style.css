@@ -1121,7 +1121,7 @@ video {
   display: inline-block;
 }
 
-@media only screen and (max-width: 320px) {
+@media only screen and (max-width: 319px) {
   #mainBoxes {
     padding: 0rem;
   }
@@ -1192,12 +1192,26 @@ video {
     white-space: wrap;
   }
 
-  #i5containerPadding{
-    padding: 0rem;
-  }
-
   #i5Smooth{
     scroll-behavior: smooth;
+  }
+}
+
+@media only screen and (min-width: 320px) and (max-width: 412px){
+  #mainBoxes {
+    padding: .5rem;
+  }
+
+  #our{
+    font-size: xx-large;
+  }
+
+  #i5h4{
+    font-size: 28px;
+  }
+
+  #myFont2{
+    font-size: 8px;
   }
 }
 
@@ -1318,11 +1332,6 @@ video {
 .after\:-bottom-20::after {
   content: var(--tw-content);
   bottom: -5rem;
-}
-
-.after\:-bottom-32::after {
-  content: var(--tw-content);
-  bottom: -8rem;
 }
 
 .after\:right-0::after {
@@ -1566,6 +1575,3 @@ video {
     text-align: center;
   }
 }
-     
-     
- 
