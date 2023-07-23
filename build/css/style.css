@@ -1212,9 +1212,9 @@ video {
     }
   }
 
-  #hamburger-button{
+  /* #hamburger-button{
     display: none;
-  }
+  } */
 }
 
 .before\:absolute::before {
