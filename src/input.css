@@ -31,8 +31,16 @@
     animation: rotateX 25s linear infinite;
     display: inline-block;
   }
-  
-  @media only screen and (max-width: 319px) {
+  @media only screen and (orientation: landscape) {
+    #mobile-menu {
+      display: none;
+    }
+  }
+     
+       
+          
+
+   @media only screen and (max-width: 319px) {
   #mainBoxes {
       padding: 0rem; 
             }
@@ -118,5 +126,12 @@
  #i5h4{
   font-size: 28px; 
  }
- 
+ @media only screen and (max-width: 768px) {
+  #hamburger-menu{
+    display: none;
+    }
+} 
+#hamburger-button{
+  display: none;
+}
 }

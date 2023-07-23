@@ -907,17 +907,16 @@ video {
   padding-bottom: 1.5rem;
 }
 
-.py-8 {
-  padding-top: 2rem;
-  padding-bottom: 2rem;
-}
-
 .pl-5 {
   padding-left: 1.25rem;
 }
 
 .pr-4 {
   padding-right: 1rem;
+}
+
+.pt-8 {
+  padding-top: 2rem;
 }
 
 .text-center {
@@ -1100,6 +1099,12 @@ video {
   display: inline-block;
 }
 
+@media only screen and (orientation: landscape) {
+  #mobile-menu {
+    display: none;
+  }
+}
+
 @media only screen and (max-width: 319px) {
   #mainBoxes {
     padding: 0rem;
@@ -1188,6 +1193,16 @@ video {
   #i5h4{
     font-size: 28px;
   }
+
+  @media only screen and (max-width: 768px) {
+    #hamburger-menu{
+      display: none;
+    }
+  }
+
+  #hamburger-button{
+    display: none;
+  }
 }
 
 .before\:absolute::before {
@@ -1249,10 +1264,10 @@ video {
   border-radius: 0.25rem;
 }
 
-.before\:bg-white::before {
+.before\:bg-varLIGHTBEAK::before {
   content: var(--tw-content);
   --tw-bg-opacity: 1;
-  background-color: rgb(255 255 255 / var(--tw-bg-opacity));
+  background-color: rgb(215 45 50 / var(--tw-bg-opacity));
 }
 
 .before\:font-serif::before {
@@ -1358,10 +1373,10 @@ video {
   border-radius: 0.25rem;
 }
 
-.after\:bg-white::after {
+.after\:bg-varLIGHTBLUEFEATHER::after {
   content: var(--tw-content);
   --tw-bg-opacity: 1;
-  background-color: rgb(255 255 255 / var(--tw-bg-opacity));
+  background-color: rgb(65 154 255 / var(--tw-bg-opacity));
 }
 
 .after\:font-serif::after {
@@ -1432,6 +1447,10 @@ video {
   color: rgb(150 32 35 / var(--tw-text-opacity));
 }
 
+.hover\:opacity-10:hover {
+  opacity: 0.1;
+}
+
 .hover\:opacity-90:hover {
   opacity: 0.9;
 }
@@ -1441,9 +1460,28 @@ video {
   background-color: rgb(20 184 166 / var(--tw-bg-opacity));
 }
 
+.active\:bg-varLIGHTBLUEFEATHER:active {
+  --tw-bg-opacity: 1;
+  background-color: rgb(65 154 255 / var(--tw-bg-opacity));
+}
+
+.active\:to-varLIGHTDUCKHEAD:active {
+  --tw-gradient-to: #528f85 var(--tw-gradient-to-position);
+}
+
 .active\:text-varLIGHTBEAK:active {
   --tw-text-opacity: 1;
   color: rgb(215 45 50 / var(--tw-text-opacity));
+}
+
+.active\:text-varMEDDUCKCHEEKS:active {
+  --tw-text-opacity: 1;
+  color: rgb(107 91 141 / var(--tw-text-opacity));
+}
+
+.active\:text-varLIGHTBLUEFEATHER:active {
+  --tw-text-opacity: 1;
+  color: rgb(65 154 255 / var(--tw-text-opacity));
 }
 
 @media (prefers-color-scheme: dark) {
