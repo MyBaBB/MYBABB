@@ -753,6 +753,10 @@ video {
   border-radius: 0.75rem;
 }
 
+.rounded-2xl {
+  border-radius: 1rem;
+}
+
 .border {
   border-width: 1px;
 }
@@ -1121,6 +1125,12 @@ video {
 
   #CustomFont28px{
     font-size: 28px;
+    position: relative;
+    top: 0px;
+  }
+
+  #CustomFont20px{
+    font-size: 20px;
     position: relative;
     top: 0px;
   }
