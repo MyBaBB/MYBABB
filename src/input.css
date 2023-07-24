@@ -51,67 +51,44 @@
       padding-bottom: 1.75rem;
       font-size: 5px;
            }
-           #i5Jumbo{
+           #CustomFont68px{
             font-size: 68px;
             position: relative;
             top: 0px;
 
           } 
-           #i5h1{
+           #CustomFont46px{
             font-size: 46px;
             position: relative;
             top: 0px;
           } 
 
            
-          #i5h2{
-      font-size: 40px;
-      position: relative;
-      top: 0px;
-    }  
-       #i5h3{
+          #CustomFont40px{
+            font-size: 40px;
+            position: relative;
+            top: 0px;
+          }
+      
+       #CustomFont36px{
       font-size: 36px;
       position: relative;
       top: 0px;
     }
 
    
-         #i5h4{
+         #CustomFont32px{
       font-size: 32px;
       position: relative;
       top: 0px;
     }
 
-          #i5h5{
+          #CustomFont28px{
       font-size: 28px;
       position: relative;
       top: 0px;
     }
-
-    
-       #i5OurPorps{
-        font-size: 58px;
-        position: relative;
-        top:0px;
-       } 
-        /* IMG */
-       #porpoise{
-        position: relative;
-           
-       }
-       #i5topquote {
-        font-size: 20px;
-        position: relative;
-        top: 0px;
-         }
-         #wSpaceNW{
-          white-space: wrap;
-         }
-
-       
-           #i5Smooth{
-            scroll-behavior: smooth;
-           }
+         
         }
      
      
@@ -123,7 +100,7 @@
  #our{
    font-size: xx-large;
  }
- #i5h4{
+ #CustomFont28px{
   font-size: 28px; 
  }
  @media only screen and (max-width: 768px) {

@@ -522,40 +522,6 @@ video {
   --tw-backdrop-sepia:  ;
 }
 
-.container {
-  width: 100%;
-}
-
-@media (min-width: 640px) {
-  .container {
-    max-width: 640px;
-  }
-}
-
-@media (min-width: 768px) {
-  .container {
-    max-width: 768px;
-  }
-}
-
-@media (min-width: 1024px) {
-  .container {
-    max-width: 1024px;
-  }
-}
-
-@media (min-width: 1280px) {
-  .container {
-    max-width: 1280px;
-  }
-}
-
-@media (min-width: 1536px) {
-  .container {
-    max-width: 1536px;
-  }
-}
-
 .absolute {
   position: absolute;
 }
@@ -1123,66 +1089,40 @@ video {
     font-size: 5px;
   }
 
-  #i5Jumbo{
+  #CustomFont68px{
     font-size: 68px;
     position: relative;
     top: 0px;
   }
 
-  #i5h1{
+  #CustomFont46px{
     font-size: 46px;
     position: relative;
     top: 0px;
   }
 
-  #i5h2{
+  #CustomFont40px{
     font-size: 40px;
     position: relative;
     top: 0px;
   }
 
-  #i5h3{
+  #CustomFont36px{
     font-size: 36px;
     position: relative;
     top: 0px;
   }
 
-  #i5h4{
+  #CustomFont32px{
     font-size: 32px;
     position: relative;
     top: 0px;
   }
 
-  #i5h5{
+  #CustomFont28px{
     font-size: 28px;
     position: relative;
     top: 0px;
-  }
-
-  #i5OurPorps{
-    font-size: 58px;
-    position: relative;
-    top:0px;
-  }
-
-  /* IMG */
-
-  #porpoise{
-    position: relative;
-  }
-
-  #i5topquote {
-    font-size: 20px;
-    position: relative;
-    top: 0px;
-  }
-
-  #wSpaceNW{
-    white-space: wrap;
-  }
-
-  #i5Smooth{
-    scroll-behavior: smooth;
   }
 }
 
@@ -1195,7 +1135,7 @@ video {
     font-size: xx-large;
   }
 
-  #i5h4{
+  #CustomFont28px{
     font-size: 28px;
   }
 
