@@ -37,10 +37,22 @@
     }
   }
      
-       
+  @media screen and (orientation: landscape) {
+    #prosAndConsSection {
+    display: block;
+    }
+  }  
+  @media screen and (orientation: portrait) and (max-width: 470px)   {
+    #prosAndConsSection {
+    display: none;
+    }
+  }   
           
 
    @media only screen and (max-width: 319px) {
+
+#Hamburger-Menu{font: xx-small;}
+
   #mainBoxes {
       padding: 0rem; 
             }
@@ -94,9 +106,7 @@
       top: 0px;
     }
          
-        }
-     
-     
+       
  @media only screen and (min-width: 320px) and (max-width: 412px){ 
 
   #mainBoxes {
@@ -108,6 +118,9 @@
  #CustomFont28px{
   font-size: 28px; 
  }
+ #mobile-menu{
+  font-size: 28px;
+ }
  @media only screen and (max-width: 768px) {
   #hamburger-menu{
     display: none;
@@ -115,4 +128,4 @@
 } 
 
 }
- 
+}

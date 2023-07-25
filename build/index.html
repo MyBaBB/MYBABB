@@ -39,7 +39,7 @@
                                 <!-- xxxxxxxxxxxxxxxxxxxx -->
                                     <!-- top section -->
 
-             <nav class="hidden space-x-8 text-xl md:block " aria-label="main" >
+             <nav  class="hidden space-x-8 text-xl md:block " aria-label="main" >
 
               <a href="#About Us" class="hover:text-varLIGHTBEAKTOP active:text-varLIGHTBLUEFEATHER ">
                 <span class="font-semibold" style="font-size: x-large;text-shadow: 2px 2px 3px #1c0303; "
@@ -64,30 +64,31 @@
 </section>
                                 <!-- xxxxxxxxxxxxxxxxxxxxxx -->
 <section id="mobile-menu"
-        class="top-1  animate-open-menu absolute hidden w-full origin-top flex-col justify-center bg-black text-5xl" >
-         <button class="text-8xl self-end px-6">
+       div 
+        class="top-1  animate-open-menu absolute hidden w-full origin-top flex-col justify-center bg-black text-xl"  >
+         <button class="text-5xl self-end px-6">
                 &times;
-            </button>  
-        <nav @media="screen and (min width: max-width: 520px);
-        "
-            class="flex min-h-screen flex-col items-center justify-top pt-8"
+        </button>  
+         <nav @media="screen and (min-width:319)and(max-width: 520px);" 
+        
+            class="flex min-h-screen flex-col items-center justify-top "
           aria-label="mobile">
-          <a href="#hero" class="w-full py-6 text-center hover:opacity-10"
+          <p id="mobile-menu"><br><a href="#hero" class="w-full py-2 text-center hover:opacity-10"
             ></a>
           <a href="#ProsCons" class="w-full py-6 text-center hover:opacity-90"
-            >  Pros/Cons</a>
+            >  Pros/Cons</a><br><br>
           <a href="#About Us" class="w-full py-6 text-center hover:opacity-90"
-            > About Us</a>
+            > About Us</a><br><br>
           <a href="#Get Ready" class="w-full py-6 text-center white-space: nowrap; hover:opacity-90" 
-            > Get Ready</a>
+            > Get Ready</a><br><br>
           <a href="#footer" class="w-full py-6 text-center hover:opacity-90"
-            >Legal</a>
+            >Legal</a><br><br>
+          </p>
         </nav>
   </section>
      </header>
 <!-- xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx -->
-  <div id="hero"></div>
-
+  
    <div  style="position: relative;bottom:--14rem;">  
     <main class="mx-auto max-w-4xl" >
        <div style="display: flex; justify-content: center; padding-top: 4rem;"> 
@@ -117,79 +118,92 @@
           </p>
       </h2>  
    </div>
- 
+   
+
+
+    
+  
+
        <!-- xxxxxxxxxxxxxxxxxx🦖⬆️xxxno section just div xxxxxxxxxxxxxxxx -->
 
-       
-<section id="theWholeBigSection"  class="widescreen:section-min-height tallscreen:section-min-height mb-12 flex scroll-mt-40 flex-col-reverse items-center justify-center gap-8 p-6 sm:flex-row">
- <article  id="theWholeBigArticle" class="sm:w-1/2">     <!-- this article endsat 527 -->
-
-     
-   <section id="image-section" ">
     
-    <section class="relative">
+  
+
+<section id="theWholeBigSection"  class="widescreen:section-min-height tallscreen:section-min-height  flex scroll-mt-40 flex-col-reverse items-center justify-center gap-8 p-6 sm:flex-row">
+ <article  id="theWholeBigArticle" class="sm:w-1/2" style="flex-direction: column;">      <!-- this article endsat 527 -->
+
+  
+  
+    
      
+       
+        
+          <p id="crafted" class= "landscape:text-center  max-w-md text-center text-4xl  font-bold   text-varDARKBEAK sm:text-center sm:text-4xl " style="font-family: 'Montserrat', sans-serif; text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px #fff, 0 0 40px #000, 0 0 70px #000, 0 0 80px #000;">
+          Crafted
+         </p>
+       
+        
+        <p id="with" class= "landscape:text-center sm:text-1xl text-center max-w-md  text-1xl  font-bold   text-varDARKBEAK" style="font-family: 'Montserrat', sans-serif; text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px #fff, 0 0 40px #000, 0 0 70px #000, 0 0 80px #000;">
+        with
+        </p>
+     
+        
+        <p id="humanoid" class= "landscape:text-center max-w-md text-center text-2xl  font-bold   text-varDARKBEAK sm:text-left sm:text-2xl " style="font-family: 'Montserrat', sans-serif; text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px #fff, 0 0 40px #000, 0 0 70px #000, 0 0 80px #000">
+            Humanoid
+        </p>
+     
+        <p id="brains" class= "landscape:text-center max-w-md text-center text-2xl  font-bold   text-varDARKBEAK sm:text-left sm:text-2xl " style="font-family: 'Montserrat', sans-serif; text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px #fff, 0 0 40px #000, 0 0 70px #000, 0 0 80px #000;">
+            Brains
+        </p> 
+      </div> 
+    </div>
    
       
  
    <div id="image3" style="display: flex; justify-content: center; "> 
-        <img id="image3"  class=" py-4 w-max rounded-3xl   " src="./img/faceAndBrains.png" alt="Face and Brains"   style=" z-index: 3;">                               <!-- 📷🧠📷 -->
+        <div>
+          <img id="image3" class=" w-max rounded-3xl" src="./img/faceAndBrains.png" alt="Face and Brains" style="position: relative; z-index: 3;">
+        </div>
    </div>
 
   <div style="display: flex; justify-content: center;">
-        <div style="height: auto; width: 400px;">     
-      <div style="display: flex; justify-content: center;" classclass="py-10"">
+           
+    <div style="display: flex; justify-content: center;  width: 350px;" class="py-10"">
+       <div> 
         <img id="image2" class="w-max rounded-3xl" src="./img/phoneInHands.png" alt="Phone In Hands" style="position: relative; z-index: 1; box-shadow: 0 0 50px rgba(0, 0, 0, 0.5);">
        </div>
    
-       <div style="display: flex; justify-content: center;">
-        <img id="image1" class="w-max rounded-3xl" src="./img/myteam.jpeg" alt="MY Team" height="100" width="100%" style="position: relative; z-index: 0; box-shadow: 0 0 50px rgba(0, 0, 0, 0.5);">
+       <div>
+        <img id="image1" class="w-max rounded-3xl" src="./img/myteam.jpeg" alt="The Team" style="position: relative; z-index: 0; box-shadow: 0 0 50px rgba(0, 0, 0, 0.5);">       </div>
        </div>
-                     <!-- xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx -->
-     </div>
-     
-  </div>
-</div> 
-</div>
+    </div>
+</div> <!-- xxxxxxxxxxxxxxxxxxxxxxxxxx📸👍xxxxxxxxxxxxxxxxxxxxx -->
+ 
 
 
      
                            <hr class="mx-auto w-1/2 bg-black dark:bg-white"/>
 
-<style>
-@media screen and (orientation: landscape) {
-  #prosAndConsSection {
-  display: block;
-  }
-}  
-@media screen and (orientation: portrait) and (max-width: 470px)   {
-  #prosAndConsSection {
-  display: none;
-  }
-}
-
-</style>
-
  
 
 <br>
- <div style="display: flex; justify-content: center;">
-<p id="unleash" class="py-4 max-w-md text-center text-1xl font-bold text-varDARKBEAK sm:text-center sm:text-2xl" style="font-family: 'Montserrat', sans-serif; text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px #fff, 0 0 40px #000, 0 0 70px #000, 0 0 80px;">
-  We will take it from here!
-</p>  
-</div>
+ 
 
 <div class="p-4 "> 
 <div id="About Us" style="box-shadow: 2px 2px 55px #000;" class="rounded-3xl" >
 <section  id="mainBoxes"
-        class="widescreen:section-min-height tallscreen:section-min-height my-12  p-6"
+        class="widescreen:section-min-height tallscreen:section-min-height mb-10  p-6"
            style="scroll-margin-top:95px;"> 
    
           <blockquote 
           class="relative rounded-3xl bg-gradient-to-b from-varDARKBLUEFEATHER to-varMEDDUCKHEAD py-12  dark:bg-black" class="content-center">
            
           <div>
-
+            <div style="display: flex; justify-content: center;">
+              <p id="unleash" class="py-4 max-w-md text-center text-1xl font-bold text-varDARKBEAK sm:text-center sm:text-2xl" style="font-family: 'Montserrat', sans-serif; text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px #fff, 0 0 40px #000, 0 0 70px #000, 0 0 80px;">
+                We can take it from here!
+              </p>  
+               </div>
             <a href="#horsesAss">
             <div class="content-center"> 
               <P  class= "sm:max-sm: p-1 text-center " style="text-shadow: 2px 2px 3px #1c0303; color:#fff9d7 "
@@ -200,11 +214,10 @@
     <div id="Trapper" class="text-center " >
       <img  src="./img/busyTrapper.png" alt="BusyTrapper" width="400px" height="auto" class="relative mx-auto d-block rounded-full border-4 border-solid border-varMEDDUCKHEAD" >
     </div>
-              <div  class="content-center">
-                <P  class= "sm:max-sm:: p-1 text-center " style="text-shadow: 2px 2px 3px #1c0303; color:#cfa69d"
-       id="" class="text-center text-xxl font-bold text-varLIGHTBLUEFEATHER mt-12 mb-6" style="text-shadow: 2px 2px 3px #1c0303;">
-      " Go Do What You Got To Do "
-      </p>
+      <div  class="content-center">
+        <P  class= "sm:max-sm:: p-1 text-center " style="text-shadow: 2px 2px 3px #1c0303; color:#cfa69d"
+        id="" class="text-center text-xxl font-bold text-varLIGHTBLUEFEATHER   " style="text-shadow: 2px 2px 3px #1c0303;">
+         "Focus on Your Product"       </p>
      </div>
     </a>
 
@@ -219,11 +232,13 @@
              <span style="text-shadow: 2px 2px 3px #1c0303; color:#fff9d7" class="text-2xl">
                   
          <br id="horsesAss" ><br>
-          <span id="CustomFont20px"> &nbsp;&nbsp;We help small businesses increase sells for more profit. We offer a comprehensive website package starting at $1500 and it includes enough to get you up and running like I nice little business should be. Our team will maintain your site and ensure it runs smoothly, allowing you to focus on growing your business. 
+          <span id="CustomFont20px">
+            &nbsp;&nbsp;We help small businesses increase sales and make more profit. We offer a comprehensive website package starting at $1500 that includes everything you need to get your business up and running online. Our team will take care of maintaining your site and ensuring it runs smoothly, so you can focus on growing your business.
 
-         Our simple website design is perfect for small businesses on a budget, providing a professional online presence to attract customers. As your business grows and sales increase, we can work with you to add more advanced features and design elements.
+            Our simple website design is perfect for small businesses on a budget, providing a professional online presence to attract customers. As your business grows and sales increase, we can work with you to add more advanced features and design elements.
 
-         At our company, we pride ourselves on being custom creators, not robots. We enjoy our work and strive to provide the best possible service to our clients.</span>
+            At our company, we take pride in being Custom Creators, not <em>robots</em>. We love what we do and strive to provide the best possible service to our clients.
+          </span>
           </p>
       </blockquote>
    
@@ -289,11 +304,11 @@ style="scroll-margin-top:95px;">
                                        
 
 <p id="CustomFont32px"
-      class=  "mt-2 p-1 text-center text-2xl text-varLIGHTBLUEFEATHER before:absolute before:left-0 before:top-0 before:translate-x-2 before:translate-y-2 before:transform before:font-serif before:text-9xl before:text-varLIGHTBLUEFEATHER before:opacity-25 before:content-['\201C'] after:absolute after:-bottom-20 after:right-0 after:-translate-x-2 after:-translate-y-2 after:transform after:font-serif after:text-9xl after:text-varLIGHTBLUEFEATHER after:opacity-25 after:content-['\201D'] dark:text-slate-400 sm:text-3xl" 
+      class=  "mt-2 p-1 text-center text-2xl text-varLIGHTBLUEFEATHER before:absolute before:left-0 before:top-18 before:translate-x-2 before:translate-y-2 before:transform before:font-serif before:text-9xl before:text-varLIGHTBLUEFEATHER before:opacity-25 before:content-['\201C'] after:absolute after:-bottom-20 after:right-0 after:-translate-x-2 after:-translate-y-2 after:transform after:font-serif after:text-9xl after:text-varLIGHTBLUEFEATHER after:opacity-25 after:content-['\201D'] dark:text-slate-400 sm:text-3xl" 
       style="text-shadow: 1px 1px black;">
-
+<br><br>
   <span id="CustomFont20px" style="text-shadow: 2px 2px 3px #1c0303; color:#fff9d7" class="text-2xl ">
-    &nbsp;Creating a strong brand identity is crucial for the success of any business. As such, we offer logo design and color scheme services for a fee of $100. Our team of experts will work with you to create a unique and memorable brand identity that accurately portrays.
+    &nbsp;Creating a strong brand identity is crucial for the success of any business. As such, we offer logo design and color scheme services for a fee of $100. Our team of experts will work with you to create a unique and memorable brand identity that accurately portrays your Product.
 
   
   <span   style="color:rgb(245, 157, 157); font-family: Georgia, 'Times New Roman', Times, serif; text-shadow: 2px 2px 3px black;">
@@ -341,15 +356,14 @@ style="scroll-margin-top:95px;">
 
 
   
-  <p 
-      class="mt-2 p-0 text-center text-2xl text-varLIGHTBLUEFEATHER before:absolute before:left-0 before:top-16 before:translate-x-2 before:translate-y-2 before:transform before:font-serif before:text-9xl before:text-varLIGHTBLUEFEATHER before:opacity-25 before:content-['\201C'] after:absolute after:-bottom-20 after:right-0 after:-translate-x-2 after:-translate-y-2 after:transform after:font-serif after:text-9xl after:text-varLIGHTBLUEFEATHER after:opacity-25 after:content-['\201D'] dark:text-slate-400 sm:text-3xl" style="text-shadow: 1px 1px black;"> 
+      <p  class="mt-2 p-0 text-center text-2xl text-varLIGHTBLUEFEATHER before:absolute before:left-0 before:top-18 before:translate-x-2 before:translate-y-2 before:transform before:font-serif before:text-9xl before:text-varLIGHTBLUEFEATHER before:opacity-25 before:content-['\201C'] after:absolute after:-bottom-20 after:right-0 after:-translate-x-2 after:-translate-y-2 after:transform after:font-serif after:text-9xl after:text-varLIGHTBLUEFEATHER after:opacity-25 after:content-['\201D'] dark:text-slate-400 sm:text-3xl" style="text-shadow: 1px 1px black;"> 
       
        
     <span id="CustomFont20px" style="text-shadow: 2px 2px 3px #1c0303; color:#fff9d7;" class="text-3xl" > 
          
       
       
-      
+      <br>
       &nbsp;&nbsp;We are dedicated to providing exceptional web design services that exceed your prospects. Our team takes pride in creating unique and innovative designs that are tailored to your specific needs. We always work on Ideas to improve your Adverting Campaign.  
           <br> 
           <span id="iphone5Text" class="italic text-varLIGHTWING  text-base">
@@ -378,11 +392,10 @@ style="scroll-margin-top:95px;">
                                       <!-- xxxxxxxxxxxxxxxxxxx⬇️⛳🏌️‍♂️pro xxxxxxxxxxxxx -->
 
 <br>
-<div class="p-4">
- <div  id="ProsCons" 
-<section
-        id="mainBoxes"
-          class="widescreen:section-min-height tallscreen:section-min-height my-12  p-6"
+<div class="p-4 "> 
+<div style="box-shadow: 2px 2px 55px #000;"" class="   rounded-3xl ">
+ <div  id="ProsCons">  
+<section  id="mainBoxes" class="widescreen:section-min-height tallscreen:section-min-height my-12  p-6"
          style="scroll-margin-top:95px;">   
     
           <blockquote id="blockquote1"
@@ -407,9 +420,9 @@ style="scroll-margin-top:95px;">
             <span><br><span class="text-varDARKBEAKTOP  dark:text-varLIGHTBLUEFEATHER">•</span>Increase your sales with our expert services</span>
             <span><br><span class="text-varDARKBEAKTOP  dark:text-varLIGHTBLUEFEATHER">•</span> Promote your brand with a personalized logo</span>
             <span><br><span class="text-varDARKBEAKTOP  dark:text-varLIGHTBLUEFEATHER">•</span>Stay connected with our world-class backend team</span> 
-            <br><span class="text-varDARKBEAKTOP  dark:text-varLIGHTBLUEFEATHER">•<span class=" text-3xl text-white">Focus on your work while we take care of the rest</span></span>
+            <br><span class="text-varDARKBEAKTOP  dark:text-varLIGHTBLUEFEATHER">•<span class=" text-3xl text-white">Focus on your work while we take care of the Technicalities</span></span>
             
-            <span><br><span class="text-varDARKBEAKTOP  dark:text-varLIGHTBLUEFEATHER">•</span>Secure your website with SSL from basic to extreme security</span>
+            <span><br><span class="text-varDARKBEAKTOP  dark:text-varLIGHTBLUEFEATHER">•</span>Protect your website with our comprehensive security solutions, ranging from basic to extreme levels of protection.</span>
             <span><br><span class="text-varDARKBEAKTOP  dark:text-varLIGHTBLUEFEATHER">•</span>Receive customized solutions tailored to unique needs</span>
             
             
@@ -417,7 +430,7 @@ style="scroll-margin-top:95px;">
             <span><span class="text-varDARKBEAKTOP  dark:text-varLIGHTBLUEFEATHER">•</span> Email that Matches your profile.</span>
           </p>
     </blockquote>
-
+  </div>
  </section>
 </div>
 </div>
@@ -506,10 +519,9 @@ style="scroll-margin-top:95px;">
 </div>
 
 
-    </section>
- </article>    <!-- this is the whole big article -->
-</section>    <!-- this is the whole big section -->
   
+ </article>    <!-- this is the whole big article -->
+     
 
 
 
