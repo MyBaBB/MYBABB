@@ -522,6 +522,10 @@ video {
   --tw-backdrop-sepia:  ;
 }
 
+.fixed {
+  position: fixed;
+}
+
 .absolute {
   position: absolute;
 }
@@ -552,38 +556,6 @@ video {
 
 .top-4 {
   top: 1rem;
-}
-
-.top-1\/2 {
-  top: 50%;
-}
-
-.top-20 {
-  top: 5rem;
-}
-
-.top-14 {
-  top: 3.5rem;
-}
-
-.top-12 {
-  top: 3rem;
-}
-
-.top-11 {
-  top: 2.75rem;
-}
-
-.top-5 {
-  top: 1.25rem;
-}
-
-.top-16 {
-  top: 4rem;
-}
-
-.top-10 {
-  top: 2.5rem;
 }
 
 .top-8 {
@@ -683,6 +655,10 @@ video {
 
 .origin-top {
   transform-origin: top;
+}
+
+.transform {
+  transform: translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y));
 }
 
 @keyframes bounce {
@@ -811,6 +787,11 @@ video {
   border-color: rgb(40 79 53 / var(--tw-border-opacity));
 }
 
+.border-r-amber-500 {
+  --tw-border-opacity: 1;
+  border-right-color: rgb(245 158 11 / var(--tw-border-opacity));
+}
+
 .bg-black {
   --tw-bg-opacity: 1;
   background-color: rgb(0 0 0 / var(--tw-bg-opacity));
@@ -819,6 +800,11 @@ video {
 .bg-teal-700 {
   --tw-bg-opacity: 1;
   background-color: rgb(15 118 110 / var(--tw-bg-opacity));
+}
+
+.bg-varLIGHTWING {
+  --tw-bg-opacity: 1;
+  background-color: rgb(207 166 157 / var(--tw-bg-opacity));
 }
 
 .bg-varMEDSPACE {
@@ -872,10 +858,6 @@ video {
 
 .to-varMEDDUCKHEAD {
   --tw-gradient-to: #284f35 var(--tw-gradient-to-position);
-}
-
-.to-purple-700 {
-  --tw-gradient-to: #7e22ce var(--tw-gradient-to-position);
 }
 
 .p-0 {
@@ -1217,11 +1199,6 @@ video {
   position: absolute;
 }
 
-.before\:relative::before {
-  content: var(--tw-content);
-  position: relative;
-}
-
 .before\:left-0::before {
   content: var(--tw-content);
   left: 0px;
@@ -1230,11 +1207,6 @@ video {
 .before\:top-0::before {
   content: var(--tw-content);
   top: 0px;
-}
-
-.before\:top-16::before {
-  content: var(--tw-content);
-  top: 4rem;
 }
 
 .before\:h-1::before {
@@ -1542,14 +1514,6 @@ video {
 
   .sm\:pt-0 {
     padding-top: 0px;
-  }
-
-  .sm\:pt-1 {
-    padding-top: 0.25rem;
-  }
-
-  .sm\:pt-10 {
-    padding-top: 2.5rem;
   }
 
   .sm\:text-left {
