@@ -3,6 +3,8 @@ module.exports = {
   content: ["./build/*.html", "./build/js/*.js"],
   theme: {
     extend: {
+
+      
      colors: { 
        
          
@@ -38,13 +40,18 @@ module.exports = {
            varDARKSPACE:          "#08121c", 
            varMEDSPACE:           "#1b3854", 
            varLIGHTSPACE:         "#264d73", 
-         
+   
+
+
+
+ 
+
+
+
+           
       screens: {
          'widescreen': { 'raw': '(min-aspect-ratio: 3/2)'},
          'tallscreen': { 'raw': '(max-aspect-ratio: 13/20)'},
-          
-
-
 
     },
     keyframes: {

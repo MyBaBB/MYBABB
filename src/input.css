@@ -3,11 +3,24 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+ 
 
+ 
+ 
+ 
 @layer utilities {
    /*  .section-min-height {
    TEST     min-height: calc(100vh - 68px)
-    } */
+   #testGf } */
+   
+ }
+ #testGf{
+ font-family: 'Rubik Puddles', cursive;
+ font-family: 'Rye', cursive;
+}
+
+
+
   #header {
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1), 0 1px 3px rgba(0, 0, 0, 0.08), 0 2px 4px rgba(0, 0, 0, 0.12);
   }
@@ -17,7 +30,7 @@
     .toggle-btn {
         @apply [&>div::before]:translate-y-0 [&>div::before]:rotate-45 [&>div::after]:translate-y-0 [&>div::after]:-rotate-45 [&>div]:bg-transparent [&>div]:rotate-[720deg]
     }
-}
+
 @keyframes rotateX {
     0% {
       transform: rotateY(0deg);
