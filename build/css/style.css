@@ -572,6 +572,11 @@ video {
   margin-bottom: 3rem;
 }
 
+.my-8 {
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+}
+
 .-mt-0 {
   margin-top: -0px;
 }
@@ -594,6 +599,14 @@ video {
 
 .mt-2 {
   margin-top: 0.5rem;
+}
+
+.mt-4 {
+  margin-top: 1rem;
+}
+
+.mt-8 {
+  margin-top: 2rem;
 }
 
 .block {
@@ -717,6 +730,10 @@ video {
   align-content: center;
 }
 
+.content-evenly {
+  align-content: space-evenly;
+}
+
 .items-center {
   align-items: center;
 }
@@ -822,6 +839,16 @@ video {
   background-color: rgb(255 255 255 / var(--tw-bg-opacity));
 }
 
+.bg-blue-500 {
+  --tw-bg-opacity: 1;
+  background-color: rgb(59 130 246 / var(--tw-bg-opacity));
+}
+
+.bg-gray-100 {
+  --tw-bg-opacity: 1;
+  background-color: rgb(243 244 246 / var(--tw-bg-opacity));
+}
+
 .bg-gradient-to-b {
   background-image: linear-gradient(to bottom, var(--tw-gradient-stops));
 }
@@ -919,6 +946,11 @@ video {
   padding-bottom: 1.5rem;
 }
 
+.px-4 {
+  padding-left: 1rem;
+  padding-right: 1rem;
+}
+
 .pl-5 {
   padding-left: 1.25rem;
 }
@@ -1000,11 +1032,6 @@ video {
   color: rgb(100 116 139 / var(--tw-text-opacity));
 }
 
-.text-slate-700 {
-  --tw-text-opacity: 1;
-  color: rgb(51 65 85 / var(--tw-text-opacity));
-}
-
 .text-varDARKBEAK {
   --tw-text-opacity: 1;
   color: rgb(112 24 26 / var(--tw-text-opacity));
@@ -1030,11 +1057,6 @@ video {
   color: rgb(65 154 255 / var(--tw-text-opacity));
 }
 
-.text-varLIGHTDUCKHEAD {
-  --tw-text-opacity: 1;
-  color: rgb(82 143 133 / var(--tw-text-opacity));
-}
-
 .text-varLIGHTWING {
   --tw-text-opacity: 1;
   color: rgb(207 166 157 / var(--tw-text-opacity));
@@ -1043,6 +1065,16 @@ video {
 .text-white {
   --tw-text-opacity: 1;
   color: rgb(255 255 255 / var(--tw-text-opacity));
+}
+
+.text-gray-600 {
+  --tw-text-opacity: 1;
+  color: rgb(75 85 99 / var(--tw-text-opacity));
+}
+
+.text-gray-800 {
+  --tw-text-opacity: 1;
+  color: rgb(31 41 55 / var(--tw-text-opacity));
 }
 
 .opacity-50 {
@@ -1430,6 +1462,11 @@ video {
   background-color: rgb(182 121 2 / var(--tw-bg-opacity));
 }
 
+.hover\:bg-blue-600:hover {
+  --tw-bg-opacity: 1;
+  background-color: rgb(37 99 235 / var(--tw-bg-opacity));
+}
+
 .hover\:text-varLIGHTBEAKTOP:hover {
   --tw-text-opacity: 1;
   color: rgb(252 168 2 / var(--tw-text-opacity));
@@ -1505,6 +1542,11 @@ video {
 }
 
 @media (min-width: 640px) {
+  .sm\:my-16 {
+    margin-top: 4rem;
+    margin-bottom: 4rem;
+  }
+
   .sm\:block {
     display: block;
   }
@@ -1554,11 +1596,6 @@ video {
   .sm\:text-4xl {
     font-size: 2.25rem;
     line-height: 2.5rem;
-  }
-
-  .sm\:text-xl {
-    font-size: 1.25rem;
-    line-height: 1.75rem;
   }
 }
 
