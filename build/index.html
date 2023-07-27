@@ -22,97 +22,86 @@
 
 
 
-  <body id="body" class="bg-varMEDSPACE min-h-screen  dark:bg-black dark:text-white">
-<header id="header" class="sticky top-0 z-10 bg-gradient-to-br from-varMEDDUCKHEAD to-varDARKWING text-white">
-<section class="mx-auto flex max-w-4xl items-center justify-between p-1">
-  
+<body id="body" class="bg-varMEDSPACE min-h-screen  dark:bg-black dark:text-white">
+   <header id="header" class="sticky top-0 z-10 bg-gradient-to-br from-varMEDDUCKHEAD to-varDARKWING text-white">
+    <section class="mx-auto flex max-w-4xl items-center justify-between p-1">
+       <a href="#">  
+         <div class="hover:bg-varMEDBEAKTOP active:bg-varLIGHTBLUEFEATHER rounded-full" style="box-shadow: inset 0 0 10px rgba(0, 0, 0, 0.5), 0 0 10px rgba(0, 0, 0, 0.5);"> 
+            <img src="./img/WoodDuck.png" alt="Wood Duck Logo" width="100">
+         </div>                            
+       </a>
 
-
-   <a href="#">  
-  <div class="hover:bg-varMEDBEAKTOP active:bg-varLIGHTBLUEFEATHER rounded-full" style="box-shadow: inset 0 0 10px rgba(0, 0, 0, 0.5), 0 0 10px rgba(0, 0, 0, 0.5);"> 
-   
-            <img src="./img/WoodDuck.png" alt="Wood Duck Logo" >
-  </div>                            
-</a>                                                     
      <div>
-        <button 
-             id="hamburger-button"
-            class="relative h-8 w-8 cursor-pointer text-3xl md:hidden">
-          <div
-         class="absolute top-4 -mt-0.5 h-1 w-8 rounded bg-white transition-all duration-500 before:absolute before:h-1 before:w-8 before:-translate-x-4 before:-translate-y-3 before:rounded before:bg-varLIGHTBEAK before:transition-all before:duration-500 before:content-[''] after:absolute after:h-1 after:w-8 after:-translate-x-4 after:translate-y-3 after:rounded after:bg-varLIGHTBLUEFEATHER after:transition-all after:duration-500 after:content-['']" style="left: -1rem;">
-        </div>         <!-- &#9776; -->
-      </button>
+
+
+        <button id="hamburger-button" class="relative h-8 w-8 cursor-pointer text-3xl sm:hidden focus-outline-none"> 
        
+        <div 
+         class="absolute top-4 -mt-0.5 h-1 w-8 rounded bg-white transition-all duration-500 before:absolute before:h-1 before:w-8 before:-translate-x-4 before:-translate-y-3 before:rounded before:bg-varLIGHTBEAK before:transition-all before:duration-500 before:content-[''] after:absolute after:h-1 after:w-8 after:-translate-x-4 after:translate-y-3 after:rounded after:bg-varLIGHTBLUEFEATHER after:transition-all after:duration-500 after:content-['']" style="left: -1rem;">
+        </div>         
+      </button>
+ 
+
     </div>   
-             
-                                <!-- xxxxxxxxxxxxxxxxxxxx -->
-                                    <!-- top section -->
-
-             <nav  class="hidden space-x-8 text-xl md:block " aria-label="main" >
-
+             <nav  class="sm: hidden space-x-8 text-xl sm:block " aria-label="main" >
               <a href="#AboutUs" class="hover:text-varLIGHTBEAKTOP active:text-varLIGHTBLUEFEATHER ">
                 <span class="font-semibold" style="font-size: x-large;text-shadow: 2px 2px 3px #1c0303; "
                 > About Us
                 </span>
-              </a>
-
-
-               <a href="#ProsCons" class="hover:text-varLIGHTBEAKTOP active:text-varLIGHTBLUEFEATHER">
+             </a>
+             <a href="#ProsCons" class="hover:text-varLIGHTBEAKTOP active:text-varLIGHTBLUEFEATHER">
                  <span class="font-semibold" style="font-size: x-large;text-shadow: 2px 2px 3px #1c0303; " style="font-family:serif">
                   Pros/Cons
-                 </span></a>
-
-              
-
-              <a href="#GetReady" class="hover:text-varLIGHTBEAKTOP active:text-varLIGHTBLUEFEATHER">
-                <span  class="font-semibold font-size: x-large"
+                 </span>
+            </a>
+            <a href="#GetReady" class="hover:text-varLIGHTBEAKTOP active:text-varLIGHTBLUEFEATHER">
+                 <span  class="font-semibold font-size: x-large"
                  style='white-space: nowrap; text-shadow: 2px 2px 3px #1c0303;'>
                   Get Ready
-                </span></a>
-            </nav>
-    
-</section>
-                                <!-- xxxxxxxxxxxxxxxxxxxxxx -->
-<section id="mobile-menu"
-      
-        class="top-1  animate-open-menu absolute hidden w-full origin-top flex-col justify-center bg-black text-xl"  >
-         <button class="text-5xl self-end px-6">
-                &times;
-        </button>  
-         <nav 
-        
-            class="flex min-h-screen flex-col items-center justify-top "
-          aria-label="mobile">
-          <p id="mobile-menu"><br><a href="#hero" class="w-full py-2 text-center hover:opacity-10"
-            ></a>
-          <a href="#ProsCons" class="w-full py-6 text-center hover:opacity-90"
-            >  Pros/Cons</a><br><br>
-          <a href="#AboutUs" class="w-full py-6 text-center hover:opacity-90"
-            > About Us</a><br><br>
-          <a href="#GetReady" class="w-full py-6 text-center white-space: nowrap; hover:opacity-90" 
-            > GetReady</a><br><br>
-          <a href="#footer" class="w-full py-6 text-center hover:opacity-90"
-            >Legal</a><br><br>
-          </p>
-        </nav>
-  </section>
-     </header>
-<!-- xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx -->
-<div class="rounded bg-emerald-200" style="margin-top: 20px;">
-  <p id="robotWords" class="text-center"> ---Hello World!-- &nbsp;&nbsp;&nbsp;&nbsp; <u>This Website is Under Construction.</u></p>
-</div> 
+                </span>
+            </a>
+          </nav>
+   </section>
 
-   <div  style="position: relative;bottom:14rem;">  
-    <main class="mx-auto max-w-4xl" >
-       <div style="display: flex; justify-content: center; padding-top: 4rem;"> 
-          <h2 
-            class="max-w-md text-center text-4xl  font-bold text-slate-900 dark:text-white sm:text-left sm:text-5xl" style="font-family: 'Montserrat', sans-serif;">
-          
+
+
+   <section id="mobile-menu" class="top-68  bg-black w-full text-xl
+               absolute origin-top flex-col justify-center animate-open-menu hidden"  >
+         <button class="text-5xl self-end px-6 ">
+               
+         </button>  
+      <nav  
+              class="flex min-h-screen flex-col items-center justify-top "
+              aria-label="mobile">
+        <p id="mobile-menu-2">
+              <br>
+          <a href="#hero" class="w-full py-2 text-center hover:opacity-10"
+            >
+          </a>
+          <a href="#ProsCons" class="w-full py-6 text-center "
+            ><span  class="hover:text-varLIGHTBLUEFEATHER" >Pros/Cons</span></a><br><br>
+          <a href="#AboutUs" class="w-full py-6 text-center "
+            ><span  class="hover:text-varLIGHTBLUEFEATHER" >About Us</span></a><br><br>
+          <a href="#GetReady" class="w-full py-6 text-center white-space: nowrap; " 
+            ><span  class="hover:text-varLIGHTBLUEFEATHER" >GetReady</span></a><br><br>
+          <a href="#footer" class="w-full py-6 text-center "
+            ><span  class="hover:text-varLIGHTBLUEFEATHER" >Legal</span></a><br><br>
+        </p>
+    </nav>
+  </section>
+</header> 
+<!-- xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx -->
+  <div class="rounded bg-emerald-200" style="margin-top: 20px;">
+  <p id="robotWords" class="text-center"> ---Hello World!-- &nbsp;&nbsp;&nbsp;&nbsp; <u>This Website is Under Construction.</u></p>
+</div>  
+
+
+ 
            
-             <p   class="landscape:text-center sm:pt-0 text-center animate-bounce" 
+              <p   class="landscape:text-center sm:pt-14 text-center animate-bounce " 
                style="animation-duration: 10s; animation-timing-function: ease-in-out;">
                  <span class="text-varDARKBEAK" 
-                  style="text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px
+                   style="text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px
                    #fff, 0 0 40px #000, 0 0 70px #000, 0 0 80px #000;">
                    Building
                  </span><br>
@@ -128,16 +117,12 @@
                   0 0 30px #fff, 0 0 40px #000, 0 0 70px #000, 0 0 80px #000;">
                 Websites    
               </span>    
-          </p>
-      </h2>  
-   </div>
    
-
 
     
   
 
-       <!-- xxxxxxxxxxxxxxxxxx🦖⬆️xxxno section just div xxxxxxxxxxxxxxxx -->
+       
 
     
   
@@ -616,7 +601,7 @@ style="scroll-margin-top:95px;">
   </form>
 
 
-</main>
+
     
     
  

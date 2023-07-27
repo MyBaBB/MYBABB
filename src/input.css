@@ -9,9 +9,9 @@
  
  
 @layer utilities {
-   /*  .section-min-height {
-   TEST     min-height: calc(100vh - 68px)
-   #testGf } */
+    .section-min-height {
+       min-height: calc(100vh - 68px)
+   }
    
  }
 
