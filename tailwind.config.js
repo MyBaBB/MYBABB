@@ -4,6 +4,13 @@
  export const theme = {
    
   extend: {
+
+    fontFamily: {
+      'satisfy': ['Satisfy', 'cursive'],
+    },
+
+
+    
      colors: {
        varDARKBEAKTOP: "#785001",
        varMEDBEAKTOP: "#b67902",
@@ -48,6 +55,9 @@
          },
        },
        
+
+
+
        animation: {
          'open-menu': 'open-menu 0.5s ease-in-out forwards'
        },
