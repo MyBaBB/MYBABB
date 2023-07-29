@@ -7,6 +7,7 @@
 
     fontFamily: {
       'satisfy': ['Satisfy', 'cursive'],
+      'rye': ['Rye', 'cursive'],
     },
 
 

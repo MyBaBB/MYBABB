@@ -42,7 +42,7 @@
     display: inline-block;
   }
   @media only screen and (orientation: landscape) {
-    #mobile-menu {
+    #mobile-menu2 {
       display: none;
     }
   }
@@ -131,7 +131,7 @@
  #mobile-menu{
   font-size: 28px;
  }
- @media only screen and (max-width: 768px) {
+ @media only screen and (min-width: 640px) {
   #hamburger-menu{
     display: none;
     }
