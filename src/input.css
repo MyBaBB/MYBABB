@@ -65,7 +65,9 @@
     #mobile-menu2 {
       display: none;
     }
-    
+    #header {
+      font-size: 20px;
+    }
   }
      
   @media screen and (orientation: landscape) {
