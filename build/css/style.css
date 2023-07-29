@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Bungee+Spice&family=Merienda:wght@700;800&family=Rye&family=Satisfy&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Emilys+Candy&family=Metamorphous&family=Permanent+Marker&family=Press+Start+2P&family=Rye&family=Satisfy&display=swap');
 
 /*
 ! tailwindcss v3.3.2 | MIT License | https://tailwindcss.com
@@ -962,10 +962,6 @@ video {
   padding-right: 1rem;
 }
 
-.pt-14{
-  padding-top: 3.5rem;
-}
-
 .text-center{
   text-align: center;
 }
@@ -974,12 +970,16 @@ video {
   text-align: right;
 }
 
-.font-rye{
-  font-family: Rye, cursive;
+.font-PermanentMarker{
+  font-family: Permanent Marker, cursive;
 }
 
-.font-satisfy{
-  font-family: Satisfy, cursive;
+.font-emilyscandy{
+  font-family: Emilys Candy, cursive;
+}
+
+.font-rye{
+  font-family: Rye, cursive;
 }
 
 .font-serif{
@@ -1006,11 +1006,6 @@ video {
   line-height: 1;
 }
 
-.text-7xl{
-  font-size: 4.5rem;
-  line-height: 1;
-}
-
 .text-base{
   font-size: 1rem;
   line-height: 1.5rem;
@@ -1033,10 +1028,6 @@ video {
 
 .font-bold{
   font-weight: 700;
-}
-
-.font-extrabold{
-  font-weight: 800;
 }
 
 .italic{
@@ -1141,8 +1132,22 @@ video {
 }
 
 .rotate {
-  animation: rotateX 25s linear infinite;
+  animation: rotateX 25s linear infinite alternate;
   display: inline-block;
+}
+
+@keyframes rotateX {
+  0% {
+    transform: rotatey(0deg);
+  }
+
+  50% {
+    transform: rotatey(360deg);
+  }
+
+  100% {
+    transform: rotatey(0deg);
+  }
 }
 
 @media only screen and (orientation: landscape) {

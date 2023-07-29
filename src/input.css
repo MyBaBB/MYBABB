@@ -1,4 +1,11 @@
-@import url('https://fonts.googleapis.com/css2?family=Bungee+Spice&family=Merienda:wght@700;800&family=Rye&family=Satisfy&display=swap');
+ 
+  
+ 
+ 
+ @import url('https://fonts.googleapis.com/css2?family=Emilys+Candy&family=Metamorphous&family=Permanent+Marker&family=Press+Start+2P&family=Rye&family=Satisfy&display=swap');
+ 
+ 
+ 
 
 @tailwind base;
 @tailwind components;
@@ -38,9 +45,22 @@
   }
 
   .rotate {
-    animation: rotateX 25s linear infinite;
+    animation: rotateX 25s linear infinite alternate;
     display: inline-block;
   }
+
+  @keyframes rotateX {
+    0% {
+      transform: rotatey(0deg);
+    }
+    50% {
+      transform: rotatey(360deg);
+    }
+    100% {
+      transform: rotatey(0deg);
+    }
+  }
+  
   @media only screen and (orientation: landscape) {
     #mobile-menu2 {
       display: none;

@@ -8,6 +8,10 @@
     fontFamily: {
       'satisfy': ['Satisfy', 'cursive'],
       'rye': ['Rye', 'cursive'],
+      'borel': ['Borel', 'cursive'],
+      'PermanentMarker': ['Permanent Marker', 'cursive'],
+      'emilyscandy': ['Emilys Candy', 'cursive'],
+      'metamorphous': ['Metamorphous', 'cursive'],
     },
 
 
@@ -36,7 +40,8 @@
        varLIGHTBEAK: "#d72d32",
        varDARKSPACE: "#08121c",
        varMEDSPACE: "#1b3854",
-       varLIGHTSPACE: "#264d73"
+       varLIGHTSPACE: "#264d73",
+       varBoneWhite: "#fff9d7",
      },
    /*   fontFamily: {
        sans: ['Open Sans', 'sans-serif'],
