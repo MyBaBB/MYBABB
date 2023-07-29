@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Emilys+Candy&family=Metamorphous&family=Permanent+Marker&family=Press+Start+2P&family=Rye&family=Satisfy&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Black+Ops+One&family=Emilys+Candy&family=Iceberg&family=MedievalSharp&family=Metamorphous&family=Permanent+Marker&family=Press+Start+2P&family=Rye&family=Satisfy&family=Vast+Shadow&display=swap');
 
 /*
 ! tailwindcss v3.3.2 | MIT License | https://tailwindcss.com
@@ -560,10 +560,6 @@ video {
   top: 1rem;
 }
 
-.top-8{
-  top: 2rem;
-}
-
 .z-10{
   z-index: 10;
 }
@@ -949,20 +945,12 @@ video {
   padding-left: 1.25rem;
 }
 
-.pr-20{
-  padding-right: 5rem;
+.pr-14{
+  padding-right: 3.5rem;
 }
 
 .pr-4{
   padding-right: 1rem;
-}
-
-.pr-16{
-  padding-right: 4rem;
-}
-
-.pr-14{
-  padding-right: 3.5rem;
 }
 
 .text-center{
@@ -977,6 +965,10 @@ video {
   font-family: Permanent Marker, cursive;
 }
 
+.font-blackopsone{
+  font-family: Black Ops One, cursive;
+}
+
 .font-borel{
   font-family: Borel, cursive;
 }
@@ -989,8 +981,16 @@ video {
   font-family: Rye, cursive;
 }
 
+.font-satisfy{
+  font-family: Satisfy, cursive;
+}
+
 .font-serif{
   font-family: ui-serif, Georgia, Cambria, "Times New Roman", Times, serif;
+}
+
+.font-medievalsharp{
+  font-family: MedievalSharp, cursive;
 }
 
 .text-2xl{
@@ -1046,14 +1046,14 @@ video {
   color: rgb(100 116 139 / var(--tw-text-opacity));
 }
 
+.text-varBoneWhite{
+  --tw-text-opacity: 1;
+  color: rgb(255 249 215 / var(--tw-text-opacity));
+}
+
 .text-varDARKBEAK{
   --tw-text-opacity: 1;
   color: rgb(112 24 26 / var(--tw-text-opacity));
-}
-
-.text-varDARKBEAKTOP{
-  --tw-text-opacity: 1;
-  color: rgb(120 80 1 / var(--tw-text-opacity));
 }
 
 .text-varLIGHTBEAK{

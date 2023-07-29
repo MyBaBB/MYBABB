@@ -12,6 +12,9 @@
       'PermanentMarker': ['Permanent Marker', 'cursive'],
       'emilyscandy': ['Emilys Candy', 'cursive'],
       'metamorphous': ['Metamorphous', 'cursive'],
+      'blackopsone': ['Black Ops One', 'cursive'],
+      'iceberg': ['Iceberg', 'cursive'],
+      'medievalsharp': ['MedievalSharp', 'cursive'],
     },
 
 
