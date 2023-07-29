@@ -552,8 +552,8 @@ video {
   top: 0px;
 }
 
-.top-2{
-  top: 0.5rem;
+.top-1{
+  top: 0.25rem;
 }
 
 .top-4{
@@ -562,10 +562,6 @@ video {
 
 .top-8{
   top: 2rem;
-}
-
-.top-1{
-  top: 0.25rem;
 }
 
 .z-10{
@@ -584,11 +580,6 @@ video {
 .my-12{
   margin-top: 3rem;
   margin-bottom: 3rem;
-}
-
-.my-8{
-  margin-top: 2rem;
-  margin-bottom: 2rem;
 }
 
 .-mt-0{
@@ -623,16 +614,8 @@ video {
   height: 0.25rem;
 }
 
-.h-28{
-  height: 7rem;
-}
-
 .h-8{
   height: 2rem;
-}
-
-.h-20{
-  height: 5rem;
 }
 
 .min-h-screen{
@@ -845,6 +828,11 @@ video {
   background-color: rgb(30 59 40 / var(--tw-bg-opacity));
 }
 
+.bg-varDARKNECK{
+  --tw-bg-opacity: 1;
+  background-color: rgb(65 42 50 / var(--tw-bg-opacity));
+}
+
 .bg-varLIGHTDUCKHEAD{
   --tw-bg-opacity: 1;
   background-color: rgb(82 143 133 / var(--tw-bg-opacity));
@@ -932,11 +920,6 @@ video {
   padding-right: 1.5rem;
 }
 
-.py-10{
-  padding-top: 2.5rem;
-  padding-bottom: 2.5rem;
-}
-
 .py-12{
   padding-top: 3rem;
   padding-bottom: 3rem;
@@ -962,29 +945,16 @@ video {
   padding-bottom: 1.5rem;
 }
 
-.py-8{
-  padding-top: 2rem;
-  padding-bottom: 2rem;
-}
-
 .pl-5{
   padding-left: 1.25rem;
 }
 
-.pr-4{
-  padding-right: 1rem;
-}
-
-.pr-8{
-  padding-right: 2rem;
-}
-
-.pr-14{
-  padding-right: 3.5rem;
-}
-
 .pr-20{
   padding-right: 5rem;
+}
+
+.pr-4{
+  padding-right: 1rem;
 }
 
 .text-center{
@@ -999,6 +969,10 @@ video {
   font-family: Permanent Marker, cursive;
 }
 
+.font-borel{
+  font-family: Borel, cursive;
+}
+
 .font-emilyscandy{
   font-family: Emilys Candy, cursive;
 }
@@ -1011,18 +985,6 @@ video {
   font-family: ui-serif, Georgia, Cambria, "Times New Roman", Times, serif;
 }
 
-.font-borel{
-  font-family: Borel, cursive;
-}
-
-.font-metamorphous{
-  font-family: Metamorphous, cursive;
-}
-
-.font-satisfy{
-  font-family: Satisfy, cursive;
-}
-
 .text-2xl{
   font-size: 1.5rem;
   line-height: 2rem;
@@ -1031,11 +993,6 @@ video {
 .text-3xl{
   font-size: 1.875rem;
   line-height: 2.25rem;
-}
-
-.text-4xl{
-  font-size: 2.25rem;
-  line-height: 2.5rem;
 }
 
 .text-5xl{
@@ -1587,19 +1544,14 @@ video {
 }
 
 @media (min-width: 640px){
-  .sm\:my-16{
-    margin-top: 4rem;
-    margin-bottom: 4rem;
-  }
-
   .sm\:my-4{
     margin-top: 1rem;
     margin-bottom: 1rem;
   }
 
-  .sm\:my-0{
-    margin-top: 0px;
-    margin-bottom: 0px;
+  .sm\:my-8{
+    margin-top: 2rem;
+    margin-bottom: 2rem;
   }
 
   .sm\:block{
@@ -1650,11 +1602,6 @@ video {
   .sm\:text-3xl{
     font-size: 1.875rem;
     line-height: 2.25rem;
-  }
-
-  .sm\:text-4xl{
-    font-size: 2.25rem;
-    line-height: 2.5rem;
   }
 }
 
