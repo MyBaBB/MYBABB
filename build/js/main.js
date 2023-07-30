@@ -31,9 +31,33 @@ function toggleImages() {
     image2.style.display = 'none';
   }
 }
+// Call the toggleImages function every 5 seconds
+setInterval(toggleImages, 4000);
+
+
+/* xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx */
+
+// Get the image elements by their IDs
+const imageAlt1 = document.getElementById('imageAlt1');
+const imageAlt2 = document.getElementById('imageAlt2');
+
+// Set the initial state of the images
+imageAlt1.style.display = 'block';
+imageAlt2.style.display = 'none';
+
+// Create a function to toggle the images
+function toggleImagesAlt() {
+  if (imageAlt1.style.display === 'block') {
+    imageAlt1.style.display = 'none';
+    imageAlt2.style.display = 'block';
+  } else {
+    imageAlt1.style.display = 'block';
+    imageAlt2.style.display = 'none';
+  }
+}
 
 // Call the toggleImages function every 5 seconds
-setInterval(toggleImages, 5000);
+setInterval(toggleImagesAlt, 2000);
 
         
 
