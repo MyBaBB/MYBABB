@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Black+Ops+One&family=Emilys+Candy&family=Iceberg&family=MedievalSharp&family=Metamorphous&family=Permanent+Marker&family=Press+Start+2P&family=Rye&family=Satisfy&family=Vast+Shadow&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Black+Ops+One&family=Emilys+Candy&family=Handjet:wght@500&family=Iceberg&family=MedievalSharp&family=Metamorphous&family=Permanent+Marker&family=Press+Start+2P&family=Rye&family=Satisfy&family=Vast+Shadow&display=swap');
 
 /*
 ! tailwindcss v3.3.2 | MIT License | https://tailwindcss.com
@@ -976,6 +976,10 @@ video {
   font-family: Emilys Candy, cursive;
 }
 
+.font-handjet{
+  font-family: Handjet, cursive;
+}
+
 .font-medievalsharp{
   font-family: MedievalSharp, cursive;
 }
@@ -1004,6 +1008,11 @@ video {
 
 .text-5xl{
   font-size: 3rem;
+  line-height: 1;
+}
+
+.text-8xl{
+  font-size: 6rem;
   line-height: 1;
 }
 
@@ -1073,11 +1082,6 @@ video {
 .text-varLIGHTDUCKHEAD{
   --tw-text-opacity: 1;
   color: rgb(82 143 133 / var(--tw-text-opacity));
-}
-
-.text-varLIGHTNECK{
-  --tw-text-opacity: 1;
-  color: rgb(198 129 153 / var(--tw-text-opacity));
 }
 
 .text-varLIGHTWING{

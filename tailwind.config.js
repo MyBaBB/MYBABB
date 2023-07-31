@@ -15,6 +15,7 @@
       'blackopsone': ['Black Ops One', 'cursive'],
       'iceberg': ['Iceberg', 'cursive'],
       'medievalsharp': ['MedievalSharp', 'cursive'],
+      'handjet': ['Handjet', 'cursive'],
     },
 
 
