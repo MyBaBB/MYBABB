@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Black+Ops+One&family=Emilys+Candy&family=Handjet:wght@300&family=Iceberg&family=MedievalSharp&family=Metamorphous&family=Permanent+Marker&family=Press+Start+2P&family=Rye&family=Satisfy&family=Vast+Shadow&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Black+Ops+One&family=Edu+SA+Beginner:wght@500&family=Emilys+Candy&family=Handjet:wght@300&family=Iceberg&family=MedievalSharp&family=Metamorphous&family=Permanent+Marker&family=Press+Start+2P&family=Rye&family=Satisfy&family=Vast+Shadow&display=swap');
 
 /*
 ! tailwindcss v3.3.2 | MIT License | https://tailwindcss.com
@@ -972,10 +972,6 @@ video {
 
 .font-blackopsone{
   font-family: Black Ops One, cursive;
-}
-
-.font-borel{
-  font-family: Borel, cursive;
 }
 
 .font-emilyscandy{
