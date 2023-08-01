@@ -16,6 +16,7 @@
       'iceberg': ['Iceberg', 'cursive'],
       'medievalsharp': ['MedievalSharp', 'cursive'],
       'handjet': ['Handjet', 'cursive'],
+      'abrilfatface': ['Abril Fatface', 'cursive'],
     },
 
 
