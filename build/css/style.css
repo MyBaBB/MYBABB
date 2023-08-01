@@ -574,6 +574,11 @@ video {
   margin-bottom: 3rem;
 }
 
+.my-8{
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+}
+
 .-mt-0{
   margin-top: -0px;
 }
@@ -588,6 +593,10 @@ video {
 
 .mt-2{
   margin-top: 0.5rem;
+}
+
+.mt-4{
+  margin-top: 1rem;
 }
 
 .block{
@@ -753,6 +762,10 @@ video {
   gap: 2rem;
 }
 
+.gap-1{
+  gap: 0.25rem;
+}
+
 .space-x-8 > :not([hidden]) ~ :not([hidden]){
   --tw-space-x-reverse: 0;
   margin-right: calc(2rem * var(--tw-space-x-reverse));
@@ -838,6 +851,11 @@ video {
 .bg-white{
   --tw-bg-opacity: 1;
   background-color: rgb(255 255 255 / var(--tw-bg-opacity));
+}
+
+.bg-varLIGHTBLUEFEATHER{
+  --tw-bg-opacity: 1;
+  background-color: rgb(65 154 255 / var(--tw-bg-opacity));
 }
 
 .bg-gradient-to-b{
@@ -936,6 +954,11 @@ video {
   padding-bottom: 1.5rem;
 }
 
+.px-4{
+  padding-left: 1rem;
+  padding-right: 1rem;
+}
+
 .pl-5{
   padding-left: 1.25rem;
 }
@@ -988,16 +1011,16 @@ video {
   font-family: MedievalSharp, cursive;
 }
 
+.font-metamorphous{
+  font-family: Metamorphous, cursive;
+}
+
 .font-rye{
   font-family: Rye, cursive;
 }
 
 .font-serif{
   font-family: ui-serif, Georgia, Cambria, "Times New Roman", Times, serif;
-}
-
-.font-metamorphous{
-  font-family: Metamorphous, cursive;
 }
 
 .text-2xl{
@@ -1495,6 +1518,11 @@ video {
 .hover\:bg-varMEDDUCKHEAD:hover{
   --tw-bg-opacity: 1;
   background-color: rgb(40 79 53 / var(--tw-bg-opacity));
+}
+
+.hover\:bg-blue-700:hover{
+  --tw-bg-opacity: 1;
+  background-color: rgb(29 78 216 / var(--tw-bg-opacity));
 }
 
 .hover\:text-varLIGHTBEAKTOP:hover{
