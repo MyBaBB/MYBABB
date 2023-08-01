@@ -17,7 +17,7 @@
       'medievalsharp': ['MedievalSharp', 'cursive'],
       'handjet': ['Handjet', 'cursive'],
       'abrilfatface': ['Abril Fatface', 'cursive'],
-      'Edu SA Beginner': ['Edu SA Beginner', 'cursive'],
+      'Sansita': ['Sansita', 'cursive'],
     },
 
 
