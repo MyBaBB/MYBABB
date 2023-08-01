@@ -595,10 +595,6 @@ video {
   margin-top: 0.5rem;
 }
 
-.mt-4{
-  margin-top: 1rem;
-}
-
 .block{
   display: block;
 }
@@ -750,20 +746,16 @@ video {
   justify-content: space-between;
 }
 
+.gap-1{
+  gap: 0.25rem;
+}
+
 .gap-2{
   gap: 0.5rem;
 }
 
-.gap-4{
-  gap: 1rem;
-}
-
 .gap-8{
   gap: 2rem;
-}
-
-.gap-1{
-  gap: 0.25rem;
 }
 
 .space-x-8 > :not([hidden]) ~ :not([hidden]){
@@ -853,11 +845,6 @@ video {
   background-color: rgb(255 255 255 / var(--tw-bg-opacity));
 }
 
-.bg-varLIGHTBLUEFEATHER{
-  --tw-bg-opacity: 1;
-  background-color: rgb(65 154 255 / var(--tw-bg-opacity));
-}
-
 .bg-gradient-to-b{
   background-image: linear-gradient(to bottom, var(--tw-gradient-stops));
 }
@@ -929,6 +916,11 @@ video {
   padding: 1.5rem;
 }
 
+.px-4{
+  padding-left: 1rem;
+  padding-right: 1rem;
+}
+
 .px-6{
   padding-left: 1.5rem;
   padding-right: 1.5rem;
@@ -954,21 +946,16 @@ video {
   padding-bottom: 1.5rem;
 }
 
-.px-4{
-  padding-left: 1rem;
-  padding-right: 1rem;
-}
-
 .pl-5{
   padding-left: 1.25rem;
 }
 
-.pr-14{
-  padding-right: 3.5rem;
-}
-
 .pr-4{
   padding-right: 1rem;
+}
+
+.pt-4{
+  padding-top: 1rem;
 }
 
 .text-center{
@@ -981,10 +968,6 @@ video {
 
 .font-PermanentMarker{
   font-family: Permanent Marker, cursive;
-}
-
-.font-abrilfatface{
-  font-family: Abril Fatface, cursive;
 }
 
 .font-blackopsone{
@@ -1109,11 +1092,6 @@ video {
 .text-varLIGHTDUCKHEAD{
   --tw-text-opacity: 1;
   color: rgb(82 143 133 / var(--tw-text-opacity));
-}
-
-.text-varLIGHTWING{
-  --tw-text-opacity: 1;
-  color: rgb(207 166 157 / var(--tw-text-opacity));
 }
 
 .text-white{
@@ -1518,11 +1496,6 @@ video {
 .hover\:bg-varMEDDUCKHEAD:hover{
   --tw-bg-opacity: 1;
   background-color: rgb(40 79 53 / var(--tw-bg-opacity));
-}
-
-.hover\:bg-blue-700:hover{
-  --tw-bg-opacity: 1;
-  background-color: rgb(29 78 216 / var(--tw-bg-opacity));
 }
 
 .hover\:text-varLIGHTBEAKTOP:hover{
