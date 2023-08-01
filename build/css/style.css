@@ -614,6 +614,10 @@ video {
   height: 2rem;
 }
 
+.h-screen{
+  height: 100vh;
+}
+
 .min-h-screen{
   min-height: 100vh;
 }
@@ -879,6 +883,14 @@ video {
   --tw-gradient-to: #284f35 var(--tw-gradient-to-position);
 }
 
+.bg-cover{
+  background-size: cover;
+}
+
+.bg-center{
+  background-position: center;
+}
+
 .p-0{
   padding: 0px;
 }
@@ -948,6 +960,10 @@ video {
   font-family: Permanent Marker, cursive;
 }
 
+.font-abrilfatface{
+  font-family: Abril Fatface, cursive;
+}
+
 .font-blackopsone{
   font-family: Black Ops One, cursive;
 }
@@ -964,6 +980,10 @@ video {
   font-family: Handjet, cursive;
 }
 
+.font-iceberg{
+  font-family: Iceberg, cursive;
+}
+
 .font-medievalsharp{
   font-family: MedievalSharp, cursive;
 }
@@ -972,20 +992,12 @@ video {
   font-family: Rye, cursive;
 }
 
-.font-satisfy{
-  font-family: Satisfy, cursive;
-}
-
 .font-serif{
   font-family: ui-serif, Georgia, Cambria, "Times New Roman", Times, serif;
 }
 
-.font-abrilfatface{
-  font-family: Abril Fatface, cursive;
-}
-
-.font-iceberg{
-  font-family: Iceberg, cursive;
+.font-metamorphous{
+  font-family: Metamorphous, cursive;
 }
 
 .text-2xl{

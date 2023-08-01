@@ -17,6 +17,7 @@
       'medievalsharp': ['MedievalSharp', 'cursive'],
       'handjet': ['Handjet', 'cursive'],
       'abrilfatface': ['Abril Fatface', 'cursive'],
+      'Vast Shadow': ['Vast Shadow', 'cursive'],
     },
 
 
