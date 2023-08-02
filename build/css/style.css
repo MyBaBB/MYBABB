@@ -916,6 +916,14 @@ video {
   padding: 1.5rem;
 }
 
+.p-2{
+  padding: 0.5rem;
+}
+
+.p-10{
+  padding: 2.5rem;
+}
+
 .px-4{
   padding-left: 1rem;
   padding-right: 1rem;
@@ -970,6 +978,10 @@ video {
   font-family: Permanent Marker, cursive;
 }
 
+.font-Sansita{
+  font-family: Sansita, cursive;
+}
+
 .font-blackopsone{
   font-family: Black Ops One, cursive;
 }
@@ -1000,14 +1012,6 @@ video {
 
 .font-serif{
   font-family: ui-serif, Georgia, Cambria, "Times New Roman", Times, serif;
-}
-
-.font-Sansita{
-  font-family: Sansita, cursive;
-}
-
-.font-satisfy{
-  font-family: Satisfy, cursive;
 }
 
 .text-2xl{
