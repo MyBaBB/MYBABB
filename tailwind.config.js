@@ -6,18 +6,18 @@
   extend: {
 
     fontFamily: {
-      'satisfy': ['Satisfy', 'cursive'],
+       
       'rye': ['Rye', 'cursive'],
       'borel': ['Borel', 'cursive'],
       'PermanentMarker': ['Permanent Marker', 'cursive'],
-      'emilyscandy': ['Emilys Candy', 'cursive'],
+       
       'metamorphous': ['Metamorphous', 'cursive'],
       'blackopsone': ['Black Ops One', 'cursive'],
       'iceberg': ['Iceberg', 'cursive'],
       'medievalsharp': ['MedievalSharp', 'cursive'],
-      'handjet': ['Handjet', 'cursive'],
-      'abrilfatface': ['Abril Fatface', 'cursive'],
+      'Nova Cut': ['Nova Cut', 'cursive'],
       'Sansita': ['Sansita', 'cursive'],
+      'Aclonica': ['Aclonica', 'cursive'],
     },
 
 

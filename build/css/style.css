@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Black+Ops+One&family=Edu+SA+Beginner:wght@500&family=Emilys+Candy&family=Handjet:wght@300&family=Iceberg&family=MedievalSharp&family=Metamorphous&family=Permanent+Marker&family=Press+Start+2P&family=Rye&family=Sansita&family=Satisfy&family=Vast+Shadow&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Aclonica&family=Black+Ops+One&family=Edu+SA+Beginner:wght@500&family=Iceberg&family=MedievalSharp&family=Metamorphous&family=Nova+Cut&family=Permanent+Marker&family=Press+Start+2P&family=Rye&family=Sansita&family=Vast+Shadow&display=swap');
 
 /*
 ! tailwindcss v3.3.2 | MIT License | https://tailwindcss.com
@@ -949,6 +949,10 @@ video {
   text-align: right;
 }
 
+.font-Aclonica{
+  font-family: Aclonica, cursive;
+}
+
 .font-PermanentMarker{
   font-family: Permanent Marker, cursive;
 }
@@ -961,20 +965,8 @@ video {
   font-family: Black Ops One, cursive;
 }
 
-.font-emilyscandy{
-  font-family: Emilys Candy, cursive;
-}
-
-.font-handjet{
-  font-family: Handjet, cursive;
-}
-
 .font-iceberg{
   font-family: Iceberg, cursive;
-}
-
-.font-medievalsharp{
-  font-family: MedievalSharp, cursive;
 }
 
 .font-rye{
