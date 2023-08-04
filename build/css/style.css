@@ -524,6 +524,44 @@ video {
   --tw-backdrop-sepia:  ;
 }
 
+.container{
+  width: 100%;
+}
+
+@media (min-width: 640px){
+  .container{
+    max-width: 640px;
+  }
+}
+
+@media (min-width: 768px){
+  .container{
+    max-width: 768px;
+  }
+}
+
+@media (min-width: 1024px){
+  .container{
+    max-width: 1024px;
+  }
+}
+
+@media (min-width: 1280px){
+  .container{
+    max-width: 1280px;
+  }
+}
+
+@media (min-width: 1536px){
+  .container{
+    max-width: 1536px;
+  }
+}
+
+.fixed{
+  position: fixed;
+}
+
 .absolute{
   position: absolute;
 }
@@ -550,6 +588,18 @@ video {
 
 .top-4{
   top: 1rem;
+}
+
+.bottom-3{
+  bottom: 0.75rem;
+}
+
+.right-3{
+  right: 0.75rem;
+}
+
+.right-10{
+  right: 2.5rem;
 }
 
 .z-10{
@@ -764,6 +814,10 @@ video {
   align-self: flex-end;
 }
 
+.scroll-smooth{
+  scroll-behavior: smooth;
+}
+
 .whitespace-nowrap{
   white-space: nowrap;
 }
@@ -908,6 +962,10 @@ video {
   padding: 1.5rem;
 }
 
+.p-8{
+  padding: 2rem;
+}
+
 .px-6{
   padding-left: 1.5rem;
   padding-right: 1.5rem;
@@ -931,6 +989,11 @@ video {
 .py-6{
   padding-top: 1.5rem;
   padding-bottom: 1.5rem;
+}
+
+.py-8{
+  padding-top: 2rem;
+  padding-bottom: 2rem;
 }
 
 .pl-5{
@@ -969,6 +1032,10 @@ video {
   font-family: Iceberg, cursive;
 }
 
+.font-noto{
+  font-family: Noto Sans, sans-serif;
+}
+
 .font-rye{
   font-family: Rye, cursive;
 }
@@ -994,6 +1061,11 @@ video {
 
 .text-5xl{
   font-size: 3rem;
+  line-height: 1;
+}
+
+.text-6xl{
+  font-size: 3.75rem;
   line-height: 1;
 }
 
@@ -1080,8 +1152,52 @@ video {
   transition-duration: 500ms;
 }
 
+#body2 {
+  font-size: 3rem;
+  background: linear-gradient(to bottom, #002244, #8c8b8a, #ffffff);
+  font-family: noto serif;
+}
+
+#headersection{
+  border: 2px solid #000000;
+  border-radius: 20px;
+  box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.4);
+}
+
 #header {
   box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1), 0 1px 3px rgba(0, 0, 0, 0.08), 0 2px 4px rgba(0, 0, 0, 0.12);
+}
+
+input {
+  background-color: #33485d;
+  width: 80%;
+  border-radius:  10px ;
+  border: solid 2px #000000;
+  box-shadow: 0 0 0 0.2rem #000000;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.5), 0 0 20px rgba(0, 0, 0, 0.3), 0 0 30px rgba(0, 0, 0, 0.2), 0 0 40px rgba(0, 0, 0, 0.1);
+}
+
+textarea{
+  background-color: #33485d;
+  width: 80%;
+  border-radius: 10px;
+  border: solid 2px #000000;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.5), 0 0 20px rgba(0, 0, 0, 0.3), 0 0 30px rgba(0, 0, 0, 0.2), 0 0 40px rgba(0, 0, 0, 0.1);
+}
+
+label{
+  font-size: 4rem;
+  color: #ffffff;
+  font-family: noto serif;
+}
+
+#container {
+  width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 0.5rem;
+  padding-right: 0.5rem;
+  border: 3px solid #000000;
 }
 
 .toggle-btn>div::after{
@@ -1141,90 +1257,12 @@ video {
   }
 }
 
-@media screen and (orientation: landscape) {
-  #prosAndConsSection {
-    display: block;
-  }
-}
-
-@media screen and (orientation: portrait) and (max-width: 470px)   {
-  #prosAndConsSection {
-    display: none;
-  }
-}
-
 @media only screen and (max-width: 319px) {
   #Hamburger-Menu{
     font: xx-small;
   }
 
-  #mainBoxes {
-    padding: 0rem;
-  }
-
-  #iphone5Text{
-    position: relative;
-    content: center;
-    padding: 5px;
-    padding-bottom: 1.75rem;
-    font-size: 5px;
-  }
-
-  #CustomFont68px{
-    font-size: 68px;
-    position: relative;
-    top: 0px;
-  }
-
-  #CustomFont46px{
-    font-size: 46px;
-    position: relative;
-    top: 0px;
-  }
-
-  #CustomFont40px{
-    font-size: 40px;
-    position: relative;
-    top: 0px;
-  }
-
-  #CustomFont36px{
-    font-size: 36px;
-    position: relative;
-    top: 0px;
-  }
-
-  #CustomFont32px{
-    font-size: 32px;
-    position: relative;
-    top: 0px;
-  }
-
-  #CustomFont28px{
-    font-size: 28px;
-    position: relative;
-    top: 0px;
-  }
-
-  #CustomFont20px{
-    font-size: 20px;
-    position: relative;
-    top: 0px;
-  }
-
   @media only screen and (min-width: 320px) and (max-width: 412px){
-    #mainBoxes {
-      padding: .5rem;
-    }
-
-    #our{
-      font-size: xx-large;
-    }
-
-    #CustomFont28px{
-      font-size: 28px;
-    }
-
     #mobile-menu{
       font-size: 28px;
     }
@@ -1232,6 +1270,68 @@ video {
     @media only screen and (min-width: 640px) {
       #hamburger-menu{
         display: none;
+      }
+    }
+
+    @media (min-width: 350px) {
+      #headersection {
+        max-width: 350px;
+      }
+    }
+
+    /* xxs */
+
+    @media (min-width: 400px) {
+      #headersection {
+        max-width: 400px;
+      }
+    }
+
+    /* xs */
+
+    @media (min-width: 500px) {
+      #headersection {
+        max-width: 500px;
+      }
+    }
+
+    /* s */
+
+    @media (min-width: 640px) {
+      #headersection {
+        max-width: 640px;
+      }
+    }
+
+    /* md */
+
+    @media (min-width: 768px) {
+      #headesection {
+        max-width: 768px;
+      }
+    }
+
+    /* lg */
+
+    @media (min-width: 1024px) {
+      #headersection {
+        max-width: 1024px;
+      }
+    }
+
+    /* xl */
+
+    @media (min-width: 1280px) {
+      #headersection {
+        max-width: 1280px;
+      }
+    }
+
+    /* 2xl */
+
+    @media (min-width: 1536px) {
+      #headersection {
+        max-width: 1536px;
       }
     }
   }
@@ -1511,6 +1611,11 @@ video {
   .dark\:bg-black{
     --tw-bg-opacity: 1;
     background-color: rgb(0 0 0 / var(--tw-bg-opacity));
+  }
+
+  .dark\:bg-varDARKWING{
+    --tw-bg-opacity: 1;
+    background-color: rgb(60 48 46 / var(--tw-bg-opacity));
   }
 
   .dark\:bg-white{
