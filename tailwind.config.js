@@ -20,6 +20,7 @@
       'Sansita': ['Sansita', 'cursive'],
       'Aclonica': ['Aclonica', 'cursive'],
       'wallpoet': ['Wallpoet', 'cursive'],
+      'orbitron': ['Orbitron', 'sans-serif'],
     },
 
 
