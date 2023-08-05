@@ -582,10 +582,6 @@ video {
   bottom: 0.75rem;
 }
 
-.left-10{
-  left: 2.5rem;
-}
-
 .right-0{
   right: 0px;
 }
@@ -594,12 +590,24 @@ video {
   right: 2.5rem;
 }
 
+.right-5{
+  right: 1.25rem;
+}
+
 .top-0{
   top: 0px;
 }
 
 .top-4{
   top: 1rem;
+}
+
+.bottom-4{
+  bottom: 1rem;
+}
+
+.bottom-8{
+  bottom: 2rem;
 }
 
 .z-10{
@@ -1097,6 +1105,11 @@ video {
   line-height: 1.75rem;
 }
 
+.text-xs{
+  font-size: 0.75rem;
+  line-height: 1rem;
+}
+
 .font-bold{
   font-weight: 700;
 }
@@ -1161,7 +1174,7 @@ video {
 }
 
 #body2 {
-  font-size: 3rem;
+  font-size: 2rem;
   background: linear-gradient(to bottom, #002244, #8c8b8a, #ffffff);
   font-family: noto serif;
 }
@@ -1194,7 +1207,7 @@ textarea{
 }
 
 label{
-  font-size: 4rem;
+  font-size: 2rem;
   color: #ffffff;
   font-family: noto serif;
 }
@@ -1314,7 +1327,7 @@ label{
     /* md */
 
     @media (min-width: 768px) {
-      #headesection {
+      #headersection {
         max-width: 768px;
       }
     }
