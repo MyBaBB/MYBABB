@@ -582,6 +582,10 @@ video {
   bottom: 0.75rem;
 }
 
+.bottom-8{
+  bottom: 2rem;
+}
+
 .right-0{
   right: 0px;
 }
@@ -602,12 +606,20 @@ video {
   top: 1rem;
 }
 
+.left-1{
+  left: 0.25rem;
+}
+
+.left-4{
+  left: 1rem;
+}
+
 .bottom-4{
   bottom: 1rem;
 }
 
-.bottom-8{
-  bottom: 2rem;
+.bottom-1{
+  bottom: 0.25rem;
 }
 
 .z-10{
@@ -774,6 +786,10 @@ video {
 
 .scroll-mt-20{
   scroll-margin-top: 5rem;
+}
+
+.flex-row{
+  flex-direction: row;
 }
 
 .flex-col{
@@ -1714,6 +1730,11 @@ label{
   .sm\:text-3xl{
     font-size: 1.875rem;
     line-height: 2.25rem;
+  }
+
+  .sm\:text-xs{
+    font-size: 0.75rem;
+    line-height: 1rem;
   }
 }
 
