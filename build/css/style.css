@@ -582,10 +582,6 @@ video {
   bottom: 0.75rem;
 }
 
-.right-0{
-  right: 0px;
-}
-
 .right-10{
   right: 2.5rem;
 }
@@ -1000,10 +996,6 @@ video {
   padding-bottom: 2rem;
 }
 
-.pl-5{
-  padding-left: 1.25rem;
-}
-
 .pr-4{
   padding-right: 1rem;
 }
@@ -1050,10 +1042,6 @@ video {
 
 .font-serif{
   font-family: ui-serif, Georgia, Cambria, "Times New Roman", Times, serif;
-}
-
-.font-wallpoet{
-  font-family: Wallpoet, cursive;
 }
 
 .text-2xl{
@@ -1586,6 +1574,11 @@ label{
   color: rgb(112 24 26 );
 }
 
+.hover\:bg-varLIGHTBEAKTOP:hover{
+  --tw-bg-opacity: 1;
+  background-color: rgb(252 168 2 / var(--tw-bg-opacity));
+}
+
 .hover\:bg-varMEDBEAKTOP:hover{
   --tw-bg-opacity: 1;
   background-color: rgb(182 121 2 / var(--tw-bg-opacity));
@@ -1686,10 +1679,6 @@ label{
 
   .sm\:flex-row{
     flex-direction: row;
-  }
-
-  .sm\:gap-2{
-    gap: 0.5rem;
   }
 
   .sm\:p-4{
