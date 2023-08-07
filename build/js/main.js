@@ -81,7 +81,7 @@ function toggleImagesAlt2() {
 }
 
 // Call the toggleImages function every 5 seconds
-setInterval(toggleImagesAlt2, 2000);
+setInterval(toggleImagesAlt2, 4000);
 
         
 
