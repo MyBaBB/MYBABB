@@ -51,6 +51,7 @@
        varMEDSPACE: "#1b3854",
        varLIGHTSPACE: "#264d73",
        varBoneWhite: "#fff9d7",
+       varfreshblood: "#ed181a",
        varDCDARKBLUE: "#012344",
        varDCMEDBLUE: "#01366a",
        varDCLIGHTBLUE: "#01366a",
