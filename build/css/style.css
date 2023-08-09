@@ -598,14 +598,6 @@ video {
   top: 1rem;
 }
 
-.right-3{
-  right: 0.75rem;
-}
-
-.top-5{
-  top: 1.25rem;
-}
-
 .z-10{
   z-index: 10;
 }
@@ -902,6 +894,11 @@ video {
   border-color: rgb(255 255 255 / var(--tw-border-opacity));
 }
 
+.bg-\[\#4682b4\]{
+  --tw-bg-opacity: 1;
+  background-color: rgb(70 130 180 / var(--tw-bg-opacity));
+}
+
 .bg-\[rgba\(120\2c 120\2c 120\2c 1\)\]{
   background-color: rgba(120,120,120,1);
 }
@@ -938,16 +935,6 @@ video {
 .bg-white{
   --tw-bg-opacity: 1;
   background-color: rgb(255 255 255 / var(--tw-bg-opacity));
-}
-
-.bg-varLIGHTBLUEFEATHER{
-  --tw-bg-opacity: 1;
-  background-color: rgb(65 154 255 / var(--tw-bg-opacity));
-}
-
-.bg-\[\#4682b4\]{
-  --tw-bg-opacity: 1;
-  background-color: rgb(70 130 180 / var(--tw-bg-opacity));
 }
 
 .bg-gradient-to-b{
@@ -1218,12 +1205,6 @@ video {
 .text-white{
   --tw-text-opacity: 1;
   color: rgb(255 255 255 / var(--tw-text-opacity));
-}
-
-.shadow-md{
-  --tw-shadow: 0 4px 6px -1px rgb(0 0 0 / 0.1), 0 2px 4px -2px rgb(0 0 0 / 0.1);
-  --tw-shadow-colored: 0 4px 6px -1px var(--tw-shadow-color), 0 2px 4px -2px var(--tw-shadow-color);
-  box-shadow: var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow);
 }
 
 .transition-all{
