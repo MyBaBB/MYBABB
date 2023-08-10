@@ -1749,10 +1749,6 @@ label{
     display: none;
   }
 
-  .sm\:w-1\/2{
-    width: 50%;
-  }
-
   .sm\:flex-row{
     flex-direction: row;
   }
