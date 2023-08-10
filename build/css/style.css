@@ -1050,10 +1050,6 @@ video {
   text-align: right;
 }
 
-.font-Aclonica{
-  font-family: Aclonica, cursive;
-}
-
 .font-PermanentMarker{
   font-family: Permanent Marker, cursive;
 }
@@ -1084,14 +1080,6 @@ video {
 
 .font-serif{
   font-family: ui-serif, Georgia, Cambria, "Times New Roman", Times, serif;
-}
-
-.font-medievalsharp{
-  font-family: MedievalSharp, cursive;
-}
-
-.font-metamorphous{
-  font-family: Metamorphous, cursive;
 }
 
 .text-2xl{
