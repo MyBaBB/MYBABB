@@ -953,6 +953,11 @@ video {
   background-color: rgb(82 143 133 / var(--tw-bg-opacity));
 }
 
+.bg-varMEDBLUEFEATHER{
+  --tw-bg-opacity: 1;
+  background-color: rgb(42 97 161 / var(--tw-bg-opacity));
+}
+
 .bg-varMEDDUCKHEAD{
   --tw-bg-opacity: 1;
   background-color: rgb(40 79 53 / var(--tw-bg-opacity));
@@ -1112,6 +1117,10 @@ video {
   font-family: Rye, cursive;
 }
 
+.font-sans{
+  font-family: ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+}
+
 .font-serif{
   font-family: ui-serif, Georgia, Cambria, "Times New Roman", Times, serif;
 }
@@ -1186,6 +1195,10 @@ video {
   color: rgba(120,120,120,1);
 }
 
+.text-\[rgba\(65\2c 154\2c 255\2c 1\)\]{
+  color: rgba(65,154,255,1);
+}
+
 .text-black{
   --tw-text-opacity: 1;
   color: rgb(0 0 0 / var(--tw-text-opacity));
@@ -1196,6 +1209,16 @@ video {
   color: rgb(8 145 178 / var(--tw-text-opacity));
 }
 
+.text-cyan-800{
+  --tw-text-opacity: 1;
+  color: rgb(21 94 117 / var(--tw-text-opacity));
+}
+
+.text-emerald-50{
+  --tw-text-opacity: 1;
+  color: rgb(236 253 245 / var(--tw-text-opacity));
+}
+
 .text-green-400{
   --tw-text-opacity: 1;
   color: rgb(74 222 128 / var(--tw-text-opacity));
@@ -1204,6 +1227,11 @@ video {
 .text-green-600{
   --tw-text-opacity: 1;
   color: rgb(22 163 74 / var(--tw-text-opacity));
+}
+
+.text-red-500{
+  --tw-text-opacity: 1;
+  color: rgb(239 68 68 / var(--tw-text-opacity));
 }
 
 .text-slate-500{
@@ -1291,6 +1319,7 @@ video {
 }
 
 input {
+  color: #419aff;
   background-color: #33485d;
   width: 80%;
   border-radius:  10px ;
@@ -1302,6 +1331,7 @@ input {
 }
 
 textarea{
+  color: #419aff;
   background-color: #33485d;
   width: 80%;
   border-radius: 10px;
