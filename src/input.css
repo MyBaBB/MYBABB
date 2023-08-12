@@ -49,12 +49,8 @@
     font-family: noto serif;
   }
   #logoHeader{
-width: 100%;
-height: 10rem;
-    font-size: 2rem;
-    background: linear-gradient(to bottom, #002244, #8c8b8a, #ffffff);
-    font-family: noto serif;
-    
+    width: 100%;
+    height: 10rem;
     background-image: url('/build/img/LogoHeaderCows1348x230.png');
     background-size: cover;
     z-index: 50;
