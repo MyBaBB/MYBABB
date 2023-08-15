@@ -1,3 +1,16 @@
+const password = 'password';
+function passcheck() {
+ if (document.getElementById('pass1').value != password) {
+alert('🎣stop fishing🎣'); 
+return false;
+} 
+ if (document.getElementById('pass1').value == password) {
+alert('Correct Password, Ok to enter Webpage.')
+}
+}
+
+
+
 const initApp = () => {
     const hamburgerBtn = document.getElementById('hamburger-button')
     const mobileMenu = document.getElementById('mobile-menu')
