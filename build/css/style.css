@@ -598,6 +598,18 @@ video {
   top: 1rem;
 }
 
+.bottom-4{
+  bottom: 1rem;
+}
+
+.bottom-5{
+  bottom: 1.25rem;
+}
+
+.bottom-6{
+  bottom: 1.5rem;
+}
+
 .z-10{
   z-index: 10;
 }
@@ -608,6 +620,14 @@ video {
 
 .z-50{
   z-index: 50;
+}
+
+.z-40{
+  z-index: 40;
+}
+
+.z-0{
+  z-index: 0;
 }
 
 .m-auto{
@@ -659,6 +679,54 @@ video {
 
 .mt-4{
   margin-top: 1rem;
+}
+
+.ml-4{
+  margin-left: 1rem;
+}
+
+.mr-4{
+  margin-right: 1rem;
+}
+
+.ml-8{
+  margin-left: 2rem;
+}
+
+.ml-14{
+  margin-left: 3.5rem;
+}
+
+.ml-12{
+  margin-left: 3rem;
+}
+
+.-mr-2{
+  margin-right: -0.5rem;
+}
+
+.ml-16{
+  margin-left: 4rem;
+}
+
+.mb-4{
+  margin-bottom: 1rem;
+}
+
+.mt-8{
+  margin-top: 2rem;
+}
+
+.mt-0{
+  margin-top: 0px;
+}
+
+.mt-10{
+  margin-top: 2.5rem;
+}
+
+.mt-12{
+  margin-top: 3rem;
 }
 
 .block{
@@ -736,6 +804,10 @@ video {
   transform-origin: top;
 }
 
+.transform{
+  transform: translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y));
+}
+
 @keyframes bounce{
   0%, 100%{
     transform: translateY(-25%);
@@ -784,6 +856,10 @@ video {
   cursor: pointer;
 }
 
+.snap-center{
+  scroll-snap-align: center;
+}
+
 .scroll-m-20{
   scroll-margin: 5rem;
 }
@@ -826,6 +902,14 @@ video {
 
 .justify-between{
   justify-content: space-between;
+}
+
+.justify-items-center{
+  justify-items: center;
+}
+
+.justify-items-stretch{
+  justify-items: stretch;
 }
 
 .gap-1{
@@ -1011,6 +1095,10 @@ video {
   --tw-gradient-to: #284f35 var(--tw-gradient-to-position);
 }
 
+.bg-center{
+  background-position: center;
+}
+
 .p-0{
   padding: 0px;
 }
@@ -1041,6 +1129,10 @@ video {
 
 .p-8{
   padding: 2rem;
+}
+
+.p-14{
+  padding: 3.5rem;
 }
 
 .px-6{
@@ -1079,6 +1171,18 @@ video {
 
 .pt-0{
   padding-top: 0px;
+}
+
+.pt-4{
+  padding-top: 1rem;
+}
+
+.pt-14{
+  padding-top: 3.5rem;
+}
+
+.text-left{
+  text-align: left;
 }
 
 .text-center{
@@ -1279,11 +1383,6 @@ video {
   color: rgb(65 154 255 / var(--tw-text-opacity));
 }
 
-.text-varLIGHTDUCKHEAD{
-  --tw-text-opacity: 1;
-  color: rgb(82 143 133 / var(--tw-text-opacity));
-}
-
 .text-white{
   --tw-text-opacity: 1;
   color: rgb(255 255 255 / var(--tw-text-opacity));
@@ -1364,6 +1463,19 @@ label{
   padding-left: 0.5rem;
   padding-right: 0.5rem;
   border: 3px solid #000000;
+}
+
+#stopButton{
+  position: relative;
+  margin: 0 auto;
+  align-items: center;
+  display: flex;
+  justify-content: center;
+  width: 80px;
+  height: 80px;
+  border-radius: 50%;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 1),
+      inset 0px 0px 10px rgba(0, 0, 0, 0.5);
 }
 
 .toggle-btn>div::after{
@@ -1848,6 +1960,11 @@ label{
     --tw-text-opacity: 1;
     color: rgb(255 255 255 / var(--tw-text-opacity));
   }
+
+  .dark\:text-varLIGHTWING{
+    --tw-text-opacity: 1;
+    color: rgb(207 166 157 / var(--tw-text-opacity));
+  }
 }
 
 @media (min-width: 640px){
@@ -1897,6 +2014,11 @@ label{
   .sm\:text-4xl{
     font-size: 2.25rem;
     line-height: 2.5rem;
+  }
+
+  .sm\:text-6xl{
+    font-size: 3.75rem;
+    line-height: 1;
   }
 
   .sm\:text-8xl{

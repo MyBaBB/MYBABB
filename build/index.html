@@ -549,7 +549,7 @@
                     alt="old garage"
                     style="
                       position: relative;
-                      z-index: 1;
+                      z-index: 0;
                       box-shadow: 0 0 50px rgba(0, 0, 0, 0.5);
                       border: 2px solid black;
                     "
@@ -562,7 +562,7 @@
                     alt="cowboy shop"
                     style="
                       position: relative;
-                      z-index: 1;
+                      z-index: 0;
                       box-shadow: 0 0 50px rgba(0, 0, 0, 0.5);
                       border: 2px solid black;
                     "
@@ -581,7 +581,7 @@
                     alt="WWshipping"
                     style="
                       position: relative;
-                      z-index: 1;
+                      z-index: 0;
                       box-shadow: 0 0 50px rgba(0, 0, 0, 0.5);
                       border: 2px solid black;
                     "
@@ -808,7 +808,8 @@
         <a href="#gohere"> </a>
         <button
           type="submit"
-          class="text font-handjet m-auto border-spacing-4 rounded-full border-solid border-slate-900 p-3 text-8xl text-varLIGHTBLUEFEATHER hover:bg-varMEDDUCKHEAD hover:text-varLIGHTBEAKTOP active:text-varLIGHTBLUEFEATHER dark:border-none"
+          class="text font-handjet m-auto border-spacing-4 rounded-full border-solid border-slate-900 p-3
+            text-4xl sm:text-8xl text-varLIGHTBLUEFEATHER hover:bg-varMEDDUCKHEAD hover:text-varLIGHTBEAKTOP active:text-varLIGHTBLUEFEATHER dark:border-none"
           style="text-shadow: 2px 2px 3px #dbc6c6"
         >
           Submit
@@ -834,14 +835,15 @@
 
     <footer
       id="footer"
-      class="z-30 rounded-b bg-varDARKDUCKHEAD bg-gradient-to-br from-varMEDDUCKHEAD to-varDARKWING text-varBoneWhite"
+      class=" rounded-b bg-varDARKDUCKHEAD bg-gradient-to-br from-varMEDDUCKHEAD to-varDARKWING text-varBoneWhite"
       style="
         box-shadow: inset 0 0 10px rgba(0, 0, 0, 0.5),
           0 0 10px rgba(0, 0, 0, 0.1);
       "
     >
       <section class="mx-auto flex max-w-4xl flex-row justify-between p-4">
-        <div style="text-shadow: 2px 2px 3px #1c0303; color: #fff9d7">
+        <div 
+              style="text-shadow: 2px 2px 3px #1c0303; color: #fff9d7">
           <p>
             <span class="font-orbitron text-2xl text-varLIGHTBEAK">MyBabb</span>
             <br /><span class="text-xl text-varBoneWhite">Web</span><br /><span
@@ -851,20 +853,31 @@
           </p>
 
           <address>
-            <p class="text-varLIGHTDUCKHEAD"></p>
-
+             
+            <div class="m-auto  mt-4">
+              <img
+                src="./img/cssLogoHeight80px.png"
+                alt="cssLogo"
+                style="height: 35px; width: auto"
+              />
+             </div>
             <a
               href="https://mybabb.com"
-              class="text-green-600 hover:text-varLIGHTBEAKTOP active:text-varLIGHTBLUEFEATHER"
+              class=" text-green-600 hover:text-varLIGHTBEAKTOP active:text-varLIGHTBLUEFEATHER"
             >
+            <div class="mt-4" >
               <u>(future)MyBaBB.com</u>
+            </div>
             </a>
           </address>
+         
         </div>
+            
+    
         <nav
-          class="mx-auto flex-col gap-2"
+          class="text-left  mx-auto flex-col gap-2"
           aria-label="footer"
-          style="text-shadow: 2px 2px 3px #1c0303; color: #fff9d7"
+          style=" text-shadow: 2px 2px 3px #1c0303; color: #fff9d7"
         >
           <a
             href="#AboutUs"
@@ -889,29 +902,18 @@
             <span class="font-orbitron text-lg text-green-400">O</span>nline
           </a>
         </nav>
+      
         <br />
+       <div class="">
         <a href="stop.html">
-          <div>
+          <div class="pt-14">
             <br />
-            <div
-              style="
-                position: relative;
-                width: 100px;
-                height: 100px;
-                border-radius: 50%;
-                margin: 0 auto;
-                display: flex;
-                align-items: center;
-                display: flex;
-                justify-content: center;
-                width: 80px;
-                height: 80px;
-                border-radius: 50%;
-                box-shadow: 0px 0px 10px rgba(0, 0, 0, 1),
-                  inset 0px 0px 10px rgba(0, 0, 0, 0.5);
-              "
+            <div id="stopButton"
+             
               class="hover:bg-varLIGHTBEAKTOP active:bg-varLIGHTBLUEFEATHER"
             >
+
+            <!-- xXxxXxX📷XXXXXXXXXXX -->
               <img
                 src="./img/stop.png"
                 alt="stop"
@@ -921,39 +923,44 @@
                   position: relative;
                   object-fit: cover;
                   border-radius: 50%;
+                 
                 "
               />
             </div>
             <br />
-            <img
-              src="./img/cssLogoHeight80px.png"
-              alt="cssLogo"
-              style="height: 35px; width: auto"
-            />
-            <p class="fixed bottom-0 right-5" style="font-size: 12px">
-              <span
-                class="z-50 whitespace-nowrap text-varBoneWhite dark:text-varBoneWhite"
-                style="font-size: 8px"
-              >
-                &lt;&lt;&lt;&copy;MyBaBB <em>8-2013</em>&gt;&gt;&gt;</span
-              >
-            </p>
+
+            
           </div>
         </a>
+      </div>
       </section>
-      <section>
-        <div style="text-align: center">
+
+      
+      
+        <div class="relative p-4 text-center z-10">
           <a
             id="bottom2"
             href="#"
-            class="text-2xl text-varBoneWhite visited:text-varDARKBEAK hover:text-varMEDBEAK active:text-varLIGHTBEAK"
+            class="text-2xl mb  text-varBoneWhite visited:text-varDARKBEAK hover:text-varMEDBEAK active:text-varLIGHTBEAK"
           >
             🍒Cherry Pit🍒
           </a>
         </div>
-      </section>
-    </footer>
 
+        
+       
+     
+    </footer>
+    <div  >
+      <p class="whitespace-nowrap fixed bottom-0 right-5" style="font-size: 12px">
+        <span
+          class=" text-varBoneWhite dark:text-varLIGHTWING"
+          style="font-size: 6px; z-index: 0;"
+        >
+          &lt;&lt;&lt;&copy;MyBaBB <em>8-2013</em>&gt;&gt;&gt;</span
+        >
+      </p>
+    </div>
     <script src="https://smtpjs.com/v3/smtp.js"></script>
   </body>
 </html>

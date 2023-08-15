@@ -92,6 +92,24 @@
     border: 3px solid #000000;
   }
 
+  #stopButton{
+    position: relative;
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 1),
+      inset 0px 0px 10px rgba(0, 0, 0, 0.5);
+    }
+
+
 
     .toggle-btn {
         @apply [&>div::before]:translate-y-0 [&>div::before]:rotate-45 [&>div::after]:translate-y-0 [&>div::after]:-rotate-45 [&>div]:bg-transparent [&>div]:rotate-[720deg]
@@ -240,5 +258,6 @@
   }
 }  
 
+  
 }
 }
