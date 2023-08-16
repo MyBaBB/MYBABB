@@ -1830,6 +1830,14 @@ label{
     border-style: none;
   }
 
+  .dark\:bg-\[rgba\(120\2c 120\2c 120\2c 1\)\]{
+    background-color: rgba(120,120,120,1);
+  }
+
+  .dark\:bg-\[rgba\(150\2c 150\2c 150\2c 1\)\]{
+    background-color: rgba(150,150,150,1);
+  }
+
   .dark\:bg-black{
     --tw-bg-opacity: 1;
     background-color: rgb(0 0 0 / var(--tw-bg-opacity));
@@ -1843,14 +1851,6 @@ label{
   .dark\:bg-white{
     --tw-bg-opacity: 1;
     background-color: rgb(255 255 255 / var(--tw-bg-opacity));
-  }
-
-  .dark\:bg-\[rgba\(150\2c 150\2c 150\2c 1\)\]{
-    background-color: rgba(150,150,150,1);
-  }
-
-  .dark\:bg-\[rgba\(120\2c 120\2c 120\2c 1\)\]{
-    background-color: rgba(120,120,120,1);
   }
 
   .dark\:text-slate-400{
