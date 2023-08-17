@@ -1,7 +1,7 @@
 {
   "name": "mybabb",
   "version": "1.0.0",
-  "description": "This is my Rocket man conversion to Further practice my Tailwindcss with the help of Dave Gray tutorials.",
+  "description": "MyBaBB LandingPage",
   "main": "tailwind.config.js",
   "scripts": {
     "tailwind": "npx tailwindcss -i ./src/input.css -o ./build/css/style.css --watch ",
