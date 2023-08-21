@@ -1145,6 +1145,18 @@ video {
   font-family: ui-serif, Georgia, Cambria, "Times New Roman", Times, serif;
 }
 
+.font-borel{
+  font-family: Borel, cursive;
+}
+
+.font-wallpoet{
+  font-family: Wallpoet, cursive;
+}
+
+.font-Aclonica{
+  font-family: Aclonica, cursive;
+}
+
 .text-2xl{
   font-size: 1.5rem;
   line-height: 2rem;
@@ -1830,6 +1842,11 @@ label{
 .active\:text-varLIGHTBLUEFEATHER:active{
   --tw-text-opacity: 1;
   color: rgb(65 154 255 / var(--tw-text-opacity));
+}
+
+.active\:text-varDARKBEAK:active{
+  --tw-text-opacity: 1;
+  color: rgb(112 24 26 / var(--tw-text-opacity));
 }
 
 @media (prefers-color-scheme: dark){
