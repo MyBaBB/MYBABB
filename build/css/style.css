@@ -1298,11 +1298,6 @@ video {
   color: rgb(65 154 255 / var(--tw-text-opacity));
 }
 
-.text-varMEDBEAK{
-  --tw-text-opacity: 1;
-  color: rgb(150 32 35 / var(--tw-text-opacity));
-}
-
 .text-white{
   --tw-text-opacity: 1;
   color: rgb(255 255 255 / var(--tw-text-opacity));
@@ -1779,6 +1774,10 @@ label{
   color: rgb(112 24 26 );
 }
 
+.visited\:text-varMEDBEAK:visited{
+  color: rgb(150 32 35 );
+}
+
 .hover\:bg-varLIGHTBEAKTOP:hover{
   --tw-bg-opacity: 1;
   background-color: rgb(252 168 2 / var(--tw-bg-opacity));
@@ -1796,6 +1795,11 @@ label{
 
 .hover\:text-\[rgba\(120\2c 120\2c 120\2c 1\)\]:hover{
   color: rgba(120,120,120,1);
+}
+
+.hover\:text-varLIGHTBEAK:hover{
+  --tw-text-opacity: 1;
+  color: rgb(215 45 50 / var(--tw-text-opacity));
 }
 
 .hover\:text-varLIGHTBEAKTOP:hover{
