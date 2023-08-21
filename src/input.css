@@ -164,6 +164,10 @@
  #mobile-menu{
   font-size: 28px;
  }
+  
+  
+
+
  @media only screen and (min-width: 640px) {
   #hamburger-menu{
     display: none;
@@ -184,8 +188,7 @@
   
 #headersection {
      max-width: 400px;
-     
-  }
+       }
 } 
 /* xs */
 @media (min-width: 500px) {
@@ -204,7 +207,7 @@
 #headersection {
      max-width: 640px;
   }
-  
+
 }  
 
 
@@ -213,6 +216,7 @@
 @media (min-width: 768px) {
 #headersection {
      max-width: 768px;
+      
    
   }
  } 
@@ -231,6 +235,8 @@
             max-width: 1024px;
             
   }  
+ 
+  
 }  
 
 
