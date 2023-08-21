@@ -19,7 +19,7 @@
       'Nova Cut': ['Nova Cut', 'cursive'],
       'Sansita': ['Sansita', 'cursive'],
       'Aclonica': ['Aclonica', 'cursive'],
-      'wallpoet': ['Wallpoet', 'cursive'],
+      'wallpoet': ['Wallpoet'],
       'orbitron': ['Orbitron', 'sans-serif'],
     },
 
