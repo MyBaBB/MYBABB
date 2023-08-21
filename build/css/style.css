@@ -1121,10 +1121,6 @@ video {
   font-family: Black Ops One, cursive;
 }
 
-.font-borel{
-  font-family: Borel, cursive;
-}
-
 .font-iceberg{
   font-family: Iceberg, cursive;
 }
@@ -1204,10 +1200,6 @@ video {
 
 .font-bold{
   font-weight: 700;
-}
-
-.font-extrabold{
-  font-weight: 800;
 }
 
 .italic{
@@ -1305,15 +1297,6 @@ video {
 .text-white{
   --tw-text-opacity: 1;
   color: rgb(255 255 255 / var(--tw-text-opacity));
-}
-
-.text-yellow-900{
-  --tw-text-opacity: 1;
-  color: rgb(113 63 18 / var(--tw-text-opacity));
-}
-
-.underline{
-  text-decoration-line: underline;
 }
 
 .transition-all{
