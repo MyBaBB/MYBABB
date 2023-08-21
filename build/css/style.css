@@ -744,6 +744,10 @@ video {
   transform-origin: top;
 }
 
+.transform{
+  transform: translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y));
+}
+
 @keyframes bounce{
   0%, 100%{
     transform: translateY(-25%);
@@ -1143,10 +1147,6 @@ video {
 
 .font-serif{
   font-family: ui-serif, Georgia, Cambria, "Times New Roman", Times, serif;
-}
-
-.font-wallpoet{
-  font-family: Wallpoet;
 }
 
 .text-2xl{
