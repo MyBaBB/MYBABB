@@ -669,6 +669,10 @@ video {
   margin-top: 1rem;
 }
 
+.mb-4{
+  margin-bottom: 1rem;
+}
+
 .block{
   display: block;
 }
@@ -695,6 +699,10 @@ video {
 
 .h-8{
   height: 2rem;
+}
+
+.h-14{
+  height: 3.5rem;
 }
 
 .min-h-screen{
@@ -726,6 +734,10 @@ video {
   width: max-content;
 }
 
+.w-32{
+  width: 8rem;
+}
+
 .max-w-4xl{
   max-width: 56rem;
 }
@@ -742,10 +754,6 @@ video {
 
 .origin-top{
   transform-origin: top;
-}
-
-.transform{
-  transform: translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y));
 }
 
 @keyframes bounce{

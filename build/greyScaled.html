@@ -572,7 +572,7 @@
       <form
         class="items-left mx-auto flex max-w-4xl flex-col gap-1 py-8 text-2xl sm:text-3xl"
       >
-        <label for="name" class="text-white"> Your Info: </label>
+        <label for="name" class="text-white"> Your Info:(off) </label>
         <br />
         <input
           type="text"
@@ -580,7 +580,7 @@
           required
           minlength="3"
           maxlength="60"
-          placeholder="Your Name Here: "
+          placeholder="Your Name Here:(off) "
           class="w-full rounded-xl border-2 border-white bg-[rgba(120,120,120,1)] p-3 text-2xl text-white sm:text-3xl"
           name="name"
         />
@@ -592,7 +592,7 @@
           required
           minlength="3"
           maxlength="60"
-          placeholder="Your Email Here:"
+          placeholder="Your Email Here:(off)"
           class="w-full rounded-xl border-2 border-white bg-[rgba(120,120,120,1)] p-3 text-2xl text-white sm:text-3xl"
           name="email"
         />
@@ -603,12 +603,12 @@
           id="phone"
           minlength="3"
           maxlength="60"
-          placeholder="Phone: (not required)"
+          placeholder="Phone:(off)"
           class="w-full rounded-xl border-2 border-white bg-[rgba(120,120,120,1)] p-3 text-2xl text-white sm:text-3xl"
           name="phone"
         />
 
-        <label class="py-4 text-white"> Message:(this is turned off): </label>
+        <label class="py-4 text-white"> Message:(off): </label>
 
         <textarea
           name="comments"
@@ -619,17 +619,14 @@
           class="w-full rounded-xl border-2 border-white bg-[rgba(120,120,120,1)] p-3 text-2xl text-white sm:text-3xl"
         >
         </textarea>
-
-        <a href="#gohere"> </a>
-        <button
-          type="submit"
-          class="text hover:text-varLIGHTBEAKTOP] m-auto rounded-full border-2 border-white bg-[rgba(120,120,120,1)] p-3 text-8xl text-white hover:bg-varMEDDUCKHEAD dark:border-none"
-          style="text-shadow: 2px 2px 3px #dbc6c6"
-        >
-          Submit
-        </button>
       </form>
-    </div>
+        <a href="#gohere"> </a>
+        <div class="flex justify-center rounded-full border-2   
+           relative w-32 h-14 p-3   hover:text-varLIGHTBEAKTOP m-auto mb-4
+            border-white bg-[rgba(120,120,120,1)] hover:bg-varMEDDUCKHEAD "
+          ">
+          <div class="relative">Submit</div>
+        </div>
 
     <div
       class="rounded-3xl border-2 border-white bg-[rgba(120,120,120,1)] text-center text-white"
