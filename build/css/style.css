@@ -1186,10 +1186,6 @@ video {
   line-height: 1;
 }
 
-.text-\[\.65rem\]{
-  font-size: .65rem;
-}
-
 .text-\[20px\]{
   font-size: 20px;
 }
@@ -1207,6 +1203,10 @@ video {
 .text-xl{
   font-size: 1.25rem;
   line-height: 1.75rem;
+}
+
+.text-\[0\.65rem\]{
+  font-size: 0.65rem;
 }
 
 .font-bold{
