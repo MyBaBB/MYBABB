@@ -902,6 +902,10 @@ video {
   border-radius: 0.75rem;
 }
 
+.rounded-lg{
+  border-radius: 0.5rem;
+}
+
 .rounded-b{
   border-bottom-right-radius: 0.25rem;
   border-bottom-left-radius: 0.25rem;
@@ -941,6 +945,11 @@ video {
 .border-white{
   --tw-border-opacity: 1;
   border-color: rgb(255 255 255 / var(--tw-border-opacity));
+}
+
+.border-yellow-600{
+  --tw-border-opacity: 1;
+  border-color: rgb(202 138 4 / var(--tw-border-opacity));
 }
 
 .bg-\[\#4682b4\]{
@@ -999,6 +1008,11 @@ video {
 .bg-white{
   --tw-bg-opacity: 1;
   background-color: rgb(255 255 255 / var(--tw-bg-opacity));
+}
+
+.bg-red-800{
+  --tw-bg-opacity: 1;
+  background-color: rgb(153 27 27 / var(--tw-bg-opacity));
 }
 
 .bg-gradient-to-b{
