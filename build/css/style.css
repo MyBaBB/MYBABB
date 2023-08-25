@@ -598,22 +598,6 @@ video {
   top: 1rem;
 }
 
-.right-0{
-  right: 0px;
-}
-
-.right-4{
-  right: 1rem;
-}
-
-.right-6{
-  right: 1.5rem;
-}
-
-.right-8{
-  right: 2rem;
-}
-
 .z-10{
   z-index: 10;
 }
@@ -928,6 +912,11 @@ video {
   border-bottom-left-radius: 1.5rem;
 }
 
+.rounded-l-3xl{
+  border-top-left-radius: 1.5rem;
+  border-bottom-left-radius: 1.5rem;
+}
+
 .border{
   border-width: 1px;
 }
@@ -1053,10 +1042,6 @@ video {
 
 .to-varMEDDUCKHEAD{
   --tw-gradient-to: #284f35 var(--tw-gradient-to-position);
-}
-
-.fill-teal-100{
-  fill: #ccfbf1;
 }
 
 .p-0{
