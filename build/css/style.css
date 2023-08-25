@@ -760,6 +760,10 @@ video {
   transform-origin: top;
 }
 
+.transform{
+  transform: translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y));
+}
+
 @keyframes bounce{
   0%, 100%{
     transform: translateY(-25%);
@@ -894,28 +898,16 @@ video {
   border-radius: 1.5rem;
 }
 
+.rounded-\[33px\]{
+  border-radius: 33px;
+}
+
 .rounded-full{
   border-radius: 9999px;
 }
 
 .rounded-xl{
   border-radius: 0.75rem;
-}
-
-.rounded-\[10px\]{
-  border-radius: 10px;
-}
-
-.rounded-\[20px\]{
-  border-radius: 20px;
-}
-
-.rounded-\[30px\]{
-  border-radius: 30px;
-}
-
-.rounded-\[33px\]{
-  border-radius: 33px;
 }
 
 .rounded-b{
@@ -926,16 +918,6 @@ video {
 .rounded-b-3xl{
   border-bottom-right-radius: 1.5rem;
   border-bottom-left-radius: 1.5rem;
-}
-
-.rounded-l-3xl{
-  border-top-left-radius: 1.5rem;
-  border-bottom-left-radius: 1.5rem;
-}
-
-.rounded-l-\[30px\]{
-  border-top-left-radius: 30px;
-  border-bottom-left-radius: 30px;
 }
 
 .rounded-l-\[33px\]{
