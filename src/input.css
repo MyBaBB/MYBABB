@@ -114,6 +114,37 @@
     }
 
 
+         
+           
+    .expandingIris {
+      position:absolute;
+      width: 4px;
+      height:4px;
+      background: rgb(0, 0, 0);
+      border-radius: 50%;
+      z-index: 52;
+      transform: translate(-1px , 2px);
+      transition: all .75s ease-in-out;
+    }
+    .irisHighlight {
+      position:absolute;
+      width: 14px;
+      height:10px;
+      background: rgba(236, 244, 235, .25);
+      border-radius: 50%;
+      z-index: 52;
+      transform: translate(9px , -6px);
+    }
+      
+  
+     .hoverdiv:hover .expandingIris {
+      width: 30px;
+      height: 30px;      
+      animation: expand 0.5s forwards;      
+     border:chartreuse 2px solid;
+    }
+  
+   
 
     .toggle-btn {
         @apply [&>div::before]:translate-y-0 [&>div::before]:rotate-45 [&>div::after]:translate-y-0 [&>div::after]:-rotate-45 [&>div]:bg-transparent [&>div]:rotate-[720deg]
