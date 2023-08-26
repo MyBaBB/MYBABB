@@ -677,6 +677,10 @@ video {
   margin-top: 1rem;
 }
 
+.mb-14{
+  margin-bottom: 3.5rem;
+}
+
 .block{
   display: block;
 }
@@ -916,11 +920,6 @@ video {
   border-bottom-left-radius: 1.5rem;
 }
 
-.rounded-l-\[33px\]{
-  border-top-left-radius: 33px;
-  border-bottom-left-radius: 33px;
-}
-
 .border{
   border-width: 1px;
 }
@@ -950,6 +949,16 @@ video {
 .border-white{
   --tw-border-opacity: 1;
   border-color: rgb(255 255 255 / var(--tw-border-opacity));
+}
+
+.border-blue-800{
+  --tw-border-opacity: 1;
+  border-color: rgb(30 64 175 / var(--tw-border-opacity));
+}
+
+.border-green-800{
+  --tw-border-opacity: 1;
+  border-color: rgb(22 101 52 / var(--tw-border-opacity));
 }
 
 .bg-\[\#4682b4\]{
@@ -1110,6 +1119,11 @@ video {
   padding-bottom: 2rem;
 }
 
+.py-10{
+  padding-top: 2.5rem;
+  padding-bottom: 2.5rem;
+}
+
 .pr-4{
   padding-right: 1rem;
 }
@@ -1120,6 +1134,10 @@ video {
 
 .pt-14{
   padding-top: 3.5rem;
+}
+
+.pb-4{
+  padding-bottom: 1rem;
 }
 
 .text-left{
@@ -1415,7 +1433,7 @@ label{
   height:4px;
   background: rgb(0, 0, 0);
   border-radius: 50%;
-  z-index: 52;
+  z-index: 3;
   transform: translate(-1px , 2px);
   transition: all .75s ease-in-out;
 }
@@ -1426,7 +1444,7 @@ label{
   height:10px;
   background: rgba(236, 244, 235, .25);
   border-radius: 50%;
-  z-index: 52;
+  z-index: 3;
   transform: translate(9px , -6px);
 }
 
@@ -1435,6 +1453,27 @@ label{
   height: 30px;
   animation: expand 0.5s forwards;
   border:chartreuse 2px solid;
+}
+
+.hoverdiv {
+  display: flex;
+  position: relative;
+  align-items: center;
+  justify-content: center;
+  padding-left: 10px;
+  padding-right: 10px;
+  width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.eyeballdiv {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 2;
+  max-width: 190px;
+  max-height:  190px;
 }
 
 .toggle-btn>div::after{

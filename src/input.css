@@ -1,38 +1,20 @@
  
- 
- 
  @import url('https://fonts.googleapis.com/css2?family=Aclonica&family=Black+Ops+One&family=Edu+SA+Beginner:wght@500&family=Iceberg&family=MedievalSharp&family=Metamorphous&family=Nova+Cut&family=Permanent+Marker&family=Press+Start+2P&family=Rye&family=Sansita&family=Orbitron:wght@700&family=Vast+Shadow&display=swap=Wallpoet&display=swap');
- 
- 
- 
 
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
  
-
- 
- 
- 
 @layer utilities {
     .section-min-height {
        min-height: calc(100vh - 68px)
    }
-   
  }
-
-
-
-
-
  #logoBody{
   font-size: 2rem;
   background: linear-gradient(to bottom, #002244, #8c8b8a, #ffffff);
   font-family: noto serif;
  }
-
-  
-
 
  #body2 {
   font-size: 2rem;
@@ -79,9 +61,6 @@
        margin: 0 auto;
        display: block;
 }
-   
-
-
     label{
       font-size: 2rem;
       color: #ffffff;
@@ -95,7 +74,6 @@
     padding-right: 0.5rem;
     border: 3px solid #000000;
   }
-
   #stopButton{
     position: relative;
     width: 100px;
@@ -112,17 +90,13 @@
     box-shadow: 0px 0px 10px rgba(0, 0, 0, 1),
       inset 0px 0px 10px rgba(0, 0, 0, 0.5);
     }
-
-
-         
-           
     .expandingIris {
       position:absolute;
       width: 4px;
       height:4px;
       background: rgb(0, 0, 0);
       border-radius: 50%;
-      z-index: 52;
+      z-index: 3;
       transform: translate(-1px , 2px);
       transition: all .75s ease-in-out;
     }
@@ -132,24 +106,37 @@
       height:10px;
       background: rgba(236, 244, 235, .25);
       border-radius: 50%;
-      z-index: 52;
+      z-index: 3;
       transform: translate(9px , -6px);
     }
-      
-  
      .hoverdiv:hover .expandingIris {
       width: 30px;
       height: 30px;      
       animation: expand 0.5s forwards;      
      border:chartreuse 2px solid;
     }
-  
-   
-
+    .hoverdiv { 
+    display: flex;
+    position: relative;
+    align-items: center;
+    justify-content: center;
+    padding-left: 10px;
+    padding-right: 10px;
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+  }
+    .eyeballdiv {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 2;
+  max-width: 190px;
+  max-height:  190px;
+ }
     .toggle-btn {
         @apply [&>div::before]:translate-y-0 [&>div::before]:rotate-45 [&>div::after]:translate-y-0 [&>div::after]:-rotate-45 [&>div]:bg-transparent [&>div]:rotate-[720deg]
     }
-
 @keyframes rotateX {
     0% {
       transform: rotateY(0deg);
@@ -158,12 +145,10 @@
       transform: rotateY(360deg);
     }
   }
-
   .rotate {
     animation: rotateX 25s linear infinite alternate;
     display: inline-block;
   }
-
   @keyframes rotateX {
     0% {
       transform: rotatey(0deg);
@@ -175,7 +160,6 @@
       transform: rotatey(0deg);
     }
   }
-  
   @media only screen and (orientation: landscape) {
     #mobile-menu2 {
       display: none;
@@ -184,43 +168,27 @@
       font-size: 20px;
     }
   }
-     
-  
-
    @media only screen and (max-width: 319px) {
 
 #Hamburger-Menu{font: xx-small;}
-
-
-         
        
  @media only screen and (min-width: 320px) and (max-width: 412px){ 
 
  #mobile-menu{
   font-size: 28px;
  }
-  
-  
-
-
  @media only screen and (min-width: 640px) {
   #hamburger-menu{
     display: none;
-    }
+ }
 } 
 @media (min-width: 350px) {
-     
-    
   #headersection {
      max-width: 350px;
-     
   }
 } 
-
 /* xxs */
 @media (min-width: 400px) {
- 
-  
 #headersection {
      max-width: 400px;
        }
@@ -234,71 +202,35 @@
      
   }
 } 
-
-
 /* s */
 @media (min-width: 640px) {
- 
 #headersection {
      max-width: 640px;
   }
-
 }  
-
-
-
 /* md */
 @media (min-width: 768px) {
 #headersection {
      max-width: 768px;
-      
-   
   }
  } 
-
-
-
 /* lg */
 @media (min-width: 1024px) {
-
-     
-    
-   
-
-
   #headersection {
-            max-width: 1024px;
-            
+    max-width: 1024px;
   }  
- 
-  
 }  
-
-
-
 /* xl */
 @media (min-width: 1280px) {
-  
-     
-      
- 
 #headersection {
      max-width: 1280px;
-      
   }
 }  
-
 /* 2xl */
 @media (min-width: 1536px) {
- 
-    
-
 #headersection {
      max-width: 1536px;
-      
   }
 }  
-
-  
 }
 }
