@@ -113,8 +113,9 @@
       width: 30px;
       height: 30px;      
       animation: expand 0.5s forwards;      
-     border:chartreuse 2px solid;
+      border: chartreuse 1.75px solid;
     }
+    
     .hoverdiv { 
     display: flex;
     position: relative;

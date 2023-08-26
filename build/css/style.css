@@ -677,10 +677,6 @@ video {
   margin-top: 1rem;
 }
 
-.mb-14{
-  margin-bottom: 3.5rem;
-}
-
 .block{
   display: block;
 }
@@ -762,6 +758,10 @@ video {
 
 .origin-top{
   transform-origin: top;
+}
+
+.transform{
+  transform: translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y));
 }
 
 @keyframes bounce{
@@ -936,6 +936,11 @@ video {
   border-style: solid;
 }
 
+.border-green-800{
+  --tw-border-opacity: 1;
+  border-color: rgb(22 101 52 / var(--tw-border-opacity));
+}
+
 .border-slate-900{
   --tw-border-opacity: 1;
   border-color: rgb(15 23 42 / var(--tw-border-opacity));
@@ -949,16 +954,6 @@ video {
 .border-white{
   --tw-border-opacity: 1;
   border-color: rgb(255 255 255 / var(--tw-border-opacity));
-}
-
-.border-blue-800{
-  --tw-border-opacity: 1;
-  border-color: rgb(30 64 175 / var(--tw-border-opacity));
-}
-
-.border-green-800{
-  --tw-border-opacity: 1;
-  border-color: rgb(22 101 52 / var(--tw-border-opacity));
 }
 
 .bg-\[\#4682b4\]{
@@ -1094,6 +1089,11 @@ video {
   padding-right: 1.5rem;
 }
 
+.py-10{
+  padding-top: 2.5rem;
+  padding-bottom: 2.5rem;
+}
+
 .py-12{
   padding-top: 3rem;
   padding-bottom: 3rem;
@@ -1119,9 +1119,8 @@ video {
   padding-bottom: 2rem;
 }
 
-.py-10{
-  padding-top: 2.5rem;
-  padding-bottom: 2.5rem;
+.pb-4{
+  padding-bottom: 1rem;
 }
 
 .pr-4{
@@ -1134,10 +1133,6 @@ video {
 
 .pt-14{
   padding-top: 3.5rem;
-}
-
-.pb-4{
-  padding-bottom: 1rem;
 }
 
 .text-left{
@@ -1452,7 +1447,7 @@ label{
   width: 30px;
   height: 30px;
   animation: expand 0.5s forwards;
-  border:chartreuse 2px solid;
+  border: chartreuse 1.75px solid;
 }
 
 .hoverdiv {
