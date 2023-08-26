@@ -98,7 +98,7 @@
       border-radius: 50%;
       z-index: 3;
       transform: translate(-1px , 2px);
-      transition: all .75s ease-in-out;
+      transition: all .5s ease-in-out;
     }
     .irisHighlight {
       position:absolute;
@@ -109,32 +109,50 @@
       z-index: 3;
       transform: translate(9px , -6px);
     }
-     .hoverdiv:hover .expandingIris {
+     .hoverdiv:hover .expandingIris  {
       width: 30px;
       height: 30px;      
       animation: expand 0.5s forwards;      
-      border: chartreuse 1.75px solid;
+      border:  2px solid; border-color: #419aff;
     }
-    
+      
+      .hoverAll:hover .redOnLight  {
+      width: 8px;
+      height: 8px;      
+      animation: expand 0.5s forwards;      
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      transform: translate(54px, -75px);
+      border-radius: 50%;
+      background-color: #e90f0f;
+      z-index: 52;
+      box-shadow: 0 0 10px rgba(87, 22, 22,1);
+      }
+      
+      
     .hoverdiv { 
-    display: flex;
-    position: relative;
-    align-items: center;
-    justify-content: center;
-    padding-left: 10px;
-    padding-right: 10px;
-    width: 100%;
-    margin-left: auto;
-    margin-right: auto;
+     display: flex;
+     position: relative;
+     align-items: center;
+     justify-content: center;
+     padding-left: 10px;
+     padding-right: 10px;
+     width: 100%;
+     margin-left: auto;
+     margin-right: auto;
   }
-    .eyeballdiv {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  z-index: 2;
-  max-width: 190px;
-  max-height:  190px;
+     .eyeballdiv {
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     z-index: 2;
+     max-width: 190px;
+     max-height:  190px;
  }
+ 
+    
+          
     .toggle-btn {
         @apply [&>div::before]:translate-y-0 [&>div::before]:rotate-45 [&>div::after]:translate-y-0 [&>div::after]:-rotate-45 [&>div]:bg-transparent [&>div]:rotate-[720deg]
     }

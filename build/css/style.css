@@ -1430,7 +1430,7 @@ label{
   border-radius: 50%;
   z-index: 3;
   transform: translate(-1px , 2px);
-  transition: all .75s ease-in-out;
+  transition: all .5s ease-in-out;
 }
 
 .irisHighlight {
@@ -1443,11 +1443,26 @@ label{
   transform: translate(9px , -6px);
 }
 
-.hoverdiv:hover .expandingIris {
+.hoverdiv:hover .expandingIris  {
   width: 30px;
   height: 30px;
   animation: expand 0.5s forwards;
-  border: chartreuse 1.75px solid;
+  border:  2px solid;
+  border-color: #419aff;
+}
+
+.hoverAll:hover .redOnLight  {
+  width: 8px;
+  height: 8px;
+  animation: expand 0.5s forwards;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(54px, -75px);
+  border-radius: 50%;
+  background-color: #e90f0f;
+  z-index: 52;
+  box-shadow: 0 0 10px rgba(87, 22, 22,1);
 }
 
 .hoverdiv {
