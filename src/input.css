@@ -74,22 +74,28 @@
     padding-right: 0.5rem;
     border: 3px solid #000000;
   }
-  #stopButton{
-    position: relative;
-    width: 100px;
-    height: 100px;
-    border-radius: 50%;
-    margin: 0 auto;
-    display: flex;
-    align-items: center;
-    display: flex;
-    justify-content: center;
-    width: 80px;
-    height: 80px;
-    border-radius: 50%;
-    box-shadow: 0px 0px 10px rgba(0, 0, 0, 1),
-      inset 0px 0px 10px rgba(0, 0, 0, 0.5);
-    }
+ 
+        
+    .hoverdiv { 
+      display: flex;
+      position: relative;
+      align-items: center;
+      justify-content: center;
+      padding-left: 10px;
+      padding-right: 10px;
+      width: 100%;
+      margin-left: auto;
+      margin-right: auto;
+   }
+      .eyeballdiv {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      z-index: 2;
+      max-width: 190px;
+      max-height:  190px;
+  }
+  
     .expandingIris {
       position:absolute;
       width: 4px;
@@ -106,7 +112,7 @@
       height:10px;
       background: rgba(236, 244, 235, .25);
       border-radius: 50%;
-      z-index: 3;
+      z-index: 4;
       transform: translate(9px , -6px);
     }
      .hoverdiv:hover .expandingIris  {
@@ -114,6 +120,7 @@
       height: 30px;      
       animation: expand 0.5s forwards;      
       border:  2px solid; border-color: #419aff;
+      z-index: 2;
     }
       
       .hoverAll:hover .redOnLight  {
@@ -130,31 +137,28 @@
       box-shadow: 0 0 10px rgba(87, 22, 22,1);
       }
       
-      
-    .hoverdiv { 
-     display: flex;
-     position: relative;
-     align-items: center;
-     justify-content: center;
-     padding-left: 10px;
-     padding-right: 10px;
-     width: 100%;
-     margin-left: auto;
-     margin-right: auto;
-  }
-     .eyeballdiv {
-     display: flex;
-     justify-content: center;
-     align-items: center;
-     z-index: 2;
-     max-width: 190px;
-     max-height:  190px;
- }
- 
+  
     
           
     .toggle-btn {
         @apply [&>div::before]:translate-y-0 [&>div::before]:rotate-45 [&>div::after]:translate-y-0 [&>div::after]:-rotate-45 [&>div]:bg-transparent [&>div]:rotate-[720deg]
+
+        #stopButton{
+          position: relative;
+          width: 100px;
+          height: 100px;
+          border-radius: 50%;
+          margin: 0 auto;
+          display: flex;
+          align-items: center;
+          display: flex;
+          justify-content: center;
+          width: 80px;
+          height: 80px;
+          border-radius: 50%;
+          box-shadow: 0px 0px 10px rgba(0, 0, 0, 1),
+          inset 0px 0px 10px rgba(0, 0, 0, 0.5);
+          }
     }
 @keyframes rotateX {
     0% {
