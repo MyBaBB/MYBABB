@@ -610,6 +610,10 @@ video {
   z-index: 50;
 }
 
+.z-\[2\]{
+  z-index: 2;
+}
+
 .m-auto{
   margin: auto;
 }
@@ -709,6 +713,10 @@ video {
   height: 2rem;
 }
 
+.h-\[10rem\]{
+  height: 10rem;
+}
+
 .min-h-screen{
   min-height: 100vh;
 }
@@ -731,6 +739,10 @@ video {
 
 .w-8{
   width: 2rem;
+}
+
+.w-\[10-rem\]{
+  width: 10-rem;
 }
 
 .w-full{
@@ -898,10 +910,6 @@ video {
   border-radius: 1.5rem;
 }
 
-.rounded-\[33px\]{
-  border-radius: 33px;
-}
-
 .rounded-full{
   border-radius: 9999px;
 }
@@ -936,9 +944,9 @@ video {
   border-style: solid;
 }
 
-.border-green-800{
+.border-cyan-400{
   --tw-border-opacity: 1;
-  border-color: rgb(22 101 52 / var(--tw-border-opacity));
+  border-color: rgb(34 211 238 / var(--tw-border-opacity));
 }
 
 .border-slate-900{
@@ -1368,6 +1376,7 @@ video {
 }
 
 #header {
+  z-index: 50;
   box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1), 0 1px 3px rgba(0, 0, 0, 0.08), 0 2px 4px rgba(0, 0, 0, 0.12);
 }
 
@@ -1409,6 +1418,26 @@ label{
   border: 3px solid #000000;
 }
 
+.eyePackagediv {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 2;
+  width:1000px;
+  height: 300px;
+  background-image: url("/build/img/eyeBG.jpg");
+}
+
+.innerEyePack {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: -moz-fit-content;
+  width: fit-content;
+  border:3px solid black;
+  border-radius: 100%;
+}
+
 .hoverdiv {
   display: flex;
   position: relative;
@@ -1426,8 +1455,22 @@ label{
   justify-content: center;
   align-items: center;
   z-index: 2;
-  max-width: 190px;
-  max-height:  190px;
+  width: 190px;
+  height:  190px;
+  border: 22px solid #000000;
+  border-radius: 100%;
+  border-color: #24558d;
+  position:absolute;
+}
+
+@media (hover: none) {
+  .hoverdiv:hover .expandingIris {
+    width: 30px;
+    height: 30px;
+    animation: expand 0.5s forwards;
+    border: 2px solid;
+    border-color: #419aff;
+  }
 }
 
 .expandingIris {
@@ -1467,10 +1510,10 @@ label{
   position: absolute;
   top: 50%;
   left: 50%;
-  transform: translate(54px, -75px);
+  transform: translate(54px, -66.1px);
   border-radius: 50%;
   background-color: #e90f0f;
-  z-index: 52;
+  z-index: 2;
   box-shadow: 0 0 10px rgba(87, 22, 22,1);
 }
 

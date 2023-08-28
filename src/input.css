@@ -36,7 +36,8 @@
   }
 
   #header {
-    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1), 0 1px 3px rgba(0, 0, 0, 0.08), 0 2px 4px rgba(0, 0, 0, 0.12);
+    z-index: 50;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1), 0 1px 3px rgba(0, 0, 0, 0.08), 0 2px 4px rgba(0, 0, 0, 0.12); 
   }
 
    input {
@@ -75,8 +76,27 @@
     border: 3px solid #000000;
   }
  
-        
-    .hoverdiv { 
+.eyePackagediv {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  
+  z-index: 2;
+  width:1000px;
+  height: 300px;
+  background-image: url("/build/img/eyeBG.jpg");
+  }
+  
+  .innerEyePack {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: fit-content;
+    border:3px solid black;
+    border-radius: 100%;
+   
+  }
+   .hoverdiv { 
       display: flex;
       position: relative;
       align-items: center;
@@ -86,16 +106,30 @@
       width: 100%;
       margin-left: auto;
       margin-right: auto;
+     
    }
       .eyeballdiv {
       display: flex;
       justify-content: center;
       align-items: center;
       z-index: 2;
-      max-width: 190px;
-      max-height:  190px;
+      width: 190px;
+      height:  190px;
+      border: 22px solid #000000;
+      border-radius: 100%;
+      border-color: #24558d;
+      position:absolute;
+                      
   }
-  
+@media (hover: none) {
+   .hoverdiv:hover .expandingIris {
+    width: 30px;
+    height: 30px;
+    animation: expand 0.5s forwards;
+    border: 2px solid;
+    border-color: #419aff;
+  }
+}
     .expandingIris {
       position:absolute;
       width: 4px;
@@ -130,10 +164,10 @@
       position: absolute;
       top: 50%;
       left: 50%;
-      transform: translate(54px, -75px);
+      transform: translate(54px, -66.1px);
       border-radius: 50%;
       background-color: #e90f0f;
-      z-index: 52;
+      z-index: 2;
       box-shadow: 0 0 10px rgba(87, 22, 22,1);
       }
       
@@ -155,9 +189,9 @@
         }
     
           
-    .toggle-btn {
-        @apply [&>div::before]:translate-y-0 [&>div::before]:rotate-45 [&>div::after]:translate-y-0 [&>div::after]:-rotate-45 [&>div]:bg-transparent [&>div]:rotate-[720deg]
-    }
+        .toggle-btn {
+          @apply [&>div::before]:translate-y-0 [&>div::before]:rotate-45 [&>div::after]:translate-y-0 [&>div::after]:-rotate-45 [&>div]:bg-transparent [&>div]:rotate-[720deg]
+      }
 @keyframes rotateX {
     0% {
       transform: rotateY(0deg);
