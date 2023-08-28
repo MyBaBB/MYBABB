@@ -619,6 +619,11 @@ video {
   margin-right: auto;
 }
 
+.my-10{
+  margin-top: 2.5rem;
+  margin-bottom: 2.5rem;
+}
+
 .my-12{
   margin-top: 3rem;
   margin-bottom: 3rem;
@@ -627,16 +632,6 @@ video {
 .my-8{
   margin-top: 2rem;
   margin-bottom: 2rem;
-}
-
-.my-4{
-  margin-top: 1rem;
-  margin-bottom: 1rem;
-}
-
-.my-10{
-  margin-top: 2.5rem;
-  margin-bottom: 2.5rem;
 }
 
 .-mt-0{
@@ -838,6 +833,10 @@ video {
   scroll-margin-top: 6rem;
 }
 
+.scroll-mt-\[7rem\]{
+  scroll-margin-top: 7rem;
+}
+
 .flex-row{
   flex-direction: row;
 }
@@ -947,19 +946,13 @@ video {
   border-color: rgb(0 0 0 / var(--tw-border-opacity));
 }
 
-.border-cyan-500{
-  --tw-border-opacity: 1;
-  border-color: rgb(6 182 212 / var(--tw-border-opacity));
-}
-
-.border-red-500{
-  --tw-border-opacity: 1;
-  border-color: rgb(239 68 68 / var(--tw-border-opacity));
-}
-
 .border-slate-900{
   --tw-border-opacity: 1;
   border-color: rgb(15 23 42 / var(--tw-border-opacity));
+}
+
+.border-transparent{
+  border-color: transparent;
 }
 
 .border-varDARKWING{
@@ -970,15 +963,6 @@ video {
 .border-white{
   --tw-border-opacity: 1;
   border-color: rgb(255 255 255 / var(--tw-border-opacity));
-}
-
-.border-transparent{
-  border-color: transparent;
-}
-
-.border-b-stone-100{
-  --tw-border-opacity: 1;
-  border-bottom-color: rgb(245 245 244 / var(--tw-border-opacity));
 }
 
 .bg-\[\#4682b4\]{
@@ -1142,10 +1126,6 @@ video {
 .py-8{
   padding-top: 2rem;
   padding-bottom: 2rem;
-}
-
-.pb-4{
-  padding-bottom: 1rem;
 }
 
 .pr-4{
@@ -1545,6 +1525,16 @@ label{
   background-color: #e90f0f;
   z-index: 15;
   box-shadow: 0 0 10px rgba(87, 22, 22,1);
+}
+
+.myBabbPortal {
+  position:absolute;
+  color:#419aff;
+  text-align: center;
+  font-size: 1.75rem;
+  z-index: 5;
+  bottom: 0rem;
+  text-shadow: 2px 2px 3px #1c0303
 }
 
 #stopButton{

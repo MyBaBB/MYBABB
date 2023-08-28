@@ -187,7 +187,17 @@
       z-index: 15;
       box-shadow: 0 0 10px rgba(87, 22, 22,1);
       }
-      
+       .myBabbPortal {
+          position:absolute;
+          color:#419aff;
+          text-align: center;
+          font-size: 1.75rem;
+          text-shadow: 2px 2px 3px #1c0303;
+          z-index: 5;
+          bottom: 0rem;
+          text-shadow: 2px 2px 3px #1c0303
+         }               
+                         
       #stopButton{
         position: relative;
         width: 100px;
