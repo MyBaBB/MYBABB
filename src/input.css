@@ -76,7 +76,7 @@
     border: 3px solid #000000;
   }
  
-.eyePackagediv {
+.bgImagediv {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -88,16 +88,9 @@
   
   }
   
-  .innerEyePack {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    width: fit-content;
-    border:0px solid black;
-    border-radius: 100%;
-   
+ 
     
-  }
+
    .hoverdiv { 
       display: flex;
       position: relative;
@@ -137,7 +130,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    z-index: 12;
+    z-index: 15;
     width: 192px;
     height:  192px;
     border: 10px solid #0d2d52;
@@ -188,7 +181,7 @@
       position: absolute;
       top: 50%;
       left: 50%;
-      transform: translate(54px, -66.1px);
+      transform: translate(55px, -62.1px);
       border-radius: 50%;
       background-color: #e90f0f;
       z-index: 15;
