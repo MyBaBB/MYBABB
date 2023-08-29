@@ -1420,9 +1420,8 @@ label{
   justify-content: center;
   align-items: center;
   z-index: 5;
-  width: 100%;
-  height: 300px;
-  max-width: 1000px;
+  width: 630px;
+  height: 500px;
 }
 
 .hoverdiv {
