@@ -1,0 +1,12 @@
+doesn't scroll in landscape mode  something is Hidden. Daves is the same. Its all good. because when you zoom out it works fine
+ 
+  study animation lesson from again Dave Gray css
+
+I like this text
+
+
+<figcaption
+
+    class="mt-2 text-right text-xl italic text-slate-500 dark:text-slate-400 sm:text-2xl font-bold" style="font-size: 24px; color: white; text-shadow: 1px 1px black;">
+    &#8212;The Developer <span class="whitespace-nowrap text-varLIGHTBLUEFEATHER font-serif "> 🕸️MyBabb🕸️</span>
+</figcaption>

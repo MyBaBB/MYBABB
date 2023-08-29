@@ -1,0 +1,180 @@
+
+
+
+
+name this lesson04 when you save it.and save it in the root folder of the project.
+  
+   study css animation recap
+  
+  check favicon location https://www.youtube.com/watch?v=lCxcTsOHrjo&t=27m02s
+
+Tailwind Instructions on setup per Dave Gray. At 25 minutes on lesson02 Tailwind Video.
+
+
+1 Make repository and test it.
+   in terminal type:
+
+2 npx tailwindcss init
+
+3 make new directory called "build"
+
+4 make new file in build called "source"
+
+5 make new file in source called "input.css"
+
+6 in input.css type:
+   @tailwind base;
+   @tailwind components;
+   @tailwind utilities;
+
+7 in "build folder" make new file called "index.html" 
+
+8. in "build folder" make new file called "img'
+
+9. install images at https://www.youtube.com/watch?v=lCxcTsOHrjo&t=26m37s
+
+10. move fave icon to "build" folder    to and from "source" folder.
+
+11.   Tailwind.config file. type:   content: ['./build/*html'],
+
+12. in terminal type 
+"npm init -y" to start server. that creates a json file for later to make easier.
+
+13.   copy and paste this into scripts in json file.
+"scripts":  
+    "tailwind":   npx tailwindcss -i ./src/input.css -o ./build/css/style.css --watch 
+
+14.   enter development dependency in terminal type :
+npm i -D prettier-plugin-tailwindcss 
+
+15. make .gitignore file
+   at 30 minutes on lesson02 Tailwind Video.
+
+16. in .gitignore file type: 
+node_modules
+
+17. package.json file. type:  after the watch that you just added.
+ ,"prettier": "npx prettier --write **/*.html" 
+
+ 18. in terminal type:
+  npm run tailwind
+
+  
+  warn - https://tailwindcss.com/docs/content-configuration
+  will go away after html is added....
+
+  19. add !emmet to html file to get rid of warning in build/index.html
+
+
+  type link: for intellisense
+    <link rel="stylesheet" href="css/style.css"> double check if css/ is on there.
+
+ 20. add body style inside html
+     body class='min-h-screen' and hover  its 100vh
+
+I think that this  is  set up. going to make a copy here.
+    just following instructions per Dave Gray. 
+
+
+         Next is timestamp of 
+               Chapter II
+ 
+               
+https://www.youtube.com/watch?v=lCxcTsOHrjo&t=22m27s
+
+
+              Next part
+https://www.youtube.com/watch?v=lCxcTsOHrjo&t=1h08m00s
+
+
+              Testimonial section
+https://www.youtube.com/watch?v=lCxcTsOHrjo&t=1h13m
+
+
+             Contact us section
+https://www.youtube.com/watch?v=lCxcTsOHrjo&t=1h26m05s
+
+
+
+
+
+                 input.css @layer utilities
+https://www.youtube.com/watch?v=lCxcTsOHrjo&t=1h39m50s
+ 
+                    HERO SECTION
+@layer utilities {
+    .section-min-height{
+        min-height: calc(100vh - 68px);
+    }
+}   
+
+                           Tailwind.config.js  
+
+      screens: {
+         'widescreen':{ 'raw': '(min-aspect-ratio: 3/2)'},
+                  'tallscreen':{ 'raw': '(min-aspect-ratio: 1/2)'}
+                  }
+
+
+
+
+
+  xxxxxxx          
+
+                  next is Chapter 4 of 5
+                  Animation of Hamburger menu 
+                  and Mobile Menu.
+                  
+
+
+
+https://www.youtube.com/watch?v=lCxcTsOHrjo&t=1h45m45s
+
+
+
+
+                       Hamburger menu  
+                       
+https://www.youtube.com/watch?v=lCxcTsOHrjo&t=1h50m50s
+
+
+
+
+                          Tailwind
+
+                     
+   https://www.youtube.com/watch?v=lCxcTsOHrjo&t=2h    
+          
+    keyframes: {
+    animation of hamburger-button
+       and add animation to html    
+    don't forget
+    js insert in html file
+
+
+                  Hamburger menu
+    https://www.youtube.com/watch?v=lCxcTsOHrjo&t=2h20m  
+
+                    CUSTOMIZE TAILWINDCSS
+                  arbitrary values  " @apply"
+   https://www.youtube.com/watch?v=lCxcTsOHrjo&t=2h20m48s        NOTE IT WHEN FOR OTHER USERS.
+                                   
+                                   
+                                   
+             https://www.youtube.com/watch?v=lCxcTsOHrjo&t=2h44m40s 
+
+tailwind config add a color with extend is the best way
+to add a color in the project.
+                theme:
+                    extend:                   
+                       colors: 
+
+                   launch project
+                       
+
+ https://www.youtube.com/watch?v=lCxcTsOHrjo&t=2h50m40s
+
+ push to github from command line 
+
+
+Render.com
