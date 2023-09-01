@@ -610,6 +610,19 @@ video {
   background-color: rgb(185 28 28 / var(--tw-bg-opacity));
 }
 
+.text-center{
+  text-align: center;
+}
+
+.font-thin{
+  font-weight: 100;
+}
+
+.text-white{
+  --tw-text-opacity: 1;
+  color: rgb(255 255 255 / var(--tw-text-opacity));
+}
+
 .projectContainer {
   display : flex;
   justify-content: center;
@@ -627,8 +640,8 @@ video {
   display : flex;
   justify-content: center;
   align-items: center;
-  width: 280px;
-  height: 500px;
+  width: 350px;
+  height: 700px;
   border: 3px solid rgb(181, 30, 30);
   border-radius: 10px;
   background-color: #7d6262;

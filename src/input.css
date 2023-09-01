@@ -26,9 +26,8 @@
     display : flex;  
     justify-content: center;
     align-items: center;
-    width: 280px;
-    height: 500px;
-    
+    width: 350px;
+    height: 700px;
     border: 3px solid rgb(181, 30, 30); 
     border-radius: 10px;
     background-color: #7d6262;
