@@ -5,22 +5,7 @@
    
   extend: {
 
-    fontFamily: {
-       
-      'rye': ['Rye', 'cursive'],
-      'borel': ['Borel', 'cursive'],
-      'PermanentMarker': ['Permanent Marker', 'cursive'],
-      'noto': ['Noto Sans', 'sans-serif'],
-      "rye": ['Rye', 'cursive'],
-      'metamorphous': ['Metamorphous', 'cursive'],
-      'blackopsone': ['Black Ops One', 'cursive'],
-      'iceberg': ['Iceberg', 'cursive'],
-      'medievalsharp': ['MedievalSharp', 'cursive'],
-      'Nova Cut': ['Nova Cut', 'cursive'],
-      'Sansita': ['Sansita', 'cursive'],
-      'Aclonica': ['Aclonica', 'cursive'],
-      'orbitron': ['Orbitron', 'sans-serif'],
-    },
+   
 
 
     
@@ -50,7 +35,6 @@
        varMEDSPACE: "#1b3854",
        varLIGHTSPACE: "#264d73",
        varBoneWhite: "#fff9d7",
-       varfreshblood: "#ed181a",
        varDCDARKBLUE: "#012344",
        varDCMEDBLUE: "#01366a",
        varDCLIGHTBLUE: "#01366a",
@@ -58,62 +42,34 @@
        varDCMEDGREY: "#6b6e73",
        varDCLIGHTGREY: "#b2b7bf",
        varDCBLUEGREY: "#33485d",
+
+
+     }, 
+     fontFamily: {
+       'noto': ['Noto Sans', 'sans-serif'],
+       "rye": ['Rye', 'cursive'],
      },
-   /*   fontFamily: {
-       sans: ['Open Sans', 'sans-serif'],
-       serif: ['Merriweather', 'serif'],
-     }, */
  
-       screens: {
+        screens: {
          'widescreen': { 'raw': '(min-aspect-ratio: 3/2)' },
          'tallscreen': { 'raw': '(max-aspect-ratio: 13/20)' },
-       },
+       }, 
  
-       keyframes: {
+      /*  keyframes: {
          'open-menu': {
            '0%': { transform: 'scaleY(0)' },
            '80%': { transform: 'scaleY(01.2)' },
            '100%': { transform: 'scaleY(1)' },
          },
        },
-       
+        */
 
 
-
+/* 
        animation: {
          'open-menu': 'open-menu 0.5s ease-in-out forwards'
-       },
+       }, */
      },
    
    plugins: [],
  };
- 
- 
- 
- /* 
- here is the format for this file
-    @type {import('tailwindcss').Config}  
-  export const content = ["./build/*.html", "./build/js/*.js"];
-  export const theme = {
-    
-  extend: {
-    fontFamily: {
-      sans: ['Open Sans', 'sans-serif'],
-      serif: ['Merriweather', 'serif'],
-    },
-    colors: {
-      // your color palette here
-    },
-    screens: {
-      // your screen sizes here
-    },
-    keyframes: {
-      // your keyframes here
-    },
-    animation: {
-      // your animations here
-    }
-  },
-  plugins: [],
-   */
- 
