@@ -10,12 +10,13 @@
 @tailwind utilities;
 
 .projectContainer {
+  position: relative;
   display : flex;
   justify-content: center;
   align-items: center;
   width: 100%;
   max-width: 100%;
-  height: 100vh;
+  height: fit-content;
   border: 3px solid black; 
   border-radius: 10px;
   background-color: #805555;
@@ -23,11 +24,12 @@
 }
 
 .galaxyA53 { 
+    position: relative;
     display : flex;  
     justify-content: center;
     align-items: center;
     width: 375px;
-    height: 750px;
+    height: 775px;
     border: 3px solid rgb(181, 30, 30); 
     border-radius: 10px;
     background-color: #7d6262;
