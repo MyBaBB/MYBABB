@@ -571,14 +571,6 @@ body {
   border: 10px solid var(--f1DARKDUCKHEAD);
 }
 
-.img {
-  max-width:-moz-fit-content;
-  max-width:fit-content;
-  max-height: -moz-fit-content;
-  max-height: fit-content;
-  display: block;
-}
-
 .container {
   width: 100%;
   max-width: 100%;
