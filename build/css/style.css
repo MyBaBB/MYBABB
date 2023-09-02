@@ -1,4 +1,9 @@
-@import url('https://fonts.googleapis.com/css2?family=Noto+Serif&family=Rye&display=swap');
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+}
 
 /*
 ! tailwindcss v3.3.3 | MIT License | https://tailwindcss.com
@@ -536,150 +541,62 @@ video {
   --tw-backdrop-sepia:  ;
 }
 
-.m-4{
-  margin: 1rem;
+.fixed{
+  position: fixed;
 }
 
-.m-8{
-  margin: 2rem;
+.absolute{
+  position: absolute;
+}
+
+.relative{
+  position: relative;
+}
+
+.block{
+  display: block;
 }
 
 .flex{
   display: flex;
 }
 
-.h-8{
-  height: 2rem;
-}
-
-.h-\[100vh\]{
-  height: 100vh;
-}
-
-.h-\[20rem\]{
-  height: 20rem;
-}
-
-.w-8{
-  width: 2rem;
-}
-
-.w-\[282px\]{
-  width: 282px;
-}
-
-.w-\[20rem\]{
-  width: 20rem;
-}
-
-.translate-y-14{
-  --tw-translate-y: 3.5rem;
-  transform: translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y));
-}
-
-.-rotate-6{
-  --tw-rotate: -6deg;
-  transform: translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y));
-}
-
-.rotate-\[57deg\]{
-  --tw-rotate: 57deg;
-  transform: translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y));
-}
-
 .transform{
   transform: translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y));
 }
 
-.items-center{
-  align-items: center;
+.border{
+  border-width: 1px;
 }
 
-.justify-center{
-  justify-content: center;
-}
-
-.scroll-smooth{
-  scroll-behavior: smooth;
-}
-
-.border-2{
-  border-width: 2px;
-}
-
-.border-t-2{
-  border-top-width: 2px;
-}
-
-.border-orange-500{
-  --tw-border-opacity: 1;
-  border-color: rgb(249 115 22 / var(--tw-border-opacity));
-}
-
-.border-teal-500{
-  --tw-border-opacity: 1;
-  border-color: rgb(20 184 166 / var(--tw-border-opacity));
-}
-
-.bg-blue-700{
-  --tw-bg-opacity: 1;
-  background-color: rgb(29 78 216 / var(--tw-bg-opacity));
-}
-
-.bg-red-700{
-  --tw-bg-opacity: 1;
-  background-color: rgb(185 28 28 / var(--tw-bg-opacity));
-}
-
-.text-center{
-  text-align: center;
-}
-
-.font-thin{
-  font-weight: 100;
-}
-
-.text-white{
-  --tw-text-opacity: 1;
-  color: rgb(255 255 255 / var(--tw-text-opacity));
-}
-
-.projectContainer {
-  position: relative;
-  display : flex;
+body {
+  display: flex;
+  flex-direction: row-reverse;
+  padding: 10px;
+  background-image: linear-gradient( rgba(55, 124, 177, 1)15% ,
+     rgba(65, 79, 91, 1)60%-80%,rgba(151, 145, 144, 1)90%);
   justify-content: center;
   align-items: center;
-  width: 100%;
-  max-width: 100%;
-  height: -moz-fit-content;
-  height: fit-content;
-  border: 3px solid black;
-  border-radius: 10px;
-  background-color: #805555;
-  margin: 0 auto;
+  width: auto;
+  min-height: 99vh;
+  margin: 3px;
+  outline: 4px double var(--f9LIGHTDUCKCHEEKS);
+  border: 10px solid var(--f1DARKDUCKHEAD);
 }
 
-.galaxyA53 {
-  position: relative;
-  display : flex;
-  justify-content: center;
-  align-items: center;
-  width: 375px;
-  height: 775px;
-  border: 3px solid rgb(181, 30, 30);
-  border-radius: 10px;
-  background-color: #7d6262;
-  margin: 0 auto;
+.img {
+  max-width:100%;
+  display: block;
 }
 
-.beeContainer {
-  display : flex;
-  justify-content: center;
-  align-items: center;
+.container {
   width: 100%;
   max-width: 100%;
   height: 100vh;
-  border: 35px solid rgb(181, 30, 30);
+  display : flex;
+  justify-content: center;
+  align-items: center;
+  border: 3px solid black;
   border-radius: 10px;
   background-color: #7d6262;
   margin: 0 auto;
@@ -688,6 +605,147 @@ video {
 .item {
   width: 100px;
   height: 100px;
+}
+
+.duckLogo {
+  position: fixed;
+  left: 10px;
+  bottom:1rem;
+  z-index: 10;
+  height: 110px ;
+  width: 110px;
+  border-radius: 50%;
+  background-color: var(--varMEDBEAKTOP);
+  box-shadow: inset 0 0 10px rgba(0, 0, 0, 0.5),
+          0 0 10px rgba(0, 0, 0, 0.5);
+}
+
+.brainsLogo{
+  position: fixed;
+  right: 10px;
+  bottom:1rem;
+  z-index: 10;
+  height: 110px ;
+  width: 110px;
+  border-radius: 50%;
+  background-color: var(--varMEDBEAKTOP);
+  box-shadow: inset 0 0 10px rgba(0, 0, 0, 0.5),
+          0 0 10px rgba(0, 0, 0, 0.5);
+}
+
+.cube {
+  position: fixed;
+  width: 150px;
+  height: 150px;
+  transform-style: preserve-3d;
+  transform: rotateX(-15deg);
+  animation: animate 7s linear infinite;
+  z-index: -1;
+}
+
+.cube div {
+  position: absolute;
+  top: 0%;
+  left: 0;
+  min-width: 100%;
+  min-height: 100%;
+  transform-style: preserve-3d;
+}
+
+.cube div span {
+  position: absolute;
+  top: 0%;
+  left: 0%;
+  min-width: 100%;
+  min-height: 100%;
+  background: linear-gradient(#151515,#00ec00);
+  transform: rotateY(calc(90deg * var(--i))) translateZ(74.5px);
+}
+
+.top {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  top: 0;
+  left: 0;
+  min-width: 100%;
+  min-height: 100%;
+  background: #222;
+  transform: rotateX(90deg) translateZ(74.5px);
+}
+
+.faceAndBrains   {
+  top: 0;
+  left: 0;
+  min-width: 100%;
+  min-height: 100%;
+}
+
+.octopusMan    {
+  top: 0;
+  left: 0;
+  min-width: 100%;
+  min-height: 100%;
+}
+
+.frankenstien   {
+  top: 0;
+  left: 0;
+  min-width: 100%;
+  min-height: 100%;
+}
+
+.dnaTestTube
+  {
+  top: 0;
+  left: 0;
+  min-width: 100%;
+  min-height: 100%;
+}
+
+.boxSides {
+  font-size: 4rem;
+  padding:  10px;
+}
+
+.top::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 150px;
+  height: 150px;
+  background: #0f0;
+  transform: translateZ(-265px);
+  filter: blur(20px);
+  box-shadow: 0 0 120px rgba(0,255,0,0.2),
+    0 0 200px rgba(0,255,0,0.4), 
+    0 0 300px rgba(0,255,0,0.6), 
+    0 0 400px rgba(0,255,0,0.8),
+    0 0 500px rgba(0,255,0,1);
+}
+
+@keyframes animate
+{
+  0%
+    {
+    transform:rotateX(-15deg) rotateY(360deg);
+  }
+
+  100%
+    {
+    transform:rotateX(-15deg) rotateY(0deg);
+  }
+}
+
+@keyframes bounce {
+  from {
+    transform: translateY(0);
+  }
+
+  to {
+    transform: translateY(-10px);
+  }
 }
 
 /* xxxs */
