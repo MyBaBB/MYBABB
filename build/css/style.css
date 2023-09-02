@@ -1,9 +1,4 @@
-*{
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-  scroll-behavior: smooth;
-}
+@import url('https://fonts.googleapis.com/css2?family=Noto+Serif&family=Rye&display=swap');
 
 /*
 ! tailwindcss v3.3.3 | MIT License | https://tailwindcss.com
@@ -567,6 +562,13 @@ video {
 
 .border{
   border-width: 1px;
+}
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  scroll-behavior: smooth;
 }
 
 body {
