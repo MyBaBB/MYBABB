@@ -572,7 +572,8 @@ body {
 }
 
 .img {
-  max-width:100%;
+  max-width:-moz-fit-content;
+  max-width:fit-content;
   max-height: -moz-fit-content;
   max-height: fit-content;
   display: block;
