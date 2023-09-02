@@ -552,11 +552,8 @@ video {
   border-width: 1px;
 }
 
-*{
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-  scroll-behavior: smooth;
+.pl-5{
+  padding-left: 1.25rem;
 }
 
 body {
@@ -576,6 +573,8 @@ body {
 
 .img {
   max-width:100%;
+  max-height: -moz-fit-content;
+  max-height: fit-content;
   display: block;
 }
 
@@ -690,7 +689,7 @@ body {
   top: 0;
   left: 0;
   min-width: 100%;
-  min-height: 100%;
+  max-height: 100%;
 }
 
 .boxSides {
