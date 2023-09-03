@@ -544,24 +544,12 @@ video {
   display: flex;
 }
 
-.h-\[150px\]{
-  height: 150px;
-}
-
-.w-\[150px\]{
-  width: 150px;
-}
-
 .transform{
   transform: translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y));
 }
 
 .border{
   border-width: 1px;
-}
-
-.pl-5{
-  padding-left: 1.25rem;
 }
 
 body {
@@ -578,8 +566,6 @@ body {
   outline: 4px double var(--f9LIGHTDUCKCHEEKS);
   border: 10px solid var(--f1DARKDUCKHEAD);
 }
-
-d
 
 .container {
   width: 100%;
