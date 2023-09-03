@@ -1,0 +1,200 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+ scroll-behavior: smooth;
+  
+  }
+
+  
+  .img {
+    max-width:100%;
+    display: block;
+  }
+
+ 
+
+  
+ 
+   
+
+
+
+
+
+body {
+  display: flex;
+  flex-direction: row-reverse;
+  padding: 10px;
+  background-image: linear-gradient( rgba(55, 124, 177, 1)15% ,
+     rgba(65, 79, 91, 1)60%-80%,rgba(151, 145, 144, 1)90%);
+  justify-content: center;
+  align-items: center;
+  width: auto;
+  min-height: 99vh; 
+  margin: 3px;
+  outline: 4px double var(--f9LIGHTDUCKCHEEKS); 
+  border: 10px solid var(--f1DARKDUCKHEAD);
+
+ }
+ 
+ 
+  
+
+
+
+
+
+
+
+@keyframes bounce {
+  from {
+    transform: translateY(0);
+  }
+  to {
+    transform: translateY(-10px);
+  }
+}
+
+
+
+
+
+
+
+     
+
+     
+
+    
+
+
+.cube {
+  position: fixed;
+  width: 150px;
+  height: 150px;
+  transform-style: preserve-3d;
+  transform: rotateX(-15deg);
+  animation: animate 7s linear infinite;
+  z-index: -1;
+}
+  @keyframes animate
+{
+    0%
+    {
+transform:rotateX(-15deg) rotateY(360deg);
+     }
+    100%
+    {
+transform:rotateX(-15deg) rotateY(0deg);
+    }
+  } 
+    
+    
+
+
+ 
+.cube div {
+position: absolute;
+top: 0%;
+left: 0;
+min-width: 100%;min-height: 100%;
+transform-style: preserve-3d;
+
+
+}
+ .cube div span {
+ 
+  position: absolute;
+  top: 0%;
+  left: 0%;
+  min-width: 100%;
+  min-height: 100%;
+  background: linear-gradient(#151515,#00ec00);
+  transform: rotateY(calc(90deg * var(--i))) translateZ(74.5px);
+ 
+ }
+
+.top {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  top: 0;
+  left: 0;
+  min-width: 100%;
+  min-height: 100%;
+  background: #222;
+  transform: rotateX(90deg) translateZ(74.5px);
+}
+
+  .faceAndBrains   {  
+   
+    top: 0;
+    left: 0;
+    min-width: 100%;
+    min-height: 100%; } 
+      
+  .octopusMan    { 
+    
+    top: 0;
+    left: 0;
+    min-width: 100%;
+    min-height: 100%; }
+    
+  .frankenstien   {
+
+    top: 0;
+    left: 0;
+    min-width: 100%;
+    min-height: 100%; }
+ 
+  .dnaTestTube
+{  
+
+    top: 0;
+    left: 0;
+    min-width: 100%;
+    min-height: 100%; }
+
+
+
+
+
+.boxSides {
+
+  font-size: 4rem;
+  padding:  10px;
+ 
+}
+
+.top::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 150px;
+  height: 150px;
+  background: #0f0;
+  transform: translateZ(-265px);
+  filter: blur(20px);
+  box-shadow: 0 0 120px rgba(0,255,0,0.2),
+  0 0 200px rgba(0,255,0,0.4), 
+  0 0 300px rgba(0,255,0,0.6), 
+  0 0 400px rgba(0,255,0,0.8),
+  0 0 500px rgba(0,255,0,1);
+}
+
+
+
+
+
+
+
+  
+ 
+ 
+ 
+ 
+
+
+
