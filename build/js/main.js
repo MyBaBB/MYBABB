@@ -1,100 +1,35 @@
-const password = 'password';
-function passcheck() {
- if (document.getElementById('pass1').value != password) {
-alert('🎣stop fishing🎣'); 
-return false;
-} 
- if (document.getElementById('pass1').value == password) {
-alert('Correct Password, Ok to enter Webpage.')
-}
-}
 
+      
+   
+    // Set the date we're counting down to
+    var countDownDate = new Date("Sep 22, 2023 00:00:00 UTC").getTime();
 
+    // Update the count down every 1 second
+    var x = setInterval(function() {
 
-const initApp = () => {
-    const hamburgerBtn = document.getElementById('hamburger-button')
-    const mobileMenu = document.getElementById('mobile-menu')
-    
-    const toggleMenu = () => {
-        mobileMenu.classList.toggle('hidden')
-        mobileMenu.classList.toggle('flex')
-        hamburgerBtn.classList.toggle('toggle-btn')
-    }
-    hamburgerBtn.addEventListener('click', toggleMenu)
-    mobileMenu.addEventListener('click', toggleMenu)
-}
-document.addEventListener('DOMContentLoaded', initApp)
+        // Get today's date and time
+        var now = new Date().getTime();
 
+        // Find the distance between now and the count down date
+        var distance = countDownDate - now;
 
-// Get the image elements by their IDs
-const image1 = document.getElementById('image1');
-const image2 = document.getElementById('image2');
+        // Time calculations for days, hours, minutes and seconds
+        var days = Math.floor(distance / (1000 * 60 * 60 * 24));
+        var hours = Math.floor((distance % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
+        var minutes = Math.floor((distance % (1000 * 60 * 60)) / (1000 * 60));
+        var seconds = Math.floor((distance % (1000 * 60)) / 1000);
 
-// Set the initial state of the images
-image1.style.display = 'block';
-image2.style.display = 'none';
+        // Display the result in the element with id="demo"
+        document.getElementById("demo").innerHTML = days + "d " + hours + "h "
+        + minutes + "m " + seconds + "s ";
 
-// Create a function to toggle the images
-function toggleImages() {
-  if (image1.style.display === 'block') {
-    image1.style.display = 'none';
-    image2.style.display = 'block';
-  } else {
-    image1.style.display = 'block';
-    image2.style.display = 'none';
-  }
-}
-// Call the toggleImages function every 5 seconds
-setInterval(toggleImages, 4000);
-
-
-/* xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx */
-
-// Get the image elements by their IDs
-const imageAlt1 = document.getElementById('imageAlt1');
-const imageAlt2 = document.getElementById('imageAlt2');
-
-// Set the initial state of the images
-imageAlt1.style.display = 'block';
-imageAlt2.style.display = 'none';
-
-// Create a function to toggle the images
-function toggleImagesAlt() {
-  if (imageAlt1.style.display === 'block') {
-    imageAlt1.style.display = 'none';
-    imageAlt2.style.display = 'block';
-  } else {
-    imageAlt1.style.display = 'block';
-    imageAlt2.style.display = 'none';
-  }
-}
-
-// Call the toggleImages function every 5 seconds
-setInterval(toggleImagesAlt, 2000);
-// Get the image elements by their IDs
-/* xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx */
-
-
-const imageAlt3 = document.getElementById('imageAlt3');
-const imageAlt4 = document.getElementById('imageAlt4');
-
-// Set the initial state of the images
-imageAlt3.style.display = 'block';
-imageAlt4.style.display = 'none';
-
-// Create a function to toggle the images
-function toggleImagesAlt2() {
-  if (imageAlt3.style.display === 'block') {
-    imageAlt3.style.display = 'none';
-    imageAlt4.style.display = 'block';
-  } else {
-    imageAlt3.style.display = 'block';
-    imageAlt4.style.display = 'none';
-  }
-}
-
-// Call the toggleImages function every 5 seconds
-setInterval(toggleImagesAlt2, 4000);
+        // If the count down is finished, write some text
+        if (distance < 0) {
+            clearInterval(x);
+            document.getElementById("demo").innerHTML = "EXPIRED";
+        }
+    }, 1000)
+ 
 
         
 

@@ -1,9 +1,4 @@
-this is my website for mybabb.com but not yet
-there a link to it on https://Mybabb.com click on the duck image.
+THis is not an ftb account, it was a test repo and I didn't want to delete it because it would erase my commits
+``` in github. so I just left it there. I will delete it later.
 
-
-
-
-
-
-
+Main for MyBabb.com
