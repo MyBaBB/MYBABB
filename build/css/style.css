@@ -919,16 +919,12 @@ video {
   scroll-margin-top: 13rem;
 }
 
-.scroll-mt-\[7rem\]{
-  scroll-margin-top: 7rem;
-}
-
 .scroll-mt-8{
   scroll-margin-top: 2rem;
 }
 
-.scroll-mt-4{
-  scroll-margin-top: 1rem;
+.scroll-mt-\[7rem\]{
+  scroll-margin-top: 7rem;
 }
 
 .flex-row{
@@ -1227,10 +1223,6 @@ video {
   padding: 1.5rem;
 }
 
-.p-14{
-  padding: 3.5rem;
-}
-
 .px-6{
   padding-left: 1.5rem;
   padding-right: 1.5rem;
@@ -1264,11 +1256,6 @@ video {
 .py-8{
   padding-top: 2rem;
   padding-bottom: 2rem;
-}
-
-.py-1{
-  padding-top: 0.25rem;
-  padding-bottom: 0.25rem;
 }
 
 .pr-4{
