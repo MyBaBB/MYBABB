@@ -1,0 +1,964 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0 d">
+    <title>MyBaBB Web Development 📜 </title>
+    <link rel="icon" href="./favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="css/style.css">
+
+    <script src="js/main.js" defer></script>
+  </head>
+
+  <!-- xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx -->
+
+  <body
+    id="body"
+    class="min-h-screen bg-[rgba(150,150,150,1)] dark:bg-[rgba(150,150,150,1)] dark:text-white">
+    <header
+      class="sticky top-0 z-40 rounded-b bg-[rgba(120,120,120,1)] text-white">
+
+      <div class="absolute top-1 right-7 z-[40]  " >
+        <a href="#crabs" class="text-3xl ">
+          🤿
+        </a>
+      </div>
+
+      <section class="mx-auto flex max-w-4xl items-center justify-between p-1">
+        <h1 class="sm:hidden"
+            style="position: fixed;
+            margin: 0;
+            margin: auto;
+            left: 50%;
+            transform: translateX(-50%);
+            top: 10px;
+            
+            color: #fca802">
+          <span 
+           class="whitespace-nowrap font-rye text-[.74rem]">
+           MyBabb Web Development
+          </span> 
+
+      </h1>
+
+        <div>
+
+          <div
+              id="hamburger-button"
+              class="focus-outline-none relative h-8 w-10 cursor-pointer text-5xl sm:hidden">
+                <div
+              class="absolute top-4 -mt-0.5 h-1 w-8 rounded bg-white transition-all duration-500 before:absolute before:h-1 before:w-8  before:-translate-x-0 before:-translate-y-3 before:rounded before:bg-varLIGHTBEAK before:transition-all before:duration-500 before:content-[''] after:absolute after:h-1 after:w-8 after:-translate-x-0 after:translate-y-3 after:rounded after:bg-varLIGHTBLUEFEATHER after:transition-all after:duration-500 after:content-['']"
+              style="right: -1rem"> 
+                </div>
+          </div>
+        </div>
+
+        <nav
+          id="aboutNav"
+          class="md: m-auto hidden space-x-8 py-4 text-xl sm:block"
+          aria-label="main">
+
+          <a 
+          href="#AboutUs" 
+          class="text-varLIGHTBEAKTOP hover:text-varLIGHTWING active:text-varLIGHTBLUEFEATHER">
+      <div
+      class="whoopieCushion1" style="display: inline; position: relative;"
+      data-tool-tip="A Profession Link for Social Media Marketing, Wordpress, Ebay, Google Maps">
+
+      <span
+              class=" font-rye"
+              style="
+                font-size: 20px;
+                white-space: nowrap;
+                text-shadow: 2px 2px 3px #1c0303;
+                ">
+              About Us
+            </span>   
+    </div>
+  </a>
+
+      <a 
+      href="#prosCons" 
+      class="text-varLIGHTBEAKTOP hover:text-varLIGHTWING  active:text-varLIGHTBLUEFEATHER">
+      <div
+      class="whoopieCushion" style="display: inline; position: relative;"
+      data-tool-tip="You Get a Cool Landing Page with a reCAPTCHA Contact Form for Screening new Clientele.">
+          
+            <span
+              class=" font-rye"
+              style="
+                
+                font-size: 20px;
+                white-space: nowrap;
+                text-shadow: 2px 2px 3px #1c0303;
+                ">
+              What/How  
+            </span>
+      </div>
+    </a>
+       
+      <a href='https://brandingchute.onrender.com/#' 
+             class="text-varLIGHTBEAKTOP hover:text-varLIGHTWING active:text-varLIGHTBLUEFEATHER"> 
+      <div
+      class="whoopieCushion" style="display: inline; position: relative;"
+      data-tool-tip="View a Custom Version of this Page">
+           
+            <span
+              class=" font-rye"
+              style="
+                font-size: 20px;
+                white-space: nowrap;
+                text-shadow: 2px 2px 3px #1c0303;
+                ">
+              Getting Started
+            </span>
+      </div>
+    </a>
+  </nav>
+      </section>
+      
+      <section 
+        id="mobile-menu"
+        class="top-68 absolute hidden w-full origin-top animate-open-menu flex-col 
+        justify-center bg-black text-center font-orbitron text-4xl">
+        <h2 class="sm:hidden "
+         style="position: fixed;
+            margin: 0;
+            margin: auto;
+            left: 50%;
+            top: 20px;
+            transform: translate(-50%, -50%);
+            color: #89d981;
+            margin-bottom: 4rem;">
+           <span class="whitespace-nowrap font-rye text-[.74rem]">
+            <u>Customized Websites</u>
+          </span>
+        </h2> 
+         
+          <button class="self-end px-6 text-5xl"></button>
+      <nav
+          class="justify-top flex min-h-screen flex-col items-center"
+          aria-label="mobile">
+
+          <p>
+            <br>
+            <a
+              href="#hero"
+              class="w-full py-2 text-center text-lime-600 hover:text-varLIGHTBLUEFEATHER"
+              >Home</a
+            ><br><br>
+            <a href="#AboutUs" class="w-full py-6 text-center"
+              ><span
+                class="hover:text-varMEDBEAKTOP active:text-varLIGHTBLUEFEATHER"
+                >About Us</span
+              ></a
+            ><br><br>
+
+            
+
+            <a href="#crabs" class="w-full py-6 text-center"
+              ><span
+                class="hover:text-varMEDBEAKTOP active:text-varLIGHTBLUEFEATHER"
+                ><em>MyBaBB.com</em></span
+              ></a
+            ><br><br>
+          </p>
+      </nav>
+    </section>
+  </header>
+
+      <section
+      
+        class="top-68 absolute hidden w-full origin-top animate-open-menu flex-col justify-center bg-black text-xl">
+        <button class="self-end px-6 text-5xl"></button>
+        <div class="text-center text-2xl ">
+               <h2><u>MyBaBB <br>Websites</u></h2>
+        </div>
+        
+      </section>
+   
+ <br>
+
+
+
+ <a  href="./contact.html#contactButoon" style="text-shadow: 2px 2px 3px #1c0303">
+<div 
+ style=" 
+position:sticky;
+display: flex;
+justify-content: center;
+align-items: center;
+z-index: 30;">
+<div class="
+mb-4
+mt-2
+p-3 
+rounded-full
+border border-solid 
+border-slate-900 
+bg-varMEDBLUEFEATHER
+ whitespace-nowrap
+font-orbitron 
+active:bg-varLIGHTBLUEFEATHER 
+dark:border-none "
+style="box-shadow: inset 0 0 10px rgba(0, 0, 0, 0.8),
+0 0 10px rgba(0, 0, 0, 0.8);">
+                
+ 
+<span style="display: inline-block; transform: scaleX(-1);">
+📡
+</span>
+<span  
+ class=" text-varLIGHTBLUEFEATHER hover:text-varLIGHTBEAKTOP">
+Contact
+<span>
+📡
+</span>
+</span>
+
+</div> 
+</div>
+</a> 
+<!-- xxxxxxcontactButtonxxxxxxxx -->
+
+
+<!-- xxxxxxxxxxxxxxxxxx below is media sm: only xxxxxxxxxxxxxxxxxx -->
+<div class="smH2Cluster mx-auto justify-center max-w-[43em] landscape:hidden ">
+<div class=" text-center text-varBoneWhite p-4 mt-0  "> 
+  <span class="flex relative justify-center m-auto w-fit border-2 border-varBoneWhite">
+    "Get a Https:// Professional Link for Social Media Marketing, Wordpress, Ebay, Google Maps"
+
+    
+  </span>
+  <br>
+
+ <span class="flex relative justify-center text-center text-varBoneWhite  m-auto w-fit border-2 border-varBoneWhite">
+   
+     "This is a custom Template that was Crafted at MyBabb.
+    We especially designed this one for small businesses that are just starting out  
+    who need to promote an event or a product or a service(or party)."
+  
+</span>
+<br>
+    
+      <span class="flex relative justify-center m-auto w-fit border-2 border-varBoneWhite">
+        
+          "You Get a Cool Landing Page with a reCAPTCHA Contact Form for Screening new Clientele."
+      
+        ></span>
+      
+ <br>     
+      <span class="flex relative justify-center m-auto w-fit text-varBoneWhite border-2 border-varBoneWhite">
+        <u><a href="https://brandingchute.onrender.com/#"> 
+          <span class="text-center">There's an <span 
+           class="text-lime-400">
+           <u>Example</u>
+          </span>
+           if you dare to go there.
+          </span>
+         </a>
+        </u> </span>
+  </div> 
+</div>
+<!-- xxxxxxxxxxxxxxxxxx above is media sm: only xxxxxxxxxxxxxxxxxx -->
+
+
+    <a href="quickBrief.html">
+      <div
+        id="addindex"
+        class="mt-4 z-10 h-20 w-20 rounded-full hover:bg-varMEDBEAKTOP active:bg-varLIGHTBLUEFEATHER"
+        style="
+          position: absolute;
+          left: 1rem;
+          box-shadow: inset 0 0 10px rgba(0, 0, 0, 0.5),
+            0 0 10px rgba(0, 0, 0, 0.5);">
+        <!-- 🦆📷 -->
+        <img src="./img/WoodDuck.png" alt="Wood Duck Logo" width="80">
+      </div>
+    </a>
+<div class="flex justify-center"></div>
+    <a href="quickBrief.html">
+      <div
+        class="flex relative justify-center  text-center  text-lime-400 z-10 mt-4 h-20 w-20 rounded-full hover:bg-varMEDBEAKTOP active:bg-varLIGHTBLUEFEATHER"
+        style="
+          position: absolute;
+          right: 1rem;
+          box-shadow: inset 0 0 10px rgba(0, 0, 0, 0.5),
+            0 0 10px rgba(0, 0, 0, 0.5);">
+        
+         <span  class="relative w-[4rem] left-0 m-3 text-center -left-1">
+          Quick Brief
+         </span>
+      </div> 
+    </a>
+
+    <!--                  
+  xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxTop Section⬇️xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx -->
+    <main>
+      <article 
+        id="theWholeBigArticle"
+        class="flex-col scroll  items-center justify-center gap-8 sm:flex-row"
+
+        style="padding: 0rem 1.5rem 1.5rem 1.5rem">
+        <h2 class="text-center text-transparent pt-4 ">Personal Creative Web Site Maker</h2>
+        <section class="flex flex-col justify-center">
+
+
+          <h2 class="text-center text-4xl text-lime-400 pt-14 z-1 ">MyBaBB Custom Websites</h2>
+          
+          <div class="mt-[5rem]">
+            <img
+              src="./img/cssLogoHeight80px.png"
+              alt="cssLogo"
+              style="
+                
+                display: block;
+                margin: auto;
+                height: 35px;
+                width: auto;"
+            >
+          </div>
+          <section
+             id="gettingStarted"
+             class="gettingStarted"> 
+            <h2 class="absolute text-center text-transparent pt-4 sm:text-[.25rem] ">MyBaBB Custom Websites</h2>
+            <p
+              class="text-center text-white sm:pt-0 landscape:text-center">
+              <u>This is a grayed-out version that can be printed and emailed back to me with all of your notes.</u>  
+             <br>
+             <br>
+             <br>
+
+                  <a href="https://brandingchute.onrender.com/#" class="font-rye ">
+         
+                  </a>
+             <br><br>
+
+
+              <u>Main Attraction Heading </u>
+              <br>
+              <span class="whitespace-nowrap text-lg">
+                (background image usually)
+              </span>
+              <br>
+              <span class="whitespace-nowrap"> 'A Compelling Introduction' </span>
+
+              <br>
+              <br>
+              <br>
+              <span id="websites" class="text-white" style="font-size: 2rem">
+                "Everything can be customized"
+              </span>
+          </p>
+          </section>
+          <!-- xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxtop⬆️ section xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx -->
+
+          <br id="brainers">
+          <section class="brainers container relative content-center p-4 mx-auto max-w-md sm:my-8">
+            <h2 class="text-center text-varBoneWhite pt-4 z-10">MyBaBB Custom Websites</h2>
+            <p
+              id="crafted"
+              class="max-w-md text-center text-white sm:text-center landscape:text-center"
+              style="font-size: 3rem; padding-top: 5rem">
+              Your Words
+            </p>
+
+            <div class="mx-auto flex justify-center" style="width:auto">
+              <div class="rounded-3xl bg-[rgba(120,120,120,1)] text-white">
+                <img
+                  class="relative z-10 w-max rounded-3xl border-2 p-4"
+                  src="./img/yourImages1and2.png"
+                  alt="Your Image #1" >
+              </div>
+            </div>
+
+            <p
+              class="mt-4 max-w-md text-center text-2xl text-white landscape:text-center">
+              "all
+            </p>
+
+            <p
+              class="max-w-md text-center text-2xl text-white landscape:text-center">
+              your
+            </p>
+
+            <p
+              class="max-w-md text-center text-2xl text-white landscape:text-center">
+              words"
+            </p>
+          </section>
+        </section>
+
+        <div style="display: flex; justify-content: center"></div>
+        <!-- xxxxxxxxxxxxxxxxxxxxxxxxxxx⬇️horsesass🐎xxxxxxxxxxxxxxxxxxxx -->
+      </article>
+
+      <hr class="mx-auto w-1/2 bg-black dark:bg-white">
+
+      <br>
+      <br>
+      <br>
+
+      <div class="p-0 sm:p-4">
+        <div style="box-shadow: 2px 2px 55px #000" class="rounded-3xl">
+          <section
+            id="mainBoxes"
+            class="mb-0 p-6"
+            style="scroll-margin-top: 95px">
+            <blockquote
+              class="relative content-center rounded-3xl bg-[rgba(120,120,120,1)] py-12 dark:bg-[rgba(120,120,120,1)]">
+              <h2 class=" text-center text-varBoneWhite">MyBaBB Custom Websites</h2>
+              <p
+                class="mt-2 p-1 text-center text-3xl text-[rgba(120,120,120,1)] before:absolute before:left-0 before:top-0 before:translate-x-2 before:translate-y-2 before:transform before:font-serif before:text-9xl before:text-[rgba(120,120,120,1)] before:opacity-25 before:content-['\201C'] after:absolute after:-bottom-20 after:right-0 after:-translate-x-2 after:-translate-y-2 after:transform after:font-serif after:text-9xl after:text-[rgba(120,120,120,1)] after:opacity-25 after:content-['\201D'] dark:text-slate-400 sm:text-3xl"
+                style="text-shadow: 1px 1px black">
+              </p>
+              <br id="Pros/Cons">
+              <p class="sm: p-1 text-center text-white" style="font-size: 2rem">
+                "Your Words Heading"
+              </p>
+              <br>
+              <br>
+
+              <a href="#horsesAss">
+                <div id="Trapper" class="text-center">
+                  <img
+                    src="./img/yourImage3.png"
+                    alt="Your Image #3"
+                    width="600"
+                    height="400"
+                    class="d-block relative mx-auto rounded-full border-2"
+                  >
+                </div>
+              </a>
+
+              <p 
+                class="sm:max-sm: p-1 text-center text-white"
+                style="font-size: x-large">
+                "Your Words "
+              </p>
+
+              <div   id="prosCons"
+                     class="p-1 text-center text-white text-xs sm:text-2xl scroll-m-24" >
+                <p >
+                  This blank landing page can serve as a valuable tool.                  .
+                </p>
+
+                Print this page as a PDF and send it to us with your notes on
+                how you would like your personalized version, along with your
+                notes. We can start ASAP. Thank you,
+                <br>
+                We need your font styles and sizes and colors and all that.(we
+                can help). The colors will be extract from your logo at
+                component level and used throughout the site.
+                <br>
+                We need some little details that make you stand out.
+                <br>
+                We need to have little pics and clippings and phrases things.
+
+                <br>
+               </div>
+              <div class="text-center"><span class="text-4xl">👨‍💻</span></div>
+            </blockquote>
+          </section>
+        </div>
+      </div>
+
+      <div
+        class="pr-4 text-right text-xl font-bold italic text-white dark:text-slate-400 sm:text-2xl"
+        style="font-size: 24px">
+        &#8212;Owner/<span class="text-white">"your name"</span>
+      </div>
+
+      <br><br>
+      <!--   xxxxxxxxxx⬆️2️⃣section section  xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx  -->
+      <hr class="mx-auto w-1/2 bg-black dark:bg-white">
+      <!-- xxxxxxxxxxThird secion 3️⃣🐖⬇️newxxxxxxxxxx
+          -->
+      <br>
+      <br>
+
+      <div>
+        <div style="box-shadow: 2px 2px 55px #000" class="rounded-3xl">
+          <section class="my-12 p-6" style="scroll-margin-top: 95px">
+            <h2 class="text-center text-varBoneWhite pt-4 z-10">MyBaBB Custom Websites</h2>
+            <blockquote
+              class="relative rounded-3xl bg-[rgba(120,120,120,1)] py-12 dark:bg-[rgba(120,120,120,1)]">
+              <br>
+
+              <!-- xxxxxxxxxxxxxxx🐷⬆⬇️xxxxxxxxxxxxxxxx -->
+              <a href="#piglets">
+                <div style="width: fit-content; margin: 0 auto">
+                  <div
+                    class="rounded-full hover:bg-varMEDBEAKTOP active:bg-varLIGHTBLUEFEATHER"
+                    style="
+                      display: flex;
+                      justify-content: center;
+                      padding: 1rem;
+                      box-shadow: inset 0 0 10px rgba(0, 0, 0, 0.5),
+                        0 0 10px rgba(0, 0, 0, 0.5);">
+                    <div class="relative content-center text-center">
+                      <p class="relative w-[4rem] m-3 text-center "><span>Your Brand</span></p>
+                    </div>
+                  </div>
+                </div>
+                <br>
+                <!-- xxxxxxxxxxxxxxx🐷⬇️xxxxxxxxxxxxxxxx -->
+                <div
+                  id="piglets"
+                  style="display: flex; justify-content: center; padding: 1rem"
+                >
+                  <img
+                    src="./img/yourImage4.png"
+                    alt="Your image 4 "
+                    width="400"
+                    height="250"
+                    style="border: 2px solid white"
+                  >
+                </div>
+              </a>
+
+              <p
+                id="CustomFont32px"
+                class="before:top-18 mt-2 p-1 text-center text-2xl text-[rgba(120,120,120,1)] before:absolute before:left-0 before:translate-x-2 before:translate-y-2 before:transform before:font-serif before:text-9xl before:text-[rgba(120,120,120,1)] before:opacity-25 before:content-['\201C'] after:absolute after:-bottom-20 after:right-0 after:-translate-x-2 after:-translate-y-2 after:transform after:font-serif after:text-9xl after:text-[rgba(120,120,120,1)] after:opacity-25 after:content-['\201D'] dark:text-slate-400 sm:text-3xl"
+                style="text-shadow: 1px 1px black"
+              ></p>
+              <br  id="AboutUs" class="scroll-mt-20"><br>
+
+              <p class="p-1 text-center text-white text-xs sm:text-2xl">
+                I have created this  website that and it is optimized for all screen sizes,
+                ranging from 320px (iPhone 5 size) to widescreen. This template
+                makes a great landing page, and has been fine-tuned to ensure
+                optimal performance. Please feel free to review the website and
+                let me know if you have any questions or concerns.
+              </p>
+              <br>
+
+              <p class="p-1 text-center text-white text-xs sm:text-2xl">
+                "When starting out, it's important to consider the most
+                efficient way to showcase your products or services on your
+                website. One option is to take a high-quality photo of your menu
+                or other items and convert it into a PDF format for easy viewing
+                on your site. As your business grows, we can explore more
+                advanced options to enhance your website's functionality and
+                design."
+              </p>
+              <p class="p-1 text-center text-white text-xs sm:text-2xl">
+                <br id="You" class="scroll-m-20"><!-- xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx -->
+                This is all yours, and the creation is in your hands, You just
+                need to get your brains to us so we can fine to tune it.
+              </p>
+              <br>
+              <p class="p-1 text-center text-white text-xs sm:text-2xl">
+                Get this as close as you can, look back and forth at my home
+                page and study it, and send us your notes on how you would like
+                your personalized version, along with any Unique Ideas that we
+                can Create for You.
+                <br>
+                We can start ASAP. Thank you,
+              </p>
+              <div class="text-center"><span class="text-4xl">👨‍💻</span></div>
+            </blockquote>
+          </section>
+          
+        </div>
+      </div>
+      <!--   xxxxxxxxxxxxxxxxx🥀new⬆️xxxxxxxxxxxxxxxxxxxxx  -->
+
+      <hr class="mx-auto my-12 w-1/2 bg-black dark:bg-white">
+
+      <div>
+        <div style="box-shadow: 2px 2px 55px #000" class="rounded-3xl p-6">
+          <section style="scroll-margin-top: 95px">
+            <h2 class="text-center text-varBoneWhite pt-4 z-10">MyBaBB Custom Websites</h2>
+            <blockquote
+              id="blockquote1"
+              class="relative rounded-3xl bg-[rgba(120,120,120,1)] py-12 dark:bg-[rgba(120,120,120,1)]"
+            >
+              <div class="content-center">
+                <p
+                  class="mt-2 p-4 text-center text-2xl text-white"
+                  style="font-size: 40px"
+                >
+                  "Motivational Here"
+                </p>
+              </div>
+
+              <div
+                class="mx-auto flex w-full justify-center rounded-3xl p-4"
+                style="max-width: 600px"
+              >
+                <img
+                  class="w-max rounded-3xl border-2 text-white"
+                  src="./img/yourImage5.png"
+                  alt="WWshipping"
+                  style="position: relative; z-index: 1"
+                >
+              </div>
+
+              <div
+                class="mx-auto flex justify-center rounded-3xl p-4 "
+                style="max-width: 600px; max-height: 400px"
+              >
+                <img
+                  class="text-w w-max rounded-3xl border-2"
+                  src="./img/yourImages6and7.png"
+                  alt="Your images 6 and 7"
+                  style="position: relative; z-index: 1"
+                  width="600"
+                  height="400"
+                >
+              </div>
+
+              <p
+                class="mt-2 p-1 text-center text-2xl text-[rgba(120,120,120,1)] before:absolute before:left-0 before:top-0 before:translate-x-2 before:translate-y-2 before:transform before:font-serif before:text-9xl before:text-[rgba(120,120,120,1)] before:opacity-25 before:content-['\201C'] after:absolute after:-bottom-20 after:right-0 after:-translate-x-2 after:-translate-y-2 after:transform after:font-serif after:text-9xl after:text-[rgba(120,120,120,1)] after:opacity-25 after:content-['\201D'] dark:text-slate-400 sm:text-3xl"
+                style="text-shadow: 1px 1px black">
+              </p>
+
+              <p class="p-1 text-center text-white" style="font-size: 27px">
+                Put whatever you feel is good to put here.
+              </p>
+              <div class="text-center">
+                <span class="text-center text-4xl">🐟 🍞 🍷 🕊️</span>
+              </div>
+            </blockquote>
+          </section>
+        </div>
+      </div>
+      <!-- xxxxxxxxxxxx⬆️🍺xxxxxxxxxxx -->
+      <hr class="mx-auto w-1/2 bg-black dark:bg-white">
+      <br>
+      <br>
+
+      <div class="p-0">
+        <div style="box-shadow: 2px 2px 55px #000" class="rounded-3xl">
+          <section
+          
+            id="bottomp"
+            class="my-12 p-6"
+            style="scroll-margin-top: 95px">
+            <h2 class="text-center text-varBoneWhite pt-4 z-10">MyBaBB Custom Websites</h2>
+            <blockquote
+              class="relative rounded-3xl bg-[rgba(120,120,120,1)] py-12 text-center dark:bg-[rgba(120,120,120,1)]"
+            >
+              <div
+                style="
+                  display: flex;
+                  justify-content: center;
+                  padding-left: 10px;
+                  padding-right: 10px;
+                "
+               >
+                <div
+                  class="rounded-3xl border-2 text-white"
+                  style="width: 600px; height: 400px"
+                >
+                  <img
+                    src="./img/yourImage8.png"
+                    alt="yourImage8"
+                    width="600"
+                    height="400"
+                    class="rounded-3xl"
+                  >
+                </div>
+              </div>
+              <br>
+              <p id="yourBrand" class="p-1 text-center text-white text-xs sm:text-2xl">
+              
+               
+                  Our product offers a wide range of features and benefits that can help you achieve your goals. With our Custom Website, you can expect to see improvements in your workflow, increase Customers, and better results overall. Our team is dedicated to providing you with the best possible experience, and we are always working to improve our product and services.
+                
+                
+              </p>
+
+              <p>
+                <br>
+              </p>
+
+              <div class="my-8 text-center">
+                <p class="p-1 text-center text-white text-xs sm:text-2xl">
+                  So, by now you should have a good idea of what you want to,,
+                  Everything can be modified. We are Human.
+                </p>
+
+                <div
+                  class="m-auto content-center p-10"
+                  style="display: inline-block">
+                  <div
+                    class="m-auto rounded-full border-2 bg-[rgba(120,120,120,1)] 
+                    p-3 text-2xl text-white hover:text-varLIGHTBEAKTOP
+                     active:bg-varLIGHTBLUEFEATHER sm:text-3xl">
+                    <a href="#contactus1"> Contact Us </a>
+                  </div>
+                </div>
+              </div>
+              <span class="text-4xl">👨‍💻</span>
+            </blockquote>
+          </section>
+        </div>
+      </div>
+      <div
+        class="text-right text-xl italic text-slate-500 dark:text-slate-400 sm:text-2xl"
+        style="font-size: 24px">
+        &#8212;The Developer
+        <span class="whitespace-nowrap font-serif text-[rgba(120,120,120,1)]">
+          🕸️MyBabb🕸️
+        </span>
+      </div>
+      <span id="contactus1"></span>
+
+      <!-- xxxxxxxxxxxxxxxxxxx⬆️👨‍💻 xxxxxxxxxxxxx -->
+      <hr id="gohere" class="mx-auto w-1/2 bg-black dark:bg-white">
+
+      <!-- xxxxxxxxxxxxxxxxxxxx⬇️bottom area xxxxxxxxxxxx -->
+
+      <!-- this is the whole big article -->
+    </main>
+
+    <!-- xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxold formxxxxxxxxxxxxxxxxxxxxxxxxx -->
+  <div>
+      <form
+        class="items-left mx-auto flex max-w-4xl flex-col gap-1 py-8 text-2xl sm:text-3xl">
+        <label for="name" class="text-white"> Your Info:(off) </label>
+        <br>
+        <input
+          type="text"
+          id="name"
+          required
+          minlength="3"
+          maxlength="60"
+          placeholder="Your Name Here:(off) "
+          class="w-full rounded-xl border-2 border-white bg-[rgba(120,120,120,1)] p-3 text-2xl text-white sm:text-3xl"
+          name="name">
+
+        <label for="email" class="text-white"></label>
+        <input
+          type="email"
+          id="email"
+          required
+          minlength="3"
+          maxlength="60"
+          placeholder="Your Email Here:(off)"
+          class="w-full rounded-xl border-2 border-white bg-[rgba(120,120,120,1)] p-3 text-2xl text-white sm:text-3xl"
+          name="email">
+
+        <label for="phone" class="text-white"></label>
+        <input
+          type="tel"
+          id="phone"
+          minlength="3"
+          maxlength="60"
+          placeholder="Phone:(off)"
+          class="w-full rounded-xl border-2 border-white bg-[rgba(120,120,120,1)] p-3 text-2xl text-white sm:text-3xl"
+          name="phone">
+
+        <label class="py-4 text-white"> Message:(off): </label>
+
+        <textarea
+          name="comments"
+          id="comment"
+          cols="30"
+          rows="10"
+          required
+          class="w-full rounded-xl border-2 border-white bg-[rgba(120,120,120,1)] p-3 text-2xl text-white sm:text-3xl">
+        </textarea>
+      </form>
+</div>
+        <a href="#gohere"> </a>
+        <div class="flex justify-center rounded-full border-2   
+           relative w-32 h-14 p-3   hover:text-varLIGHTBEAKTOP m-auto mb-4
+            border-white bg-[rgba(120,120,120,1)] hover:bg-varMEDDUCKHEAD ">
+          <div class="relative">Submit</div>
+        </div>
+
+    <div
+      class="rounded-3xl border-2 border-white bg-[rgba(120,120,120,1)] text-center text-white"
+      style="
+        margin: auto;
+        display: flex;
+        justify-content: center;
+        width: 200px;
+        height: 200px;">
+      <img
+        id="imageAlt1"
+        src="./img/yourImage9"
+        alt="yourImage9"
+        width="200"
+        height="200"
+      >
+      <!-- xxxxxxxxxxxxxxxxxxxx👾xxxxxxxxxxxxxxxxx -->
+    </div>
+    <div class="mt-4">
+      <img
+        src="./img/cssLogoHeight80px.png"
+        alt="cssLogo"
+        style="
+          margin-top: 2rem;
+          display: block;
+          margin: auto;
+          height: 35px;
+          width: auto;">
+    </div>
+
+   
+              
+
+
+
+
+<a href="./contact.html#contactButoon" style="text-shadow: 2px 2px 3px #1c0303">
+ <div 
+    style=" 
+    margin-top: 30px;
+    position: relative;
+    position:sticky;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 30;">
+ <div class="
+    whitespace-nowrap
+    mb-4
+    -mt-4
+    p-2 
+    rounded-full
+    border border-solid 
+    border-slate-900 
+    bg-varMEDBLUEFEATHER
+    font-orbitron 
+    active:bg-varLIGHTBLUEFEATHER 
+    dark:border-none "
+    style="box-shadow: inset 0 0 10px rgba(0, 0, 0, 0.8),
+    0 0 10px rgba(0, 0, 0, 0.8);
+    ">
+                
+     
+    <span style="display: inline-block; transform: scaleX(-1);">
+    📡
+    </span>
+      <span  
+     class=" text-varLIGHTBLUEFEATHER hover:text-varLIGHTBEAKTOP">
+    Contact
+     <span>
+    📡
+    </span>
+    </span>
+   
+  </div> 
+ </div>
+</a> 
+    <p class="fixed bottom-0 right-5" style="font-size: 12px">
+      &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&lt;&lt;&lt;&copy;MyBaBB
+      <em>8-2013</em>&gt;&gt;&gt;
+    </p>
+
+    <footer id="footer" class="z-30 mt-4 rounded-b bg-[rgba(120,120,120,1)]">
+      <section class="mx-auto flex max-w-4xl flex-row justify-between p-4">
+        <h2 class="absolute text-center top-0 z-0">
+          MyBaBB Custom Websites
+        </h2> 
+  <div class="addressDiv">
+     <address class=" relative left-3">
+       <a
+       href="https://mybabb.com"
+       class="text-center text-lime-400 hover:text-varLIGHTBEAKTOP">
+         <u><b>MyBaBB.com</b></u>
+      </a>
+  <p class="hidden">Blank Street</p>
+  <p class="text-transparent">Covina,California 91722</p>
+     </address>
+
+  <div class="shrinkLinkedIn  relative right-0 -top-4"
+     style="height: 32px; width: 117px; border:2px solid rgba(36, 85, 141,1); border-radius: 6px;
+              background-color: rgb(247, 245, 243);">
+     <nav class="flex-col text-center gap-2">        
+      <a  href="https://www.linkedin.com/in/mybabb-customweb?trk=profile-badge">
+        <span style="color:rgba(36, 85, 141,1);">
+          <b>
+            <u> 
+              Linked<span class="text-neutral-100 bg-varDARKBLUEFEATHER">in</span>
+            </u>
+          </b>
+        </span>
+      </a> 
+      </nav>
+  </div>
+  
+  <nav>
+      <div class="shrinkSponsor relative  bottom-2 -left-6" 
+      style="display: flex; justify-content: center; 
+      height: 20px;
+      width: auto;">
+         
+         
+          <iframe src="https://github.com/sponsors/MyBaBB/button" 
+          title="Sponsor MyBaBB" height="32" width="114" 
+          style="border-radius: 6px;">
+          </iframe>
+       </div>
+  </nav>
+    </div>
+ 
+        
+      
+        <div class="text-xs sm:text-lg">
+         <nav class="footerNavDiv flex-col text-center" aria-label="footer" style="position: absolute; margin-top: 1.25rem; left: 50%; transform: translateX(-50%);">
+          <a href="#AboutUs"> 
+            <span class="text-lime-500 font-bold hover:text-varLIGHTBEAKTOP 
+            font-orbitron text-[.60rem] sm:text-lg">Put Some Links!</span>
+          </a>
+       <br> 
+     
+          <a href="#You" class="text-lime-500 font-bold hover:text-varLIGHTBEAKTOP">
+            <span class="font-orbitron text-[.60rem] sm:text-lg">On This Webpage</span>
+          </a>
+       <br>    <a href="#locatiion" class="text-lime-500 font-bold hover:text-varLIGHTBEAKTOP">
+            <span class="font-orbitron text-[.60rem] sm:text-lg">Or to the Web</span>
+          </a>
+      </nav>
+   </div>
+     
+        <a href="quickBrief.html" class="mt-5">
+         
+          <div
+            style="
+              position: relative;
+              width: 100px;
+              height: 100px;
+              border-radius: 50%;
+              display: flex;
+              justify-content: center;
+              align-items: center;
+              width: 80px;
+              height: 80px;
+              border-radius: 50%;
+              box-shadow: 0px 0px 10px rgba(0, 0, 0, 1),
+                inset 0px 0px 10px rgba(0, 0, 0, 0.5);"
+            class="text-lime-400 hover:bg-varLIGHTBEAKTOP active:bg-varLIGHTBLUEFEATHER">
+            <p class="relative w-[4rem] left-0 m-3 text-center -left-1"> <span>Quick  Brief</span></p>
+          </div>
+        </a>
+      </section>
+               
+      
+              
+              
+      <section>
+        <h2 class="absolute text-center  text-transparent">MyBaBB Custom Websites</h2>
+        <div class="relative z-10 p-4 text-center">
+          <a
+            id="crabs"
+             href="#"
+            class="font-Sansita mb-8 text-2xl text-varBoneWhite  visited:text-varMEDBEAK hover:text-varLIGHTBEAK   active:text-varDARKBEAK">
+           
+            <span style="display: inline-block; transform: rotate(290deg);">&nbsp;🦀</span>Crabs 
+            <span style="display: inline-block; transform: rotate(190deg);">🦀</span> 
+           
+          </a>
+        </div>
+      </section>
+    </footer>
+    
+    <script src="https://smtpjs.com/v3/smtp.js"></script>
+  </body>
+</html>
