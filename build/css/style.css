@@ -705,20 +705,12 @@ video {
   transform: translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y));
 }
 
-.scroll-mt-8{
-  scroll-margin-top: 2rem;
-}
-
-.scroll-mt-12{
-  scroll-margin-top: 3rem;
-}
-
-.scroll-mt-14{
-  scroll-margin-top: 3.5rem;
-}
-
 .scroll-mt-16{
   scroll-margin-top: 4rem;
+}
+
+.scroll-mt-8{
+  scroll-margin-top: 2rem;
 }
 
 .flex-col{
