@@ -1,4 +1,4 @@
-THis is not an ftb account, it was a test repo and I didn't want to delete it because it would erase my commits
-``` in github. so I just left it there. I will delete it later.
+here we go, waiting to go live and then tune up for a bout a week
+
 
 Main for MyBabb.com
