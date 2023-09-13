@@ -606,6 +606,34 @@ video {
   top: 0px;
 }
 
+.right-6{
+  right: 1.5rem;
+}
+
+.right-7{
+  right: 1.75rem;
+}
+
+.left-2{
+  left: 0.5rem;
+}
+
+.left-3{
+  left: 0.75rem;
+}
+
+.right-3{
+  right: 0.75rem;
+}
+
+.left-1{
+  left: 0.25rem;
+}
+
+.right-1{
+  right: 0.25rem;
+}
+
 .z-10{
   z-index: 10;
 }
@@ -1636,6 +1664,22 @@ label{
     right: 1.25rem;
   }
 
+  .sm\:right-10{
+    right: 2.5rem;
+  }
+
+  .sm\:right-12{
+    right: 3rem;
+  }
+
+  .sm\:right-14{
+    right: 3.5rem;
+  }
+
+  .sm\:left-5{
+    left: 1.25rem;
+  }
+
   .sm\:block{
     display: block;
   }
@@ -1661,6 +1705,11 @@ label{
 
   .sm\:text-8xl{
     font-size: 6rem;
+    line-height: 1;
+  }
+
+  .sm\:text-5xl{
+    font-size: 3rem;
     line-height: 1;
   }
 }
