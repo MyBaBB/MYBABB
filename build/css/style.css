@@ -524,40 +524,6 @@ video {
   --tw-backdrop-sepia:  ;
 }
 
-.container{
-  width: 100%;
-}
-
-@media (min-width: 640px){
-  .container{
-    max-width: 640px;
-  }
-}
-
-@media (min-width: 768px){
-  .container{
-    max-width: 768px;
-  }
-}
-
-@media (min-width: 1024px){
-  .container{
-    max-width: 1024px;
-  }
-}
-
-@media (min-width: 1280px){
-  .container{
-    max-width: 1280px;
-  }
-}
-
-@media (min-width: 1536px){
-  .container{
-    max-width: 1536px;
-  }
-}
-
 .fixed{
   position: fixed;
 }
@@ -594,8 +560,12 @@ video {
   bottom: 1.2rem;
 }
 
-.right-2{
-  right: 0.5rem;
+.left-1{
+  left: 0.25rem;
+}
+
+.right-1{
+  right: 0.25rem;
 }
 
 .right-5{
@@ -604,34 +574,6 @@ video {
 
 .top-0{
   top: 0px;
-}
-
-.right-6{
-  right: 1.5rem;
-}
-
-.right-7{
-  right: 1.75rem;
-}
-
-.left-2{
-  left: 0.5rem;
-}
-
-.left-3{
-  left: 0.75rem;
-}
-
-.right-3{
-  right: 0.75rem;
-}
-
-.left-1{
-  left: 0.25rem;
-}
-
-.right-1{
-  right: 0.25rem;
 }
 
 .z-10{
@@ -797,10 +739,6 @@ video {
 
 .self-end{
   align-self: flex-end;
-}
-
-.scroll-smooth{
-  scroll-behavior: smooth;
 }
 
 .whitespace-nowrap{
@@ -986,11 +924,6 @@ video {
   line-height: 2rem;
 }
 
-.text-3xl{
-  font-size: 1.875rem;
-  line-height: 2.25rem;
-}
-
 .text-4xl{
   font-size: 2.25rem;
   line-height: 2.5rem;
@@ -1117,6 +1050,14 @@ video {
 
 .decoration-varLIGHTBEAKTOP{
   text-decoration-color: #fca802;
+}
+
+.beeBox {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 20%;
+  height: 20%;
 }
 
 /*  a[data-tool-tip] {
@@ -1660,24 +1601,12 @@ label{
 }
 
 @media (min-width: 640px){
-  .sm\:right-5{
-    right: 1.25rem;
-  }
-
-  .sm\:right-10{
-    right: 2.5rem;
-  }
-
-  .sm\:right-12{
-    right: 3rem;
-  }
-
-  .sm\:right-14{
-    right: 3.5rem;
-  }
-
   .sm\:left-5{
     left: 1.25rem;
+  }
+
+  .sm\:right-5{
+    right: 1.25rem;
   }
 
   .sm\:block{
@@ -1705,11 +1634,6 @@ label{
 
   .sm\:text-8xl{
     font-size: 6rem;
-    line-height: 1;
-  }
-
-  .sm\:text-5xl{
-    font-size: 3rem;
     line-height: 1;
   }
 }
