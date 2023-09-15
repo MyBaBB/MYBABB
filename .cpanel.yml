@@ -4,12 +4,3 @@ deployment:
     - export DEPLOYPATH=/home/mybabb/public_html/
     - /bin/cp * $DEPLOYPATH
 
-    
-    
-     
-    
-     
-    
-
-
-     

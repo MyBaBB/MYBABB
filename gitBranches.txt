@@ -1,0 +1,30 @@
+
+
+
+
+https://www.youtube.com/watch?v=EGooeHH3hDY
+
+
+
+
+
+
+(0:04) Recap Quick Start
+(1:20) git restore [filename] (undo changes)              
+(2:18) git restore --staged [filename] (undo staged files) 
+(3:09) git log (show log with details) git .
+(3:45) git log --one line (shows simplified log) 
+(4:35) git commit -v --amend (change last commit's message)
+(6:35) git branch [newBranchName] (creates new branch)
+(7:50) git branch --list (lists all branches)
+(8:05) git checkout [branchName] (switch to this branch)
+(8:10) working with more than one branch
+(12:25) git branch -m [oldBranchName] [newBranchName] (renames branch)
+(14:10) git checkout -b [newBranchName] (creates new branch and switches to it)
+(15:00) git branch -D [branchName] (deletes branch permanently)
+(16:00) git merge [branchName] (merges named branch into branch you are on)
+(17:10) Understanding and handling git merge conflicts
+(22:30) git checkout [commitNumber] (go back to a specific commit number)
+(27:00) git revert [commitNumber] (revert code to a specific commit number by creating new commit)
+(29:30) git reset [commitNumber] (reset code to a specific commit number and unstage the code that came after that commit)
+(31:45) git reset [commitNumber] --hard (reset code to a specific commit and permanently delete the code that came after the commit)
