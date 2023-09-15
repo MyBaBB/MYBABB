@@ -1,6 +1,6 @@
 
  /** @type {import('tailwindcss').Config} */
- export const content = ["/*.html", "./build/js/*.js"];
+ export const content = ["./build/*.html", "./build/js/*.js"];
  export const theme = {
    
   extend: {
@@ -73,3 +73,4 @@
    
    plugins: [],
  };
+ 
