@@ -1,0 +1,79 @@
+      xxxxxxxxxxxxxxxxxcss for the Please Wait button xxxxxxxxxxxxxxxxxxx 
+ 
+#search-button {
+   border:none;
+   width: 200px;
+   height: 50px;
+   border-radius: 10px;
+   background-color:red;
+   position: relative;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   margin: 0 auto;
+   top:200px;
+   color: blanchedalmond;
+   font-family: 'Rye', cursive;
+   font-size: 1.5rem;
+   font-weight: 800;
+   transition: all 0.5s
+}
+
+#search-button h3 {
+   margin: 0;
+   padding: 0;
+}  
+#search-button:hover {
+   background-color: rgba(255 , 68, 99)
+}
+#search-button:active {
+   background-color: rgba(153 , 21, 47)
+}
+#search-button .loading {
+    width: 25px;
+      height: 25px;
+      border-radius: 50%;
+      box-sizing: border-box;
+      border: 5px solid rgba(0, 0, 0, .2);
+      border-right-color: rgba(245, 239, 239);
+      animation: loading-animation 2s linear infinite;
+}
+#search-button .loading * {
+     display: none;
+}
+
+
+
+ @keyframes loading-animation {
+      0% {
+        transform: rotate(0deg);
+      }
+      100% {
+        transform: rotate(360deg);
+      }
+ }
+
+
+xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx html for the Please Wait button xxxxxxxxxxxxxxxxx
+<button id="search-button">
+    <div>
+        <h3>Submit</h3>
+    </div>
+</button>
+<script src="./js/app.js"></script>
+
+xxxxxxxxxxxxxxxxxxxxxxxxxjavescript for the Please Wait button xxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+
+const searchButton = document.querySelector('#search-button')
+const searchButtonContent = document.querySelector('#search-button div')
+
+searchButton.addEventListener('click', toggleButton) 
+
+function toggleButton() {
+  searchButtonContent.classList.toggle('loading')
+  searchButtonContent.classList.toggle('please wait')
+}
+
+/* XXXXXXXXXXXXXXXXXXXXXXXX searching button with rotating circle.xxxxxxxxxxxxxxxxx */
+
+

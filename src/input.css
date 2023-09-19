@@ -156,10 +156,62 @@ bottom:-1.75rem;
 border: 15px solid transparent;
 border-bottom:wheat  15px solid;
 color:wheat;
-
-
 --scale: 0;
 z-index: 2;
+}
+
+
+#search-button {
+  border:none;
+  width: 200px;
+  height: 50px;
+  border-radius: 10px;
+  background-color:red;
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0 auto;
+  top: 15px;
+  color: blanchedalmond;
+  font-family: 'Rye', cursive;
+  font-size: 1.5rem;
+  font-weight: 800;
+  transition: all 0.5s
+}
+
+#search-button h3 {
+  margin: 0;
+  padding: 0;
+}  
+#search-button:hover {
+  background-color: rgba(255 , 68, 99)
+}
+#search-button:active {
+  background-color: rgba(153 , 21, 47)
+}
+#search-button .loading {
+   width: 25px;
+     height: 25px;
+     border-radius: 50%;
+     box-sizing: border-box;
+     border: 5px solid rgba(0, 0, 0, .2);
+     border-right-color: rgba(245, 239, 239);
+     animation: loading-animation 2s linear infinite;
+}
+#search-button .loading * {
+    display: none;
+}
+
+
+
+@keyframes loading-animation {
+     0% {
+       transform: rotate(0deg);
+     }
+     100% {
+       transform: rotate(360deg);
+     }
 }
 
 

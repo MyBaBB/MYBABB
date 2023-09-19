@@ -399,7 +399,7 @@ Provide you with regular reports and insights on your SEO performance and recomm
         <input
           type="tel"
           id="phone"
-          minlength="3"
+         
           maxlength="60"
           placeholder="(not required)"
           class="w-full rounded-xl border border-solid border-slate-900 bg-slate-100 p-3 font-iceberg text-2xl text-black dark:border-none sm:text-3xl"
@@ -427,14 +427,27 @@ Provide you with regular reports and insights on your SEO performance and recomm
         </textarea>
 
         
-
-        <button
-          type="submit"
-          class="font-serif m-auto border-spacing-4 rounded-full border-solid border-slate-900 p-3 text-4xl text-varLIGHTBLUEFEATHER hover:text-varLIGHTBEAKTOP active:text-varLIGHTBLUEFEATHER 
-          touchstart:text-varMEDBEAKTOP dark:border-none sm:text-8xl"
-          style="text-shadow: 2px 2px 3px #dbc6c6">
-          <u style="text-decoration-color: rgba(182, 121, 2, 1)">Submit</u>
+        <button id="search-button">
+          <div>
+              <h3><u>Submit</u></h3>
+          </div>
+          
         </button>
+          <div class="patience">patience please</div>
+<!-- FILEPATH: c:\Users\brttb\OneDrive\Documents\GitHub\MYBABB\MYBABB\index.html -->
+
+<div class="patience" style="display: none;">patience please</div>
+
+<script>
+  // Show the patience div when the page is still loading
+  window.addEventListener('load', function() {
+    document.querySelector('.patience').style.display = 'block';
+  });
+</script>
+          <!-- type="submit"
+          class=" sm:text-8xl"
+          style="text-shadow: 2px 2px 3px #dbc6c6"> this goes up there when done-->
+        
       </form>
     </div>
 
@@ -458,33 +471,31 @@ Provide you with regular reports and insights on your SEO performance and recomm
           0 0 10px rgba(0, 0, 0, 0.1);">
       
        
-        <section class="flex justify-center text-center mx-auto">
+      <section class="flex justify-center text-center mx-auto">
           <h2 class="absolute text-center text-transparent">
             Located in Los Angles, CA
           </h2>
            <address>
               <div class="text-blue-900 hover:text-varLIGHTBEAKTOP touchstart:text-varMEDBEAKTOP font-rye">
                 <br>
-                <a href="https://contactMyBaBB.onrender.com">
-                
-                 <p>
-                  MyBabb <br> Web <br> Developer
-                </p>
-                  <div class="flex relative justify-center align-middle">
+                   <a href="https://contactMyBaBB.onrender.com">
+                  <p>
+                  MyBabb<br>Web<br>Developer
+                  </p>
+                   <div class="flex relative justify-center align-middle">
                         <span style="transform: rotate(180deg);
-                            text-shadow: -1px -1px 2px rgb(8, 1, 20);"
-                            Class="absolute w-8 h-8 bottom-6 -left-2">
-                          👀
-                       </span>
-                        <span style="text-shadow: 1px 1px 2px rgb(8, 1, 20);"
+                               text-shadow: -1px -1px 2px rgb(8, 1, 20);"
+                              class="absolute w-8 h-8 bottom-6 -left-2">
+                            👀
+                          </span>
+                          <span style="text-shadow: 1px 1px 2px rgb(8, 1, 20);"
                               class="absolute w-8 h-8 bottom-[1.2rem] -right-2">
-                         👀
-                        </span>
+                            👀
+                          </span>
                     </div>    
-                 
-                </a>
-              </div>
-          </address>
+                 </a>
+               </div>
+             </address>
         </section>
     
         <div class="relative z-10 p-4 text-center">
@@ -513,10 +524,10 @@ Provide you with regular reports and insights on your SEO performance and recomm
           </div>
         </div>
             <!--  this is the countdown timer -->
-
-  
       </footer>
+      <script src="https://smtpjs.com/v3/smtp.js"></script>
+      <script src="./build/js/app.js"></script>
       <script src="./build/js/main.js"></script>
-    <script src="https://smtpjs.com/v3/smtp.js"></script>
+      
   </body>
 </html>
