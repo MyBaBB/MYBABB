@@ -524,6 +524,10 @@ video {
   --tw-backdrop-sepia:  ;
 }
 
+.visible{
+  visibility: visible;
+}
+
 .fixed{
   position: fixed;
 }
@@ -653,16 +657,12 @@ video {
   width: 2rem;
 }
 
-.w-\[250px\]{
-  width: 250px;
+.w-\[280px\]{
+  width: 280px;
 }
 
 .w-full{
   width: 100%;
-}
-
-.w-\[280px\]{
-  width: 280px;
 }
 
 .min-w-fit{
