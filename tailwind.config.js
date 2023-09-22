@@ -1,6 +1,6 @@
 
  /** @type {import('tailwindcss').Config} */
- export const content = ["./*.html", "./build/js/*.js"];
+ export const content = ["./*.html", "./build/forminator/*.php", "./build/forminator/*.html", "./build/js/*.js"];
  export const theme = {
    
   extend: {
