@@ -556,10 +556,6 @@ video {
   bottom: 0px;
 }
 
-.bottom-14{
-  bottom: 3.5rem;
-}
-
 .bottom-6{
   bottom: 1.5rem;
 }
@@ -657,20 +653,12 @@ video {
   width: 2rem;
 }
 
-.w-\[280px\]{
-  width: 280px;
+.w-\[180px\]{
+  width: 180px;
 }
 
 .w-full{
   width: 100%;
-}
-
-.w-\[80px\]{
-  width: 80px;
-}
-
-.w-\[180px\]{
-  width: 180px;
 }
 
 .min-w-fit{
