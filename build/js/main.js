@@ -1,5 +1,5 @@
  
-        // Set the date we're counting down to
+       /*  // Set the date we're counting down to
         var countDownDate = new Date("oct 22, 2023 00:00:00 UTC").getTime();
 
         // Update the count down every 1 second
@@ -29,7 +29,7 @@
         }, 1000);
    
 
-
+ */
 
 const downArrow = document.querySelectorAll('.downArrow');
 
