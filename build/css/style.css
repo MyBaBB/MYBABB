@@ -1219,6 +1219,7 @@ video {
   border: 5px solid rgba(0, 0, 0, .2);
   border-right-color: rgba(245, 239, 239);
   animation: loading-animation 2s linear infinite;
+  animation-duration: 2s;
 }
 
 #search-button .loading * {
