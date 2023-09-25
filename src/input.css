@@ -6,7 +6,7 @@
 @tailwind utilities;
  
 @layer utilities {
-    .section-min-height {
+  .section-min-height {
        min-height: calc(100vh - 68px)
    }
  }
@@ -160,13 +160,12 @@ color:wheat;
 z-index: 2;
 }
 
-
 #search-button {
   border:none;
   width: 200px;
   height: 50px;
   border-radius: 10px;
-  background-color:red;
+  background-color:#419aff;
   position: relative;
   display: flex;
   justify-content: center;
@@ -185,13 +184,13 @@ z-index: 2;
   padding: 0;
 }  
 #search-button:hover {
-  background-color: rgba(255 , 68, 99)
+  background-color: rgba(182, 121, 2, 1)
 }
 #search-button:active {
-  background-color: rgba(153 , 21, 47)
+  background-color: rgba(146, 153, 21, 1)
 }
 #search-button .loading {
-   width: 25px;
+     width: 25px;
      height: 25px;
      border-radius: 50%;
      box-sizing: border-box;
@@ -199,13 +198,11 @@ z-index: 2;
      border-right-color: rgba(245, 239, 239);
      animation: loading-animation 2s linear infinite;
      animation-duration: 2s;
-     
+
 }
 #search-button .loading * {
     display: none;
 }
-
-
 
 @keyframes loading-animation {
      0% {
@@ -215,26 +212,6 @@ z-index: 2;
        transform: rotate(360deg);
      }
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
- 
-
- 
- 
- 
-
- 
    
  #logoBody{
   font-size: 2rem;
@@ -311,12 +288,8 @@ z-index: 2;
   height: 500px;
    
 }
-  
-  
- 
-    
 
-   .hoverdiv { 
+.hoverdiv { 
       display: flex;
       position: relative;
       align-items: center;
