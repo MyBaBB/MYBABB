@@ -1013,6 +1013,15 @@ video {
   color: rgb(255 255 255 / var(--tw-text-opacity));
 }
 
+.text-lime-400{
+  --tw-text-opacity: 1;
+  color: rgb(163 230 53 / var(--tw-text-opacity));
+}
+
+.underline{
+  text-decoration-line: underline;
+}
+
 .decoration-varLIGHTBEAKTOP{
   text-decoration-color: #fca802;
 }
@@ -1117,7 +1126,7 @@ video {
   position: absolute;
   z-index: 100;
   border-radius: 50%;
-  bottom: 60px;
+  bottom: 59px;
   left: -3px;
 }
 
