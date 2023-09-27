@@ -1043,7 +1043,7 @@ video {
 
 .eyeBlackSpot2::before {
   content:'';
-  background-color:rgb(226, 48, 48);
+  background-color:rgb(18, 15, 15);
   width: 5.5px;
   height: 5.5px;
   position: absolute;
