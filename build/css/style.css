@@ -1025,9 +1025,101 @@ video {
   height: 20%;
 }
 
-/*  a[data-tool-tip] {
-  position: relative;
-  } */
+.eyeBlackSpot1::before {
+  content:'';
+  background-color:black;
+  width: 5px;
+  height: 5px;
+  position: absolute;
+  z-index: 100;
+  border-radius: 50%;
+  bottom: 3.2rem;
+  left:-.35rem;
+}
+
+.eyeBlackSpot2::before {
+  content:'';
+  background-color:rgb(8, 0, 0);
+  width: 5px;
+  height: 5px;
+  position: absolute;
+  z-index: 100;
+  border-radius: 50%;
+  bottom: 3.2rem;
+  left:.625rem;
+}
+
+.eyeWhiteSpot1::before {
+  content:'';
+  background-color:whitesmoke;
+  width: 3.5px;
+  height: 3.5px;
+  position: absolute;
+  z-index: 100;
+  border-radius: 50%;
+  bottom: 59px;
+  left: 15px;
+}
+
+.eyeWhiteSpot2::before {
+  content:'';
+  background-color:whitesmoke;
+  width: 3.5px;
+  height: 3.5px;
+  position: absolute;
+  z-index: 100;
+  border-radius: 50%;
+  bottom: 59px;
+  left: -2px;
+}
+
+.eyeBlackSpotb1::before {
+  content:'';
+  background-color:black;
+  width: 5px;
+  height: 5px;
+  position: absolute;
+  z-index: 100;
+  border-radius: 50%;
+  bottom: 3.2rem;
+  left:-.55rem;
+}
+
+.eyeBlackSpotb2::before {
+  content:'';
+  background-color:rgb(8, 0, 0);
+  width: 5px;
+  height: 5px;
+  position: absolute;
+  z-index: 100;
+  border-radius: 50%;
+  bottom: 3.2rem;
+  left:.425rem;
+}
+
+.eyeWhiteSpotb1::before {
+  content:'';
+  background-color:whitesmoke;
+  width: 3.5px;
+  height: 3.5px;
+  position: absolute;
+  z-index: 100;
+  border-radius: 50%;
+  bottom: 59px;
+  left: 14px;
+}
+
+.eyeWhiteSpotb2::before {
+  content:'';
+  background-color:whitesmoke;
+  width: 3.5px;
+  height: 3.5px;
+  position: absolute;
+  z-index: 100;
+  border-radius: 50%;
+  bottom: 60px;
+  left: -3px;
+}
 
 .whoopieCushion:hover::before, 
   .whoopieCushion:hover::after {
