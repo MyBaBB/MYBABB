@@ -1499,7 +1499,7 @@ video {
 
 .eyeBlackSpotb1::before {
   content:'';
-  background-color:black;
+  background-color:rgb(30,30,30);
   width: 5px;
   height: 5px;
   position: absolute;
@@ -1511,14 +1511,14 @@ video {
 
 .eyeBlackSpotb2::before {
   content:'';
-  background-color:rgb(8, 0, 0);
-  width: 5px;
-  height: 5px;
+  background-color:rgb(30,30,30);
+  width: 5.5px;
+  height: 5.5px;
   position: absolute;
   z-index: 51;
   border-radius: 50%;
-  bottom: 3.2rem;
-  left:.425rem;
+  bottom: 50px;
+  left:7.75px;
 }
 
 .eyeWhiteSpotb1::before {
