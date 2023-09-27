@@ -32,12 +32,12 @@
   .eyeBlackSpot2::before {
     content:'';
     background-color:rgb(8, 0, 0);
-    width: 5px;
-    height: 5px;
+    width: 5.5px;
+    height: 5.5px;
     position: absolute;
     z-index: 100;
     border-radius: 50%;
-    bottom: 3.2rem;
+    bottom: 3.15rem;
     left:.625rem;
   }
   .eyeWhiteSpot1::before {
