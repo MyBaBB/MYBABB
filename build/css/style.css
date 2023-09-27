@@ -564,6 +564,10 @@ video {
   bottom: 3.0rem;
 }
 
+.bottom-\[33px\]{
+  bottom: 33px;
+}
+
 .left-1{
   left: 0.25rem;
 }
@@ -1027,7 +1031,7 @@ video {
 
 .eyeBlackSpot1::before {
   content:'';
-  background-color:black;
+  background-color:rgb(23, 21, 21);
   width: 5px;
   height: 5px;
   position: absolute;
@@ -1039,7 +1043,7 @@ video {
 
 .eyeBlackSpot2::before {
   content:'';
-  background-color:rgb(8, 0, 0);
+  background-color:rgb(18, 16, 16);
   width: 5.5px;
   height: 5.5px;
   position: absolute;

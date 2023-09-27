@@ -20,7 +20,7 @@
 
   .eyeBlackSpot1::before {
     content:'';
-    background-color:black;
+    background-color:rgb(23, 21, 21);
     width: 5px;
     height: 5px;
     position: absolute;
@@ -31,7 +31,7 @@
   }
   .eyeBlackSpot2::before {
     content:'';
-    background-color:rgb(8, 0, 0);
+    background-color:rgb(18, 16, 16);
     width: 5.5px;
     height: 5.5px;
     position: absolute;
