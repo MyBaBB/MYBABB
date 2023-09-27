@@ -1553,7 +1553,7 @@ video {
 .headerCushion::before {
   content:'';
   background-color: #24558d;
-  width:250px;
+  width:260px;
   height: auto;
   position: absolute;
   content: attr(data-tool-tip);

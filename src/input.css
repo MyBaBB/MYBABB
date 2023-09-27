@@ -130,7 +130,7 @@
   content:'';
   background-color: #24558d;
   bottom: .25rem;
-  width:250px;
+  width:260px;
   height: auto;
   position: absolute;
   content: attr(data-tool-tip);
