@@ -17,14 +17,23 @@
     width: 20%;
     height: 20%;
   }
-
+  .seoEffects:hover {
+    .letterS {
+    color: #4ade80;}
+    .letterE {
+    color: #4ade80;}
+    .letterO {
+    color: #4ade80;}
+  }
+    
+   
   .eyeBlackSpot1::before {
     content:'';
     background-color:rgb(18, 17, 17);
     width: 5px;
     height: 5px;
     position: absolute;
-    z-index: 100;
+    z-index: 51;
     border-radius: 50%;
     bottom: 50px;
     left:-.35rem;
@@ -35,7 +44,7 @@
     width: 5.5px;
     height: 5.5px;
     position: absolute;
-    z-index: 100;
+    z-index: 51;
     border-radius: 50%;
     bottom: 3.15rem;
     left:.645rem;
@@ -46,7 +55,7 @@
     width: 3.5px;
     height: 3.5px;
     position: absolute;
-    z-index: 100;
+    z-index: 51;
     border-radius: 50%;
     bottom: 59px;
     left: 15px;;
@@ -57,7 +66,7 @@
     width: 3.5px;
     height: 3.5px;
     position: absolute;
-    z-index: 100;
+    z-index: 51;
     border-radius: 50%;
     bottom: 59px;
     left: -2px;
@@ -68,7 +77,7 @@
     width: 5px;
     height: 5px;
     position: absolute;
-    z-index: 100;
+    z-index: 51;
     border-radius: 50%;
     bottom: 3.2rem;
     left:-.55rem;
@@ -79,7 +88,7 @@
     width: 5px;
     height: 5px;
     position: absolute;
-    z-index: 100;
+    z-index: 51;
     border-radius: 50%;
     bottom: 3.2rem;
     left:.425rem;
@@ -90,7 +99,7 @@
     width: 3.5px;
     height: 3.5px;
     position: absolute;
-    z-index: 100;
+    z-index: 51;
     border-radius: 50%;
     bottom: 59px;
     left: 14px;;
@@ -101,7 +110,7 @@
     width: 3.5px;
     height: 3.5px;
     position: absolute;
-    z-index: 100;
+    z-index: 51;
     border-radius: 50%;
     bottom: 59px;
     left: -3px;
@@ -112,33 +121,34 @@
 
 
 
-  .whoopieCushion:hover::before, 
-  .whoopieCushion:hover::after {
+  .headerCushion:hover::before, 
+  .headerCushion:hover::after {
      --scale: 1;
 
   }
-.whoopieCushion::before {
+.headerCushion::before {
   content:'';
-  background-color:#412a32;
+  background-color: #24558d;
   bottom: .25rem;
-  width:max-content;
+  width:250px;
+  height: auto;
   position: absolute;
   content: attr(data-tool-tip);
   padding:  .1em .1em .2em .1em;
   left: 50%;
-  transform: translateX(-50%) scale(var(--scale));
+  transform: translateX(-52%) translateY(90%) scale(var(--scale));
   transform-origin: top center;
   transition: ease-in .35s;
   bottom:-2.75rem;
-  border: 0.3px solid #fff9d7;
+  border:3px double #419aff;
   border-radius: 10px;
-  color:fff9d7;
+  color: #4ade80;
   padding-left: 2rem;
   padding-right: 2rem;
   --scale: 0;
-  z-index: 3;
+  z-index: 53;
 }
-.whoopieCushion::after {
+.headerCushion::after {
   content:'';
   top: .4rem;
   width: 15px;
@@ -146,15 +156,16 @@
   position: absolute;
   padding:  .1em .1em .2em .1em;
   left: 50%;
-  transform: translateX(-50%) scale(var(--scale));
+  transform: translateX(-50%) translateY(30px) scale(var(--scale));
   transform-origin:bottom center;
   transition:.35s ;
   bottom:-1.75rem;
   border: 15px solid transparent;
-  border-bottom:#cfa69d 10px solid;
+  border-bottom:#419aff 10px solid;
   color:#fff9d7;
   --scale: 0;
-  z-index: 2;
+  z-index: 52;
+  
 }
 
 
@@ -205,51 +216,6 @@
 }
 
 /* xxxxxxxxxxxxxxxxxxxxxxxxxxxx */
-.secretPassword:hover::before, 
-.secretPassword:hover::after {
-   --scale: 1;
-  
-
-}
-.secretPassword::before {
-content:'';
-background-color: #625d81;
-bottom: .25rem;
-width:max-content;
-position: absolute;
-content: attr(data-tool-tip);
-padding:  .1em .1em .2em .1em;
-left: 50%;
-transform: translateX(-30%) translateY(50%) scale(var(--scale));
-transform-origin: top center;
-transition: 800ms;
-bottom:-2.75rem;
-border-radius: 10px;
-border: .5px solid wheat;
-color:wheat;
-padding-left: 2rem;
-padding-right: 2rem;
---scale: 0;
-z-index: 3;
-}
-.secretPassword::after {
-content:'';
-top: .4rem;
-width: 15px;
-height: 15px;
-position: absolute;
-padding:  .1em .1em .2em .1em;
-left: 50%;
-transform: translateX(-50%) translateY(20%) scale(var(--scale));
-transform-origin:bottom center;
-transition:1s;
-bottom:-1.75rem;
-border: 15px solid transparent;
-border-bottom:wheat  15px solid;
-color:wheat;
---scale: 0;
-z-index: 2;
-}
 
 #search-button {
   border:none;
@@ -330,7 +296,8 @@ z-index: 2;
   }
 
   #header {
-    z-index: 5400;
+    background: #484a4d;
+    z-index: 55;
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1), 0 1px 3px rgba(0, 0, 0, 0.08), 0 2px 4px rgba(0, 0, 0, 0.12); 
   }
 
@@ -504,7 +471,13 @@ z-index: 2;
         inset 0px 0px 10px rgba(0, 0, 0, 0.5);
         }
     
-          
+        #footer {
+          background: #484a4d;
+          z-index: 50;
+          box-shadow:
+        inset 0 0 10px rgba(0, 0, 0, 0.5),
+        0 0 10px rgba(0, 0, 0, 0.1); 
+        }  
         .toggle-btn {
           @apply [&>div::before]:translate-y-0 [&>div::before]:rotate-45 [&>div::after]:translate-y-0 [&>div::after]:-rotate-45 [&>div]:bg-transparent [&>div]:rotate-[720deg]
       }
