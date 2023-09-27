@@ -598,10 +598,6 @@ video {
   bottom: 3.0rem;
 }
 
-.bottom-\[33px\]{
-  bottom: 33px;
-}
-
 .left-1{
   left: 0.25rem;
 }
@@ -631,10 +627,6 @@ video {
 }
 
 .z-50{
-  z-index: 50;
-}
-
-.z-\[50\]{
   z-index: 50;
 }
 
