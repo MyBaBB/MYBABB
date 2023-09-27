@@ -46,8 +46,14 @@
 
      }, 
      fontFamily: {
-       'noto': ['Noto Sans', 'sans-serif'],
-       "rye": ['Rye', 'cursive'],
+         'noto': ['Noto Sans', 'sans-serif'],
+         "rye": ['Rye', 'cursive'],
+         "Montserrat": ['Montserrat', 'sans-serif'],
+         'Noto Serif': ['Noto Serif', 'serif'],
+         'Orbitron': ['Orbitron', 'sans-serif'],
+         'Rye': ['Rye', 'cursive'],
+         'Vollkorn': ['Vollkorn', 'serif'],
+         'Wallpoet': ['Wallpoet', 'cursive'],
      },
  
         screens: {
