@@ -1031,26 +1031,26 @@ video {
 
 .eyeBlackSpot1::before {
   content:'';
-  background-color:rgb(23, 21, 21);
+  background-color:rgb(18, 17, 17);
   width: 5px;
   height: 5px;
   position: absolute;
   z-index: 100;
   border-radius: 50%;
-  bottom: 3.2rem;
+  bottom: 50px;
   left:-.35rem;
 }
 
 .eyeBlackSpot2::before {
   content:'';
-  background-color:rgb(18, 16, 16);
+  background-color:rgb(226, 48, 48);
   width: 5.5px;
   height: 5.5px;
   position: absolute;
   z-index: 100;
   border-radius: 50%;
   bottom: 3.15rem;
-  left:.625rem;
+  left:.645rem;
 }
 
 .eyeWhiteSpot1::before {
