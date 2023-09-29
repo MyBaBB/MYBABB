@@ -618,6 +618,66 @@ video {
   top: 1rem;
 }
 
+.top-20{
+  top: 5rem;
+}
+
+.-top-10{
+  top: -2.5rem;
+}
+
+.left-4{
+  left: 1rem;
+}
+
+.left-0{
+  left: 0px;
+}
+
+.right-2{
+  right: 0.5rem;
+}
+
+.right-4{
+  right: 1rem;
+}
+
+.right-8{
+  right: 2rem;
+}
+
+.-left-4{
+  left: -1rem;
+}
+
+.-left-14{
+  left: -3.5rem;
+}
+
+.-left-12{
+  left: -3rem;
+}
+
+.-left-20{
+  left: -5rem;
+}
+
+.-left-10{
+  left: -2.5rem;
+}
+
+.top-10{
+  top: 2.5rem;
+}
+
+.left-8{
+  left: 2rem;
+}
+
+.left-10{
+  left: 2.5rem;
+}
+
 .z-10{
   z-index: 10;
 }
@@ -708,6 +768,10 @@ video {
 
 .mt-4{
   margin-top: 1rem;
+}
+
+.mt-8{
+  margin-top: 2rem;
 }
 
 .block{
@@ -1243,6 +1307,10 @@ video {
   font-family: ui-serif, Georgia, Cambria, "Times New Roman", Times, serif;
 }
 
+.font-Orbitron{
+  font-family: Orbitron, sans-serif;
+}
+
 .text-2xl{
   font-size: 1.5rem;
   line-height: 2rem;
@@ -1289,6 +1357,15 @@ video {
 .text-xl{
   font-size: 1.25rem;
   line-height: 1.75rem;
+}
+
+.text-6xl{
+  font-size: 3.75rem;
+  line-height: 1;
+}
+
+.text-\[12px\]{
+  font-size: 12px;
 }
 
 .font-bold{
@@ -1409,6 +1486,11 @@ video {
 .text-white{
   --tw-text-opacity: 1;
   color: rgb(255 255 255 / var(--tw-text-opacity));
+}
+
+.text-yellow-300{
+  --tw-text-opacity: 1;
+  color: rgb(253 224 71 / var(--tw-text-opacity));
 }
 
 .decoration-varLIGHTBEAKTOP{
@@ -2405,6 +2487,16 @@ label{
 
   .sm\:text-\[1\.74rem\]{
     font-size: 1.74rem;
+  }
+
+  .sm\:text-8xl{
+    font-size: 6rem;
+    line-height: 1;
+  }
+
+  .sm\:text-6xl{
+    font-size: 3.75rem;
+    line-height: 1;
   }
 }
 
