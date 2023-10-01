@@ -62,7 +62,7 @@ xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx html for the Please Wait button 
 </button>
 <script src="./js/app.js"></script>
 
-xxxxxxxxxxxxxxxxxxxxxxxxxjavescript for the Please Wait button xxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+xxxxxxxxxxxxxxxxxxxxxxxxxjavascript for the Please Wait button xxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
 
 const searchButton = document.querySelector('#search-button')
 const searchButtonContent = document.querySelector('#search-button div')
