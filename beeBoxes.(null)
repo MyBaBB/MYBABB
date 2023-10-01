@@ -1,4 +1,4 @@
-<!doctype html>
+<!-- <!doctype html>
 <html lang="en">
   <head>
     <meta charset="UTF-8">
@@ -18,7 +18,7 @@
           🪰
         </div>
         <div
-          class="beeBox bg-blue-700 flex justify-center items-center border-t-2 border-orange-500 transform translate-y-14 rotate-[57deg] m-4"
+          class="beeBox bg-blue-700 flex justify-center items-center border-t-2 border-l-orange-500 transform translate-y-14 rotate-[57deg] m-4"
         >
           🪰
         </div>
@@ -33,3 +33,4 @@
     </main>
   </body>
 </html>
+ -->
