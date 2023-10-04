@@ -134,8 +134,8 @@
   content:'';
   background-color: #24558d;
   bottom: .25rem;
-  width:260px;
-  height: auto;
+  max-width:fit-content;
+  height: fit-content;
   position: absolute;
   content: attr(data-tool-tip);
   padding:  .1em .1em .2em .1em;
@@ -143,18 +143,19 @@
   transform: translateX(-52%) translateY(90%) scale(var(--scale));
   transform-origin: top center;
   transition: ease-in .35s;
-  bottom:-2.75rem;
+  bottom:-.95rem;
   border:3px double #419aff;
   border-radius: 10px;
   color: #4ade80;
-  padding-left: 2rem;
-  padding-right: 2rem;
+  padding-left: .2rem;
+  padding-right:.2rem;
   --scale: 0;
   z-index: 53;
+  font-size: x-small;
+  white-space: nowrap;
 }
 .headerCushion::after {
   content:'';
-  top: .4rem;
   width: 15px;
   height: 15px;
   position: absolute;
@@ -163,14 +164,64 @@
   transform: translateX(-50%) translateY(30px) scale(var(--scale));
   transform-origin:bottom center;
   transition:.35s ;
-  bottom:-1.75rem;
+  top:-.5rem;
   border: 15px solid transparent;
-  border-bottom:#419aff 10px solid;
+  border-top:#419aff 15px solid;
   color:#fff9d7;
   --scale: 0;
   z-index: 52;
+}
+.headerCushion {
+  --scale: 1;
+  transition: ease-in .35s;
+}
+
+.headerCushion:hover::before, 
+.headerCushion:hover::after {
+  --scale: 1;
+}
+
+.headerCushion::before {
+  content:'';
+  background-color: #24558d;
+  bottom: .25rem;
+  width:260px;
+  height: auto;
+  position: absolute;
+  content: attr(data-tool-tip);
+  padding:  .1em .1em .2em .1em;
+  left: 50%;
+  transform: translateX(-52%) translateY(90%) scale(var(--scale));
+  transform-origin: top center;
+  bottom:-2.75rem;
+  border:3px double #419aff;
+  border-radius: 10px;
+  color: #4ade80;
+   
+   
+  z-index: 53;
+}
+
+.headerCushion::after {
+  content:'';
+  width: 15px;
+  height: 15px;
+  position: absolute;
+  
+  left: 50%;
+  transform: translateX(-50%) translateY(30px) scale(var(--scale));
+  transform-origin:bottom center;
+  transition:.35s ;
+  top:1rem;
+  border: 15px solid transparent;
+  border-bottom:#419aff 10px solid;
+  color:#fff9d7;
+  z-index: 52;
   
 }
+
+
+ 
 
 
   .whoopieCushion1:hover::before, 
