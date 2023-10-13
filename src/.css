@@ -119,12 +119,6 @@
     bottom: 59px;
     left: -3px;
   }
-
-
-
-
-
-
   .headerCushion:hover::before, 
   .headerCushion:hover::after {
      --scale: 1;
@@ -134,8 +128,7 @@
   content:'';
   background-color: #24558d;
   bottom: .25rem;
-  max-width:fit-content;
-  height: fit-content;
+  max-width:fit-content;   
   position: absolute;
   content: attr(data-tool-tip);
   padding:  .1em .1em .2em .1em;

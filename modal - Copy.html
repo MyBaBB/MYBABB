@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Modal</title>
+   <style>
+    *, *::before, *::after {
+        box-sizing: border-box;}
+
+     .modal {
+         position: fixed;
+         top: 50%;
+         left: 50%;
+         transform: translate(-50%, -50%) scale(0);
+         transition:200ms ease-in-out;
+         border: 1px solid #000000;
+         border-radius: 10px;
+         width: 80%;
+         max-width: 80%;
+         background-color: #ffffff;
+         z-index: 10;
+     } 
+     .modal.active {
+        transform:translate(-50%, -50%) scale(1) ;
+     }  
+    .modal-header {
+       padding:10px 15px; 
+       display: flex;
+       justify-content: space-between;
+       align-items: center;
+       border-bottom: 1px solid #000000;
+    }
+    .modal-header .title {
+        font-size: 1.25rem;
+        font-weight: bold;
+    }
+    .modal-header .close-button {
+        font-size: 1.25rem;
+        font-weight: bold;
+        border: none;
+        border-radius: 10px;
+        outline: none;
+        background-color: transparent;
+        cursor: pointer;
+    }
+    .modal-body {
+        padding: 10px 15px;
+      
+    }
+    #overlay {
+        opacity: 0;  
+        position: fixed;
+        top: 0;
+        left: 0;
+        right: 0;
+        bottom: 0;
+        background-color: rgba(0, 0, 0, 0.5);
+        transition: 200ms ease-in-out;
+        pointer-events: none;
+        border-radius: 10px;
+    }
+    #overlay.active {
+        pointer-events: all;
+        opacity: 1;  
+    }
+   </style>
+</head>
+<body>
+<button data-modal-target="#modal">Open Modal</button>    
+  <div class="modal" id="modal">
+    <div class="modal-header">
+        <div class="title">Example Modal</div>
+        <button data-close-button  class="close-button">&times;</button>
+    </div>
+<div class="modal-body">
+    <img src="/img/cherryjavascript.png" alt="cherry" width="100" height="80">
+</div>
+<div id="overlay"></div>
+ </div>
+<script>
+   const openModalButtons = document.querySelectorAll('[data-modal-target]')
+   const closeModalButtons = document.querySelectorAll('[data-close-button]')
+   const overlay = document.getElementById('overlay')
+
+openModalButtons.forEach(button => {
+    button.addEventListener('click', () => {
+        const modal = document.querySelector(button.dataset.modalTarget)
+        openModal(modal)
+    })
+})
+ overlay.addEventListener('click', () => {
+     const modals = document.querySelectorAll('.modal.active')
+     modals.forEach(modal => {
+         closeModal(modal)
+     })
+ })
+closeModalButtons.forEach(button => {
+    button.addEventListener('click', () => {
+        const modal = button.closest('.modal')
+        closeModal(modal)
+    })
+})
+ function openModal(modal) {
+     if(modal == null) return
+     modal.classList.add('active')
+     overlay.classList.add('active')
+ }
+ function closeModal(modal) {
+     if(modal == null) return
+     modal.classList.remove('active')
+     overlay.classList.remove('active')
+ }
+</script>
+</body>
+</html>
