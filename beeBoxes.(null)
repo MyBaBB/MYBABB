@@ -1,0 +1,36 @@
+<!-- <!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <link rel="stylesheet" href="/build/css/style.css">
+    <script src="/build/js/main.js" defer></script>
+    <title>Before::After</title>
+  </head>
+
+  <body class="flex relative justify-center align-middle">
+    <main>
+      <div  class="w-[282px] h-[100vh] border-2 border-orange-500">
+        <div
+          class="beeBox bg-red-700 flex justify-center items-center border-t-2 border-orange-500 transform -rotate-6 m-8"
+        >
+          🪰
+        </div>
+        <div
+          class="beeBox bg-blue-700 flex justify-center items-center border-t-2 border-l-orange-500 transform translate-y-14 rotate-[57deg] m-4"
+        >
+          🪰
+        </div>
+      </div>
+       <div>
+        <div class=" bg-green-700  w-10 h-10">   
+        </div>
+        <div class="beeBox bg-yellow-700 flex justify-center items-center border-t-2 border-orange transform translate-y-14 rotate-[57deg] m-4">
+          🪰
+        </div>
+       </div>
+    </main>
+  </body>
+</html>
+ -->
