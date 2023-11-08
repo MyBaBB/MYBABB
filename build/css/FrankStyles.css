@@ -1,0 +1,274 @@
+ 
+ 
+@import url('https://fonts.googleapis.com/css2?family=Creepster&family=Itim&family=PT+Serif&display=swap');
+ 
+ 
+:root {
+    --varDARKBEAKTOP:     rgba(120,80,1,1);      /* #785001  */ 
+    --D-MEDBEAKTOP:      rgba(182,121,2,1);     /* #b67902 */
+    --D-LIGHTBEAKTOP:    rgba(252,168,2,1);     /* #fca802 */
+  
+    --D-DARKDUCKHEAD:     rgba(30,59,40,1);      /* #1e3b28 */                    
+    --D-MEDDUCKHEAD:      rgba(40,79,53,1);      /* #284f35 */    
+    --D-LIGHTDUCKHEAD:    rgba(82,143,133,1);    /* #528f85 */
+    
+    --D-DARKBLUEFEATHER:  rgba(36,85,141,1);     /* #24558d  */ 
+    --D-MEDBLUEFEATHER:   rgb(42, 97, 161);      /* #2a61a1  */ 
+    --D-LIGHTBLUEFEATHER: rgba(65,154,255,1);    /* #419aff */ 
+    
+    --D-DARKDUCKCHEEKS:   rgba(54,46,71,1);      /*  #362e47 */
+    --D-MEDDUCKCHEEKS:    rgba(107,91,141,1);    /* #6b5b8d */ 
+    --D-LIGHTDUCKCHEEKS:  rgba(160,136,210,1);   /* #a088d2*/ 
+    
+    --D-DARKNECK:        rgba(65,42,50,1);      /* #412a32 */  
+    --D-MEDNECK:        rgba(152, 100, 141,1); /* #98648d */
+    --D-LIGHTNECK:      rgba(198,129,183,1);   /* #c68199 */
+   
+    --varDARKWING:        rgba(60,48,46,1);      /*  #3c302e */
+    --D-MEDWING:         rgba(128,102,97,1);    /* #806661 */
+    --D-1LIGHTWING:       rgba(207,166,157,1);   /* #cfa69d */
+  
+    --D-DARKBEAK:        rgba(112,24,26,1);     /* #70181a */
+    --D-MEDBEAK:         rgba(150,32,35,1);     /*  #962023*/ 
+    --D-LIGHTBEAK:       rgba(215,45,50,1);     /* #d72d32 */
+  
+    --D-DARKSPACE:      rgba(8, 18, 28,1);     /* #08121c */
+    --D-MEDSPACE:       rgba(27,56,84,1);      /*  #1b3854 */
+    --D-LIGHTSPACE:     rgba(38, 77, 115,1);   /*  #264d73 */
+  }
+
+
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+ scroll-behavior: smooth;
+    }
+
+  
+  #demo {
+    color: #ec9d0a;
+    border:2px solid #895b05;
+    border-radius: 12px;
+    padding: 2px;
+    text-shadow: #895b05 2px 2px;
+  }     
+      
+ 
+
+  .img {
+    max-width:100%;
+    display: block;
+  }
+
+ 
+
+  
+ 
+    .topParagraph {
+    font-family: 'PT Serif', serif;
+    color:#ec9d0a  ;
+    padding-bottom: .25rem;
+    margin-top: -1rem;
+   }
+  @media screen and (min-width: 768px) {
+    .topParagraph {
+      font-size:2.75rem;
+    }
+  }
+  @media screen and (max-width: 768px) {  
+    .outerCubeDiv {
+      margin-bottom: 9rem;
+    }
+  }
+
+
+
+
+body {
+  display: flex;
+  flex-direction: row-reverse;
+  padding: 10px;
+  background-image: linear-gradient( rgba(55, 124, 177, 1)15% ,
+     rgba(65, 79, 91, 1)60%-80%,rgba(151, 145, 144, 1)90%);
+  justify-content: center;
+  align-items: center;
+  width: auto;
+  min-height: 100vh; 
+  margin: 3px;
+  outline: 4px double var(--f9LIGHTDUCKCHEEKS); 
+  border: 10px solid var(--f1DARKDUCKHEAD);
+
+ }
+ 
+ 
+  
+
+
+
+
+
+
+
+@keyframes bounce {
+  from {
+    transform: translateY(0);
+  }
+  to {
+    transform: translateY(-10px);
+  }
+}
+
+
+
+
+
+
+
+     
+
+     
+
+    
+
+
+.cube {
+  position: relative;
+  
+  width: 150px;
+  height: 150px;
+  transform-style: preserve-3d;
+  transform: rotateX(-15deg);
+  animation: animate 12s linear infinite;
+  z-index: -1;
+}
+  @keyframes animate
+{
+    0%
+    {
+transform:rotateX(-15deg) rotateY(360deg);
+     }
+    100%
+    {
+transform:rotateX(-15deg) rotateY(0deg);
+    }
+  } 
+    
+    
+.outerCubeDiv {
+   position: relative;
+   justify-content: center;
+   align-items: center;
+   margin-top: 8rem;
+   width: fit-content;
+   padding: 5rem;
+}
+
+ 
+.cube div {
+position: absolute;
+top: 0%;
+left: 0;
+min-width: 100%;min-height: 100%;
+transform-style: preserve-3d;
+
+
+}
+ .cube div span {
+ 
+  position: absolute;
+  top: 0%;
+  left: 0%;
+  min-width: 100%;
+  min-height: 100%;
+  background: linear-gradient(#151515,#ec9d0a);
+  transform: rotateY(calc(90deg * var(--i))) translateZ(74.5px);
+ 
+ }
+
+.top {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  top: 0;
+  left: 0;
+  min-width: 100%;
+  min-height: 100%;
+  background: #222;
+  transform: rotateX(90deg) translateZ(74.5px);
+ 
+}
+
+.FranknBridewithCorn2
+  {  
+    top: 0;
+    left: 0;
+    min-width: 100%;
+    min-height: 100%;  
+  }   
+  .alienPilgrim    { 
+    
+    top: 0;
+    left: 0;
+    min-width: 100%;
+    min-height: 100%; 
+      
+  }
+    
+  .PilgrimFrank   {
+
+    top: 0;
+    left: 0;
+    min-width: 100%;
+    min-height: 100%; 
+     
+  }
+ 
+  .ThanksgivingWithFriends
+{  
+
+    top: 0;
+    left: 0;
+    min-width: 100%;
+    min-height: 100%; 
+   
+  }
+
+
+
+
+
+
+
+.top::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 150px;
+  height: 150px;
+  background:rgba(235, 156, 10, 1);
+  transform: translateZ(-265px);
+  filter: blur(20px);
+  box-shadow: 0 0 120px rgb(141, 96, 4),
+  0 0 200px rgba(178, 119, 5), 
+  0 0 300px rgba(188, 125, 7), 
+  0 0 400px rgba(202, 134, 9, 8),
+  0 0 500px rgba(235, 156, 10, 1);
+}
+
+
+
+
+
+
+
+  
+ 
+ 
+ 
+ 
+
+
+
