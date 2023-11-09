@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Aclonica&family=Black+Ops+One&family=Edu+SA+Beginner:wght@500&family=Iceberg&family=MedievalSharp&family=Metamorphous&family=Nova+Cut&family=Permanent+Marker&family=Press+Start+2P&family=Rye&family=Sansita&family=Orbitron:wght@700&family=Vast+Shadow&display=swap=Wallpoet&display=swap&family=Vollkorn:wght@700');
 
 /*
-! tailwindcss v3.3.3 | MIT License | https://tailwindcss.com
+! tailwindcss v3.3.5 | MIT License | https://tailwindcss.com
 */
 
 /*
@@ -536,10 +536,6 @@ video {
   --tw-backdrop-sepia:  ;
 }
 
-.visible{
-  visibility: visible;
-}
-
 .fixed{
   position: fixed;
 }
@@ -1000,18 +996,6 @@ video {
 
 .decoration-varLIGHTBEAKTOP{
   text-decoration-color: #fca802;
-}
-
-.outline{
-  outline-style: solid;
-}
-
-.transition{
-  transition-property: color, background-color, border-color, text-decoration-color, fill, stroke, opacity, box-shadow, transform, filter, -webkit-backdrop-filter;
-  transition-property: color, background-color, border-color, text-decoration-color, fill, stroke, opacity, box-shadow, transform, filter, backdrop-filter;
-  transition-property: color, background-color, border-color, text-decoration-color, fill, stroke, opacity, box-shadow, transform, filter, backdrop-filter, -webkit-backdrop-filter;
-  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
-  transition-duration: 150ms;
 }
 
 .beeBox {
