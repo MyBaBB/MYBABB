@@ -98,7 +98,8 @@ body {
   justify-content: center;
   align-items: center;
   width: auto;
-  min-height: 100vh; 
+  min-height: 100vh;
+  max-height: 100vh; 
   margin: 3px;
   outline: 4px double var(--f9LIGHTDUCKCHEEKS); 
   border: 10px solid var(--f1DARKDUCKHEAD);
@@ -116,20 +117,20 @@ body {
   left: 50%;
  ;
 }
+@media screen and (max-width: 568px) {
+   
 
   .topParagraphWrapper{
-    position: fixed;
-    justify-content:center;
-    align-items: center;
-    width: fit-content;
-    top: 0;
-    transform : translate(-50%, 0%);
-    left: 50%;
+    display: none;
     
-  
   }
+}
+   #demo {
+    font-size: 28px; 
+    white-space: nowrap;  
 
-
+   }   
+  
 .cube {
   position: relative;
   top: -10rem;
@@ -212,27 +213,42 @@ body {
   .bottomIconWrapper{
     position:relative;
     display: flex;
-    justify-content:space-between;
+    justify-content:space-evenly;
     align-items:center;
-    bottom:-7rem;
+   
     
     padding: 20px;
     width: fit-content
    
   } 
-  /* @media screen and (min-width: 768px) {
+  @media screen and (min-width: 1280px ) {
   .bottomIconWrapper{
-    position: fixed;
+    position:relative;
     display: flex;
     justify-content: space-between;
     align-items:center;
-    bottom:0;
-    padding: 2px;
+    bottom:-7rem;
+    padding: 22px;
     width: 100vw;
-    left: 0;
-    transform: translate(0%, 0%);
+     
   } 
-} */
+}
+  @media screen and () {
+    .bottomIconWrapper {
+      /* styles for screens with a maximum width of 768px */
+    }
+  }
+  .bottomIconWrapper{
+    position:relative;
+    display: flex;
+    justify-content: space-between;
+    align-items:center;
+    bottom:-7rem;
+    padding: 22px;
+    width: 100vw;
+     
+  } 
+
   @keyframes animate
 {
     0%
