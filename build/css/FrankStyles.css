@@ -217,9 +217,8 @@ body {
     bottom:-7rem;
     
     padding: 20px;
-    width: 100vw;
-    left: 0;
-    transform: translate(0%, 0%);
+    width: fit-content
+   
   } 
   /* @media screen and (min-width: 768px) {
   .bottomIconWrapper{
