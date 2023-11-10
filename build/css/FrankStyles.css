@@ -70,7 +70,7 @@
     font-family: 'PT Serif', serif;
     color:#ec9d0a  ;
     padding-bottom: .25rem;
-    margin-top: -1rem;
+    
    }
   @media screen and (min-width: 768px) {
     .topParagraph {
@@ -88,7 +88,7 @@
 
 body {
   display: flex;
-  flex-direction: row-reverse;
+  
   padding: 10px;
   background-image: linear-gradient( rgba(55, 124, 177, 1)15% ,
      rgba(65, 79, 91, 1)60%-80%,rgba(151, 145, 144, 1)90%);
@@ -99,8 +99,19 @@ body {
   margin: 3px;
   outline: 4px double var(--f9LIGHTDUCKCHEEKS); 
   border: 10px solid var(--f1DARKDUCKHEAD);
+  overflow: hidden;
+}
 
- }
+.topParagraphWrapper{
+ 
+  position: fixed;
+  justify-content:center;
+  align-items: center;
+  width: fit-content;
+  transform : translate(-50%, -100%);
+  left: 50%;
+   
+}
  
  
   
@@ -135,14 +146,44 @@ body {
 
 .cube {
   position: relative;
-  
+  top: -10rem;
   width: 150px;
   height: 150px;
   transform-style: preserve-3d;
   transform: rotateX(-15deg);
   animation: animate 12s linear infinite;
   z-index: -1;
+ 
 }
+@media screen and (orientation: landscape) {
+    .cube {
+      margin-top:2rem;
+    }
+  }
+@media screen and (max-width:420px) {
+    .cube {
+      margin-top:2rem;
+    }
+  }
+  
+  @media screen and (orientation: landscape) {
+    .topParagraphWrapper{
+        margin-top:2rem;
+    }
+  }
+
+  .bottomIconWrapper{
+    position: fixed;
+    display: flex;
+    justify-content:space-around;
+    align-items:center;
+    bottom:0;
+    
+    padding: 2px;
+    width: 100vw;
+    left: 0;
+    transform: translate(0%, 0%);
+  } 
   @keyframes animate
 {
     0%
@@ -160,19 +201,23 @@ transform:rotateX(-15deg) rotateY(0deg);
    position: relative;
    justify-content: center;
    align-items: center;
-   margin-top: 8rem;
    width: fit-content;
-   padding: 5rem;
+   height: fit-content;
+  
+   bottom:-1rem;
+   left: 50%;        
+   transform: translate(-50%, 100%); 
+   
 }
 
  
 .cube div {
 position: absolute;
 top: 0%;
-left: 0;
+left: 0%;
 min-width: 100%;min-height: 100%;
 transform-style: preserve-3d;
-
+ 
 
 }
  .cube div span {

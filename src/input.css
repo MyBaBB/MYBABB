@@ -14,6 +14,18 @@
        min-height: calc(100vh - 68px)
    }
  }
+
+ 
+.cube {
+  position: relative;
+  
+  width: 150px;
+  height: 150px;
+  transform-style: preserve-3d;
+  transform: rotateX(-15deg);
+  animation: animate 12s linear infinite;
+  z-index: -1;
+}
   .beeBox {
     display: flex;
     justify-content: center;
