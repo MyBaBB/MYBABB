@@ -84,7 +84,10 @@
   }
 
 
-
+  body {
+    max-zoom: .2;
+    min-zoom: 0.5;
+    }
 
 body {
   display: flex;
@@ -100,6 +103,7 @@ body {
   outline: 4px double var(--f9LIGHTDUCKCHEEKS); 
   border: 10px solid var(--f1DARKDUCKHEAD);
   overflow: hidden;
+  
 }
 
 .topParagraphWrapper{
@@ -110,10 +114,69 @@ body {
   width: fit-content;
   transform : translate(-50%, -100%);
   left: 50%;
-   
+ ;
 }
+
+  .topParagraphWrapper{
+    position: fixed;
+    justify-content:center;
+    align-items: center;
+    width: fit-content;
+    top: 0;
+    transform : translate(-50%, 0%);
+    left: 50%;
+    
+  
+  }
+
+
+.cube {
+  position: relative;
+  top: -10rem;
+  width: 150px;
+  height: 150px;
+  transform-style: preserve-3d;
+  transform: rotateX(-15deg);
+  animation: animate 12s linear infinite;
+  z-index: -1;
  
+}
+@media screen and (min-width: 768px) {
+  .cube {
+    position: relative;
+    top: -5rem;
+    width: 150px;
+    height: 150px;
+    transform-style: preserve-3d;
+    transform: rotateX(-15deg);
+    animation: animate 12s linear infinite;
+    z-index: -1;
+   
+  }
+}
+
+
+
+
+
+
+
+@media screen and (max-width: 768px) {
+    .cube {
+      margin-top:14rem;
+    }
+    .topParagraph {
+      font-size:1.75rem;
+    }
+  }
+@media screen and (max-width:420px) {
+    .cube {
+    margin-top:2rem;  
+    }
+  }
+  
  
+
   
 
 
@@ -140,50 +203,37 @@ body {
      
 
      
+   
 
     
 
 
-.cube {
-  position: relative;
-  top: -10rem;
-  width: 150px;
-  height: 150px;
-  transform-style: preserve-3d;
-  transform: rotateX(-15deg);
-  animation: animate 12s linear infinite;
-  z-index: -1;
- 
-}
-@media screen and (orientation: landscape) {
-    .cube {
-      margin-top:2rem;
-    }
-  }
-@media screen and (max-width:420px) {
-    .cube {
-      margin-top:2rem;
-    }
-  }
-  
-  @media screen and (orientation: landscape) {
-    .topParagraphWrapper{
-        margin-top:2rem;
-    }
-  }
 
   .bottomIconWrapper{
     position: fixed;
     display: flex;
-    justify-content:space-around;
+    justify-content:space-between;
     align-items:center;
     bottom:0;
     
+    padding: 20px;
+    width: 100vw;
+    left: 0;
+    transform: translate(0%, 0%);
+  } 
+  /* @media screen and (min-width: 768px) {
+  .bottomIconWrapper{
+    position: fixed;
+    display: flex;
+    justify-content: space-between;
+    align-items:center;
+    bottom:0;
     padding: 2px;
     width: 100vw;
     left: 0;
     transform: translate(0%, 0%);
   } 
+} */
   @keyframes animate
 {
     0%
