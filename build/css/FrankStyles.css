@@ -210,11 +210,11 @@ body {
 
 
   .bottomIconWrapper{
-    position: fixed;
+    position:relative;
     display: flex;
     justify-content:space-between;
     align-items:center;
-    bottom:0;
+    bottom:-7rem;
     
     padding: 20px;
     width: 100vw;
