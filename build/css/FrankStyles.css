@@ -230,14 +230,10 @@ body {
     bottom:-7rem;
     padding: 22px;
     width: 100vw;
-     
+    
   } 
 }
-  @media screen and () {
-    .bottomIconWrapper {
-      /* styles for screens with a maximum width of 768px */
-    }
-  }
+ 
   .bottomIconWrapper{
     position:relative;
     display: flex;
@@ -248,7 +244,20 @@ body {
     width: 100vw;
      
   } 
+ .pumpkin {
+  position: relative;
+  margin: 10px;
+  left: -1rem;
+  bottom: 1rem;     
+ }
+ .turkeyLeg {
+  position: relative;
+  margin: 10px;
+  right: -1rem;
+  bottom: 1rem;     
+ }
 
+  
   @keyframes animate
 {
     0%
