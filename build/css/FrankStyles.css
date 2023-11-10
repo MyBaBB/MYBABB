@@ -113,7 +113,7 @@ body {
   justify-content:center;
   align-items: center;
   width: fit-content;
-  transform : translate(-50%, -100%);
+  transform : translate(-50%, -70%);
   left: 50%;
  ;
 }
