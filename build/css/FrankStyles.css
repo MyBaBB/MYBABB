@@ -117,14 +117,7 @@ body {
   left: 50%;
  ;
 }
-@media screen and (max-width: 568px) {
-   
 
-  .topParagraphWrapper{
-    display: none;
-    
-  }
-}
    #demo {
     font-size: 28px; 
     white-space: nowrap;  
@@ -167,14 +160,19 @@ body {
       margin-top:14rem;
     }
     .topParagraph {
+      margin-top: 35rem;
       font-size:1.75rem;
     }
+    .bottomIconWrapper {
+      margin-bottom:10rem;
+      margin-top: -10rem;
+    }
   }
-@media screen and (max-width:420px) {
+/* @media screen and (max-width:420px) {
     .cube {
     margin-top:2rem;  
     }
-  }
+  } */
   
  
 
@@ -240,20 +238,42 @@ body {
     justify-content: space-between;
     align-items:center;
     bottom:-7rem;
-    padding: 22px;
+    padding: 2px;
+    width: 100vw;
+     
+  } 
+  @media  screen and (max-height: 768px) {
+    .bottomIconWrapper{
+      position:relative;
+      display: flex;
+      justify-content: space-between;
+      align-items:center;
+      bottom:-7rem;
+      padding: 2px;
+      width: 100vw;
+       
+    } 
+  }
+  .bottomIconWrapper{
+    position:relative;
+    display: flex;
+    justify-content: space-between;
+    align-items:center;
+    bottom:-7rem;
+    padding: 2px;
     width: 100vw;
      
   } 
  .pumpkin {
   position: relative;
   margin: 10px;
-  left: -1rem;
+  left: -.5rem;
   bottom: 1rem;     
  }
  .turkeyLeg {
   position: relative;
   margin: 10px;
-  right: -1rem;
+  right: -.5rem;
   bottom: 1rem;     
  }
 
