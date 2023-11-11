@@ -204,19 +204,17 @@ body {
 
 
   
-  .bottomIconWrapperRight{
+  /* .bottomIconWrapperRight{
     padding: 10px;
-     
     display: inline-flex;
     right: -10rem;
   }
   .bottomIconWrapperLeft{
     padding: 10px;
-    
     display:inline-flex;
     
   }
-  
+   */
   @keyframes animate
 {
     0%
