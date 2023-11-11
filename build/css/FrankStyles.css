@@ -101,7 +101,7 @@ body {
   
   }
 
-  @media screen and (max-height:450px) {
+  @media screen and (orientation:landscape) {
 .topParagraph {
   position: fixed;
   font-family: 'PT Serif', serif;
@@ -124,7 +124,7 @@ body {
   margin-bottom: .5rem;
  }   
  
-  @media screen and (max-height:450px){
+  @media screen and (orientation:landscape){
 #demo {
   position: relative;
   font-family: 'PT Serif', serif;
@@ -146,7 +146,7 @@ body {
   animation: animate 12s linear infinite;
   z-index: -1;
 }
-@media screen and (max-height:450px) {
+@media screen and (orientation:landscape) {
   
 .cube {
   position: relative;
@@ -182,7 +182,7 @@ body {
     margin-top: 4.5rem;
     padding: 2px;
   }
-   @media screen and (max-height:450px) {
+   @media screen and (orientation:landscape) {
     .bottomIconWrapperWhole {
     display: flex;
     justify-content: space-between;
