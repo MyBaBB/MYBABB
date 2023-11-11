@@ -92,7 +92,7 @@ body {
   
   }
 
-  @media screen and (max-height:450px) {
+  @media screen and (max-height:400px) {
 .topParagraph {
   position: fixed;
   font-family: 'PT Serif', serif;
@@ -114,8 +114,10 @@ body {
   white-space: nowrap;  
   margin-bottom: .5rem;
   letter-spacing: 2px;
- }   
- 
+   
+
+ } 
+
   
 .cube {
   position: relative;
@@ -127,7 +129,7 @@ body {
   animation: animate 12s linear infinite;
   z-index: -1;
 }
-@media screen and (max-width:555px) {
+@media screen and (max-width:655px) {
 .cube {
   position: relative;
   top:-5rem;
@@ -140,7 +142,7 @@ body {
  }
 }
 
-@media screen and (max-height:450px) {
+@media screen and (max-height:400px) {
   
 .cube {
   position: relative;
