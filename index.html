@@ -10,7 +10,21 @@
     <title>⌛Franken-Timer</title>
        
       <!-- xxxx !!! NOTE THAT THIS PAGE IN NOT TAILWIND STANDARD CSS APPLIES !!!   xxx -->
-   
+      <style>
+        *:hover {
+          background-color: transparent;
+          color: transparent;
+        }
+        *:active {
+          background-color: transparent;
+          color: transparent;
+        }
+        *:focus {
+          background-color: transparent;
+          color: transparent;
+        }
+        
+      </style>
 </head>
 <body>
      
@@ -22,15 +36,14 @@
 
       <div class="topParagraphWrapper" >
     
-          <p class="topParagraph" style="text-align: center;
-             white-space: nowrap;
-           color: #ec9d0a; text-shadow:2px 2px#895b05;">
+          <p class="topParagraph    
+           ;">
            <b> Happy <br>Thanksgiving</b>   
               
          </p>
        <!--  this is the countdown timer -->
     <div style=" 
-    letter-spacing: 6px;
+ 
     position: relative;
     display: flex;
     width: fit-content;
@@ -40,6 +53,7 @@
     animation: pulse 1s infinite;
     text-align: center;
     padding: 2px;
+    
 ">
       <p id="demo"> 
       </p> 
@@ -60,14 +74,15 @@
      <style> @media screen and (max-height:400px){
         #demo {
           position: relative;
-          font-family: 'PT Serif', serif;
+          font-family:'Times New Roman', Times, serif;   
           color:#ec9d0a  ;
           padding-bottom: .25rem;
-          font-size: .80rem;
+          font-size: 1.05rem;
           left: 13rem;
           top: 0;
           margin: 2px;
-          letter-spacing: 2px;
+          letter-spacing:0px;
+          
          }
         }
      </style>
@@ -93,13 +108,13 @@
             var seconds = Math.floor((distance % (1000 * 60)) / 1000);
 
             // Display the result in the element with id="demo"
-            document.getElementById("demo").innerHTML = days + "d " + hours + "h "
-            + minutes + "m " + seconds + "s ";
+            document.getElementById("demo").innerHTML = days + "Days ⌛" + hours + ":"
+            + minutes + ":" + seconds + "";
 
             // If the count down is finished, write some text
             if (distance < 0) {
                 clearInterval(x);
-                document.getElementById("demo").innerHTML = "<span style='color:rgba(235, 156, 10, 1); text-shadow: .5px .5px 0 #000; font-size: 2.75rem;'><b>&nbsp;Pilgrims...</b></span>";
+                document.getElementById("demo").innerHTML = "<span style=' color:rgba(235, 156, 10, 1); text-shadow: .5px .5px 0 #000; font-size: 2.75rem;'><b>&nbsp;Pilgrims...</b></span>";
             }
         }, 1000);
     </script>
