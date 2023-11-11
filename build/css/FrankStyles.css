@@ -207,12 +207,13 @@ body {
   .bottomIconWrapperRight{
     padding: 10px;
     position: relative;
-    display: inline-block;
+    display: inline-flex;
+    right: -10rem;
   }
   .bottomIconWrapperLeft{
     padding: 10px;
     position: relative;
-    display: inline-block; 
+    display:inline-flex;
     
   }
   
