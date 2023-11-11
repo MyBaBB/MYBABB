@@ -66,14 +66,18 @@ body {
   border: border;
   padding: 1px;
   background-image: linear-gradient( rgba(55, 124, 177, 1)15% ,
-  rgba(65, 79, 91, 1)60%-80%,rgba(151, 145, 144, 1)90%);
+  rgba(65, 79, 91, 1)60%-80%,rgba(151, 145, 144, 1)90%)  ;
   justify-content: center;
   align-items: center;
   min-width: 319px;
-  height:150vh;
+  height:100vh;
   overflow: hidden;
   outline: 4px double var(--f9LIGHTDUCKCHEEKS); 
   border: 3px solid#3c302e;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  top: 0;
 }
   
 
@@ -85,7 +89,7 @@ body {
   justify-content:center;
   align-items: center;
   width: fit-content;
-  top: 10rem;
+  top: 0rem;
   left: 50%;
   transform: translateX(-50%);
   text-align: center;
@@ -172,7 +176,7 @@ body {
 }
 
      
-  .bottomIconWrapperWhole {
+ /*  .bottomIconWrapperWhole {
     display: flex;
     justify-content: space-between;
     position: relative;
@@ -182,7 +186,7 @@ body {
     width:100%;
     margin-top: 4.5rem;
     padding: 2px;
-  }
+  } */
   /*  @media screen and (max-height:450px) {
     .bottomIconWrapperWhole {
     display: flex;
@@ -202,22 +206,14 @@ body {
   
   .bottomIconWrapperRight{
     padding: 10px;
-    margin: auto;
-     
-    padding-bottom:  0px;
     position: relative;
-    display: flex; 
-    justify-content: center;
-    align-items: center;
+    display: inline-block;
   }
   .bottomIconWrapperLeft{
     padding: 10px;
-    
-    padding-bottom:  0px;
     position: relative;
-    display: flex; 
-    justify-content: center;
-    align-items: center;
+    display: inline-block; 
+    
   }
   
   @keyframes animate
@@ -240,7 +236,7 @@ transform:rotateX(-15deg) rotateY(0deg);
    width: fit-content;
    height: fit-content;
    border: 2px solid #ec0a11;
-   bottom:-4rem;
+   bottom: 9rem;
    left: 50%;        
    transform: translate(-50%, 100%); 
    
