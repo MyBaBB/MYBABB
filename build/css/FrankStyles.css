@@ -67,6 +67,7 @@ body {
     align-items: center;
     border:4px solid black;
     height: 100%;
+    padding: 2px;
   }
 }
 .topParagraphWrapper{
@@ -78,10 +79,10 @@ body {
   left: 50%;
   transform: translateX(-50%);
   text-align: center;
-  padding-top: 1rem;
+  padding-top: 0rem;
   white-space: nowrap;
   color: #ec9d0a; text-shadow:2px 2px#895b05;
- 
+  
 }
 .topParagraph {
   font-family: 'PT Serif', serif;
@@ -98,7 +99,7 @@ body {
   color:#ec9d0a  ;
   padding-bottom: .25rem;
   font-size: 1.25rem;
-  right: 13rem;
+  right: 14rem;
   top: -1rem;
  }
 }
@@ -121,7 +122,7 @@ body {
   color:#ec9d0a  ;
   padding-bottom: .25rem;
   font-size: .80rem;
-  left: 11rem;
+  left: 13rem;
   top: -2rem;
   margin: 2px;
  }
