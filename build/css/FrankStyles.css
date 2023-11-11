@@ -79,7 +79,7 @@ body {
   left: 50%;
   transform: translateX(-50%);
   text-align: center;
-  padding-top: 0rem;
+  padding-bottom: 1rem;
   white-space: nowrap;
   color: #ec9d0a; text-shadow:2px 2px#895b05;
   
@@ -113,6 +113,7 @@ body {
   font-size: 18px; 
   white-space: nowrap;  
   margin-bottom: .5rem;
+  letter-spacing: 2px;
  }   
  
   @media screen and (max-height:450px){
@@ -123,8 +124,9 @@ body {
   padding-bottom: .25rem;
   font-size: .80rem;
   left: 13rem;
-  top: -2rem;
+  top: 0;
   margin: 2px;
+  letter-spacing: 2px;
  }
 }
 .cube {
@@ -137,6 +139,19 @@ body {
   animation: animate 12s linear infinite;
   z-index: -1;
 }
+@media screen and (max-width:555px) {
+.cube {
+  position: relative;
+  top:-5rem;
+  width: 150px;
+  height: 150px;
+  transform-style: preserve-3d;
+  transform: rotateX(-15deg);
+  animation: animate 12s linear infinite;
+  z-index: -1;
+ }
+}
+
 @media screen and (max-height:450px) {
   
 .cube {
