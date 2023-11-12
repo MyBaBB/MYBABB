@@ -101,17 +101,20 @@ body {
   
   }
 
-  @media screen and (max-height:450px) {
+  @media screen and (max-height:430px) {
 .topParagraph {
   position: fixed;
   font-family: 'PT Serif', serif;
   color:#ec9d0a  ;
   padding-bottom: .25rem;
   font-size: 1.25rem;
-  right: 13rem;
+  right: 11rem;
   top: -1rem;
  }
 }
+
+
+
 
 #demo {
   color: #ec9d0a;
@@ -133,8 +136,56 @@ body {
     animation: animate 12s linear infinite;
     z-index: -1;
   }
+  @media screen and (min-width: 320px){
+    .cube {position: relative;
+      top: -5rem;
+      width: 150px;
+      height: 150px;
+      transform-style: preserve-3d;
+      transform: rotateX(-15deg);
+      animation: animate 12s linear infinite;
+      z-index: -1;
+    }
+  }
+  @media screen and (min-width: 360px){
+    .cube
+     {position: relative;
+      top:-3rem;
+      width: 150px;
+      height: 150px;
+      transform-style: preserve-3d;
+      transform: rotateX(-15deg);
+      animation: animate 12s linear infinite;
+      z-index: -1;
+    }
+  }
+  @media screen and (min-width: 400px){
+    .cube
+     {position: relative;
+      top:4rem;
+      width: 150px;
+      height: 150px;
+      transform-style: preserve-3d;
+      transform: rotateX(-15deg);
+      animation: animate 12s linear infinite;
+      z-index: -1;
+    }
+  }
+
+
+  @media screen and (max-height: 500px){
+    .cube {position: relative;
+      top: -10rem;
+      width: 150px;
+      height: 150px;
+      transform-style: preserve-3d;
+      transform: rotateX(-15deg);
+      animation: animate 12s linear infinite;
+      z-index: -1;
+    }
+  }
    
-  @media screen and (max-height:450px){
+  @media screen and (max-height:430px){
 #demo {
   position: relative;
   font-family: 'PT Serif', serif;
@@ -148,7 +199,7 @@ body {
 
  .cube {
   position: relative;
-  top: -14rem;
+  top: -8rem;
   width: 150px;
   height: 150px;
   transform-style: preserve-3d;
@@ -157,8 +208,28 @@ body {
   z-index: -1;
  }
 }
-
-
+@media screen and (max-height: 385px){
+  .cube {position: relative;
+    top: -10rem;
+    width: 150px;
+    height: 150px;
+    transform-style: preserve-3d;
+    transform: rotateX(-15deg);
+    animation: animate 12s linear infinite;
+    z-index: -1;
+  }
+}
+@media screen and (max-height: 319px){
+  .cube {position: relative;
+    top: -12rem;
+    width: 150px;
+    height: 150px;
+    transform-style: preserve-3d;
+    transform: rotateX(-15deg);
+    animation: animate 12s linear infinite;
+    z-index: -1;
+  }
+}
 @keyframes bounce {
   from {
     transform: translateY(0);
@@ -271,7 +342,7 @@ transform-style: preserve-3d;
 
 
 
-.top::before {
+.top::before  {
  
   content: '';
   position: absolute;
@@ -280,7 +351,7 @@ transform-style: preserve-3d;
   width: 150px;
   height: 150px;
   background:rgba(235, 156, 10, 1);
-  transform: translateZ(-265px);
+  transform: translateZ(-220px);
   filter: blur(20px);
   box-shadow: 0 0 120px rgb(141, 96, 4),
   0 0 200px rgba(178, 119, 5), 
