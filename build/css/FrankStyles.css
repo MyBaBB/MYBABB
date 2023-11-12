@@ -87,10 +87,19 @@ body {
 
 #demo {
   color: #ec9d0a;
-  
- 
-  padding: 4px;
   text-shadow: #895b05 .75px .75px;
+  position: relative;
+  display: flex;
+  text-align: center;
+  width: fit-content;
+  margin-top: 1.5rem;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  animation: pulse 1s infinite;
+  
+
+  padding: 4px;
+  
   font-size: 18px; 
   white-space: nowrap;  
   margin-bottom: .5rem;

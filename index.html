@@ -14,21 +14,22 @@
 </head>
 <body>
   <style>
-    *:hover {
-      background-color: transparent;
-      color: transparent;
+    @media screen and (max-height:400px) {
+      .outerCubeDiv {
+        position: relative;
+        display: flex;
+        width: fit-content;
+        margin-top: 1.5rem;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        animation: pulse 1s infinite;
+        text-align: center;
+        padding: 2px;
+      }
     }
-    *:active {
-      background-color: transparent;
-      color: transparent;
-    }
-    *:focus {
-      background-color: transparent;
-      color: transparent;
-    }
-    .topParagraph {
-      text-decoration: none;
-    }
+   
+   
+   
   </style>   
 <div class="bodyWrapper" style="position: relative;">
   <br>          
@@ -36,60 +37,16 @@
 
    <a href="https://mybabb.com">
 
-      <div class="topParagraphWrapper " >
+       
     
-          <p class="topParagraph    
-           ;">
-           <b> Happy <br>Thanksgiving</b>   
-              
-         </p>
+          
        <!--  this is the countdown timer -->
-    <div style=" 
- 
-    position: relative;
-    display: flex;
-    width: fit-content;
-    margin-top: 1.5rem;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    animation: pulse 1s infinite;
-    text-align: center;
-    padding: 2px;
-    
-">
+       <a href="https://mybabb.com">
+
       <p id="demo"> 
       </p> 
       <style>
- @media screen and (max-height:400px) {
-.topParagraphWrapper {
-  position: fixed;
-  font-family: 'PT Serif', serif;
-  color:#ec9d0a  ;
-  padding-bottom: .25rem;
-  font-size: 1.25rem;
-  right: 14rem;
-  top: -1rem;
- }
-}
-
       </style> 
-     <style> @media screen and (max-height:400px){
-        #demo {
-          position: relative;
-          font-family:'Times New Roman', Times, serif;   
-          color:#ec9d0a  ;
-          padding-bottom: .25rem;
-          font-size: 1.05rem;
-          left: 13rem;
-          top: 0;
-          margin: 2px;
-          letter-spacing:0px;
-          
-         }
-        }
-     </style>
-
-        
     <script>
         // Set the date we're counting down to
         var countDownDate = new Date("nov 23, 2023 00:00:00 PST").getTime();
@@ -110,7 +67,7 @@
             var seconds = Math.floor((distance % (1000 * 60)) / 1000);
 
             // Display the result in the element with id="demo"
-            document.getElementById("demo").innerHTML = days + "Days ⌛" + hours + ":"
+            document.getElementById("demo").innerHTML = days + "Days " + hours + ":"
             + minutes + ":" + seconds + "";
 
             // If the count down is finished, write some text
@@ -124,10 +81,6 @@
    </div>
  </div>
 </a>
-
-
-      
-  
  
 <div class="outerCubeDiv">
   <div class="cube" >  
@@ -150,16 +103,6 @@
      
  </div>
 </div>
- 
-
-
-
-
-
-
-
- 
- 
 
  </div>
     </body>
