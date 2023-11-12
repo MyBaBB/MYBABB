@@ -279,7 +279,7 @@ transform-style: preserve-3d;
   min-width: 100%;
   min-height: 100%;
   background: linear-gradient(#151515,#ec9d0a);
-  transform: rotateY(calc(90deg * var(--i))) translateZ(74.5px);
+  transform: rotateY(calc(90deg * var(--i))) translateZ(75px);
  
  }
 
@@ -292,7 +292,7 @@ transform-style: preserve-3d;
   min-width: 100%;
   min-height: 100%;
   background: #222;
-  transform: rotateX(90deg) translateZ(74.5px);
+  transform: rotateX(90deg) translateZ(75px);
  
 }
 
