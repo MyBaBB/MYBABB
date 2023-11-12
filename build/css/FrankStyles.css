@@ -76,6 +76,11 @@ body {
   border: 3px solid#3c302e;
 }
   
+.topParagraphWrapper :hover{
+  animation: bounce 1s infinite alternate;
+   
+}
+
 
 
  
@@ -91,6 +96,7 @@ body {
   padding-top: 1rem;
   white-space: nowrap;
   color: #ec9d0a; text-shadow:.5px .5px#895b05;
+  
  
 }
 .topParagraph {
