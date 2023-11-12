@@ -195,7 +195,7 @@ body {
     padding: 2px;
   }
 }
-   @media screen and (max-width:450px) {
+   /* @media screen and (max-width:450px) {
     .bottomIconWrapperWhole {
     display: flex;
     justify-content: space-between;
@@ -206,7 +206,7 @@ body {
     padding: 2px;
     
   }
-}
+} */
     
 
 
