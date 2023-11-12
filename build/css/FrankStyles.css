@@ -115,16 +115,25 @@ body {
 
 #demo {
   color: #ec9d0a;
-  border:2px solid #895b05;
-  border-radius: 12px;
   padding: 2px;
   text-shadow: #895b05 2px 2px;
   font-size: 18px; 
   white-space: nowrap;  
   margin-bottom: .5rem;
   letter-spacing: 0px;
- }   
+   }   
  
+   .cube {
+    position: relative;
+    top: -6rem;
+    width: 150px;
+    height: 150px;
+    transform-style: preserve-3d;
+    transform: rotateX(-15deg);
+    animation: animate 12s linear infinite;
+    z-index: -1;
+  }
+   
   @media screen and (max-height:450px){
 #demo {
   position: relative;
@@ -136,20 +145,7 @@ body {
   top: -2rem;
   margin: 2px;
  }
-}
-.cube {
-  position: relative;
-  top: -10rem;
-  width: 150px;
-  height: 150px;
-  transform-style: preserve-3d;
-  transform: rotateX(-15deg);
-  animation: animate 12s linear infinite;
-  z-index: -1;
-}
-@media screen and (max-height:450px) {
-  
-.cube {
+ .cube {
   position: relative;
   top: -14rem;
   width: 150px;
@@ -160,6 +156,11 @@ body {
   z-index: -1;
  }
 }
+ 
+
+
+  
+
 
 
 @keyframes bounce {
@@ -178,7 +179,6 @@ body {
     position: relative;
     bottom: 0rem;
     align-items: center;
-    
     width:100%;
     margin-top: 4.5rem;
     padding: 2px;
@@ -193,6 +193,18 @@ body {
     width:100%;
     margin-top:-5rem;
     padding: 2px;
+  }
+}
+   @media screen and (max-width:450px) {
+    .bottomIconWrapperWhole {
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+    bottom: -2.5rem;
+    align-items: center;
+    width:100%;
+    padding: 2px;
+    
   }
 }
     
