@@ -145,6 +145,7 @@ body {
   top: -2rem;
   margin: 2px;
  }
+ 
  .cube {
   position: relative;
   top: -14rem;
@@ -156,11 +157,6 @@ body {
   z-index: -1;
  }
 }
- 
-
-
-  
-
 
 
 @keyframes bounce {
@@ -172,65 +168,6 @@ body {
   }
 }
 
-     
-  .bottomIconWrapperWhole {
-    display: flex;
-    justify-content: space-between;
-    position: relative;
-    bottom: 0rem;
-    align-items: center;
-    width:100%;
-    margin-top: 4.5rem;
-    padding: 2px;
-  }
-   @media screen and (max-height:450px) {
-    .bottomIconWrapperWhole {
-    display: flex;
-    justify-content: space-between;
-    position: relative;
-    bottom: 0rem;
-    align-items: center;
-    width:100%;
-    margin-top:-5rem;
-    padding: 2px;
-  }
-}
-   /* @media screen and (max-width:450px) {
-    .bottomIconWrapperWhole {
-    display: flex;
-    justify-content: space-between;
-    position: relative;
-    bottom: -2.5rem;
-    align-items: center;
-    width:100%;
-    padding: 2px;
-    
-  }
-} */
-    
-
-
-
-  
-  .bottomIconWrapperRight{
-    padding: 10px;
-    margin: auto;
-     
-    padding-bottom:  0px;
-    position: relative;
-    display: flex; 
-    justify-content: center;
-    align-items: center;
-  }
-  .bottomIconWrapperLeft{
-    padding: 10px;
-    
-    padding-bottom:  0px;
-    position: relative;
-    display: flex; 
-    justify-content: center;
-    align-items: center;
-  }
   
   @keyframes animate
 {
