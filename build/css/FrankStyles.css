@@ -199,7 +199,7 @@ body {
   height: 150px;
   transform-style: preserve-3d;
   transform: rotateX(-15deg);
-  animation: animate 12s linear infinite;
+  animation: animate 20s linear infinite;
   z-index: -1;
  }
 }
@@ -210,7 +210,7 @@ body {
     height: 150px;
     transform-style: preserve-3d;
     transform: rotateX(-15deg);
-    animation: animate 12s linear infinite;
+    animation: animate 20s linear infinite;
     z-index: -1;
   }
 }
@@ -221,7 +221,7 @@ body {
     height: 150px;
     transform-style: preserve-3d;
     transform: rotateX(-15deg);
-    animation: animate 12s linear infinite;
+    animation: animate 20s linear infinite;
     z-index: -1;
   }
 }
