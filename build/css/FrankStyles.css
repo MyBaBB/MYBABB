@@ -78,6 +78,13 @@ body {
   border: 3px solid#3c302e;
   margin: 2px;
   padding: 10px;
+  top: 0;
+  bottom: 0;
+  right:  0;
+  left:  0;
+
+
+
 }
   
 .topParagraphWrapper :hover{
