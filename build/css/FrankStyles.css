@@ -63,12 +63,12 @@
   
 body {
   position: relative;
+  justify-content: center;
+  align-items: center;
   border: border;
   padding: 1px;
   background-image: linear-gradient( rgba(55, 124, 177, 1)15% ,
   rgba(65, 79, 91, 1)60%-80%,rgba(151, 145, 144, 1)90%);
-  justify-content: center;
-  align-items: center;
   min-width: 250px;
   max-width:100%;
   min-height: 100vh;
@@ -83,8 +83,30 @@ body {
   right:  0;
   left:  0;
 
-
-
+}
+@media (max-width:400px) {
+body {
+  position: relative;
+  justify-content: center;
+  align-items: center;
+  border: border;
+  padding: 1px;
+  background-image: linear-gradient( rgba(55, 124, 177, 1)15% ,
+  rgba(65, 79, 91, 1)60%-80%,rgba(151, 145, 144, 1)90%);
+  min-width: 250px;
+  max-width:100%;
+  min-height: 140vh;
+  max-height:100% ;
+  overflow: hidden; 
+  outline: 4px double var(--f9LIGHTDUCKCHEEKS); 
+  border: 3px solid#3c302e;
+  margin: 2px;
+  padding: 10px;
+  top: 0;
+  bottom: 0;
+  right:  0;
+  left:  0;
+}
 }
   
 .topParagraphWrapper :hover{
@@ -135,7 +157,7 @@ body {
   padding: 2px;
   }
 
-  @media screen and (max-height:430px) {
+  @media  (max-height:430px) and (orientation: landscape) {
 .topParagraph {
   position: fixed;
   font-family: 'PT Serif', serif;
@@ -170,9 +192,9 @@ body {
     animation: animate 20s linear infinite;
     z-index: -1;
   }
-  @media screen and (min-width: 320px){
+  @media  (min-width: 320px){
     .cube {position: relative;
-      top: 5rem;
+      top: -4rem;
       width: 150px;
       height: 150px;
       transform-style: preserve-3d;
@@ -182,7 +204,7 @@ body {
     }
   }
  
-  @media screen and (min-width: 600px){
+  @media  (min-width: 600px){
     .cube
      {position: relative;
       top: -4rem;
@@ -196,7 +218,7 @@ body {
   }
 
 
-  @media screen and (max-height: 500px){
+  @media  (max-height: 500px)  and (orientation: landscape) {
     .cube {position: relative;
       top: -10rem;
       width: 150px;
@@ -208,7 +230,7 @@ body {
     }
   }
    
-  @media screen and (max-height:430px){
+  @media  (max-height:430px) and (orientation: landscape) {
 #demo {
   position: relative;
   font-family: 'PT Serif', serif;
@@ -220,7 +242,7 @@ body {
   margin: 2px;
  }
 
- .cube {
+  .cube {
   position: relative;
   top: -8rem;
   width: 150px;
@@ -231,7 +253,7 @@ body {
   z-index: -1;
  }
 }
-@media screen and (max-height: 385px){
+@media  (max-height: 385px)  and (orientation: landscape) {
   .cube {position: relative;
     top: -10rem;
     width: 150px;
@@ -242,7 +264,7 @@ body {
     z-index: -1;
   }
 }
-@media screen and (max-height: 319px){
+@media  (max-height: 319px) and (orientation: landscape){
   .cube {position: relative;
     top: -12rem;
     width: 150px;
