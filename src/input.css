@@ -107,7 +107,7 @@
     top: 2rem;
     left:3rem;
     padding: 2px;
-    border: 2px solid blue;
+    
     margin: auto;
     }
    @media screen and (max-width: 768px) {
@@ -120,7 +120,7 @@
     left: 50%;
     transform: translateX(-50%);
     padding: 2px;
-    border: 2px solid blue;
+    
     margin: auto;
     }
   }
