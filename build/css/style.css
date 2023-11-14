@@ -658,6 +658,11 @@ video {
   line-height: 2rem;
 }
 
+.text-4xl{
+  font-size: 2.25rem;
+  line-height: 2.5rem;
+}
+
 :root {
   --varDARKBEAKTOP:     rgba(120,80,1,1);
   /* #785001  */
@@ -764,7 +769,7 @@ body {
   margin: auto;
 }
 
-@media screen and (max-width: 500px) {
+@media screen and (max-width: 450px) {
   .topParagraph {
     position: absolute;
     text-align: center;
@@ -791,7 +796,7 @@ body {
   padding: 2px;
 }
 
-@media screen and (max-width: 500px) {
+@media screen and (max-width: 450px) {
   .demoWrapper {
     letter-spacing: 3px;
     position:absolute;
@@ -812,7 +817,6 @@ body {
   color: #ec9d0a;
   padding: 2px;
   text-shadow: #895b05 .5px .5px;
-  font-size: 18px;
   white-space: nowrap;
   margin: .5rem;
   letter-spacing: 0px;
