@@ -13,91 +13,35 @@
    
 </head>
 <body>
-  <div class="container "> 
-<span class="text-white">hello
-
-</span>
-
-  <a href="https://mybabb.com">
+  <div class="container border-2 border-red-900 "> 
+    
       
-   <div class="bodyWrapper border-red-900">
-     <div class="outerTopParagraphWrapper">
   <br>          
 
 
    
 
-      <div class="topParagraphWrapper " >
+       <div class="topParagraphWrapper border-2 border-blue-700 " >
+         <p class="topParagraph text-2xl md:text-3xl lg:text-5xl ">
+          <b> Happy <br>Thanksgiving</b>   
+        </p>
+      </div>  
     
-          <p class="topParagraph">
-           <b> Happy <br>Thanksgiving</b>   
-              
-         </p>
+         
        <!--  this is the countdown timer -->
-    <div style=" 
-    letter-spacing: 3px;
-    position: relative;
-    display: flex;
-    width: fit-content;
-    margin-top: 1.5rem;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    animation: pulse 1s infinite;
-    text-align: center;
-    padding: 2px;
-">
-      <p id="demo"> 
-      </p>  
+   
     
    
-
-        
-    <script>
-        // Set the date we're counting down to
-        var countDownDate = new Date("nov 23, 2023 00:00:00 PST").getTime();
-
-        // Update the count down every 1 second
-        var x = setInterval(function() {
-
-            // Get today's date and time
-            var now = new Date().getTime();
-
-            // Find the distance between now and the count down date
-            var distance = countDownDate - now;
-
-            // Time calculations for days, hours, minutes and seconds
-            var days = Math.floor(distance / (1000 * 60 * 60 * 24));
-            var hours = Math.floor((distance % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
-            var minutes = Math.floor((distance % (1000 * 60 * 60)) / (1000 * 60));
-            var seconds = Math.floor((distance % (1000 * 60)) / 1000);
-
-            // Display the result in the element with id="demo"
-            document.getElementById("demo").innerHTML = days + "-days " + hours + ":"
-            var minutesStr = minutes < 10 ? "0" + minutes : minutes;
-            var secondsStr = seconds < 10 ? "0" + seconds : seconds;
-            document.getElementById("demo").innerHTML = days + "-days " + hours + ": " + minutesStr + ": " + secondsStr + " ";
-
-            // If the count down is finished, write some text
-            if (distance < 0) {
-                clearInterval(x);
-                document.getElementById("demo").innerHTML = "<span style='color:rgba(235, 156, 10, 1); text-shadow: .5px .5px 0 #000; font-size: 2.75rem;'><b>&nbsp;Pilgrims...</b></span>";
-            }
-        }, 1000);
-    </script>
-
-   </div>
-  </div>
- </div>
   
- </div>  
- </a>
+  
+   
+ 
 
       
   
  
-<div class="outerCubeDiv">
+<div class="outerCubeDiv   border-2 border-violet-500 p-[2rem] " >
   <div class="cube" >  
-
       
     
     <div class='top'><img class="blackPowderCross6"   src="/build/img/blackPowderCross6.jpg" alt="Black Powder Cross6" height="150" width="150">
@@ -112,21 +56,53 @@
          
       
          <span  class="ThanksgivingWithFriends" style='--i:3;'><img src="/build/img/ThanksgivingWithFriends.jpg" alt="Thanksgiving With More Friends" height="150" width="150" ></span>
-     </div>
+      </div>
      
+    
+</div>
+ 
+</div>
+<div class="demoWrapper border-2 border-amber-300  ">
+  <p id="demo"> 
+  </p>  
+</div>
+
+
+    
+<script>
+    // Set the date we're counting down to
+    var countDownDate = new Date("nov 23, 2023 00:00:00 PST").getTime();
+
+    // Update the count down every 1 second
+    var x = setInterval(function() {
+
+        // Get today's date and time
+        var now = new Date().getTime();
+
+        // Find the distance between now and the count down date
+        var distance = countDownDate - now;
+
+        // Time calculations for days, hours, minutes and seconds
+        var days = Math.floor(distance / (1000 * 60 * 60 * 24));
+        var hours = Math.floor((distance % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
+        var minutes = Math.floor((distance % (1000 * 60 * 60)) / (1000 * 60));
+        var seconds = Math.floor((distance % (1000 * 60)) / 1000);
+
+        // Display the result in the element with id="demo"
+        document.getElementById("demo").innerHTML = days + "-days " + hours + ":"
+        var minutesStr = minutes < 10 ? "0" + minutes : minutes;
+        var secondsStr = seconds < 10 ? "0" + seconds : seconds;
+        document.getElementById("demo").innerHTML = days + "-days " + hours + ": " + minutesStr + ": " + secondsStr + " ";
+
+        // If the count down is finished, write some text
+        if (distance < 0) {
+            clearInterval(x);
+            document.getElementById("demo").innerHTML = "<span style='color:rgba(235, 156, 10, 1); text-shadow: .5px .5px 0 #000; font-size: 2.75rem;'><b>&nbsp;Pilgrims...</b></span>";
+        }
+    }, 1000);
+</script>
+
  </div>
-</div>
- 
-
-
-
-
-
-
-
- 
- 
-</div>
     </body>
     </html>
 
