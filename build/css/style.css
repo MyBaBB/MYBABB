@@ -759,12 +759,12 @@ body {
   font-family: 'PT Serif', serif;
   color:#ec9d0a  ;
   top: 2rem;
-  left:3rem;
+  left:2.5rem;
   padding: 2px;
   margin: auto;
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 500px) {
   .topParagraph {
     position: absolute;
     text-align: center;
@@ -791,7 +791,7 @@ body {
   padding: 2px;
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 500px) {
   .demoWrapper {
     letter-spacing: 3px;
     position:absolute;
