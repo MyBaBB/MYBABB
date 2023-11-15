@@ -823,13 +823,13 @@ body {
   right:3rem ;
   width: -moz-fit-content;
   width: fit-content;
+  margin-top: 1.1rem;
   text-align: center;
   padding: 2px;
   text-decoration:underline;
   font-weight: 700;
   text-decoration-color: burlywood;
   text-shadow: #151515 .5px .5px;
-  margin-top: -1rem;
 }
 
 @media screen and (max-width: 420px) {
