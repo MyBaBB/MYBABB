@@ -841,7 +841,7 @@ body {
     transform: translateX(50%);
     width: -moz-fit-content;
     width: fit-content;
-    margin-top: 1.5rem;
+    margin-top: 2rem;
     text-align: center;
     padding: 2px;
     text-decoration: underline;
@@ -871,7 +871,7 @@ body {
     white-space: nowrap;
     margin: .5rem;
     letter-spacing: 0px;
-    margin-top: -.5rem;
+    margin-top: -1rem;
   }
 }
 
