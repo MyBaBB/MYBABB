@@ -65,6 +65,7 @@
     outline: 4px double var(--f9LIGHTDUCKCHEEKS); 
     margin: 2px;
     padding: 20px;
+    overflow: hidden;
   }
   
     
@@ -428,6 +429,8 @@ transform-style: preserve-3d;
     transform: rotateY(calc(90deg * var(--i))) translateZ(150px);
    
    }
+ /* media query for smaller cube */
+
 
 
 

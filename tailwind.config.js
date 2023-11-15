@@ -53,23 +53,11 @@
         screens: {
          'widescreen': { 'raw': '(min-aspect-ratio: 3/2)' },
          'tallscreen': { 'raw': '(max-aspect-ratio: 13/20)' },
-       }, 
- 
-      /*  keyframes: {
-         'open-menu': {
-           '0%': { transform: 'scaleY(0)' },
-           '80%': { transform: 'scaleY(01.2)' },
-           '100%': { transform: 'scaleY(1)' },
-         },
-       },
-        */
-
-
-/* 
-       animation: {
-         'open-menu': 'open-menu 0.5s ease-in-out forwards'
-       }, */
+         'xxxs': {'max': '260px'},
+         'xxs': {'max': '359px'},
+         'xs': {'max': '639px'},
      },
    
    plugins: [],
- };
+ }
+};
