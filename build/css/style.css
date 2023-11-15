@@ -1060,7 +1060,7 @@ body {
 
 /* media query for bigger cube */
 
-@media (min-width: 900px) {
+@media (min-width: 900px) and (min-height: 500px) {
   .top::before  {
     content: '';
     position: absolute;
@@ -1081,6 +1081,7 @@ body {
   .cube {
     width: 300px;
     height: 300px;
+    animation: animate 40s linear infinite;
   }
 
   .top {
