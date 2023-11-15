@@ -136,7 +136,7 @@
   text-align: center;
   padding: 2px;
 }
-@media screen and (max-width: 450px) {
+@media screen and (max-width: 420px) {
 .demoWrapper {
   letter-spacing: 3px;
   position:absolute;
@@ -145,7 +145,6 @@
   transform: translateX(50%);
   width: fit-content;
   margin-top: 1.5rem;
-  animation: pulse 1s infinite;
   text-align: center;
   padding: 2px;
 }

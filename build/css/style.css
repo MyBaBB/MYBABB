@@ -570,6 +570,18 @@ video {
   }
 }
 
+.fixed{
+  position: fixed;
+}
+
+.bottom-0{
+  bottom: 0px;
+}
+
+.right-5{
+  right: 1.25rem;
+}
+
 .m-4{
   margin: 1rem;
 }
@@ -621,6 +633,10 @@ video {
   scroll-behavior: smooth;
 }
 
+.whitespace-nowrap{
+  white-space: nowrap;
+}
+
 .border-2{
   border-width: 2px;
 }
@@ -658,9 +674,9 @@ video {
   line-height: 2rem;
 }
 
-.text-4xl{
-  font-size: 2.25rem;
-  line-height: 2.5rem;
+.text-white{
+  --tw-text-opacity: 1;
+  color: rgb(255 255 255 / var(--tw-text-opacity));
 }
 
 :root {
@@ -796,7 +812,7 @@ body {
   padding: 2px;
 }
 
-@media screen and (max-width: 450px) {
+@media screen and (max-width: 420px) {
   .demoWrapper {
     letter-spacing: 3px;
     position:absolute;
@@ -806,7 +822,6 @@ body {
     width: -moz-fit-content;
     width: fit-content;
     margin-top: 1.5rem;
-    animation: pulse 1s infinite;
     text-align: center;
     padding: 2px;
   }
