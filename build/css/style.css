@@ -678,18 +678,8 @@ video {
   padding: 2rem;
 }
 
-.text-2xl{
-  font-size: 1.5rem;
-  line-height: 2rem;
-}
-
 .text-\[8px\]{
   font-size: 8px;
-}
-
-.text-sm{
-  font-size: 0.875rem;
-  line-height: 1.25rem;
 }
 
 .text-lg{
@@ -822,6 +812,7 @@ body {
     padding: 2px;
     margin: auto;
     text-shadow: #151515 .5px .5px;
+    margin-top: -.45rem;
   }
 }
 
@@ -832,13 +823,13 @@ body {
   right:3rem ;
   width: -moz-fit-content;
   width: fit-content;
-  margin-top: 1.1rem;
   text-align: center;
   padding: 2px;
   text-decoration:underline;
   font-weight: 700;
   text-decoration-color: burlywood;
   text-shadow: #151515 .5px .5px;
+  margin-top: -1rem;
 }
 
 @media screen and (max-width: 420px) {
@@ -868,6 +859,20 @@ body {
   white-space: nowrap;
   margin: .5rem;
   letter-spacing: 0px;
+  margin-top: -1rem;
+}
+
+@media screen and (orientation: landscape) {
+  #demo {
+    position: relative;
+    color: burlywood;
+    padding: 2px;
+    text-shadow: #151515 .5px .5px;
+    white-space: nowrap;
+    margin: .5rem;
+    letter-spacing: 0px;
+    margin-top: -.5rem;
+  }
 }
 
 .cube {
@@ -1124,19 +1129,9 @@ body {
   .sm\:text-\[10px\]{
     font-size: 10px;
   }
-
-  .sm\:text-lg{
-    font-size: 1.125rem;
-    line-height: 1.75rem;
-  }
 }
 
 @media (min-width: 768px){
-  .md\:text-3xl{
-    font-size: 1.875rem;
-    line-height: 2.25rem;
-  }
-
   .md\:text-2xl{
     font-size: 1.5rem;
     line-height: 2rem;
@@ -1144,32 +1139,13 @@ body {
 }
 
 @media (min-width: 1024px){
-  .lg\:text-5xl{
-    font-size: 3rem;
-    line-height: 1;
+  .lg\:text-4xl{
+    font-size: 2.25rem;
+    line-height: 2.5rem;
   }
 
   .lg\:text-sm{
     font-size: 0.875rem;
     line-height: 1.25rem;
-  }
-
-  .lg\:text-4xl{
-    font-size: 2.25rem;
-    line-height: 2.5rem;
-  }
-}
-
-@media (max-width: 359px){
-  .xxs\:text-xs{
-    font-size: 0.75rem;
-    line-height: 1rem;
-  }
-}
-
-@media (max-width: 639px){
-  .xs\:text-lg{
-    font-size: 1.125rem;
-    line-height: 1.75rem;
   }
 }

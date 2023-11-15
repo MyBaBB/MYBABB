@@ -123,6 +123,7 @@
     padding: 2px;
     margin: auto;
     text-shadow: #151515 .5px .5px;
+    margin-top: -.45rem;
     }
   }
 
@@ -140,6 +141,7 @@
   font-weight: 700;
   text-decoration-color: burlywood;
   text-shadow: #151515 .5px .5px;
+  margin-top: -1rem;
 }
 @media screen and (max-width: 420px) {
 .demoWrapper {
@@ -166,13 +168,24 @@
       color: burlywood;
       padding: 2px;
       text-shadow: #151515 .5px .5px;
-        
       white-space: nowrap;  
       margin: .5rem;
       letter-spacing: 0px;
-       
-      
+      margin-top: -1rem;
        } 
+            @media screen and (orientation: landscape) {
+              #demo {
+                position: relative;
+      color: burlywood;
+      padding: 2px;
+      text-shadow: #151515 .5px .5px;
+      white-space: nowrap;  
+      margin: .5rem;
+      letter-spacing: 0px;
+      margin-top: -.5rem;
+              } 
+            }    
+     
        .cube {
         position: relative;
         
