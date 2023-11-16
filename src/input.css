@@ -89,14 +89,14 @@
   
   .topParagraphWrapper :hover{
      color:#895b05;
+     text-shadow: 2px 2px 4px wheat; 
     }
   
     .topParagraphWrapper {
       justify-content: center;
       text-align: center;
     }
-   
- 
+  
     
     
    
@@ -138,7 +138,7 @@
   margin-top: 2.1rem;
   text-align: center;
   padding: 2px;
-  font-weight: 700;
+  font-weight: 500;
   text-decoration:underline;
   text-decoration-color: #3d2901;
   text-shadow: #151515 .5px .5px;
@@ -281,7 +281,7 @@ transform-style: preserve-3d;
  
 }
 
-.FranknBridewithCorn2
+.FranknBridewithCorn4
   {  
     top: 0;
     left: 0;
