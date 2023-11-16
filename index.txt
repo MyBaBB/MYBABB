@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="google-site-verification"   content="eA7CLVmemIzr_lwNAATPBSNyGjsBxh-WrlPjSP85yR4">
+    <link rel="shortcut icon" type="image/x-icon" href="./favicon.png">
+    <link rel="stylesheet" href="./build/css/style.css">
+
+    <meta http-equiv="Cache-Control" content="no-cache, no-store, must-revalidate">
+    <meta http-equiv="Pragma" content="no-cache">
+    <meta http-equiv="Expires" content="0">
+    <link rel="stylesheet" href="style.css?v=1">
+    <script src="script.js?v=1"></script>
+
+
+    <title>⌛Franken-Timer🧟</title>
+       
+      <!-- xxxx !! This Page has been Upgraded to TAILWIND CSS !!!   xxx -->
+   
+</head>
+<body>
+  <div class="container "> 
+    
+      
+  <br>          
+<a href="https://Mybabb.com">
+       <div class="topParagraphWrapper  " >
+         <p class="topParagraph text-lg  sm:text-1lg md:text-2xl lg:text-4xl ">
+          <b> Happy <br>Thanksgiving</b>   
+        </p>
+      </div>  
+</a>  
+         
+       <!--  this is the countdown timer -->
+
+      
+  
+ 
+<div class="outerCubeDiv    p-[2rem] " >
+  <div class="cube" >  
+      
+    
+    <div class='top'><img class="blackPowderCross6"   src="/build/img/blackPowderCross6.jpg" alt="Black Powder Cross6" height="300" width="300">
+    </div>
+       <div class="boxSides">
+         <span class='FranknBridewithCorn4 border-b-2 border-varLIGHTBEAKTOP' style='--i:0;'><img src="/build/img/FranknBridewithCorn4.jpg" alt="FranknBridewithCorn4" height="300" width="300" ></span>
+ 
+         <span class='alienPilgrim border-b-2 border-varLIGHTBEAKTOP ' style='--i:1;' ><img src="/build/img/alienInTheCornField.jpg" alt="Alien Pilgrim" height="300" width="300" ></span>
+
+         <span class='PilgrimFrank border-b-2 border-varLIGHTBEAKTOP' style='--i:2;'><img src="/build/img/PilgrimFrank.jpg" alt="Pilgrim Frank" height="300" width="300"></span>
+        
+         
+      
+         <span  class="ThanksgivingWithFriends border-b-2 border-varLIGHTBEAKTOP " style='--i:3;'><img src="/build/img/ThanksgivingWithFriends.jpg" alt="Thanksgiving With More Friends" height="300" width="300" ></span>
+      </div>
+     
+    
+</div>
+ 
+</div>
+<div class="demoWrapper  ">
+  <p id="demo" class=" text-lg  sm:text-1lg md:text-2xl lg:text-4xl  "> 
+  </p>  
+</div>
+<div>
+  <p
+    class="fixed bottom-0 right-5 whitespace-nowrap"
+    
+  >
+    <span
+      class="text-white text-[8px] sm:text-[10px]  lg:text-sm "
+      
+    >
+      &lt;&lt;&lt;&copy;MyBaBB <em>8-2013</em>&gt;&gt;&gt;</span
+    >
+  </p>
+</div>
+
+    
+
+ </div>
+
+
+ <script src="./build/js/main.js"></script>
+    </body>
+    
+    </html>
+
+         
+                      
+          
+ 
+ 
+ 
