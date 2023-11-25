@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Noto+Serif&family=Rye&display=swap?family=Creepster&family=Itim&family=PT+Serif&display=swap');
 
 /*
-! tailwindcss v3.3.3 | MIT License | https://tailwindcss.com
+! tailwindcss v3.3.5 | MIT License | https://tailwindcss.com
 */
 
 /*
@@ -574,6 +574,10 @@ video {
   position: fixed;
 }
 
+.relative{
+  position: relative;
+}
+
 .bottom-0{
   bottom: 0px;
 }
@@ -649,6 +653,11 @@ video {
   border-top-width: 2px;
 }
 
+.border-\[\#d72d32\]{
+  --tw-border-opacity: 1;
+  border-color: rgb(215 45 50 / var(--tw-border-opacity));
+}
+
 .border-orange-500{
   --tw-border-opacity: 1;
   border-color: rgb(249 115 22 / var(--tw-border-opacity));
@@ -659,9 +668,9 @@ video {
   border-color: rgb(67 20 7 / var(--tw-border-opacity));
 }
 
-.border-varLIGHTBEAKTOP{
-  --tw-border-opacity: 1;
-  border-color: rgb(252 168 2 / var(--tw-border-opacity));
+.bg-\[\#eba937\]{
+  --tw-bg-opacity: 1;
+  background-color: rgb(235 169 55 / var(--tw-bg-opacity));
 }
 
 .bg-blue-700{
@@ -676,6 +685,11 @@ video {
 
 .p-\[2rem\]{
   padding: 2rem;
+}
+
+.text-2xl{
+  font-size: 1.5rem;
+  line-height: 2rem;
 }
 
 .text-\[8px\]{
@@ -793,7 +807,7 @@ body {
 .topParagraph {
   position: absolute;
   font-family: 'PT Serif', serif;
-  color:burlywood;
+  color:rgba(215,45,50,1);
   top: 2rem;
   left:2.5rem;
   padding: 2px;
@@ -807,7 +821,7 @@ body {
     text-align: center;
     font-family: 'PT Serif', serif;
     font-size: xx-large;
-    color: burlywood  ;
+    color: rgba(215,45,50,1);
     top:.125rem;
     left: 50%;
     transform: translateX(-50%);
@@ -854,7 +868,7 @@ body {
 
 #demo {
   position: relative;
-  color: burlywood;
+  color: rgba(215,45,50,1);
   padding: 2px;
   text-shadow: #151515 .5px .5px;
   white-space: nowrap;
@@ -866,7 +880,7 @@ body {
 @media screen and (orientation: landscape) {
   #demo {
     position: relative;
-    color: burlywood;
+    color:rgba(215,45,50,1);
     padding: 2px;
     text-shadow: #151515 .5px .5px;
     white-space: nowrap;
@@ -942,7 +956,7 @@ body {
   left: 0%;
   min-width: 100%;
   min-height: 100%;
-  background: linear-gradient(#151515,#ec9d0a);
+  background: linear-gradient(#151515,#962023);
   transform: rotateY(calc(90deg * var(--i))) translateZ(75px);
 }
 
@@ -995,14 +1009,14 @@ body {
   left: 0;
   width: 150px;
   height: 150px;
-  background:rgba(235, 156, 10, 1);
+  background:rgba(214, 46, 52, 1);
   transform: translateZ(-220px);
   filter: blur(20px);
-  box-shadow: 0 0 120px rgb(141, 96, 4),
-    0 0 200px rgba(178, 119, 5), 
-    0 0 300px rgba(188, 125, 7), 
-    0 0 400px rgba(202, 134, 9, 8),
-    0 0 500px rgba(235, 156, 10, 1);
+  box-shadow: 0 0 120px rgba(114, 24, 26, 4),
+    0 0 200px rgba(151, 32, 36,7),
+    0 0 300px rgba(151, 32, 36,7),
+    0 0 400px rgba(151, 32, 36,7),
+    0 0 500px rgba(214, 46, 52, 1);
 }
 
 /* xxxs */
@@ -1085,14 +1099,14 @@ body {
     left: 0;
     width: 300px;
     height: 300px;
-    background:rgba(235, 156, 10, 1);
+    background:rgba(214, 46, 52, 1);
     transform: translateZ(-400px);
-    filter: blur(20px);
-    box-shadow: 0 0 120px rgb(141, 96, 4),
-    0 0 200px rgba(178, 119, 5), 
-    0 0 300px rgba(188, 125, 7), 
-    0 0 400px rgba(202, 134, 9, 8),
-    0 0 500px rgba(235, 156, 10, 1);
+    filter: blur(40px);
+    box-shadow: 0 0 240px rgba(114, 24, 26, 4),
+      0 0 400px  rgba(151, 32, 36, 7),
+      0 0 600px rgba(151, 32, 36, 7),
+      0 0 800px rgba(151, 32, 36, 7),
+      0 0 900px rgba(214, 46, 52, 1);
   }
 
   .cube {
@@ -1119,7 +1133,7 @@ body {
     left: 0%;
     min-width: 100%;
     min-height: 100%;
-    background: linear-gradient(#151515,#ec9d0a);
+    background: linear-gradient(#151515,#d72d32);
     transform: rotateY(calc(90deg * var(--i))) translateZ(150px);
   }
 
@@ -1127,6 +1141,11 @@ body {
 }
 
 @media (min-width: 640px){
+  .sm\:text-3xl{
+    font-size: 1.875rem;
+    line-height: 2.25rem;
+  }
+
   .sm\:text-\[10px\]{
     font-size: 10px;
   }
@@ -1136,6 +1155,11 @@ body {
   .md\:text-2xl{
     font-size: 1.5rem;
     line-height: 2rem;
+  }
+
+  .md\:text-4xl{
+    font-size: 2.25rem;
+    line-height: 2.5rem;
   }
 }
 
