@@ -12,7 +12,7 @@ const responsePromise = fetch(url).then((response) => {
   console.error('Error fetching data:', error);
 }); */
 
- 
+    
  
  
     // Set the date we're counting down to
@@ -45,4 +45,3 @@ const responsePromise = fetch(url).then((response) => {
             document.getElementById("demo").innerHTML = "<span style='color:rgba(235, 156, 10, 1); text-shadow: .5px .5px 0 #000; font-size: 2.75rem;'><b>....Everyone</b></span>";
         }
     }, 1000);
- 
