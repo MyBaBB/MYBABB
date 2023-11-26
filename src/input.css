@@ -105,10 +105,11 @@
 @media screen and (max-width:500px) {
   .topParagraphWrapper {
     letter-spacing: 3px;
-    position:absolute;
+    position:fixed;
     display: flex;
     left: 50%;
-    margin-top: 5%;
+    margin-top:40px;
+    padding: 2px;
     transform: translatex(-50%);
     width: fit-content;
     height: fit-content;
@@ -137,7 +138,7 @@
    
     }
     
-   @media screen and (orientation: landscape) and (max-height:500px) {
+  /*  @media screen and (orientation: landscape) and (max-height:500px) {
   .topParagraph {
     position: relative;
     text-align: center;
@@ -148,7 +149,7 @@
     text-shadow: #151515 .75px .75px;
     
     }
-  }
+  } */
   .outerDemoWrapper{
     position: fixed;
     top: 1rem;
@@ -158,9 +159,8 @@
   }
   @media screen and (max-width:  500px) {
     .outerDemoWrapper {
-      top: 0;
       letter-spacing: 3px;
-      position:absolute;
+      position:fixed;
       display: flex;
       left: 50%;
       transform: translate(-50%);
@@ -190,7 +190,7 @@
   text-shadow: #151515 .5px .5px;
    
 }
-@media screen and (max-width: 575px) {
+/* @media screen and (max-width: 575px) {
 .demoWrapper {
   letter-spacing: 3px;
   position:relative;
@@ -202,7 +202,7 @@
    
 }
 } 
-
+ */
 
 
 
@@ -217,7 +217,7 @@
       
 
       
-     
+ /*     
  @media screen and (orientation: landscape) and (max-height: 500px)  {
      #demo {
       position: relative;
@@ -228,7 +228,7 @@
       font-size: small;
       letter-spacing: 0px;
               } 
-            }    
+            }     */
      
        .cube {
         position: relative;
