@@ -684,6 +684,16 @@ video {
   border-color: rgb(127 29 29 / var(--tw-border-opacity));
 }
 
+.border-green-400{
+  --tw-border-opacity: 1;
+  border-color: rgb(74 222 128 / var(--tw-border-opacity));
+}
+
+.border-r-varMEDBLUEFEATHER{
+  --tw-border-opacity: 1;
+  border-right-color: rgb(42 97 161 / var(--tw-border-opacity));
+}
+
 .bg-\[\#eba937\]{
   --tw-bg-opacity: 1;
   background-color: rgb(235 169 55 / var(--tw-bg-opacity));
