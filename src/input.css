@@ -102,7 +102,7 @@
       top: 1rem;
       left: 1rem;
 }
-@media screen and (max-width: 639px) {
+@media screen and (max-width:500px) {
   .topParagraphWrapper {
     letter-spacing: 3px;
     position:absolute;
@@ -112,9 +112,10 @@
     transform: translatex(-50%);
     width: fit-content;
     height: fit-content;
-    text-shadow: #151515 .5px .5px;
+    text-shadow: white .5px .5px;
     font-weight: 400;
     text-decoration: none;
+    color: blue;
     
   }
   }    
@@ -155,13 +156,13 @@
     
     padding: 2px;
   }
-  @media screen and (max-width: 639px) {
+  @media screen and (max-width:  500px) {
     .outerDemoWrapper {
       letter-spacing: 3px;
       position:absolute;
       display: flex;
       left: 50%;
-      transform: translatex(-50%);
+      transform: translate(-50%);
       width: fit-content;
       height: fit-content;
       text-shadow: #151515 .5px .5px;
