@@ -97,25 +97,25 @@
       
       text-align: center;
       padding: .2rem;
-      border: 2px solid rgba(215,245,50,1);
+      
       position: fixed;
       top: 1rem;
       left: 1rem;
 }
-@media screen and (max-width: 500px) {
+@media screen and (max-width: 639px) {
   .topParagraphWrapper {
     letter-spacing: 3px;
     position:absolute;
     display: flex;
     left: 50%;
-    margin-top: 35%;
+    margin-top: 15%;
     transform: translatex(-50%);
     width: fit-content;
     height: fit-content;
     text-shadow: #151515 .5px .5px;
     font-weight: 400;
     text-decoration: none;
-    border: 2px solid rgba(100,45,50,1);
+    
   }
   }    
     
@@ -133,7 +133,7 @@
     
     text-shadow: #151515 .75px .75px;
     margin: auto;
-    border: 2px solid rgba(215,45,50,1);
+   
     }
     
    @media screen and (orientation: landscape) and (max-height:500px) {
@@ -145,30 +145,29 @@
     color: rgba(215,45,50,1);
     margin: auto;
     text-shadow: #151515 .75px .75px;
-    border: 2px solid rgba(0, 45,5 0, 1);
+    
     }
   }
   .outerDemoWrapper{
     position: fixed;
     top: 1rem;
     right: 1rem;
-    border: 2px solid rgba(215,245,50,1);
+    
     padding: 2px;
   }
-  @media screen and (max-width: 500px) {
+  @media screen and (max-width: 639px) {
     .outerDemoWrapper {
       letter-spacing: 3px;
       position:absolute;
       display: flex;
       left: 50%;
-      margin-top: 5%;
       transform: translatex(-50%);
       width: fit-content;
       height: fit-content;
       text-shadow: #151515 .5px .5px;
       font-weight: 400;
       text-decoration: none;
-      border: 2px solid rgba(100,45,50,1);
+      
     }
     } 
     .demoWrapper {
@@ -187,7 +186,7 @@
  
   text-decoration:none;
   text-shadow: #151515 .5px .5px;
-  border: 2px solid rgba(215,45,50,1);
+   
 }
 @media screen and (max-width: 575px) {
 .demoWrapper {
@@ -198,7 +197,7 @@
   text-shadow: #151515 .5px .5px;
   font-weight: 400;
   text-decoration: none;
-  border: 2px solid rgba(0,45,50,1);
+   
 }
 } 
 
@@ -264,7 +263,7 @@ transform:rotateX(-15deg) rotateY(0deg);
    position: relative;
    justify-content: center;
    align-items: center;
-   border: 2px solid rgba(215,45,50,1);
+  
    
 }
  
