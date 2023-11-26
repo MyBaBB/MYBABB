@@ -813,25 +813,25 @@ body {
 
 @media screen and (max-width: 575px) {
   .topParagraph {
-    position: relative;
+    position: absolute;
     text-align: center;
     font-family: 'PT Serif', serif;
     font-size: xx-large;
     color: rgba(215,45,50,1);
-    top: -2rem;
+    top: -1rem;
     left: 50%;
     transform: translateX(-50%);
     padding: 15px;
     margin: auto;
     text-shadow: #151515 .75px .75px;
-    margin-top: -1.45rem;
+    margin-top: 6rem;
   }
 }
 
 .demoWrapper {
   letter-spacing: 3px;
   position:absolute;
-  top:1rem;
+  top:.5rem;
   right:3rem ;
   width: -moz-fit-content;
   width: fit-content;
@@ -848,7 +848,7 @@ body {
   .demoWrapper {
     letter-spacing: 3px;
     position:absolute;
-    top:2rem;
+    top:0rem;
     right:50%;
     transform: translateX(50%);
     width: -moz-fit-content;
