@@ -105,8 +105,9 @@
 @media screen and (max-width:500px) {
   .topParagraphWrapper {
     letter-spacing: 3px;
-    position:fixed;
+    position:relative;
     display: flex;
+    text-align: center;
     left: 50%;
     margin-top:40px;
     padding: 2px;
