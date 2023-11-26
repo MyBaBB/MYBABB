@@ -574,10 +574,6 @@ video {
   position: fixed;
 }
 
-.relative{
-  position: relative;
-}
-
 .bottom-0{
   bottom: 0px;
 }
@@ -817,18 +813,18 @@ body {
 
 @media screen and (max-width: 575px) {
   .topParagraph {
-    position: absolute;
+    position: relative;
     text-align: center;
     font-family: 'PT Serif', serif;
     font-size: xx-large;
     color: rgba(215,45,50,1);
-    top:.125rem;
+    top: -2rem;
     left: 50%;
     transform: translateX(-50%);
     padding: 15px;
     margin: auto;
     text-shadow: #151515 .75px .75px;
-    margin-top: -.45rem;
+    margin-top: -1.45rem;
   }
 }
 
