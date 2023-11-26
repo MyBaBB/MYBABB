@@ -679,10 +679,6 @@ video {
   background-color: rgb(185 28 28 / var(--tw-bg-opacity));
 }
 
-.p-\[4rem\]{
-  padding: 4rem;
-}
-
 .text-2xl{
   font-size: 1.5rem;
   line-height: 2rem;
@@ -809,7 +805,7 @@ body {
     position:absolute;
     display: flex;
     left: 50%;
-    margin-top: 15%;
+    margin-top: 5%;
     transform: translatex(-50%);
     width: -moz-fit-content;
     width: fit-content;
@@ -851,6 +847,7 @@ body {
 
 @media screen and (max-width:  500px) {
   .outerDemoWrapper {
+    top: 0;
     letter-spacing: 3px;
     position:absolute;
     display: flex;

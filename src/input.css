@@ -108,7 +108,7 @@
     position:absolute;
     display: flex;
     left: 50%;
-    margin-top: 15%;
+    margin-top: 5%;
     transform: translatex(-50%);
     width: fit-content;
     height: fit-content;
@@ -158,6 +158,7 @@
   }
   @media screen and (max-width:  500px) {
     .outerDemoWrapper {
+      top: 0;
       letter-spacing: 3px;
       position:absolute;
       display: flex;
