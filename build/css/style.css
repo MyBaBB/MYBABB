@@ -802,7 +802,7 @@ body {
 @media screen and (max-width:500px) {
   .topParagraphWrapper {
     letter-spacing: 3px;
-    position:relative;
+    position:fixed;
     display: flex;
     text-align: center;
     left: 50%;
