@@ -92,6 +92,7 @@
     }
   
     .topParagraphWrapper {
+      
       justify-content: center;
       text-align: center;
     }
@@ -101,7 +102,7 @@
    
   
   .topParagraph {
-    position: absolute;
+    position:absolute;
     font-family: 'PT Serif', serif;
     color:rgba(215,45,50,1);  
     top: 2rem;
