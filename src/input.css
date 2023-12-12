@@ -138,19 +138,6 @@
     margin: auto;
    
     }
-    
-  /*  @media screen and (orientation: landscape) and (max-height:500px) {
-  .topParagraph {
-    position: relative;
-    text-align: center;
-    font-family: 'PT Serif', serif;
-    font-size: xx-large;
-    color: rgba(215,45,50,1);
-    margin: auto;
-    text-shadow: #151515 .75px .75px;
-    
-    }
-  } */
   .outerDemoWrapper{
     position: fixed;
     top: 1rem;
@@ -192,22 +179,6 @@
   text-shadow: #151515 .5px .5px;
    
 }
-/* @media screen and (max-width: 575px) {
-.demoWrapper {
-  letter-spacing: 3px;
-  position:relative;
-  width: fit-content;
-  text-align: center;
-  text-shadow: #151515 .5px .5px;
-  font-weight: 400;
-  text-decoration: none;
-   
-}
-} 
- */
-
-
-
     #demo {
       position: relative;
       
@@ -219,20 +190,7 @@
        } 
       
 
-      
- /*     
- @media screen and (orientation: landscape) and (max-height: 500px)  {
-     #demo {
-      position: relative;
-      color:rgba(215,45,50,1);
-      padding: 2px;
-      text-shadow: #151515 .5px .5px;
-      white-space: nowrap;  
-      font-size: small;
-      letter-spacing: 0px;
-              } 
-            }     */
-     
+
        .cube {
         position: relative;
         width: 150px;
@@ -324,10 +282,52 @@ transform-style: preserve-3d;
     0 0 500px rgba(214, 46, 52, 1);
   }
  
-
-
-
+.post {
+  width:400px;
+  font-family: creepster;
+}
+.post-image {
+  display:block;
+  width:100%;
+}
+ 
+.material-symbols-outlined {
+  font-variation-settings:
+  'FILL' 1,
+  'wght' 400,
+  'GRAD' 0,
+  'opsz' 24
+}
+.post-ratings-container {
+  display: flex;
+  justify-content: end;
+  padding: 12px 0;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+}
+ .post-rating {
+  display: flex;
+  align-items: center;
+  cursor: default; 
+   }
+   
+.post-rating:not(:last-child) {
+  margin-right: 12px;
+}
+.post-rating-button {
+  margin-right: 6px;
+  cursor:pointer;
   
+}
+.post-rating-selected > .post-rating-button, 
+.post-rating-selected > .post-rating-count {
+  color: #009578;
+}
+.post-rating:not(.post-rating-selected) > .post-rating-button:hover {
+  color: #000;
+}
+
+ 
+
 /* xxxs */
 @media (min-width: 300px) {
      .container {

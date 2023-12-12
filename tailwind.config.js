@@ -48,6 +48,7 @@
      fontFamily: {
        'noto': ['Noto Sans', 'sans-serif'],
        "rye": ['Rye', 'cursive'],
+       
      },
  
         screens: {
