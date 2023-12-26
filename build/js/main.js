@@ -16,7 +16,7 @@ const responsePromise = fetch(url).then((response) => {
  
  
     // Set the date we're counting down to
-    var countDownDate = new Date("dec 25, 2023 00:00:00 PST").getTime();
+    var countDownDate = new Date("jan 1, 2024 00:00:00 PST").getTime();
 
     // Update the count down every 1 second
     var x = setInterval(function() {
@@ -42,6 +42,6 @@ const responsePromise = fetch(url).then((response) => {
         // If the count down is finished, write some text
         if (distance < 0) {
             clearInterval(x);
-            document.getElementById("demo").innerHTML = "<span style='color:rgba(235, 156, 10, 1); text-shadow: .5px .5px 0 #000; font-size: 2.75rem;'><b>....Everyone</b></span>";
+            document.getElementById("demo").innerHTML = "<span style='color:rgba(235, 156, 10, 1); text-shadow: .5px .5px 0 #000; font-size: 2.75rem;'><b>...Folks</b></span>";
         }
     }, 1000);
