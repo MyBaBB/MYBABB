@@ -130,8 +130,8 @@
   .topParagraph {
     position:relative;
     font-family: 'PT Serif', serif;
-    color:rgba(215,45,50,1);  
-    
+    color: #2dd760;  
+  
     
     
     text-shadow: #151515 .75px .75px;
@@ -180,7 +180,7 @@
       text-shadow: #151515 .5px .5px;
       white-space: nowrap;  
       letter-spacing: 0px;
-      color: #d72d32;
+      color: #2dd760;
        } 
       
 
@@ -239,7 +239,7 @@ transform-style: preserve-3d;
   left: 0%;
   min-width: 100%;
   min-height: 100%;
-  background: linear-gradient(#151515,#962023);
+  background: linear-gradient(#151515,#2dd760);
   transform: rotateY(calc(90deg * var(--i))) translateZ(75px);
  }
 
@@ -266,14 +266,14 @@ transform-style: preserve-3d;
     left: 0;
     width: 150px;
     height: 150px;
-    background:rgba(214, 46, 52, 1);
+    background:#2dd760;
     transform: translateZ(-220px);
     filter: blur(20px);
     box-shadow: 0 0 120px rgba(114, 24, 26, 4),
     0 0 200px rgba(151, 32, 36,7),
     0 0 300px rgba(151, 32, 36,7),
     0 0 400px rgba(151, 32, 36,7),
-    0 0 500px rgba(214, 46, 52, 1);
+    0 0 500px #2dd760;
   }
  
 .post {
@@ -395,14 +395,14 @@ transform-style: preserve-3d;
       left: 0;
       width: 300px;
       height: 300px;
-      background:rgba(214, 46, 52, 1);
+      background:#2dd760;
       transform: translateZ(-400px);
       filter: blur(40px);
       box-shadow: 0 0 240px rgba(114, 24, 26, 4),
       0 0 400px  rgba(151, 32, 36, 7),
       0 0 600px rgba(151, 32, 36, 7),
       0 0 800px rgba(151, 32, 36, 7),
-      0 0 900px rgba(214, 46, 52, 1);
+      0 0 900px #2dd760;
     
     
   }
@@ -430,7 +430,7 @@ transform-style: preserve-3d;
     left: 0%;
     min-width: 100%;
     min-height: 100%;
-    background: linear-gradient(#151515,#d72d32);
+    background: linear-gradient(#151515,#2dd760;
     transform: rotateY(calc(90deg * var(--i))) translateZ(150px);
    
    }
