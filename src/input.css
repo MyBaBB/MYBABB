@@ -398,11 +398,11 @@ transform-style: preserve-3d;
       background:#2dd760;
       transform: translateZ(-400px);
       filter: blur(40px);
-      box-shadow: 0 0 240px rgba(114, 24, 26, 4),
-      0 0 400px  rgba(151, 32, 36, 7),
-      0 0 600px rgba(151, 32, 36, 7),
-      0 0 800px rgba(151, 32, 36, 7),
-      0 0 900px #2dd760;
+      box-shadow: 0 0 240px rgba(45, 215, 96, 4),
+      0 0 400px  rgba(45, 215, 96, 7),
+      0 0 600px rgba(45, 215, 96, 7),
+      0 0 800px rgba(45, 215, 96, 7),
+      0 0 900px rgb(45, 215, 96);
     
     
   }
@@ -430,7 +430,7 @@ transform-style: preserve-3d;
     left: 0%;
     min-width: 100%;
     min-height: 100%;
-    background: linear-gradient(#151515,#2dd760;
+    background: linear-gradient(#151515,#2dd760);
     transform: rotateY(calc(90deg * var(--i))) translateZ(150px);
    
    }
