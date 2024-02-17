@@ -1,6 +1,6 @@
 
  /** @type {import('tailwindcss').Config} */
- export const content = ["./*.html","./build/*.html", "./build/*.html", "./build/forminator/*.php", "./build/forminator/*.js", "./build/forminator/*.html", "./build/js/*.js"];
+ export const content = ["./build/*.html", "./*.html","./build/js/*.js"];
  export const theme = {
    
   extend: {
@@ -46,37 +46,19 @@
 
      }, 
      fontFamily: {
-         'noto': ['Noto Sans', 'sans-serif'],
-         "rye": ['Rye', 'cursive'],
-         "Montserrat": ['Montserrat', 'sans-serif'],
-         'Noto Serif': ['Noto Serif', 'serif'],
-         'Orbitron': ['Orbitron', 'sans-serif'],
-         'Rye': ['Rye', 'cursive'],
-         'Vollkorn': ['Vollkorn', 'serif'],
-         'Wallpoet': ['Wallpoet', 'cursive'],
+       'noto': ['Noto Sans', 'sans-serif'],
+       "rye": ['Rye', 'cursive'],
+       
      },
  
         screens: {
          'widescreen': { 'raw': '(min-aspect-ratio: 3/2)' },
          'tallscreen': { 'raw': '(max-aspect-ratio: 13/20)' },
-       }, 
- 
-      /*  keyframes: {
-         'open-menu': {
-           '0%': { transform: 'scaleY(0)' },
-           '80%': { transform: 'scaleY(01.2)' },
-           '100%': { transform: 'scaleY(1)' },
-         },
-       },
-        */
-
-
-/* 
-       animation: {
-         'open-menu': 'open-menu 0.5s ease-in-out forwards'
-       }, */
+         'xxxs': {'max': '260px'},
+         'xxs': {'max': '359px'},
+         'xs': {'max': '639px'},
      },
    
    plugins: [],
- };
- 
+ }
+};
