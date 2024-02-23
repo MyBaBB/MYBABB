@@ -6,6 +6,6 @@ not vite  just tailwind standard port live server
 It was originally the "glowing Cube" training exercise.
 I have reworked it a about a hundred times.  
 It has three media queries and images with a timer for each holiday,
-I have converted it to Vite.
+I have converted it to React.
 it is now Located on the Franken-timer repo.
 or View it at Https://Frankentimer.mybabb.com
