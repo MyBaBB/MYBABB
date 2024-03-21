@@ -19,7 +19,7 @@
      <img src="https://img.shields.io/badge/Portfolio-FF0000?style=for-the-badge&logo=todoist&logoColor=white" target="_blank" /> <!-- sqlite, safari, google-chrome are other good icon options -->
   </a> 
   <a href="mailto:contact@mybabb.com">
-    <img src="https://img.shields.io/badge/Gmail-ffffff?style=for-the-badge&logo=gmail&logoColor=000000" style="border: 2px solid black;" />
+    <img src="https://img.shields.io/badge/Gmail-e5e5e5?style=for-the-badge&logo=gmail&logoColor=000000&"  />
   </a>
   <a href="https://www.linkedin.com/in/mybabb-customweb/" target="_blank">
     <img src="https://img.shields.io/badge/LinkedIn-0000ff?style=for-the-badge&logo=linkedin&logoColor=ffffff" target="_blank" />
