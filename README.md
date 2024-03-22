@@ -23,9 +23,7 @@
   </a>
 </div>
 
- <!-- <div>
-   <h2 align="center">⚒️ Languages-Frameworks-Tools ⚒️</h2>
- </div> -->
+
   <hr/>
 <div align="center">
     <img src="https://skillicons.dev/icons?i=html,css,tailwind,javascript,react,mui,nodejs,vite,npm" />
@@ -38,16 +36,15 @@
  
 
 <div align="center">
-  <!-- <h2>👇 🔹 My Contributions 🔹👇</h2>
-  <br> -->
+ 
+  
   <img alt="snake eating my contributions" src="https://raw.githubusercontent.com/mybabb/mybabb/output/github-contribution-grid-snake.svg" 
     />
 </div>
 
-<!-- <hr/>
+ 
 
-<h2 align="center">⚡ Stats ⚡</h2>
-<br> -->
+ 
 <div align=center>
   <img width=390 src="https://streak-stats.demolab.com/?user=mybabb&theme=react&border_radius=10" alt="streak stats"/>
 
