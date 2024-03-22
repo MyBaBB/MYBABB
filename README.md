@@ -4,11 +4,11 @@
     <img src="https://readme-typing-svg.herokuapp.com/?font=Righteous&size=35&center=true&vCenter=true&width=500&height=70&duration=4000&lines=Howdy!+👋;+I'm+Brett+Baker!;" />
 </h1>
  
-<h3 align="center">🤠 A Front-End Web Developer from Texas 🐮 </h3>
+<h3 align="center"> A Front-End Web Developer from Texas  </h3>
 
-<div align="center">
- 🏫 I’m am always learning New Things   **For Web Development** 🎓
-</div>
+<h2 align="center">
+  I’m am always learning New Things  **For Web Development** 
+</h2>
  
 <div align="center">
   <a href="https://mybabb.com" target="_blank">
