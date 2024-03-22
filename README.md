@@ -7,7 +7,7 @@
 <h2 align="center" > Front-End Web Developer  </h2>
 
 <h3 align="center" >
-                     "Code Something Everyday"
+                     "Code Something New Everyday"
 </h3>
  
 <div align="center">
