@@ -4,10 +4,10 @@
     <img src="https://readme-typing-svg.herokuapp.com/?font=Righteous&size=35&center=true&vCenter=true&width=500&height=70&duration=4000&lines=Howdy!+👋;+I'm+Brett+Baker!;" />
 </h1>
  
-<h2 align="center" style="font-family: Georgia; text-decoration:underline"> Front-End Web Developer  </h2>
+<h2 align="center" > Front-End Web Developer  </h2>
 
-<h3 align="center" style="font-family: Georgia; ">
-                     "Always Code and Learn Everyday "
+<h3 align="center" >
+                     "Code Something Everyday"
 </h3>
  
 <div align="center">
