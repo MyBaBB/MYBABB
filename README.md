@@ -6,9 +6,9 @@
  
 <h3 align="center">🤠 A Front-End Web Developer from Texas 🐮 </h3>
 
-<h3 align="center">
+<div align="center">
  🏫 I’m am always learning New Things   **For Web Development** 🎓
-</h3>
+</div>
  
 <div align="center">
   <a href="https://mybabb.com" target="_blank">
