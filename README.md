@@ -26,9 +26,9 @@
 
   <hr/>
 <div align="center">
-    <img src="https://skillicons.dev/icons?i=html,css,tailwind,javascript,react,mui,nodejs,vite,npm" />
+    <img src="https://skillicons.dev/icons?i=html,css,tailwind,javascript,react,mui,vite,npm" />
     <br>
-    <img src="https://skillicons.dev/icons?i=vscode,git,github,firebase,ai,ps,xd,figma,discord" />
+    <img src="https://skillicons.dev/icons?i=vscode,git,github,firebase,ai,ps,xd,figma" />
     
    
 <hr/>
