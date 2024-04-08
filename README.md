@@ -1,4 +1,3 @@
-   <hr/>
   <a href="https://resume-hub.mybabb.com">
   <div
   style=
@@ -11,7 +10,7 @@
 
  </div>  
 <h1 align="center">
-    <img src="https://readme-typing-svg.herokuapp.com/?font=Righteous&size=35&center=true&vCenter=true&width=500&height=70&duration=4000&lines=Front-End-Developer;+Greetings !+👋;+I'm+Brett+Baker;" />
+    <img src="https://readme-typing-svg.herokuapp.com/?font=Righteous&size=35&center=true&vCenter=true&width=500&height=70&duration=4000&lines=Howdy!+👋;+I'm+Brett+Baker!;" />
 </h1>
  
 <!-- <h2 align="center" > Front-End Web Developer  </h2> -->
