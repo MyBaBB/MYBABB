@@ -1,11 +1,5 @@
   <a href="https://resume-hub.mybabb.com">
-  <div
-  style=
-  'position:relative;
-   display:flex;
-   justify-content:center; '
-   
-   >
+  <div align="center"  >
    <img src='./OctoWithStand.png ' >
 
  </div>  
