@@ -1,30 +1,42 @@
+   <hr/>
+  <a href="https://resume-hub.mybabb.com">
+  <div
+  style=
+  'position:relative;
+   display:flex;
+   justify-content:center; '
+   
+   >
+   <img src='./OctoWithStand.png ' >
 
- 
+ </div>  
 <h1 align="center">
-    <img src="https://readme-typing-svg.herokuapp.com/?font=Righteous&size=35&center=true&vCenter=true&width=500&height=70&duration=4000&lines=Howdy!+👋;+I'm+Brett+Baker!;" />
+    <img src="https://readme-typing-svg.herokuapp.com/?font=Righteous&size=35&center=true&vCenter=true&width=500&height=70&duration=4000&lines=Front-End-Developer;+Greetings !+👋;+I'm+Brett+Baker;" />
 </h1>
  
-<h2 align="center" > Front-End Web Developer  </h2>
+<!-- <h2 align="center" > Front-End Web Developer  </h2> -->
 
-<h3 align="center" >
-                     "Code Something New Everyday"
-</h3>
+
  
-<div align="center">
+<!-- <div align="center">
   <a href="https://mybabb.com" target="_blank">
-     <img src="https://img.shields.io/badge/Portfolio-FF0000?style=for-the-badge&logo=todoist&logoColor=white" target="_blank" /> <!-- 
-        sqlite, safari, google-chrome are other good icon options -->
+     <img src="https://img.shields.io/badge/Portfolio-FF0000?style=for-the-badge&logo=todoist&logoColor=white" target="_blank" />  
+        
   </a> 
+
+
   <a href="mailto:contact@mybabb.com">
     <img src="https://img.shields.io/badge/Gmail-e5e5e5?style=for-the-badge&logo=gmail&logoColor=000000&"  />
   </a>
+
+
   <a href="https://www.linkedin.com/in/mybabb-customweb/" target="_blank">
     <img src="https://img.shields.io/badge/LinkedIn-0000ff?style=for-the-badge&logo=linkedin&logoColor=ffffff" target="_blank" />
   </a>
-</div>
+  
+</div> -->
 
-
-  <hr/>
+ 
 <div align="center">
     <img src="https://skillicons.dev/icons?i=html,css,tailwind,javascript,react,mui,vite,npm" />
     <br>
