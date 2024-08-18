@@ -4,13 +4,9 @@
  style="position:fixed; top:1rem; right:.75rem; border: 1px solid  #8b6b47; border-radius:8px;" >
  <span style="position: fixed; top:8.2rem; right:.75rem;  font-family: 'Georgia', serif; ">My home page</span>
  </a>
- <style>
-   .meImage:hover {
-    color:white;
- }
- </style>
 
- <div class="spanner" style="position: relative; display: flex; justify-content: center; font-family: 'Georgia', serif; color: whitesmoke  "> Click "Zale" the Octopus !</div>
+
+ <span class="spanner" style="position: relative; display: flex; justify-content: center; font-family: 'Georgia', serif; color: whitesmoke  "> Click "Zale" the Octopus !</span>
   <a href="https://resume-hub.mybabb.com">
   <div align="center"   >
   <p align="center">
