@@ -1,6 +1,6 @@
   <a href="https://resume-hub.mybabb.com">
   <div align="center"  >
-   <img src=' https://fastweb.mybabb.com/images/NewMew-paperclip-300px.jpg ' width='175px' >
+   <img src='./Octopussy2.gif' width='175px' >
 
  </div> 
    </a> 
