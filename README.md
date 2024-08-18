@@ -1,12 +1,33 @@
-  <a href="https://resume-hub.mybabb.com">
-  <div align="center"  >
-   <img src='./OctoWithStand2.png' width='175px' >
+ 
+ <a href="https://mybabb.com" class="meImage">
+ <img src='NewMew-paperclip-300px.jpg' width='100px'
+ style="position:fixed; top:1rem; right:.75rem; border: 1px solid  #8b6b47; border-radius:8px;" >
+ <span style="position: fixed; top:8.2rem; right:.75rem;  font-family: 'Georgia', serif; ">My home page</span>
+ </a>
+ <style>
+   .meImage:hover {
+    color:white;
+ }
+ </style>
 
+ <div class="spanner" style="position: relative; display: flex; justify-content: center; font-family: 'Georgia', serif; color: whitesmoke  "> Click "Zale" the Octopus !</div>
+  <a href="https://resume-hub.mybabb.com">
+  <div align="center"   >
+  <p align="center">
+</p>
+ 
+ 
+   
+   
+ 
+   <img src='./OctoWithStand2.png' width='175px' >
+    
  </div> 
    </a> 
-<h1 align="center">
-    <img src="https://readme-typing-svg.herokuapp.com/?font=Righteous&size=35&center=true&vCenter=true&width=500&height=70&duration=4000&lines=Front+End+Developer;+Greetings!+👋;+I'm+Brett+Baker+!;" />
+   <h1 align="center">
+    <img src="https://readme-typing-svg.herokuapp.com/?font=Righteous&size=35&center=true&vCenter=true&width=500&height=70&duration=4000&lines=Front+End+Web+Developer;React,+Tailwind,+JavaScript;+Greetings!+👋;+I'm+Brett+Baker+!" />
 </h1>
+
  
 <!-- <h2 align="center" > Front-End Web Developer  </h2> -->
 
