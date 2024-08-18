@@ -4,10 +4,11 @@
 
  
   <a href="https://resume-hub.mybabb.com">
-  <span class="spanner" style="font-family: 'Georgia', serif; color: whitesmoke  "> Click "Zale" the Octopus !</span>
+  
   <div align="center"   >
-  <p align="center">
-</p>
+ 
+  <span class="spanner" style="font-family: 'Georgia', serif; color: whitesmoke  "> Click "Zale" the Octopus !</span>
+ 
  
  
    
