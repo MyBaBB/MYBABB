@@ -1,13 +1,10 @@
  
- <a href="https://mybabb.com" class="meImage">
- <img src='NewMew-paperclip-300px.jpg' width='100px'
- style="position:fixed; top:1rem; right:.75rem; border: 1px solid  #8b6b47; border-radius:8px;" >
- <span style="position: fixed; top:8.2rem; right:.75rem;  font-family: 'Georgia', serif; ">My home page</span>
- </a>
+ 
 
 
- <span class="spanner" style="position: relative; display: flex; justify-content: center; font-family: 'Georgia', serif; color: whitesmoke  "> Click "Zale" the Octopus !</span>
+ 
   <a href="https://resume-hub.mybabb.com">
+  <span class="spanner" style="font-family: 'Georgia', serif; color: whitesmoke  "> Click "Zale" the Octopus !</span>
   <div align="center"   >
   <p align="center">
 </p>
