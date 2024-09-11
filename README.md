@@ -37,9 +37,9 @@
 
  
 <div align="center">
-    <img src="https://skillicons.dev/icons?i=html,css,tailwind,javascript,react,mui,vite,npm" />
+    <img src="https://skillicons.dev/icons?i=html,css,tailwind,javascript,react,vite,firebase " />
     <br>
-    <img src="https://skillicons.dev/icons?i=vscode,git,github,firebase,ai,ps,xd,figma" />
+    <img src="https://skillicons.dev/icons?i=vscode,git,github,ai,ps,xd,figma" />
     
    
 <hr/>
