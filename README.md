@@ -2,48 +2,38 @@
  
 
 
+ <div 
+ style="
+        position: relative;
+        display: flex;
+        justify-content: center;
+        align-items:center;
+        background-color: #252525;
+        border: 1px solid  transparent;
+        border-radius: 10px;
+        " > 
  
   <a href="https://resume-hub.mybabb.com">
   
-  <div align="center"   >
+  <div style="">
  
   <span class="spanner" style="font-family: 'Georgia', serif; color: whitesmoke  "> Click "Zale" the Octopus !</span>
- 
- 
- 
-   
-   
  
    <img src='./OctoWithStand2.png' width='175px' >
     
  </div> 
    </a> 
+</div> 
+
+
+
+
+   
    <h1 align="center">
     <img src="https://readme-typing-svg.herokuapp.com/?font=Righteous&size=35&center=true&vCenter=true&width=500&height=70&duration=4000&lines=Front+End+Web+Developer;React,+Tailwind,+JavaScript;+Greetings!+👋;+I'm+Brett+Baker+!" />
 </h1>
 
  
-<!-- <h2 align="center" > Front-End Web Developer  </h2> -->
-
-
- 
-<!-- <div align="center">
-  <a href="https://mybabb.com" target="_blank">
-     <img src="https://img.shields.io/badge/Portfolio-FF0000?style=for-the-badge&logo=todoist&logoColor=white" target="_blank" />  
-        
-  </a> 
-
-
-  <a href="mailto:contact@mybabb.com">
-    <img src="https://img.shields.io/badge/Gmail-e5e5e5?style=for-the-badge&logo=gmail&logoColor=000000&"  />
-  </a>
-
-
-  <a href="https://www.linkedin.com/in/mybabb-customweb/" target="_blank">
-    <img src="https://img.shields.io/badge/LinkedIn-0000ff?style=for-the-badge&logo=linkedin&logoColor=ffffff" target="_blank" />
-  </a>
-  
-</div> -->
 
  
 <div align="center">
