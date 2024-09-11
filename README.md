@@ -7,8 +7,9 @@
   
   
   <div align="center" >
- <a href="https://resume-hub.mybabb.com">
   <span class="spanner" style="font-family: 'Georgia', serif; color: whitesmoke  "> Click "Zale" the Octopus !</span>
+ <a href="https://resume-hub.mybabb.com">
+  
  
    <img src='./OctoWithStand2.png' width='175px' >
   </a> 
