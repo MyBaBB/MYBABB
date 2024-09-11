@@ -15,7 +15,7 @@
  
   <a href="https://resume-hub.mybabb.com">
   
-  <div style="">
+  <div style="margin:0 auto">
  
   <span class="spanner" style="font-family: 'Georgia', serif; color: whitesmoke  "> Click "Zale" the Octopus !</span>
  
