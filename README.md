@@ -11,7 +11,7 @@
   <span class="spanner" style="font-family: 'Georgia', serif; color: whitesmoke  "> Click "Zale" the Octopus !</span>
  
    <img src='./OctoWithStand2.png' width='175px' >
-     </a> 
+  </a> 
  </div> 
   
   
