@@ -6,16 +6,16 @@
  
   
   <a href="https://resume-hub.mybabb.com">
-  <div align="center"    >
+  
                                
   <span  class="spanner" style="font-family: 'Georgia', serif; color: whitesmoke,  "> Click "Zale" the Octopus !</span>
- <a href="https://resume-hub.mybabb.com">
+ 
   
  
    <img src='./OctoWithStand2.png' width='175px' >
-  </a> 
- </div> 
-   </a> 
+   
+  
+   </a>
   
 
 
