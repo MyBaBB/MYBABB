@@ -5,9 +5,9 @@
   
  
   
-  <span align="center" class="spanner" style="font-family: 'Georgia', serif; color: whitesmoke  "> Click "Zale" the Octopus !</span>
-  <div align="center" >
   
+  <div align="center" >
+  <span  class="spanner" style="font-family: 'Georgia', serif; color: whitesmoke, margin:auto  "> Click "Zale" the Octopus !</span>
  <a href="https://resume-hub.mybabb.com">
   
  
