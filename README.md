@@ -2,28 +2,10 @@
  
 
 
- <div 
- style="
-        position: relative;
-        display: flex;
-        justify-content: center;
-        align-items:center;
-        background-color: #252525;
-        border: 1px solid  transparent;
-        border-radius: 10px;
-        " > 
- 
-  <a href="https://resume-hub.mybabb.com">
   
-  <div style="margin:0 auto">
  
-  <span class="spanner" style="font-family: 'Georgia', serif; color: whitesmoke  "> Click "Zale" the Octopus !</span>
  
-   <img src='./OctoWithStand2.png' width='175px' >
-    
- </div> 
-   </a> 
-</div> 
+  
 
 
 
@@ -33,7 +15,16 @@
     <img src="https://readme-typing-svg.herokuapp.com/?font=Righteous&size=35&center=true&vCenter=true&width=500&height=70&duration=4000&lines=Front+End+Web+Developer;React,+Tailwind,+JavaScript;+Greetings!+👋;+I'm+Brett+Baker+!" />
 </h1>
 
+  <a href="https://resume-hub.mybabb.com">
+  
+  <div align="center" >
  
+  <span class="spanner" style="font-family: 'Georgia', serif; color: whitesmoke  "> Click "Zale" the Octopus !</span>
+ 
+   <img src='./OctoWithStand2.png' width='175px' >
+    
+ </div> 
+   </a> 
 
  
 <div align="center">
