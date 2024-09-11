@@ -7,15 +7,13 @@
  
  
   
-                               
-  <span align="center" class="spanner" style="font-family: 'Georgia', serif; color: whitesmoke,  "> Click "Zale" the Octopus !</span>
- 
-  
+ <div align="center">
+  <span class="spanner" style="font-family: 'Georgia', serif; color: whitesmoke;">Click "Zale" the Octopus!</span>
+  <br>
   <a href="https://resume-hub.mybabb.com">
-   <img align="center" src='./OctoWithStand2.png' width='175px' >
-
-   </a>
-  
+    <img src='./OctoWithStand2.png' width='175px'>
+  </a>
+</div>
 
 
 
