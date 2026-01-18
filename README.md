@@ -10,7 +10,7 @@
  <div align="center">
   <span class="spanner" style="font-family: 'Georgia', serif; color: whitesmoke;">Click "Zale" the Octopus!</span>
   <br>
-  <a href="https://fastcat.mybabb.com">
+  <a href="https://octo-space.mybabb.com/">                   
     <img src='./OctoWithStand2.png' width='175px'>
   </a>
 </div>
